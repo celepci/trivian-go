@@ -1,0 +1,303 @@
+
+[
+    {
+      "id": "1",
+      "question": "2023 yılında En İyi Film Oscar'ını hangi film kazandı?",
+      "answer": "Everything Everywhere All at Once",
+      "difficulty": "easy"
+    },
+    {
+      "id": "2",
+      "question": "Türk sinemasının ilk renkli filmi hangisidir?",
+      "answer": "Halıcı Kız",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3",
+      "question": "Yeşilçam'ın 'Sultan'ı olarak bilinen oyuncu kimdir?",
+      "answer": "Türkan Şoray",
+      "difficulty": "easy"
+    },
+    {
+      "id": "4",
+      "question": "Hangi Türk filmi ilk kez Oscar'a aday gösterilmiştir?",
+      "answer": "Yol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5",
+      "question": "Netflix'in en çok izlenen Türk dizisi hangisidir?",
+      "answer": "Kulüp",
+      "difficulty": "easy"
+    },
+    {
+      "id": "6",
+      "question": "Türkiye'nin ilk televizyon kanalı hangisidir?",
+      "answer": "TRT 1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7",
+      "question": "Hangi Türk şarkıcı Eurovision'da birinci olmuştur?",
+      "answer": "Sertab Erener",
+      "difficulty": "easy"
+    },
+    {
+      "id": "8",
+      "question": "Türkiye'nin en uzun soluklu dizisi hangisidir?",
+      "answer": "Bizimkiler",
+      "difficulty": "easy"
+    },
+    {
+      "id": "9",
+      "question": "Türk sinemasının ilk kadın yönetmeni kimdir?",
+      "answer": "Cahide Sonku",
+      "difficulty": "easy"
+    },
+    {
+      "id": "10",
+      "question": "Hangi Türk filmi 1982 Cannes Film Festivali'nde Altın Palmiye ödülünü kazanmıştır?",
+      "answer": "Yol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11",
+      "question": "Türkiye'nin ilk özel televizyon kanalı hangisidir?",
+      "answer": "Star TV",
+      "difficulty": "easy"
+    },
+    {
+      "id": "12",
+      "question": "Yeşilçam'ın 'Çirkin Kral'ı olarak bilinen oyuncu kimdir?",
+      "answer": "Yılmaz Güney",
+      "difficulty": "easy"
+    },
+    {
+      "id": "13",
+      "question": "Türkiye'nin en çok satan albümü hangisidir?",
+      "answer": "Tarkan - Karma",
+      "difficulty": "easy"
+    },
+    {
+      "id": "14",
+      "question": "Hangi Türk dizisi Emmy Ödülü'ne aday gösterilmiştir?",
+      "answer": "Şahsiyet",
+      "difficulty": "easy"
+    },
+    {
+      "id": "15",
+      "question": "Türkiye'nin ilk sinema filmi hangisidir?",
+      "answer": "Ayastefanos'taki Rus Abidesi'nin Yıkılışı",
+      "difficulty": "easy"
+    },
+    {
+      "id": "16",
+      "question": "Hangi Türk yönetmen 'Kış Uykusu' filmiyle Cannes'da Altın Palmiye kazanmıştır?",
+      "answer": "Nuri Bilge Ceylan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "17",
+      "question": "Türkiye'nin ilk kadın pop şarkıcısı kimdir?",
+      "answer": "Ajda Pekkan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "18",
+      "question": "Hangi Türk filmi Berlin Film Festivali'nde Altın Ayı ödülünü kazanmıştır?",
+      "answer": "Bal",
+      "difficulty": "easy"
+    },
+    {
+      "id": "19",
+      "question": "Türkiye'nin en çok gişe hasılatı yapan filmi hangisidir?",
+      "answer": "Recep İvedik 7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "20",
+      "question": "Türk televizyon tarihinin ilk dizisi hangisidir?",
+      "answer": "Kaynanalar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "21",
+      "question": "Hangi Türk oyuncu Hollywood'da 'Muhteşem Yüzyıl: Kösem' dizisinde rol almıştır?",
+      "answer": "Beren Saat",
+      "difficulty": "easy"
+    },
+    {
+      "id": "22",
+      "question": "Türkiye'nin ilk rap şarkıcısı kimdir?",
+      "answer": "Bora Öztoprak",
+      "difficulty": "easy"
+    },
+    {
+      "id": "23",
+      "question": "Hangi Türk dizisi en çok ülkeye satılmıştır?",
+      "answer": "Binbir Gece",
+      "difficulty": "easy"
+    },
+    {
+      "id": "24",
+      "question": "Türkiye'nin ilk müzik yarışma programı hangisidir?",
+      "answer": "Ses ve Saz Yarışması",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25",
+      "question": "Hangi Türk film yönetmeni 'Üç Maymun' filmiyle Cannes'da En İyi Yönetmen ödülünü kazanmıştır?",
+      "answer": "Nuri Bilge Ceylan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "26",
+      "question": "Türkiye'nin ilk rock grubu hangisidir?",
+      "answer": "Mavi Işıklar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "27",
+      "question": "Hangi Türk dizisi MIPCOM'da en iyi dizi ödülünü almıştır?",
+      "answer": "Çukur",
+      "difficulty": "easy"
+    },
+    {
+      "id": "28",
+      "question": "Türkiye'nin ilk kadın tiyatro oyuncusu kimdir?",
+      "answer": "Afife Jale",
+      "difficulty": "easy"
+    },
+    {
+      "id": "29",
+      "question": "Hangi Türk filmi Venedik Film Festivali'nde Altın Aslan ödülünü kazanmıştır?",
+      "answer": "Uzak İhtimal",
+      "difficulty": "easy"
+    },
+    {
+      "id": "30",
+      "question": "Türkiye'nin en uzun soluklu talk show programı hangisidir?",
+      "answer": "Beyaz Show",
+      "difficulty": "easy"
+    },
+    {
+      "id": "31",
+      "question": "Hangi Türk oyuncu 'Game of Thrones' dizisinde rol almıştır?",
+      "answer": "Numan Acar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "32",
+      "question": "Türkiye'nin ilk kadın rock şarkıcısı kimdir?",
+      "answer": "Şenay",
+      "difficulty": "easy"
+    },
+    {
+      "id": "33",
+      "question": "Hangi Türk dizisi Güney Kore'de en çok izlenen yabancı dizi olmuştur?",
+      "answer": "Çalıkuşu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "34",
+      "question": "Türkiye'nin ilk özel radyo kanalı hangisidir?",
+      "answer": "Kent FM",
+      "difficulty": "easy"
+    },
+    {
+      "id": "35",
+      "question": "Hangi Türk yönetmen 'Ahlat Ağacı' filmiyle Cannes Film Festivali'nde yarışmıştır?",
+      "answer": "Nuri Bilge Ceylan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "36",
+      "question": "Türkiye'nin ilk müzikal filmi hangisidir?",
+      "answer": "Yalnızlar Rıhtımı",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37",
+      "question": "Hangi Türk dizisi MIPTV'de en iyi dizi ödülünü almıştır?",
+      "answer": "Ezel",
+      "difficulty": "easy"
+    },
+    {
+      "id": "38",
+      "question": "Türkiye'nin ilk kadın film yapımcısı kimdir?",
+      "answer": "Türkan Şoray",
+      "difficulty": "easy"
+    },
+    {
+      "id": "39",
+      "question": "Hangi Türk filmi Oscar'da Yabancı Dilde En İyi Film kategorisinde kısa listeye kalmıştır?",
+      "answer": "Mustang",
+      "difficulty": "easy"
+    },
+    {
+      "id": "40",
+      "question": "Türkiye'nin en uzun soluklu yarışma programı hangisidir?",
+      "answer": "Kim Milyoner Olmak İster",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41",
+      "question": "Hangi Türk oyuncu 'Prison Break' dizisinde rol almıştır?",
+      "answer": "Serinda Swan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "42",
+      "question": "Türkiye'nin ilk caz şarkıcısı kimdir?",
+      "answer": "Sevinç Tevs",
+      "difficulty": "easy"
+    },
+    {
+      "id": "43",
+      "question": "Hangi Türk dizisi Japonya'da en çok izlenen yabancı dizi olmuştur?",
+      "answer": "Anne",
+      "difficulty": "easy"
+    },
+    {
+      "id": "44",
+      "question": "Türkiye'nin ilk renkli televizyon yayını hangi yıl başlamıştır?",
+      "answer": "1984",
+      "difficulty": "easy"
+    },
+    {
+      "id": "45",
+      "question": "Hangi Türk yönetmen 'Bir Zamanlar Anadolu'da' filmiyle Cannes'da Büyük Jüri Ödülü'nü kazanmıştır?",
+      "answer": "Nuri Bilge Ceylan",
+      "difficulty": "easy"
+    },
+    {
+      "id": "46",
+      "question": "Türkiye'nin ilk korku filmi hangisidir?",
+      "answer": "Drakula İstanbul'da",
+      "difficulty": "easy"
+    },
+    {
+      "id": "47",
+      "question": "Hangi Türk dizisi International Emmy Ödülleri'nde En İyi Telenovela ödülünü kazanmıştır?",
+      "answer": "Kara Sevda",
+      "difficulty": "easy"
+    },
+    {
+      "id": "48",
+      "question": "Türkiye'nin ilk kadın haber spikeri kimdir?",
+      "answer": "Jülide Gülizar",
+      "difficulty": "easy"
+    },
+    {
+      "id": "49",
+      "question": "Hangi Türk filmi Sundance Film Festivali'nde Büyük Jüri Ödülü'nü kazanmıştır?",
+      "answer": "Kış Uykusu",
+      "difficulty": "easy"
+    },
+    {
+      "id": "50",
+      "question": "Türkiye'nin en çok izlenen televizyon programı hangisidir?",
+      "answer": "Eurovision Şarkı Yarışması 2003 Finali",
+      "difficulty": "easy"
+    }
+  ]

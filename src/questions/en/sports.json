@@ -1,0 +1,252 @@
+[
+  {
+    "id": "1",
+    "question": "Which country won the FIFA World Cup 2022?",
+    "answer": "Argentina"
+  },
+  {
+    "id": "2",
+    "question": "In which sport would you perform a slam dunk?",
+    "answer": "Basketball"
+  },
+  {
+    "id": "3",
+    "question": "How many players are there in a standard soccer team on the field?",
+    "answer": "11"
+  },
+  {
+    "id": "4",
+    "question": "Who holds the record for the most Olympic gold medals?",
+    "answer": "Michael Phelps"
+  },
+  {
+    "id": "5",
+    "question": "What is the diameter of a basketball hoop in inches?",
+    "answer": "18 inches"
+  },
+  {
+    "id": "6",
+    "question": "In which sport would you perform a serve?",
+    "answer": "Tennis"
+  },
+  {
+    "id": "7",
+    "question": "How many points is a touchdown worth in American football?",
+    "answer": "6 points"
+  },
+  {
+    "id": "8",
+    "question": "Which country invented table tennis?",
+    "answer": "England"
+  },
+  {
+    "id": "9",
+    "question": "How many players are on a baseball team on the field?",
+    "answer": "9"
+  },
+  {
+    "id": "10",
+    "question": "What is the national sport of Japan?",
+    "answer": "Sumo Wrestling"
+  },
+  {
+    "id": "11",
+    "question": "In which sport would you use a shuttlecock?",
+    "answer": "Badminton"
+  },
+  {
+    "id": "12",
+    "question": "How many rings are on the Olympic flag?",
+    "answer": "5"
+  },
+  {
+    "id": "13",
+    "question": "Which country has won the most Olympic medals in history?",
+    "answer": "United States"
+  },
+  {
+    "id": "14",
+    "question": "What is the length of an Olympic swimming pool in meters?",
+    "answer": "50 meters"
+  },
+  {
+    "id": "15",
+    "question": "In which sport would you perform a spike?",
+    "answer": "Volleyball"
+  },
+  {
+    "id": "16",
+    "question": "How many quarters are there in a basketball game?",
+    "answer": "4"
+  },
+  {
+    "id": "17",
+    "question": "Which country won the first FIFA World Cup?",
+    "answer": "Uruguay"
+  },
+  {
+    "id": "18",
+    "question": "How many players are on an ice hockey team on the ice?",
+    "answer": "6"
+  },
+  {
+    "id": "19",
+    "question": "What is the national sport of Canada?",
+    "answer": "Ice Hockey and Lacrosse"
+  },
+  {
+    "id": "20",
+    "question": "In which sport would you perform a pirouette?",
+    "answer": "Figure Skating"
+  },
+  {
+    "id": "21",
+    "question": "How many holes are played in a standard round of golf?",
+    "answer": "18"
+  },
+  {
+    "id": "22",
+    "question": "Which country hosted the first modern Olympics?",
+    "answer": "Greece"
+  },
+  {
+    "id": "23",
+    "question": "What is the distance of a marathon in kilometers?",
+    "answer": "42.195 kilometers"
+  },
+  {
+    "id": "24",
+    "question": "In which sport would you perform a clean and jerk?",
+    "answer": "Weightlifting"
+  },
+  {
+    "id": "25",
+    "question": "How many players are on a cricket team?",
+    "answer": "11"
+  },
+  {
+    "id": "26",
+    "question": "Which country won the first Rugby World Cup?",
+    "answer": "New Zealand"
+  },
+  {
+    "id": "27",
+    "question": "How many minutes is a standard soccer match?",
+    "answer": "90 minutes"
+  },
+  {
+    "id": "28",
+    "question": "What is the national sport of India?",
+    "answer": "Field Hockey"
+  },
+  {
+    "id": "29",
+    "question": "In which sport would you perform a vault?",
+    "answer": "Gymnastics"
+  },
+  {
+    "id": "30",
+    "question": "How many players are on a volleyball team on the court?",
+    "answer": "6"
+  },
+  {
+    "id": "31",
+    "question": "Which country has won the most Cricket World Cups?",
+    "answer": "Australia"
+  },
+  {
+    "id": "32",
+    "question": "What is the length of an Olympic track?",
+    "answer": "400 meters"
+  },
+  {
+    "id": "33",
+    "question": "In which sport would you perform a double axel?",
+    "answer": "Figure Skating"
+  },
+  {
+    "id": "34",
+    "question": "How many players are in a rugby union team on the field?",
+    "answer": "15"
+  },
+  {
+    "id": "35",
+    "question": "Which country invented basketball?",
+    "answer": "United States"
+  },
+  {
+    "id": "36",
+    "question": "What is the national sport of China?",
+    "answer": "Table Tennis"
+  },
+  {
+    "id": "37",
+    "question": "In which sport would you perform a butterfly stroke?",
+    "answer": "Swimming"
+  },
+  {
+    "id": "38",
+    "question": "How many innings are in a standard baseball game?",
+    "answer": "9"
+  },
+  {
+    "id": "39",
+    "question": "Which country has won the most Davis Cup titles?",
+    "answer": "United States"
+  },
+  {
+    "id": "40",
+    "question": "What is the height of a basketball hoop in feet?",
+    "answer": "10 feet"
+  },
+  {
+    "id": "41",
+    "question": "In which sport would you perform a hat-trick?",
+    "answer": "Soccer/Cricket"
+  },
+  {
+    "id": "42",
+    "question": "How many players are on a water polo team in the pool?",
+    "answer": "7"
+  },
+  {
+    "id": "43",
+    "question": "Which country invented soccer?",
+    "answer": "England"
+  },
+  {
+    "id": "44",
+    "question": "What is the national sport of Australia?",
+    "answer": "Cricket"
+  },
+  {
+    "id": "45",
+    "question": "In which sport would you perform a smash?",
+    "answer": "Tennis/Badminton"
+  },
+  {
+    "id": "46",
+    "question": "How many periods are in an ice hockey game?",
+    "answer": "3"
+  },
+  {
+    "id": "47",
+    "question": "Which country has won the most European Championships?",
+    "answer": "Germany"
+  },
+  {
+    "id": "48",
+    "question": "What is the length of a standard tennis court in feet?",
+    "answer": "78 feet"
+  },
+  {
+    "id": "49",
+    "question": "In which sport would you perform a knockout?",
+    "answer": "Boxing"
+  },
+  {
+    "id": "50",
+    "question": "How many players are on a handball team on the court?",
+    "answer": "7"
+  }
+]

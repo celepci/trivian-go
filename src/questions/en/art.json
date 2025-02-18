@@ -1,0 +1,252 @@
+[
+  {
+    "id": "1",
+    "question": "Who painted 'The Starry Night'?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "2",
+    "question": "Which artist is known for painting the Sistine Chapel ceiling?",
+    "answer": "Michelangelo"
+  },
+  {
+    "id": "3",
+    "question": "Who painted 'The Persistence of Memory' with melting clocks?",
+    "answer": "Salvador Dalí"
+  },
+  {
+    "id": "4",
+    "question": "Which artist is famous for the 'Campbell's Soup Cans'?",
+    "answer": "Andy Warhol"
+  },
+  {
+    "id": "5",
+    "question": "Who painted 'The Scream'?",
+    "answer": "Edvard Munch"
+  },
+  {
+    "id": "6",
+    "question": "Which artist is known for cutting off his own ear?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "7",
+    "question": "Who painted 'Girl with a Pearl Earring'?",
+    "answer": "Johannes Vermeer"
+  },
+  {
+    "id": "8",
+    "question": "Which artist is famous for his Blue Period?",
+    "answer": "Pablo Picasso"
+  },
+  {
+    "id": "9",
+    "question": "Who painted 'The Birth of Venus'?",
+    "answer": "Sandro Botticelli"
+  },
+  {
+    "id": "10",
+    "question": "Which artist is known for his drip painting technique?",
+    "answer": "Jackson Pollock"
+  },
+  {
+    "id": "11",
+    "question": "Who painted 'The Night Watch'?",
+    "answer": "Rembrandt"
+  },
+  {
+    "id": "12",
+    "question": "Which artist is famous for his paintings of water lilies?",
+    "answer": "Claude Monet"
+  },
+  {
+    "id": "13",
+    "question": "Who painted 'American Gothic'?",
+    "answer": "Grant Wood"
+  },
+  {
+    "id": "14",
+    "question": "Which artist is known for his pop art movement?",
+    "answer": "Roy Lichtenstein"
+  },
+  {
+    "id": "15",
+    "question": "Who painted 'The Last Supper'?",
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "id": "16",
+    "question": "Which artist is famous for his surrealist paintings?",
+    "answer": "René Magritte"
+  },
+  {
+    "id": "17",
+    "question": "Who painted 'The Garden of Earthly Delights'?",
+    "answer": "Hieronymus Bosch"
+  },
+  {
+    "id": "18",
+    "question": "Which artist is known for his abstract expressionism?",
+    "answer": "Willem de Kooning"
+  },
+  {
+    "id": "19",
+    "question": "Who painted 'The Kiss'?",
+    "answer": "Gustav Klimt"
+  },
+  {
+    "id": "20",
+    "question": "Which artist is famous for his color field paintings?",
+    "answer": "Mark Rothko"
+  },
+  {
+    "id": "21",
+    "question": "Who sculpted 'David'?",
+    "answer": "Michelangelo"
+  },
+  {
+    "id": "22",
+    "question": "Which artist is known for his pointillism technique?",
+    "answer": "Georges Seurat"
+  },
+  {
+    "id": "23",
+    "question": "Who painted 'The Son of Man'?",
+    "answer": "René Magritte"
+  },
+  {
+    "id": "24",
+    "question": "Which artist is famous for his paintings of soup cans?",
+    "answer": "Andy Warhol"
+  },
+  {
+    "id": "25",
+    "question": "Who painted 'The Card Players'?",
+    "answer": "Paul Cézanne"
+  },
+  {
+    "id": "26",
+    "question": "Which artist is known for his cubist style?",
+    "answer": "Pablo Picasso"
+  },
+  {
+    "id": "27",
+    "question": "Who painted 'The Hay Wain'?",
+    "answer": "John Constable"
+  },
+  {
+    "id": "28",
+    "question": "Which artist is famous for his paintings of sunflowers?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "29",
+    "question": "Who painted 'The Arnolfini Portrait'?",
+    "answer": "Jan van Eyck"
+  },
+  {
+    "id": "30",
+    "question": "Which artist is known for his paintings of ballet dancers?",
+    "answer": "Edgar Degas"
+  },
+  {
+    "id": "31",
+    "question": "Who painted 'The Fighting Temeraire'?",
+    "answer": "J.M.W. Turner"
+  },
+  {
+    "id": "32",
+    "question": "Which artist is famous for his paintings of haystacks?",
+    "answer": "Claude Monet"
+  },
+  {
+    "id": "33",
+    "question": "Who painted 'The Night Café'?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "34",
+    "question": "Which artist is known for his paintings of apples?",
+    "answer": "Paul Cézanne"
+  },
+  {
+    "id": "35",
+    "question": "Who painted 'Las Meninas'?",
+    "answer": "Diego Velázquez"
+  },
+  {
+    "id": "36",
+    "question": "Which artist is famous for his paintings of horses?",
+    "answer": "George Stubbs"
+  },
+  {
+    "id": "37",
+    "question": "Who painted 'The Sleeping Gypsy'?",
+    "answer": "Henri Rousseau"
+  },
+  {
+    "id": "38",
+    "question": "Which artist is known for his paintings of cats?",
+    "answer": "Louis Wain"
+  },
+  {
+    "id": "39",
+    "question": "Who painted 'The Treachery of Images'?",
+    "answer": "René Magritte"
+  },
+  {
+    "id": "40",
+    "question": "Which artist is famous for his paintings of dogs playing poker?",
+    "answer": "Cassius Marcellus Coolidge"
+  },
+  {
+    "id": "41",
+    "question": "Who painted 'The Great Wave off Kanagawa'?",
+    "answer": "Katsushika Hokusai"
+  },
+  {
+    "id": "42",
+    "question": "Which artist is known for his paintings of flowers?",
+    "answer": "Georgia O'Keeffe"
+  },
+  {
+    "id": "43",
+    "question": "Who painted 'The Potato Eaters'?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "44",
+    "question": "Which artist is famous for his paintings of birds?",
+    "answer": "John James Audubon"
+  },
+  {
+    "id": "45",
+    "question": "Who painted 'The Swing'?",
+    "answer": "Jean-Honoré Fragonard"
+  },
+  {
+    "id": "46",
+    "question": "Which artist is known for his paintings of mountains?",
+    "answer": "Caspar David Friedrich"
+  },
+  {
+    "id": "47",
+    "question": "Who painted 'The Goldfish'?",
+    "answer": "Henri Matisse"
+  },
+  {
+    "id": "48",
+    "question": "Which artist is famous for his paintings of bridges?",
+    "answer": "Claude Monet"
+  },
+  {
+    "id": "49",
+    "question": "Who painted 'The Ambassadors'?",
+    "answer": "Hans Holbein the Younger"
+  },
+  {
+    "id": "50",
+    "question": "Which artist is known for his paintings of fruit?",
+    "answer": "Paul Cézanne"
+  }
+]

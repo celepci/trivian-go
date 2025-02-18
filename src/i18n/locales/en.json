@@ -1,0 +1,68 @@
+{
+  "startScreen": {
+    "group": "Group",
+    "groupName": "Group Name",
+    "playerName": "Enter player name",
+    "addPlayer": "Add New Player",
+    "addGroup": "Add New Group",
+    "startGame": "Start Game",
+    "errors": {
+      "minPlayer": "Each group must have at least one player.",
+      "maxGroup": "You can create maximum 3 groups.",
+      "missingInfo": "Please fill in all group and player names."
+    }
+  },
+  "categories": {
+    "history": "History",
+    "geography": "Geography",
+    "science": "Science",
+    "sports": "Sports",
+    "entertainment": "Entertainment",
+    "art": "Art"
+  },
+  "language": {
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "winnerModal": {
+    "gameOver": "Game Over!",
+    "backToMenu": "Back to Menu",
+    "winner": "Winner",
+    "players": "Players"
+  },
+  "question": {
+    "currentTurn": "Turn",
+    "timeRemaining": "Time Remaining",
+    "questionTitle": "Question",
+    "yourAnswer": "Your Answer",
+    "answerPlaceholder": "Enter your answer...",
+    "useJoker": "Use Joker",
+    "jokerUsed": "Joker used"
+  },
+  "gameBoard": {
+    "changeQuestion": "Change Question",
+    "noJoker": "No Joker",
+    "noJokerDescription": "This group has no joker rights left.",
+    "questionChanged": "Question Changed",
+    "questionChangedDescription": "A new question has been brought.",
+    "error": "Error",
+    "noCategoryQuestion": "There are no more questions in this category.",
+    "correct": "Correct!",
+    "wrong": "Wrong!",
+    "correctAnswer": "Congratulations! You answered correctly.",
+    "answer": "Answer",
+    "wrongAnswer": "Wrong answer.",
+    "categoryNotFound": "Category not found",
+    "gameOver": "Game Over!",
+    "congratulations": "Congratulations!",
+    "backToMenu": "Back to Menu",
+    "categorySelection": "Category Selection",
+    "selecting": "Selecting...",
+    "randomSelect": "Random Select",
+    "showAnswer": "Show Answer",
+    "groups": "Groups",
+    "joker": "Joker",
+    "endGame": "End Game",
+    "questionLoadError": "An error occurred while loading the question."
+  }
+}

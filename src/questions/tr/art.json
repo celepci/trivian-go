@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Ünlü ressam Vincent van Gogh'un 'Yıldızlı Gece' tablosu hangi şehirde yapılmıştır?",
+    "answer": "Saint-Rémy-de-Provence"
+  },
+  {
+    "id": 2,
+    "question": "Leonardo da Vinci'nin 'Mona Lisa' tablosu hangi müzede sergilenmektedir?",
+    "answer": "Louvre Müzesi"
+  },
+  {
+    "id": 3,
+    "question": "Türk resim sanatının öncülerinden olan ve 'Kaplumbağa Terbiyecisi' tablosunu yapan sanatçı kimdir?",
+    "answer": "Osman Hamdi Bey"
+  },
+  {
+    "id": 4,
+    "question": "Pablo Picasso'nun en ünlü eserlerinden biri olan 'Guernica' hangi olayı anlatmaktadır?",
+    "answer": "İspanya İç Savaşı"
+  },
+  {
+    "id": 5,
+    "question": "Michelangelo'nun 'David' heykeli hangi şehirde bulunmaktadır?",
+    "answer": "Floransa"
+  },
+  {
+    "id": 6,
+    "question": "Türk edebiyatının ilk Nobel Edebiyat Ödülü'nü alan yazarı kimdir?",
+    "answer": "Orhan Pamuk"
+  },
+  {
+    "id": 7,
+    "question": "Salvador Dali'nin en ünlü eserlerinden biri olan 'Belleğin Azmi' tablosunda eriyen nesneler nelerdir?",
+    "answer": "Saatler"
+  },
+  {
+    "id": 8,
+    "question": "Türk sinema tarihinin ilk uzun metrajlı filmi hangisidir?",
+    "answer": "Ayastefanos'taki Rus Abidesi'nin Yıkılışı"
+  },
+  {
+    "id": 9,
+    "question": "Claude Monet'nin 'Nilüferler' serisi hangi bahçeden ilham alınarak yapılmıştır?",
+    "answer": "Giverny Bahçesi"
+  },
+  {
+    "id": 10,
+    "question": "Türk tiyatrosunun kurucusu olarak kabul edilen sanatçı kimdir?",
+    "answer": "Muhsin Ertuğrul"
+  },
+  {
+    "id": 11,
+    "question": "Andy Warhol'un en ünlü eserlerinden biri olan 'Campbell's Soup Cans' kaç adet konserve kutusundan oluşmaktadır?",
+    "answer": "32"
+  },
+  {
+    "id": 12,
+    "question": "Türk hat sanatının en önemli temsilcilerinden biri olan ve 'Hafız Osman' olarak bilinen sanatçının asıl adı nedir?",
+    "answer": "Osman bin Ali"
+  },
+  {
+    "id": 13,
+    "question": "Frida Kahlo'nun en çok resmettiği konu nedir?",
+    "answer": "Otoportre"
+  },
+  {
+    "id": 14,
+    "question": "Türk müziğinin en önemli bestecilerinden biri olan ve 'Türk Beşleri' olarak bilinen grubun üyelerinden biri kimdir?",
+    "answer": "Cemal Reşit Rey"
+  },
+  {
+    "id": 15,
+    "question": "Gustav Klimt'in en ünlü eseri hangisidir?",
+    "answer": "Öpücük"
+  },
+  {
+    "id": 16,
+    "question": "Türk heykel sanatının öncülerinden olan ve ilk Türk kadın heykeltıraş unvanını alan sanatçı kimdir?",
+    "answer": "Sabiha Ziya Bengütaş"
+  },
+  {
+    "id": 17,
+    "question": "Edvard Munch'un 'Çığlık' tablosu hangi müzede sergilenmektedir?",
+    "answer": "Oslo Ulusal Galerisi"
+  },
+  {
+    "id": 18,
+    "question": "Türk sinemasının 'Sultan'ı olarak bilinen aktris kimdir?",
+    "answer": "Türkan Şoray"
+  },
+  {
+    "id": 19,
+    "question": "Johannes Vermeer'in 'İnci Küpeli Kız' tablosu hangi müzede sergilenmektedir?",
+    "answer": "Mauritshuis Müzesi"
+  },
+  {
+    "id": 20,
+    "question": "Türk müziğinin 'Paşa' lakaplı bestecisi kimdir?",
+    "answer": "Dede Efendi"
+  },
+  {
+    "id": 21,
+    "question": "René Magritte'in 'Bu Bir Pipo Değildir' tablosunun orijinal adı nedir?",
+    "answer": "La Trahison des Images"
+  },
+  {
+    "id": 22,
+    "question": "Türk edebiyatının 'Şair-i Azam'ı olarak bilinen şair kimdir?",
+    "answer": "Abdülhak Hamit Tarhan"
+  },
+  {
+    "id": 23,
+    "question": "Henri Matisse'in 'Dans' tablosu kaç figürden oluşmaktadır?",
+    "answer": "5"
+  },
+  {
+    "id": 24,
+    "question": "Türk sinemasının ilk kadın yönetmeni kimdir?",
+    "answer": "Cahide Sonku"
+  },
+  {
+    "id": 25,
+    "question": "Auguste Rodin'in en ünlü heykeli hangisidir?",
+    "answer": "Düşünen Adam"
+  },
+  {
+    "id": 26,
+    "question": "Türk resim sanatının 'Paris Okulu' temsilcilerinden biri olan sanatçı kimdir?",
+    "answer": "Fikret Mualla"
+  },
+  {
+    "id": 27,
+    "question": "Jackson Pollock hangi sanat akımının öncüsüdür?",
+    "answer": "Soyut Dışavurumculuk"
+  },
+  {
+    "id": 28,
+    "question": "Türk edebiyatının ilk köy romanı hangisidir?",
+    "answer": "Karabibik"
+  },
+  {
+    "id": 29,
+    "question": "Georgia O'Keeffe'nin en çok resmettiği çiçek türü hangisidir?",
+    "answer": "Kalla"
+  },
+  {
+    "id": 30,
+    "question": "Türk tiyatrosunun ilk kadın oyuncusu kimdir?",
+    "answer": "Afife Jale"
+  },
+  {
+    "id": 31,
+    "question": "Marcel Duchamp'ın 'Çeşme' adlı eseri hangi nesnenin sanat eseri olarak sunulmasıdır?",
+    "answer": "Pisuvar"
+  },
+  {
+    "id": 32,
+    "question": "Türk müziğinin 'Tamburi' lakaplı bestecisi kimdir?",
+    "answer": "Cemil Bey"
+  },
+  {
+    "id": 33,
+    "question": "Wassily Kandinsky hangi sanat akımının öncüsüdür?",
+    "answer": "Soyut Sanat"
+  },
+  {
+    "id": 34,
+    "question": "Türk sinemasının 'Çirkin Kral'ı olarak bilinen aktör kimdir?",
+    "answer": "Yılmaz Güney"
+  },
+  {
+    "id": 35,
+    "question": "Paul Gauguin'in en ünlü tabloları hangi adada yapılmıştır?",
+    "answer": "Tahiti"
+  },
+  {
+    "id": 36,
+    "question": "Türk edebiyatının 'Hece'nin Beş Şairi' olarak bilinen grubun üyelerinden biri kimdir?",
+    "answer": "Faruk Nafiz Çamlıbel"
+  },
+  {
+    "id": 37,
+    "question": "Marc Chagall'ın eserlerinde en sık kullandığı renk hangisidir?",
+    "answer": "Mavi"
+  },
+  {
+    "id": 38,
+    "question": "Türk resim sanatının 'D Grubu' kurucularından biri olan sanatçı kimdir?",
+    "answer": "Zeki Faik İzer"
+  },
+  {
+    "id": 39,
+    "question": "Piet Mondrian'ın en ünlü kompozisyonlarında kullandığı üç ana renk hangileridir?",
+    "answer": "Kırmızı, Sarı, Mavi"
+  },
+  {
+    "id": 40,
+    "question": "Türk müziğinin 'Hacı' lakaplı bestecisi kimdir?",
+    "answer": "Hacı Arif Bey"
+  },
+  {
+    "id": 41,
+    "question": "Edgar Degas'nın en çok resmettiği dans türü hangisidir?",
+    "answer": "Bale"
+  },
+  {
+    "id": 42,
+    "question": "Türk sinemasının 'Yeşilçam' döneminin başlangıç yılı hangisidir?",
+    "answer": "1950"
+  },
+  {
+    "id": 43,
+    "question": "Henri de Toulouse-Lautrec'in afişlerini en çok yaptığı mekan hangisidir?",
+    "answer": "Moulin Rouge"
+  },
+  {
+    "id": 44,
+    "question": "Türk edebiyatının ilk psikolojik romanı hangisidir?",
+    "answer": "Eylül"
+  },
+  {
+    "id": 45,
+    "question": "Amedeo Modigliani'nin portrelerinde en belirgin özellik nedir?",
+    "answer": "Uzun Boyunlar"
+  },
+  {
+    "id": 46,
+    "question": "Türk resim sanatının 'Müstakil Ressamlar ve Heykeltıraşlar Birliği' kurucularından biri olan sanatçı kimdir?",
+    "answer": "Refik Epikman"
+  },
+  {
+    "id": 47,
+    "question": "Roy Lichtenstein hangi sanat akımının öncülerindendir?",
+    "answer": "Pop Art"
+  },
+  {
+    "id": 48,
+    "question": "Türk tiyatrosunun ilk özel tiyatro topluluğu hangisidir?",
+    "answer": "Darülbedayi"
+  },
+  {
+    "id": 49,
+    "question": "Mark Rothko'nun en karakteristik eser tarzı nedir?",
+    "answer": "Renk Alanları"
+  },
+  {
+    "id": 50,
+    "question": "Türk müziğinin 'Itri' olarak bilinen bestecisinin asıl adı nedir?",
+    "answer": "Buhurizade Mustafa Efendi"
+  }
+]

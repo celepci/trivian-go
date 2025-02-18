@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Olimpiyat Oyunları'nda altın madalya kazanan ilk Türk sporcu kimdir?",
+    "answer": "Yaşar Erkan"
+  },
+  {
+    "id": 2,
+    "question": "FIFA Dünya Kupası tarihinde en fazla gol atan oyuncu kimdir?",
+    "answer": "Miroslav Klose"
+  },
+  {
+    "id": 3,
+    "question": "FIFA Dünya Kupası'nı en fazla kazanan ülke hangisidir?",
+    "answer": "Brezilya"
+  },
+  {
+    "id": 4,
+    "question": "2022 FIFA Dünya Kupası'nı kazanan ülke hangisidir?",
+    "answer": "Arjantin"
+  },
+  {
+    "id": 5,
+    "question": "2020 Yaz Olimpiyatları hangi şehirde yapılmıştır?",
+    "answer": "Tokyo"
+  },
+  {
+    "id": 6,
+    "question": "2018 FIFA Dünya Kupası'nı kazanan ülke hangisidir?",
+    "answer": "Fransa"
+  },
+  {
+    "id": 7,
+    "question": "NBA tarihinde en fazla şampiyonluk yaşamış takım hangisidir?",
+    "answer": "Boston Celtics"
+  },
+  {
+    "id": 8,
+    "question": "Tenis tarihinde en fazla Grand Slam kazanan erkek oyuncu kimdir?",
+    "answer": "Novak Djokovic"
+  },
+  {
+    "id": 9,
+    "question": "Türkiye'nin ilk olimpiyat madalyasını kazanan sporcu kimdir?",
+    "answer": "Yaşar Erkan"
+  },
+  {
+    "id": 10,
+    "question": "Hangi Türk futbol takımı UEFA Kupası'nı kazanmıştır?",
+    "answer": "Galatasaray"
+  },
+  {
+    "id": 11,
+    "question": "NBA'de bir maçta en fazla sayı atan oyuncu kimdir?",
+    "answer": "Wilt Chamberlain"
+  },
+  {
+    "id": 12,
+    "question": "Formula 1 tarihinde en fazla şampiyonluk kazanan pilot kimdir?",
+    "answer": "Michael Schumacher ve Lewis Hamilton"
+  },
+  {
+    "id": 13,
+    "question": "Türkiye Süper Ligi'nde en fazla şampiyonluk yaşayan takım hangisidir?",
+    "answer": "Galatasaray"
+  },
+  {
+    "id": 14,
+    "question": "Olimpiyat tarihinde en fazla madalya kazanan sporcu kimdir?",
+    "answer": "Michael Phelps"
+  },
+  {
+    "id": 15,
+    "question": "UEFA Şampiyonlar Ligi'ni en fazla kazanan takım hangisidir?",
+    "answer": "Real Madrid"
+  },
+  {
+    "id": 16,
+    "question": "Türk güreşinde 'Minderin Sultanı' olarak anılan sporcu kimdir?",
+    "answer": "Hamza Yerlikaya"
+  },
+  {
+    "id": 17,
+    "question": "NBA'de en fazla MVP ödülü alan oyuncu kimdir?",
+    "answer": "Kareem Abdul-Jabbar"
+  },
+  {
+    "id": 18,
+    "question": "Wimbledon'ı en fazla kazanan erkek tenisçi kimdir?",
+    "answer": "Roger Federer"
+  },
+  {
+    "id": 19,
+    "question": "Türkiye'nin ilk profesyonel kadın futbol ligi hangi yılda kurulmuştur?",
+    "answer": "2021"
+  },
+  {
+    "id": 20,
+    "question": "Hangi futbolcu 'Altın Top' (Ballon d'Or) ödülünü en fazla kazanmıştır?",
+    "answer": "Lionel Messi"
+  },
+  {
+    "id": 21,
+    "question": "NBA tarihinin en skorer oyuncusu kimdir?",
+    "answer": "LeBron James"
+  },
+  {
+    "id": 22,
+    "question": "Türkiye'nin olimpiyatlarda en başarılı olduğu spor dalı hangisidir?",
+    "answer": "Güreş"
+  },
+  {
+    "id": 23,
+    "question": "Formula 1'de en fazla yarış kazanan pilot kimdir?",
+    "answer": "Lewis Hamilton"
+  },
+  {
+    "id": 24,
+    "question": "Hangi Türk futbolcu 'Avrupa'da Yılın Futbolcusu' ödülünü kazanmıştır?",
+    "answer": "Hakan Şükür"
+  },
+  {
+    "id": 25,
+    "question": "NBA'de bir sezonda en fazla galibiyet alan takım hangisidir?",
+    "answer": "Golden State Warriors"
+  },
+  {
+    "id": 26,
+    "question": "Türkiye'nin ilk FIFA kokartlı kadın hakemi kimdir?",
+    "answer": "Lale Orta"
+  },
+  {
+    "id": 27,
+    "question": "Hangi boksör 'The Greatest' (En Büyük) lakabıyla anılır?",
+    "answer": "Muhammad Ali"
+  },
+  {
+    "id": 28,
+    "question": "Türkiye'nin ilk olimpiyat altın madalyalı kadın sporcusu kimdir?",
+    "answer": "Nurcan Taylan"
+  },
+  {
+    "id": 29,
+    "question": "NBA'de en fazla sayı ortalamasına sahip oyuncu kimdir?",
+    "answer": "Michael Jordan"
+  },
+  {
+    "id": 30,
+    "question": "Hangi futbolcu Dünya Kupası'nda en fazla gol atmıştır?",
+    "answer": "Miroslav Klose"
+  },
+  {
+    "id": 31,
+    "question": "Türkiye'nin ilk profesyonel futbol ligi hangi yılda kurulmuştur?",
+    "answer": "1959"
+  },
+  {
+    "id": 32,
+    "question": "NBA'de en fazla şampiyonluk kazanan koç kimdir?",
+    "answer": "Phil Jackson"
+  },
+  {
+    "id": 33,
+    "question": "Hangi Türk sporcu halter dalında dünya rekoru kırmıştır?",
+    "answer": "Naim Süleymanoğlu"
+  },
+  {
+    "id": 34,
+    "question": "Formula 1'de en fazla pole position alan pilot kimdir?",
+    "answer": "Lewis Hamilton"
+  },
+  {
+    "id": 35,
+    "question": "Türkiye'nin ilk kadın voleybol ligi hangi yılda kurulmuştur?",
+    "answer": "1956"
+  },
+  {
+    "id": 36,
+    "question": "NBA'de bir maçta en fazla ribaund alan oyuncu kimdir?",
+    "answer": "Wilt Chamberlain"
+  },
+  {
+    "id": 37,
+    "question": "Hangi Türk futbol takımı UEFA Süper Kupa'yı kazanmıştır?",
+    "answer": "Galatasaray"
+  },
+  {
+    "id": 38,
+    "question": "Olimpiyat tarihinde en fazla altın madalya kazanan sporcu kimdir?",
+    "answer": "Michael Phelps"
+  },
+  {
+    "id": 39,
+    "question": "Türkiye'nin ilk profesyonel basketbol ligi hangi yılda kurulmuştur?",
+    "answer": "1966"
+  },
+  {
+    "id": 40,
+    "question": "NBA'de en fazla üçlük isabeti olan oyuncu kimdir?",
+    "answer": "Stephen Curry"
+  },
+  {
+    "id": 41,
+    "question": "Hangi Türk sporcu 'Asrın Güreşçisi' unvanını almıştır?",
+    "answer": "Yaşar Doğu"
+  },
+  {
+    "id": 42,
+    "question": "Formula 1'de en fazla şampiyonluk kazanan takım hangisidir?",
+    "answer": "Ferrari"
+  },
+  {
+    "id": 43,
+    "question": "Türkiye'nin ilk kadın basketbol ligi hangi yılda kurulmuştur?",
+    "answer": "1980"
+  },
+  {
+    "id": 44,
+    "question": "NBA'de bir sezonda en fazla sayı ortalamasına ulaşan oyuncu kimdir?",
+    "answer": "Wilt Chamberlain"
+  },
+  {
+    "id": 45,
+    "question": "Hangi Türk futbolcu Premier Lig'de şampiyonluk yaşamıştır?",
+    "answer": "Ozan Kabak"
+  },
+  {
+    "id": 46,
+    "question": "Olimpiyat tarihinde en fazla madalya kazanan Türk sporcu kimdir?",
+    "answer": "Rıza Kayaalp"
+  },
+  {
+    "id": 47,
+    "question": "NBA'de en fazla asist yapan oyuncu kimdir?",
+    "answer": "John Stockton"
+  },
+  {
+    "id": 48,
+    "question": "Hangi Türk sporcu boks dalında dünya şampiyonu olmuştur?",
+    "answer": "Sinan Şamil Sam"
+  },
+  {
+    "id": 49,
+    "question": "Formula 1'de en genç dünya şampiyonu olan pilot kimdir?",
+    "answer": "Sebastian Vettel"
+  },
+  {
+    "id": 50,
+    "question": "Türkiye'nin ilk olimpiyat madalyalı takım sporu hangisidir?",
+    "answer": "Voleybol"
+  }
+]

@@ -1,0 +1,252 @@
+[
+    {
+      "id": "1",
+      "question": "Which movie won the Academy Award for Best Picture in 2023?",
+      "answer": "Everything Everywhere All at Once"
+    },
+    {
+      "id": "2",
+      "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+      "answer": "Robert Downey Jr."
+    },
+    {
+      "id": "3",
+      "question": "Which band performed 'Bohemian Rhapsody'?",
+      "answer": "Queen"
+    },
+    {
+      "id": "4",
+      "question": "What is the highest-grossing movie of all time?",
+      "answer": "Avatar"
+    },
+    {
+      "id": "5",
+      "question": "Who is known as the 'King of Pop'?",
+      "answer": "Michael Jackson"
+    },
+    {
+      "id": "6",
+      "question": "Which TV series features dragons and is based on George R.R. Martin's books?",
+      "answer": "Game of Thrones"
+    },
+    {
+      "id": "7",
+      "question": "Who played Harry Potter in the movie series?",
+      "answer": "Daniel Radcliffe"
+    },
+    {
+      "id": "8",
+      "question": "Which Beatles album features the song 'Hey Jude'?",
+      "answer": "The Beatles (White Album)"
+    },
+    {
+      "id": "9",
+      "question": "What is the name of the theme park at Universal Studios featuring Harry Potter?",
+      "answer": "The Wizarding World of Harry Potter"
+    },
+    {
+      "id": "10",
+      "question": "Who directed the movie 'Inception'?",
+      "answer": "Christopher Nolan"
+    },
+    {
+      "id": "11",
+      "question": "Which actress played Princess Diana in 'The Crown' Season 4?",
+      "answer": "Emma Corrin"
+    },
+    {
+      "id": "12",
+      "question": "What is the name of Tony Stark's AI assistant in Iron Man?",
+      "answer": "JARVIS"
+    },
+    {
+      "id": "13",
+      "question": "Which band released the album 'Dark Side of the Moon'?",
+      "answer": "Pink Floyd"
+    },
+    {
+      "id": "14",
+      "question": "Who played the Joker in 'The Dark Knight'?",
+      "answer": "Heath Ledger"
+    },
+    {
+      "id": "15",
+      "question": "What is the name of the fictional city where Batman operates?",
+      "answer": "Gotham City"
+    },
+    {
+      "id": "16",
+      "question": "Which actress won an Oscar for her role in 'La La Land'?",
+      "answer": "Emma Stone"
+    },
+    {
+      "id": "17",
+      "question": "What is the name of the main character in 'Breaking Bad'?",
+      "answer": "Walter White"
+    },
+    {
+      "id": "18",
+      "question": "Who is the lead singer of the Rolling Stones?",
+      "answer": "Mick Jagger"
+    },
+    {
+      "id": "19",
+      "question": "Which movie features the character Jack Dawson?",
+      "answer": "Titanic"
+    },
+    {
+      "id": "20",
+      "question": "What is the name of the prison in 'The Shawshank Redemption'?",
+      "answer": "Shawshank State Penitentiary"
+    },
+    {
+      "id": "21",
+      "question": "Who played Neo in 'The Matrix'?",
+      "answer": "Keanu Reeves"
+    },
+    {
+      "id": "22",
+      "question": "Which band's members were John, Paul, George, and Ringo?",
+      "answer": "The Beatles"
+    },
+    {
+      "id": "23",
+      "question": "What is the name of the theme park in 'Jurassic Park'?",
+      "answer": "Isla Nublar"
+    },
+    {
+      "id": "24",
+      "question": "Who directed 'E.T. the Extra-Terrestrial'?",
+      "answer": "Steven Spielberg"
+    },
+    {
+      "id": "25",
+      "question": "What is the name of the main character in 'The Office' (US)?",
+      "answer": "Michael Scott"
+    },
+    {
+      "id": "26",
+      "question": "Which actor played James Bond in 'Casino Royale'?",
+      "answer": "Daniel Craig"
+    },
+    {
+      "id": "27",
+      "question": "What is the name of the coffee shop in 'Friends'?",
+      "answer": "Central Perk"
+    },
+    {
+      "id": "28",
+      "question": "Who wrote the 'Harry Potter' book series?",
+      "answer": "J.K. Rowling"
+    },
+    {
+      "id": "29",
+      "question": "What is the name of Thor's hammer?",
+      "answer": "Mjolnir"
+    },
+    {
+      "id": "30",
+      "question": "Which actor played Jack Sparrow in 'Pirates of the Caribbean'?",
+      "answer": "Johnny Depp"
+    },
+    {
+      "id": "31",
+      "question": "What is the name of the bar in 'How I Met Your Mother'?",
+      "answer": "MacLaren's Pub"
+    },
+    {
+      "id": "32",
+      "question": "Who played Wolverine in the X-Men movies?",
+      "answer": "Hugh Jackman"
+    },
+    {
+      "id": "33",
+      "question": "What is the name of the main character in 'Stranger Things'?",
+      "answer": "Eleven"
+    },
+    {
+      "id": "34",
+      "question": "Which actress played Wonder Woman in the DC Extended Universe?",
+      "answer": "Gal Gadot"
+    },
+    {
+      "id": "35",
+      "question": "What is the name of the spaceship in 'Star Trek'?",
+      "answer": "USS Enterprise"
+    },
+    {
+      "id": "36",
+      "question": "Who directed 'The Godfather'?",
+      "answer": "Francis Ford Coppola"
+    },
+    {
+      "id": "37",
+      "question": "What is the name of the main character in 'The Mandalorian'?",
+      "answer": "Din Djarin"
+    },
+    {
+      "id": "38",
+      "question": "Which actor played Tony Montana in 'Scarface'?",
+      "answer": "Al Pacino"
+    },
+    {
+      "id": "39",
+      "question": "What is the name of the main antagonist in 'The Lion King'?",
+      "answer": "Scar"
+    },
+    {
+      "id": "40",
+      "question": "Who played Sherlock Holmes in the BBC series 'Sherlock'?",
+      "answer": "Benedict Cumberbatch"
+    },
+    {
+      "id": "41",
+      "question": "What is the name of the main character in 'Doctor Who'?",
+      "answer": "The Doctor"
+    },
+    {
+      "id": "42",
+      "question": "Which actor played Walter White in 'Breaking Bad'?",
+      "answer": "Bryan Cranston"
+    },
+    {
+      "id": "43",
+      "question": "What is the name of the main character in 'The Witcher'?",
+      "answer": "Geralt of Rivia"
+    },
+    {
+      "id": "44",
+      "question": "Who played Forrest Gump in the movie of the same name?",
+      "answer": "Tom Hanks"
+    },
+    {
+      "id": "45",
+      "question": "What is the name of the main character in 'Mad Men'?",
+      "answer": "Don Draper"
+    },
+    {
+      "id": "46",
+      "question": "Which actor played Rocky Balboa?",
+      "answer": "Sylvester Stallone"
+    },
+    {
+      "id": "47",
+      "question": "What is the name of the main character in 'Dexter'?",
+      "answer": "Dexter Morgan"
+    },
+    {
+      "id": "48",
+      "question": "Who played Captain Jack Sparrow in 'Pirates of the Caribbean'?",
+      "answer": "Johnny Depp"
+    },
+    {
+      "id": "49",
+      "question": "What is the name of the main character in 'House'?",
+      "answer": "Gregory House"
+    },
+    {
+      "id": "50",
+      "question": "Which actor played Indiana Jones?",
+      "answer": "Harrison Ford"
+    }
+  ]

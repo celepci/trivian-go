@@ -1,0 +1,68 @@
+{
+  "startScreen": {
+    "group": "Grup",
+    "groupName": "Grup Adı",
+    "playerName": "Oyuncu ismi giriniz",
+    "addPlayer": "Yeni Oyuncu Ekle",
+    "addGroup": "Yeni Grup Ekle",
+    "startGame": "Oyuna Başla",
+    "errors": {
+      "minPlayer": "Her grupta en az bir oyuncu olmalıdır.",
+      "maxGroup": "En fazla 3 grup oluşturabilirsiniz.",
+      "missingInfo": "Lütfen tüm grup ve oyuncu isimlerini doldurun."
+    }
+  },
+  "categories": {
+    "history": "Tarih",
+    "geography": "Coğrafya",
+    "science": "Bilim",
+    "sports": "Spor",
+    "entertainment": "Eğlence",
+    "art": "Sanat"
+  },
+  "language": {
+    "tr": "Türkçe",
+    "en": "İngilizce"
+  },
+  "winnerModal": {
+    "gameOver": "Oyun Bitti!",
+    "backToMenu": "Ana Menüye Dön",
+    "winner": "Kazanan",
+    "players": "Oyuncular"
+  },
+  "question": {
+    "currentTurn": "Sıra",
+    "timeRemaining": "Kalan Süre",
+    "questionTitle": "Soru",
+    "yourAnswer": "Cevabınız",
+    "answerPlaceholder": "Cevabınızı yazın...",
+    "useJoker": "Joker Kullan",
+    "jokerUsed": "Joker kullanıldı"
+  },
+  "gameBoard": {
+    "changeQuestion": "Soru Değiştir",
+    "noJoker": "Joker Yok",
+    "noJokerDescription": "Bu grubun joker hakkı kalmadı.",
+    "questionChanged": "Soru Değiştirildi",
+    "questionChangedDescription": "Yeni bir soru getirildi.",
+    "error": "Hata",
+    "noCategoryQuestion": "Bu kategoride başka soru kalmadı.",
+    "correct": "Doğru!",
+    "wrong": "Yanlış!",
+    "correctAnswer": "Tebrikler! Doğru cevap verdiniz.",
+    "answer": "Cevap",
+    "wrongAnswer": "Yanlış cevap.",
+    "categoryNotFound": "Kategori bulunamadı",
+    "gameOver": "Oyun Bitti!",
+    "congratulations": "Tebrikler!",
+    "backToMenu": "Ana Menüye Dön",
+    "categorySelection": "Kategori Seçimi",
+    "selecting": "Seçiliyor...",
+    "randomSelect": "Rastgele Seç",
+    "showAnswer": "Cevabı Gör",
+    "groups": "Gruplar",
+    "joker": "Joker",
+    "endGame": "Oyunu Bitir",
+    "questionLoadError": "Soru yüklenirken bir hata oluştu."
+  }
+}

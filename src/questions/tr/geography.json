@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Dünya üzerinde en fazla zaman dilimine sahip ülke hangisidir?",
+    "answer": "Fransa"
+  },
+  {
+    "id": 2,
+    "question": "Türkiye'nin en yüksek dağı hangisidir?",
+    "answer": "Ağrı Dağı"
+  },
+  {
+    "id": 3,
+    "question": "Dünyanın en büyük okyanusu hangisidir?",
+    "answer": "Pasifik Okyanusu"
+  },
+  {
+    "id": 4,
+    "question": "Türkiye'nin en uzun nehri hangisidir?",
+    "answer": "Kızılırmak"
+  },
+  {
+    "id": 5,
+    "question": "Dünyanın en büyük çölü hangisidir?",
+    "answer": "Sahra Çölü"
+  },
+  {
+    "id": 6,
+    "question": "Türkiye'nin en büyük gölü hangisidir?",
+    "answer": "Van Gölü"
+  },
+  {
+    "id": 7,
+    "question": "Dünyanın en derin noktası hangisidir?",
+    "answer": "Mariana Çukuru"
+  },
+  {
+    "id": 8,
+    "question": "Türkiye'nin en batı noktası neresidir?",
+    "answer": "Gökçeada"
+  },
+  {
+    "id": 9,
+    "question": "Dünyanın en yüksek şelalesi hangisidir?",
+    "answer": "Angel Şelalesi"
+  },
+  {
+    "id": 10,
+    "question": "Türkiye'nin en büyük adası hangisidir?",
+    "answer": "Gökçeada"
+  },
+  {
+    "id": 11,
+    "question": "Dünyanın en büyük adası hangisidir?",
+    "answer": "Grönland"
+  },
+  {
+    "id": 12,
+    "question": "Türkiye'nin en doğu noktası neresidir?",
+    "answer": "Iğdır"
+  },
+  {
+    "id": 13,
+    "question": "Dünyanın en derin gölü hangisidir?",
+    "answer": "Baykal Gölü"
+  },
+  {
+    "id": 14,
+    "question": "Türkiye'nin en kalabalık şehri hangisidir?",
+    "answer": "İstanbul"
+  },
+  {
+    "id": 15,
+    "question": "Dünyanın en uzun nehri hangisidir?",
+    "answer": "Nil Nehri"
+  },
+  {
+    "id": 16,
+    "question": "Türkiye'nin en büyük ovası hangisidir?",
+    "answer": "Konya Ovası"
+  },
+  {
+    "id": 17,
+    "question": "Dünyanın en soğuk kıtası hangisidir?",
+    "answer": "Antarktika"
+  },
+  {
+    "id": 18,
+    "question": "Türkiye'nin en yağış alan bölgesi neresidir?",
+    "answer": "Doğu Karadeniz"
+  },
+  {
+    "id": 19,
+    "question": "Dünyanın en büyük körfezi hangisidir?",
+    "answer": "Bengal Körfezi"
+  },
+  {
+    "id": 20,
+    "question": "Türkiye'nin en az yağış alan bölgesi neresidir?",
+    "answer": "Konya Ovası"
+  },
+  {
+    "id": 21,
+    "question": "Dünyanın en büyük gölü hangisidir?",
+    "answer": "Hazar Denizi"
+  },
+  {
+    "id": 22,
+    "question": "Türkiye'nin en büyük yarımadası hangisidir?",
+    "answer": "Trakya Yarımadası"
+  },
+  {
+    "id": 23,
+    "question": "Dünyanın en büyük takımadaları hangisidir?",
+    "answer": "Endonezya Takımadaları"
+  },
+  {
+    "id": 24,
+    "question": "Türkiye'nin en uzun kıyı şeridine sahip bölgesi hangisidir?",
+    "answer": "Akdeniz Bölgesi"
+  },
+  {
+    "id": 25,
+    "question": "Dünyanın en büyük deltası hangisidir?",
+    "answer": "Ganj-Brahmaputra Deltası"
+  },
+  {
+    "id": 26,
+    "question": "Türkiye'nin en büyük milli parkı hangisidir?",
+    "answer": "Beyşehir Gölü Milli Parkı"
+  },
+  {
+    "id": 27,
+    "question": "Dünyanın en büyük yarımadası hangisidir?",
+    "answer": "Arap Yarımadası"
+  },
+  {
+    "id": 28,
+    "question": "Türkiye'nin en soğuk ili hangisidir?",
+    "answer": "Ardahan"
+  },
+  {
+    "id": 29,
+    "question": "Dünyanın en büyük kanyonu hangisidir?",
+    "answer": "Büyük Kanyon"
+  },
+  {
+    "id": 30,
+    "question": "Türkiye'nin en sıcak ili hangisidir?",
+    "answer": "Şanlıurfa"
+  },
+  {
+    "id": 31,
+    "question": "Dünyanın en büyük platosu hangisidir?",
+    "answer": "Tibet Platosu"
+  },
+  {
+    "id": 32,
+    "question": "Türkiye'nin en büyük platosu hangisidir?",
+    "answer": "Erzurum-Kars Platosu"
+  },
+  {
+    "id": 33,
+    "question": "Dünyanın en büyük volkanik gölü hangisidir?",
+    "answer": "Toba Gölü"
+  },
+  {
+    "id": 34,
+    "question": "Türkiye'nin en büyük volkanik gölü hangisidir?",
+    "answer": "Nemrut Gölü"
+  },
+  {
+    "id": 35,
+    "question": "Dünyanın en büyük şelalesi hangisidir?",
+    "answer": "Victoria Şelalesi"
+  },
+  {
+    "id": 36,
+    "question": "Türkiye'nin en büyük şelalesi hangisidir?",
+    "answer": "Tortum Şelalesi"
+  },
+  {
+    "id": 37,
+    "question": "Dünyanın en büyük adalar devleti hangisidir?",
+    "answer": "Endonezya"
+  },
+  {
+    "id": 38,
+    "question": "Türkiye'nin en büyük körfezi hangisidir?",
+    "answer": "İskenderun Körfezi"
+  },
+  {
+    "id": 39,
+    "question": "Dünyanın en büyük bataklığı hangisidir?",
+    "answer": "Pantanal Bataklığı"
+  },
+  {
+    "id": 40,
+    "question": "Türkiye'nin en büyük bataklığı hangisidir?",
+    "answer": "Sultan Sazlığı"
+  },
+  {
+    "id": 41,
+    "question": "Dünyanın en büyük mercan resifi hangisidir?",
+    "answer": "Büyük Bariyer Resifi"
+  },
+  {
+    "id": 42,
+    "question": "Türkiye'nin en büyük boğazı hangisidir?",
+    "answer": "İstanbul Boğazı"
+  },
+  {
+    "id": 43,
+    "question": "Dünyanın en büyük tuz gölü hangisidir?",
+    "answer": "Büyük Tuz Gölü"
+  },
+  {
+    "id": 44,
+    "question": "Türkiye'nin en büyük tuz gölü hangisidir?",
+    "answer": "Tuz Gölü"
+  },
+  {
+    "id": 45,
+    "question": "Dünyanın en büyük aktif volkanı hangisidir?",
+    "answer": "Mauna Loa"
+  },
+  {
+    "id": 46,
+    "question": "Türkiye'nin en büyük aktif volkanı hangisidir?",
+    "answer": "Erciyes Dağı"
+  },
+  {
+    "id": 47,
+    "question": "Dünyanın en büyük mağarası hangisidir?",
+    "answer": "Son Doong Mağarası"
+  },
+  {
+    "id": 48,
+    "question": "Türkiye'nin en büyük mağarası hangisidir?",
+    "answer": "Pınargözü Mağarası"
+  },
+  {
+    "id": 49,
+    "question": "Dünyanın en büyük denizi hangisidir?",
+    "answer": "Güney Çin Denizi"
+  },
+  {
+    "id": 50,
+    "question": "Türkiye'nin en büyük denizi hangisidir?",
+    "answer": "Akdeniz"
+  }
+]

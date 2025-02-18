@@ -1,0 +1,252 @@
+[
+  {
+    "id": "1",
+    "question": "In which year did World War II end?",
+    "answer": "1945"
+  },
+  {
+    "id": "2",
+    "question": "Who was the first President of the United States?",
+    "answer": "George Washington"
+  },
+  {
+    "id": "3",
+    "question": "What ancient wonder was located in Alexandria, Egypt?",
+    "answer": "The Lighthouse of Alexandria"
+  },
+  {
+    "id": "4",
+    "question": "Which empire was founded by Genghis Khan?",
+    "answer": "The Mongol Empire"
+  },
+  {
+    "id": "5",
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "id": "6",
+    "question": "In which year did the Berlin Wall fall?",
+    "answer": "1989"
+  },
+  {
+    "id": "7",
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "answer": "Marie Curie"
+  },
+  {
+    "id": "8",
+    "question": "What was the name of the first successful English colony in America?",
+    "answer": "Jamestown"
+  },
+  {
+    "id": "9",
+    "question": "Which civilization built the Machu Picchu?",
+    "answer": "The Inca"
+  },
+  {
+    "id": "10",
+    "question": "Who was the first Emperor of China?",
+    "answer": "Qin Shi Huang"
+  },
+  {
+    "id": "11",
+    "question": "In which year did Christopher Columbus first reach the Americas?",
+    "answer": "1492"
+  },
+  {
+    "id": "12",
+    "question": "Which pharaoh's tomb was discovered by Howard Carter in 1922?",
+    "answer": "Tutankhamun"
+  },
+  {
+    "id": "13",
+    "question": "What event marked the beginning of World War I?",
+    "answer": "The assassination of Archduke Franz Ferdinand"
+  },
+  {
+    "id": "14",
+    "question": "Who was the first woman to rule ancient Egypt as pharaoh?",
+    "answer": "Hatshepsut"
+  },
+  {
+    "id": "15",
+    "question": "Which empire was ruled by Julius Caesar?",
+    "answer": "The Roman Empire"
+  },
+  {
+    "id": "16",
+    "question": "What was the name of the first artificial satellite launched into space?",
+    "answer": "Sputnik 1"
+  },
+  {
+    "id": "17",
+    "question": "Who wrote 'The Communist Manifesto'?",
+    "answer": "Karl Marx and Friedrich Engels"
+  },
+  {
+    "id": "18",
+    "question": "Which city was the capital of the Byzantine Empire?",
+    "answer": "Constantinople"
+  },
+  {
+    "id": "19",
+    "question": "Who was the leader of the civil rights movement in the United States?",
+    "answer": "Martin Luther King Jr."
+  },
+  {
+    "id": "20",
+    "question": "What was the name of the first human to walk on the moon?",
+    "answer": "Neil Armstrong"
+  },
+  {
+    "id": "21",
+    "question": "Which queen was known as 'The Virgin Queen'?",
+    "answer": "Elizabeth I"
+  },
+  {
+    "id": "22",
+    "question": "What was the name of the ship that carried the Pilgrims to America?",
+    "answer": "The Mayflower"
+  },
+  {
+    "id": "23",
+    "question": "Who was the first female Prime Minister of the United Kingdom?",
+    "answer": "Margaret Thatcher"
+  },
+  {
+    "id": "24",
+    "question": "Which civilization built the pyramids of Giza?",
+    "answer": "Ancient Egyptians"
+  },
+  {
+    "id": "25",
+    "question": "What was the name of the peace treaty that ended World War I?",
+    "answer": "The Treaty of Versailles"
+  },
+  {
+    "id": "26",
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming"
+  },
+  {
+    "id": "27",
+    "question": "Which empire was ruled by Suleiman the Magnificent?",
+    "answer": "Ottoman Empire"
+  },
+  {
+    "id": "28",
+    "question": "What was the name of the first successful powered aircraft?",
+    "answer": "Wright Flyer"
+  },
+  {
+    "id": "29",
+    "question": "Who was the last Tsar of Russia?",
+    "answer": "Nicholas II"
+  },
+  {
+    "id": "30",
+    "question": "What was the name of the first computer programmer?",
+    "answer": "Ada Lovelace"
+  },
+  {
+    "id": "31",
+    "question": "Which ancient wonder was located in Babylon?",
+    "answer": "The Hanging Gardens"
+  },
+  {
+    "id": "32",
+    "question": "Who was the first European explorer to reach India by sea?",
+    "answer": "Vasco da Gama"
+  },
+  {
+    "id": "33",
+    "question": "What was the name of the first successful vaccine?",
+    "answer": "Smallpox vaccine"
+  },
+  {
+    "id": "34",
+    "question": "Which civilization developed the first system of writing?",
+    "answer": "Sumerians"
+  },
+  {
+    "id": "35",
+    "question": "Who was the first African American Supreme Court Justice?",
+    "answer": "Thurgood Marshall"
+  },
+  {
+    "id": "36",
+    "question": "What was the name of the first successful English newspaper?",
+    "answer": "The London Gazette"
+  },
+  {
+    "id": "37",
+    "question": "Who was the founder of the Mongol Empire?",
+    "answer": "Genghis Khan"
+  },
+  {
+    "id": "38",
+    "question": "What was the name of the first successful steam engine?",
+    "answer": "Newcomen Engine"
+  },
+  {
+    "id": "39",
+    "question": "Who was the first Emperor of Japan?",
+    "answer": "Emperor Jimmu"
+  },
+  {
+    "id": "40",
+    "question": "What was the name of the first successful submarine?",
+    "answer": "USS Holland"
+  },
+  {
+    "id": "41",
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "answer": "Amelia Earhart"
+  },
+  {
+    "id": "42",
+    "question": "What was the name of the first successful electric light bulb?",
+    "answer": "Edison's light bulb"
+  },
+  {
+    "id": "43",
+    "question": "Who was the first European to discover America?",
+    "answer": "Leif Erikson"
+  },
+  {
+    "id": "44",
+    "question": "What was the name of the first successful telephone?",
+    "answer": "Bell's telephone"
+  },
+  {
+    "id": "45",
+    "question": "Who was the first woman to win an Academy Award for Best Director?",
+    "answer": "Kathryn Bigelow"
+  },
+  {
+    "id": "46",
+    "question": "What was the name of the first successful television?",
+    "answer": "Baird's televisor"
+  },
+  {
+    "id": "47",
+    "question": "Who was the first person to circumnavigate the globe?",
+    "answer": "Ferdinand Magellan's expedition"
+  },
+  {
+    "id": "48",
+    "question": "What was the name of the first successful radio?",
+    "answer": "Marconi's wireless"
+  },
+  {
+    "id": "49",
+    "question": "Who was the first woman to receive a medical degree in the United States?",
+    "answer": "Elizabeth Blackwell"
+  },
+  {
+    "id": "50",
+    "question": "What was the name of the first successful digital computer?",
+    "answer": "ENIAC"
+  }
+]

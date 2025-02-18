@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Kuantum mekaniğinde 'Schrödinger'in Kedisi' deneyi neyi açıklamayı amaçlar?",
+    "answer": "Süperpozisyon"
+  },
+  {
+    "id": 2,
+    "question": "Hangi bilim insanı radyum ve polonyum elementlerini keşfetmiştir?",
+    "answer": "Marie Curie"
+  },
+  {
+    "id": 3,
+    "question": "Hangi element periyodik tabloda 'Fe' sembolü ile gösterilir?",
+    "answer": "Demir"
+  },
+  {
+    "id": 4,
+    "question": "Hangi bilim insanı görelilik teorisini geliştirmiştir?",
+    "answer": "Albert Einstein"
+  },
+  {
+    "id": 5,
+    "question": "Hangi elementin atom numarası 1'dir?",
+    "answer": "Hidrojen"
+  },
+  {
+    "id": 6,
+    "question": "DNA'nın yapısını keşfeden bilim insanları kimlerdir?",
+    "answer": "James Watson ve Francis Crick"
+  },
+  {
+    "id": 7,
+    "question": "Hangi elementin sembolü 'O'dur?",
+    "answer": "Oksijen"
+  },
+  {
+    "id": 8,
+    "question": "Hangi bilim insanı yerçekimi yasasını formüle etmiştir?",
+    "answer": "Isaac Newton"
+  },
+  {
+    "id": 9,
+    "question": "Hangi elementin sembolü 'Au'dur?",
+    "answer": "Altın"
+  },
+  {
+    "id": 10,
+    "question": "İnsan vücudundaki en büyük organ hangisidir?",
+    "answer": "Deri"
+  },
+  {
+    "id": 11,
+    "question": "Periyodik tabloda kaç element vardır?",
+    "answer": "118"
+  },
+  {
+    "id": 12,
+    "question": "Hangi gezegen Güneş Sistemi'nin en büyük gezegenidir?",
+    "answer": "Jüpiter"
+  },
+  {
+    "id": 13,
+    "question": "İnsan vücudundaki en küçük kemik hangisidir?",
+    "answer": "Üzengi Kemiği"
+  },
+  {
+    "id": 14,
+    "question": "Hangi bilim insanı elektromanyetik indüksiyon yasasını keşfetmiştir?",
+    "answer": "Michael Faraday"
+  },
+  {
+    "id": 15,
+    "question": "Suyun kimyasal formülü nedir?",
+    "answer": "H2O"
+  },
+  {
+    "id": 16,
+    "question": "İnsan DNA'sı kaç çift kromozomdan oluşur?",
+    "answer": "23"
+  },
+  {
+    "id": 17,
+    "question": "Hangi bilim insanı radyoaktiviteyi keşfetmiştir?",
+    "answer": "Henri Becquerel"
+  },
+  {
+    "id": 18,
+    "question": "Işık hızı saniyede kaç kilometredir?",
+    "answer": "299.792"
+  },
+  {
+    "id": 19,
+    "question": "İnsan vücudundaki en büyük kemik hangisidir?",
+    "answer": "Uyluk Kemiği"
+  },
+  {
+    "id": 20,
+    "question": "Hangi element periyodik tabloda 'Na' sembolü ile gösterilir?",
+    "answer": "Sodyum"
+  },
+  {
+    "id": 21,
+    "question": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+    "answer": "Mars"
+  },
+  {
+    "id": 22,
+    "question": "İnsan vücudundaki en büyük arter hangisidir?",
+    "answer": "Aort"
+  },
+  {
+    "id": 23,
+    "question": "Hangi bilim insanı atom modelini geliştirmiştir?",
+    "answer": "Niels Bohr"
+  },
+  {
+    "id": 24,
+    "question": "Karbon elementinin atom numarası kaçtır?",
+    "answer": "6"
+  },
+  {
+    "id": 25,
+    "question": "İnsan vücudunda kaç kemik vardır?",
+    "answer": "206"
+  },
+  {
+    "id": 26,
+    "question": "Hangi bilim insanı periyodik tabloyu geliştirmiştir?",
+    "answer": "Dmitri Mendeleyev"
+  },
+  {
+    "id": 27,
+    "question": "Dünya'nın çekirdeği hangi elementlerden oluşur?",
+    "answer": "Demir ve Nikel"
+  },
+  {
+    "id": 28,
+    "question": "İnsan vücudundaki en uzun sinir hangisidir?",
+    "answer": "Siyatik Sinir"
+  },
+  {
+    "id": 29,
+    "question": "Hangi bilim insanı evrim teorisini ortaya atmıştır?",
+    "answer": "Charles Darwin"
+  },
+  {
+    "id": 30,
+    "question": "Hangi element periyodik tabloda 'K' sembolü ile gösterilir?",
+    "answer": "Potasyum"
+  },
+  {
+    "id": 31,
+    "question": "Güneş Sistemi'ndeki en sıcak gezegen hangisidir?",
+    "answer": "Venüs"
+  },
+  {
+    "id": 32,
+    "question": "İnsan vücudundaki en büyük bez hangisidir?",
+    "answer": "Karaciğer"
+  },
+  {
+    "id": 33,
+    "question": "Hangi bilim insanı penisilin antibiyotiğini keşfetmiştir?",
+    "answer": "Alexander Fleming"
+  },
+  {
+    "id": 34,
+    "question": "Hangi element periyodik tabloda 'Ag' sembolü ile gösterilir?",
+    "answer": "Gümüş"
+  },
+  {
+    "id": 35,
+    "question": "İnsan vücudunda kaç litre kan vardır?",
+    "answer": "5-6"
+  },
+  {
+    "id": 36,
+    "question": "Hangi bilim insanı termodinamik yasalarını formüle etmiştir?",
+    "answer": "Rudolf Clausius"
+  },
+  {
+    "id": 37,
+    "question": "Hangi element periyodik tabloda 'Cu' sembolü ile gösterilir?",
+    "answer": "Bakır"
+  },
+  {
+    "id": 38,
+    "question": "Güneş Sistemi'nin en küçük gezegeni hangisidir?",
+    "answer": "Merkür"
+  },
+  {
+    "id": 39,
+    "question": "İnsan vücudundaki en küçük kas hangisidir?",
+    "answer": "Üzengi Kası"
+  },
+  {
+    "id": 40,
+    "question": "Hangi bilim insanı elektrik akımını keşfetmiştir?",
+    "answer": "Alessandro Volta"
+  },
+  {
+    "id": 41,
+    "question": "Hangi element periyodik tabloda 'Pb' sembolü ile gösterilir?",
+    "answer": "Kurşun"
+  },
+  {
+    "id": 42,
+    "question": "Dünya'nın en büyük uydusu hangisidir?",
+    "answer": "Ay"
+  },
+  {
+    "id": 43,
+    "question": "İnsan vücudundaki en büyük sinir sistemi hangisidir?",
+    "answer": "Merkezi Sinir Sistemi"
+  },
+  {
+    "id": 44,
+    "question": "Hangi bilim insanı antibiyotikleri keşfetmiştir?",
+    "answer": "Alexander Fleming"
+  },
+  {
+    "id": 45,
+    "question": "Hangi element periyodik tabloda 'Hg' sembolü ile gösterilir?",
+    "answer": "Cıva"
+  },
+  {
+    "id": 46,
+    "question": "Güneş Sistemi'nin en soğuk gezegeni hangisidir?",
+    "answer": "Uranüs"
+  },
+  {
+    "id": 47,
+    "question": "İnsan vücudundaki en büyük iç organ hangisidir?",
+    "answer": "Karaciğer"
+  },
+  {
+    "id": 48,
+    "question": "Hangi bilim insanı elektrik ve manyetizma teorisini birleştirmiştir?",
+    "answer": "James Clerk Maxwell"
+  },
+  {
+    "id": 49,
+    "question": "Hangi element periyodik tabloda 'Sn' sembolü ile gösterilir?",
+    "answer": "Kalay"
+  },
+  {
+    "id": 50,
+    "question": "İnsan vücudundaki en büyük endokrin bez hangisidir?",
+    "answer": "Tiroid Bezi"
+  }
+]

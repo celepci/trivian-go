@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "question": "Osmanlı İmparatorluğu'nda ilk denizaltıyı geliştiren mühendis kimdir?",
+    "answer": "Abdülkadir Bey"
+  },
+  {
+    "id": 2,
+    "question": "Türkiye'de ilk nüfus sayımı hangi yılda yapılmıştır?",
+    "answer": "1927"
+  },
+  {
+    "id": 3,
+    "question": "Türkiye'de ilk demiryolu hattı hangi şehirler arasında inşa edilmiştir?",
+    "answer": "İzmir - Aydın"
+  },
+  {
+    "id": 4,
+    "question": "Türkiye'nin ilk cumhurbaşkanı kimdir?",
+    "answer": "Mustafa Kemal Atatürk"
+  },
+  {
+    "id": 5,
+    "question": "İstanbul'un fethi hangi yılda gerçekleşmiştir?",
+    "answer": "1453"
+  },
+  {
+    "id": 6,
+    "question": "Osmanlı İmparatorluğu'nun kurucusu kimdir?",
+    "answer": "Osman Bey"
+  },
+  {
+    "id": 7,
+    "question": "Türkiye Cumhuriyeti hangi tarihte ilan edilmiştir?",
+    "answer": "29 Ekim 1923"
+  },
+  {
+    "id": 8,
+    "question": "Malazgirt Savaşı hangi yılda yapılmıştır?",
+    "answer": "1071"
+  },
+  {
+    "id": 9,
+    "question": "Türkiye'de çok partili hayata hangi yılda geçilmiştir?",
+    "answer": "1946"
+  },
+  {
+    "id": 10,
+    "question": "Osmanlı İmparatorluğu'nun son padişahı kimdir?",
+    "answer": "Vahdettin"
+  },
+  {
+    "id": 11,
+    "question": "Kurtuluş Savaşı'nın ilk zafer hangi cephede kazanılmıştır?",
+    "answer": "İnönü"
+  },
+  {
+    "id": 12,
+    "question": "Türkiye'de Latin alfabesi hangi yılda kabul edilmiştir?",
+    "answer": "1928"
+  },
+  {
+    "id": 13,
+    "question": "Osmanlı İmparatorluğu'nun en uzun süre tahtta kalan padişahı kimdir?",
+    "answer": "Kanuni Sultan Süleyman"
+  },
+  {
+    "id": 14,
+    "question": "Çanakkale Savaşları hangi yıllar arasında gerçekleşmiştir?",
+    "answer": "1915-1916"
+  },
+  {
+    "id": 15,
+    "question": "Türkiye'de kadınlara seçme ve seçilme hakkı hangi yılda verilmiştir?",
+    "answer": "1934"
+  },
+  {
+    "id": 16,
+    "question": "Osmanlı İmparatorluğu'nun ilk başkenti neresidir?",
+    "answer": "Bursa"
+  },
+  {
+    "id": 17,
+    "question": "Sakarya Meydan Muharebesi hangi yılda gerçekleşmiştir?",
+    "answer": "1921"
+  },
+  {
+    "id": 18,
+    "question": "Türkiye'nin NATO'ya üye olduğu yıl hangisidir?",
+    "answer": "1952"
+  },
+  {
+    "id": 19,
+    "question": "Osmanlı İmparatorluğu'nun en geniş sınırlarına ulaştığı padişah kimdir?",
+    "answer": "Kanuni Sultan Süleyman"
+  },
+  {
+    "id": 20,
+    "question": "Büyük Taarruz hangi tarihte başlamıştır?",
+    "answer": "26 Ağustos 1922"
+  },
+  {
+    "id": 21,
+    "question": "Türkiye'de ilk anayasa hangi yılda ilan edilmiştir?",
+    "answer": "1876"
+  },
+  {
+    "id": 22,
+    "question": "Osmanlı İmparatorluğu'nun son zaferi hangi savaşta kazanılmıştır?",
+    "answer": "Kut'ül Amare"
+  },
+  {
+    "id": 23,
+    "question": "Lozan Antlaşması hangi tarihte imzalanmıştır?",
+    "answer": "24 Temmuz 1923"
+  },
+  {
+    "id": 24,
+    "question": "Türkiye'de soyadı kanunu hangi yılda kabul edilmiştir?",
+    "answer": "1934"
+  },
+  {
+    "id": 25,
+    "question": "Osmanlı İmparatorluğu'nun ilk tersanesi nerede kurulmuştur?",
+    "answer": "Gelibolu"
+  },
+  {
+    "id": 26,
+    "question": "Mondros Ateşkes Antlaşması hangi tarihte imzalanmıştır?",
+    "answer": "30 Ekim 1918"
+  },
+  {
+    "id": 27,
+    "question": "Türkiye'de ilk çok partili seçim hangi yılda yapılmıştır?",
+    "answer": "1946"
+  },
+  {
+    "id": 28,
+    "question": "Osmanlı İmparatorluğu'nun ilk matbaası kimin döneminde kurulmuştur?",
+    "answer": "III. Ahmet"
+  },
+  {
+    "id": 29,
+    "question": "Erzurum Kongresi hangi tarihte toplanmıştır?",
+    "answer": "23 Temmuz 1919"
+  },
+  {
+    "id": 30,
+    "question": "Türkiye'de tek parti dönemi hangi yılda sona ermiştir?",
+    "answer": "1946"
+  },
+  {
+    "id": 31,
+    "question": "Osmanlı İmparatorluğu'nun ilk nüfus sayımı hangi padişah döneminde yapılmıştır?",
+    "answer": "II. Mahmut"
+  },
+  {
+    "id": 32,
+    "question": "Sivas Kongresi hangi tarihte toplanmıştır?",
+    "answer": "4 Eylül 1919"
+  },
+  {
+    "id": 33,
+    "question": "Türkiye'de ilk meclis hangi tarihte açılmıştır?",
+    "answer": "23 Nisan 1920"
+  },
+  {
+    "id": 34,
+    "question": "Osmanlı İmparatorluğu'nun ilk anayasası hangisidir?",
+    "answer": "Kanun-i Esasi"
+  },
+  {
+    "id": 35,
+    "question": "Amasya Genelgesi hangi tarihte yayınlanmıştır?",
+    "answer": "22 Haziran 1919"
+  },
+  {
+    "id": 36,
+    "question": "Türkiye'de ilk demokratik seçimler hangi yılda yapılmıştır?",
+    "answer": "1950"
+  },
+  {
+    "id": 37,
+    "question": "Osmanlı İmparatorluğu'nun son savaşı hangisidir?",
+    "answer": "I. Dünya Savaşı"
+  },
+  {
+    "id": 38,
+    "question": "Havza Genelgesi hangi tarihte yayınlanmıştır?",
+    "answer": "28 Mayıs 1919"
+  },
+  {
+    "id": 39,
+    "question": "Türkiye'de ilk çok partili seçimleri hangi parti kazanmıştır?",
+    "answer": "Demokrat Parti"
+  },
+  {
+    "id": 40,
+    "question": "Osmanlı İmparatorluğu'nun son sadrazamı kimdir?",
+    "answer": "Ahmet Tevfik Paşa"
+  },
+  {
+    "id": 41,
+    "question": "Misak-ı Milli hangi tarihte ilan edilmiştir?",
+    "answer": "28 Ocak 1920"
+  },
+  {
+    "id": 42,
+    "question": "Türkiye'de ilk anayasa mahkemesi hangi yılda kurulmuştur?",
+    "answer": "1961"
+  },
+  {
+    "id": 43,
+    "question": "Osmanlı İmparatorluğu'nun son donanma komutanı kimdir?",
+    "answer": "Rauf Orbay"
+  },
+  {
+    "id": 44,
+    "question": "Mudanya Ateşkes Antlaşması hangi tarihte imzalanmıştır?",
+    "answer": "11 Ekim 1922"
+  },
+  {
+    "id": 45,
+    "question": "Türkiye'de ilk radyo yayını hangi yılda başlamıştır?",
+    "answer": "1927"
+  },
+  {
+    "id": 46,
+    "question": "Osmanlı İmparatorluğu'nun son şeyhülislamı kimdir?",
+    "answer": "Mehmet Nuri Efendi"
+  },
+  {
+    "id": 47,
+    "question": "Ankara'nın başkent oluşu hangi tarihte gerçekleşmiştir?",
+    "answer": "13 Ekim 1923"
+  },
+  {
+    "id": 48,
+    "question": "Türkiye'de ilk üniversite reformu hangi yılda yapılmıştır?",
+    "answer": "1933"
+  },
+  {
+    "id": 49,
+    "question": "Osmanlı İmparatorluğu'nun son maliye nazırı kimdir?",
+    "answer": "Mehmet Nail Bey"
+  },
+  {
+    "id": 50,
+    "question": "Son Osmanlı Mebusan Meclisi hangi tarihte kapatılmıştır?",
+    "answer": "16 Mart 1920"
+  },
+  {
+    "id": 51,
+    "question": "Osmanlı İmparatorluğu'nda ilk denizaltıyı geliştiren mühendis kimdir?",
+    "answer": "Abdülkadir Bey"
+  },
+  {
+    "id": 52,
+    "question": "Osmanlı İmparatorluğu'nun kurucusu kimdir?",
+    "answer": "Osman Bey"
+  },
+  {
+    "id": 53,
+    "question": "İstanbul'u fetheden Osmanlı padişahı kimdir?",
+    "answer": "Fatih Sultan Mehmet"
+  },
+  {
+    "id": 54,
+    "question": "Türkiye Cumhuriyeti'nin ilk cumhurbaşkanı kimdir?",
+    "answer": "Mustafa Kemal Atatürk"
+  },
+  {
+    "id": 55,
+    "question": "Osmanlı İmparatorluğu'nun en uzun süre tahtta kalan padişahı kimdir?",
+    "answer": "Kanuni Sultan Süleyman"
+  },
+  {
+    "id": 56,
+    "question": "Türkiye Cumhuriyeti hangi tarihte ilan edilmiştir?",
+    "answer": "29 Ekim 1923"
+  },
+  {
+    "id": 57,
+    "question": "Osmanlı İmparatorluğu'nun son padişahı kimdir?",
+    "answer": "Vahdettin"
+  },
+  {
+    "id": 58,
+    "question": "Kurtuluş Savaşı'nın ilk zafer tarihi hangisidir?",
+    "answer": "11 Eylül 1921"
+  },
+  {
+    "id": 59,
+    "question": "Osmanlı'da Lale Devri hangi padişah döneminde yaşanmıştır?",
+    "answer": "III. Ahmet"
+  },
+  {
+    "id": 60,
+    "question": "Türkiye'de çok partili hayata geçiş hangi yılda olmuştur?",
+    "answer": "1946"
+  },
+  {
+    "id": 61,
+    "question": "Osmanlı İmparatorluğu'nun ilk başkenti neresidir?",
+    "answer": "Söğüt"
+  },
+  {
+    "id": 62,
+    "question": "Türk tarihinde ilk Müslüman Türk devleti hangisidir?",
+    "answer": "Karahanlılar"
+  },
+  {
+    "id": 63,
+    "question": "Osmanlı'da Tanzimat Fermanı hangi padişah döneminde ilan edilmiştir?",
+    "answer": "Abdülmecid"
+  },
+  {
+    "id": 64,
+    "question": "Türkiye'de Latin alfabesi hangi yılda kabul edilmiştir?",
+    "answer": "1928"
+  },
+  {
+    "id": 65,
+    "question": "Osmanlı'da ilk matbaa kimin döneminde kurulmuştur?",
+    "answer": "III. Ahmet"
+  },
+  {
+    "id": 66,
+    "question": "Türkiye'de kadınlara seçme ve seçilme hakkı hangi yılda verilmiştir?",
+    "answer": "1934"
+  },
+  {
+    "id": 67,
+    "question": "Osmanlı'nın en geniş sınırlarına ulaştığı padişah kimdir?",
+    "answer": "Kanuni Sultan Süleyman"
+  },
+  {
+    "id": 68,
+    "question": "Türkiye'nin NATO'ya üye olduğu yıl hangisidir?",
+    "answer": "1952"
+  },
+  {
+    "id": 69,
+    "question": "Osmanlı'da Islahat Fermanı hangi padişah döneminde ilan edilmiştir?",
+    "answer": "Abdülmecid"
+  },
+  {
+    "id": 70,
+    "question": "Türkiye'de ilk anayasa hangi yılda ilan edilmiştir?",
+    "answer": "1921"
+  },
+  {
+    "id": 71,
+    "question": "Osmanlı'da ilk Türkçe gazete hangisidir?",
+    "answer": "Takvim-i Vekayi"
+  },
+  {
+    "id": 72,
+    "question": "Türkiye'de soyadı kanunu hangi yılda kabul edilmiştir?",
+    "answer": "1934"
+  },
+  {
+    "id": 73,
+    "question": "Osmanlı'nın ilk tersanesi nerede kurulmuştur?",
+    "answer": "Gelibolu"
+  },
+  {
+    "id": 74,
+    "question": "Türkiye'de ilk çok partili seçim hangi yılda yapılmıştır?",
+    "answer": "1946"
+  },
+  {
+    "id": 75,
+    "question": "Osmanlı'da Vaka-i Hayriye olarak bilinen olay nedir?",
+    "answer": "Yeniçeri Ocağı'nın Kaldırılması"
+  },
+  {
+    "id": 76,
+    "question": "Türkiye'de ilk nüfus sayımı hangi yılda yapılmıştır?",
+    "answer": "1927"
+  },
+  {
+    "id": 77,
+    "question": "Osmanlı'da ilk Türk kadın hükümdar kimdir?",
+    "answer": "Raziye Sultan"
+  },
+  {
+    "id": 78,
+    "question": "Türkiye'de ilk demokratik seçimler hangi yılda yapılmıştır?",
+    "answer": "1950"
+  },
+  {
+    "id": 79,
+    "question": "Osmanlı'da Patrona Halil İsyanı hangi padişah döneminde olmuştur?",
+    "answer": "III. Ahmet"
+  },
+  {
+    "id": 80,
+    "question": "Türkiye'de ilk çok partili meclis hangi yılda açılmıştır?",
+    "answer": "1946"
+  },
+  {
+    "id": 81,
+    "question": "Osmanlı'da ilk Türk deniz zaferi hangisidir?",
+    "answer": "Preveze Deniz Savaşı"
+  },
+  {
+    "id": 82,
+    "question": "Türkiye'de ilk üniversite hangi yılda kurulmuştur?",
+    "answer": "1933"
+  },
+  {
+    "id": 83,
+    "question": "Osmanlı'da ilk Türk kadın şair kimdir?",
+    "answer": "Zeynep Hatun"
+  },
+  {
+    "id": 84,
+    "question": "Türkiye'de ilk radyo yayını hangi yılda başlamıştır?",
+    "answer": "1927"
+  },
+  {
+    "id": 85,
+    "question": "Osmanlı'da ilk Türk matbaası kimin tarafından kurulmuştur?",
+    "answer": "İbrahim Müteferrika"
+  },
+  {
+    "id": 86,
+    "question": "Türkiye'de ilk televizyon yayını hangi yılda başlamıştır?",
+    "answer": "1968"
+  },
+  {
+    "id": 87,
+    "question": "Osmanlı'da ilk Türk tiyatrosu kimin tarafından kurulmuştur?",
+    "answer": "Güllü Agop"
+  },
+  {
+    "id": 88,
+    "question": "Türkiye'de ilk genel seçim hangi yılda yapılmıştır?",
+    "answer": "1950"
+  },
+  {
+    "id": 89,
+    "question": "Osmanlı'da ilk Türk romanı hangisidir?",
+    "answer": "Taaşşuk-ı Talat ve Fitnat"
+  },
+  {
+    "id": 90,
+    "question": "Türkiye'de ilk anayasa mahkemesi hangi yılda kurulmuştur?",
+    "answer": "1961"
+  },
+  {
+    "id": 91,
+    "question": "Osmanlı'da ilk Türk gazetesi hangisidir?",
+    "answer": "Tercüman-ı Ahval"
+  },
+  {
+    "id": 92,
+    "question": "Türkiye'de ilk askeri darbe hangi yılda olmuştur?",
+    "answer": "1960"
+  },
+  {
+    "id": 93,
+    "question": "Osmanlı'da ilk Türk kütüphanesi nerede kurulmuştur?",
+    "answer": "Bursa"
+  },
+  {
+    "id": 94,
+    "question": "Türkiye'de ilk çok partili seçim hangi partinin zaferiyle sonuçlanmıştır?",
+    "answer": "Demokrat Parti"
+  },
+  {
+    "id": 95,
+    "question": "Osmanlı'da ilk Türk hastanesi nerede kurulmuştur?",
+    "answer": "Bursa"
+  },
+  {
+    "id": 96,
+    "question": "Türkiye'de ilk anayasa değişikliği hangi yılda yapılmıştır?",
+    "answer": "1924"
+  },
+  {
+    "id": 97,
+    "question": "Osmanlı'da ilk Türk müzesi nerede kurulmuştur?",
+    "answer": "İstanbul"
+  },
+  {
+    "id": 98,
+    "question": "Türkiye'de ilk nükleer santral projesi hangi yılda başlamıştır?",
+    "answer": "2018"
+  },
+  {
+    "id": 99,
+    "question": "Osmanlı'da ilk Türk bankası hangisidir?",
+    "answer": "Bank-ı Osmani"
+  },
+  {
+    "id": 100,
+    "question": "Türkiye'de ilk yerli otomobil projesi hangi yılda başlamıştır?",
+    "answer": "2017"
+  }
+]
