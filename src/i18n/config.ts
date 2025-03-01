@@ -27,8 +27,11 @@ declare module 'i18next' {
   }
 }
 
-export type CustomTFunction = TFunction & {
-  (key: string): string;
+// Özel t fonksiyonu tipi
+export type SafeTranslationFunction = {
+  (key: string, defaultValue?: string): string;
+  (key: string[], defaultValue?: string): string;
+  (key: string, defaultValue: string, options: any): string;
 };
 
 i18n

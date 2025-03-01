@@ -6,10 +6,13 @@
     "addPlayer": "Yeni Oyuncu Ekle",
     "addGroup": "Yeni Grup Ekle",
     "startGame": "Oyuna Başla",
+    "noGroups": "Grup Yok",
     "errors": {
       "minPlayer": "Her grupta en az bir oyuncu olmalıdır.",
       "maxGroup": "En fazla 3 grup oluşturabilirsiniz.",
-      "missingInfo": "Lütfen tüm grup ve oyuncu isimlerini doldurun."
+      "missingInfo": "Lütfen tüm grup ve oyuncu isimlerini doldurun.",
+      "maxGroupDesc": "En fazla 3 grup ekleyebilirsiniz",
+      "minPlayerDesc": "Her grupta en az bir oyuncu olmalıdır"
     }
   },
   "categories": {
@@ -41,16 +44,17 @@
   },
   "gameBoard": {
     "changeQuestion": "Soru Değiştir",
+    "error": "Hata",
+    "noGroupsError": "Aktif grup bulunamadı.",
+    "questionChanged": "Soru Değiştirildi",
+    "jokerUsedDescription": "Joker kullanarak soruyu değiştirdiniz.",
     "noJoker": "Joker Yok",
     "noJokerDescription": "Bu grubun joker hakkı kalmadı.",
-    "questionChanged": "Soru Değiştirildi",
-    "questionChangedDescription": "Yeni bir soru getirildi.",
-    "error": "Hata",
-    "noCategoryQuestion": "Bu kategoride başka soru kalmadı.",
-    "correct": "Doğru!",
-    "wrong": "Yanlış!",
-    "correctAnswer": "Tebrikler! Doğru cevap verdiniz.",
+    "showAnswer": "Cevabı Göster",
     "answer": "Cevap",
+    "correct": "Doğru",
+    "wrong": "Yanlış",
+    "correctAnswer": "Tebrikler! Doğru cevap verdiniz.",
     "wrongAnswer": "Yanlış cevap.",
     "categoryNotFound": "Kategori bulunamadı",
     "gameOver": "Oyun Bitti!",
@@ -59,10 +63,30 @@
     "categorySelection": "Kategori Seçimi",
     "selecting": "Seçiliyor...",
     "randomSelect": "Rastgele Seç",
-    "showAnswer": "Cevabı Gör",
+    "hideAnswer": "Cevabı Gizle",
     "groups": "Gruplar",
     "joker": "Joker",
+    "timeUp": "Süre Doldu",
+    "timeUpMessage": "Süre doldu! Lütfen cevaplayın",
+    "pleaseAnswer": "Lütfen cevabınızı girin",
     "endGame": "Oyunu Bitir",
-    "questionLoadError": "Soru yüklenirken bir hata oluştu."
+    "questionLoadError": "Soru yüklenirken bir hata oluştu: {0}",
+    "selectOption": "Bir şık seçin",
+    "errorLoadingQuestion": "Hata!!!!"
+  },
+  "settingsModal": {
+    "title": "Ayarlar",
+    "answerTime": "Cevap Süresi",
+    "selectTime": "Süre Seç",
+    "seconds": "saniye",
+    "showOptions": "Şıkları Göster",
+    "soundEnabled": "Ses Açık"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "answerTime": "Cevaplama Süresi",
+    "seconds": "saniye",
+    "minute": "dakika",
+    "showOptions": "Şıkları Göster"
   }
 }

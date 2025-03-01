@@ -6,10 +6,13 @@
     "addPlayer": "Add New Player",
     "addGroup": "Add New Group",
     "startGame": "Start Game",
+    "noGroups": "No Groups",
     "errors": {
       "minPlayer": "Each group must have at least one player.",
       "maxGroup": "You can create maximum 3 groups.",
-      "missingInfo": "Please fill in all group and player names."
+      "missingInfo": "Please fill in all group and player names.",
+      "maxGroupDesc": "You can only add up to 3 groups",
+      "minPlayerDesc": "You must have at least one player in each group"
     }
   },
   "categories": {
@@ -42,13 +45,17 @@
   "gameBoard": {
     "changeQuestion": "Change Question",
     "noJoker": "No Joker",
-    "noJokerDescription": "This group has no joker rights left.",
+    "noJokerDescription": "This group has no jokers left.",
     "questionChanged": "Question Changed",
-    "questionChangedDescription": "A new question has been brought.",
+    "questionChangedDescription": "A new question has been loaded.",
+    "jokerUsed": "Joker Used",
+    "jokerUsedDescription": "You used a joker to change the question.",
     "error": "Error",
-    "noCategoryQuestion": "There are no more questions in this category.",
+    "noCategoryQuestion": "No more questions in this category.",
     "correct": "Correct!",
     "wrong": "Wrong!",
+    "timeUp": "Time's Up",
+    "pleaseAnswer": "Please provide your answer",
     "correctAnswer": "Congratulations! You answered correctly.",
     "answer": "Answer",
     "wrongAnswer": "Wrong answer.",
@@ -60,9 +67,26 @@
     "selecting": "Selecting...",
     "randomSelect": "Random Select",
     "showAnswer": "Show Answer",
+    "hideAnswer": "Hide Answer",
+    "selectOption": "Select an option",
     "groups": "Groups",
     "joker": "Joker",
     "endGame": "End Game",
     "questionLoadError": "An error occurred while loading the question."
+  },
+  "settingsModal": {
+    "title": "Settings",
+    "answerTime": "Answer Time",
+    "selectTime": "Select Time",
+    "seconds": "seconds",
+    "showOptions": "Show Options"
+  },
+  "settings": {
+    "title": "Settings",
+    "answerTime": "Answer Time",
+    "seconds": "seconds",
+    "minute": "minute",
+    "showOptions": "Show Options",
+    "soundEnabled": "Sound Enabled"
   }
 }

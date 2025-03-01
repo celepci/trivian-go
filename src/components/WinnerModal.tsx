@@ -6,8 +6,7 @@ import { Group, Language } from "../types";
 import { Button } from "./ui/button";
 import { cn } from "../lib/utils";
 import { useTranslation } from "react-i18next";
-import type { TFunction } from "i18next";
-import { CustomTFunction } from "../i18n/config";
+import { SafeTranslationFunction } from "../i18n/config";
 import { useGame } from "../contexts/GameContext";
 
 interface WinnerModalProps {
@@ -17,7 +16,8 @@ interface WinnerModalProps {
 }
 
 export const WinnerModal: React.FC<WinnerModalProps> = ({ winner, onClose, language }) => {
-  const { t } = useTranslation() as { t: TFunction & CustomTFunction };
+  const { t } = useTranslation();
+  const safeT = t as SafeTranslationFunction;
   const { endGame } = useGame();
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
@@ -62,7 +62,7 @@ export const WinnerModal: React.FC<WinnerModalProps> = ({ winner, onClose, langu
             </div>
             <div className="text-center space-y-2">
               <h1 className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-pink-600 text-transparent bg-clip-text">
-                {t('winnerModal.gameOver')}
+                {safeT('winnerModal.gameOver', 'Game Over')}
               </h1>
             </div>
           </div>
@@ -70,14 +70,14 @@ export const WinnerModal: React.FC<WinnerModalProps> = ({ winner, onClose, langu
         <CardContent className="space-y-8 pt-8">
           <div className="text-center space-y-6">
             <div className="flex flex-col items-center justify-center space-y-2">
-              <span className="text-pink-400 text-lg">{t('winnerModal.winner')}</span>
+              <span className="text-pink-400 text-lg">{safeT('winnerModal.winner', 'Winner')}</span>
               <div className="flex items-center space-x-3">
                 <Crown className="h-8 w-8 text-yellow-500" />
                 <h2 className="text-4xl font-bold text-white">{winner.name}</h2>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
-              <span className="text-pink-400 text-lg">{t('winnerModal.players')}</span>
+              <span className="text-pink-400 text-lg">{safeT('winnerModal.players', 'Players')}</span>
               <div className="flex items-center justify-center space-x-2 text-white">
                 <Users className="h-5 w-5" />
                 <p className="text-lg">
@@ -100,7 +100,7 @@ export const WinnerModal: React.FC<WinnerModalProps> = ({ winner, onClose, langu
                 "text-lg px-8 py-6 rounded-xl"
               )}
             >
-              {t('winnerModal.backToMenu')}
+              {safeT('winnerModal.backToMenu', 'Back to Menu')}
             </Button>
           </div>
         </CardContent>

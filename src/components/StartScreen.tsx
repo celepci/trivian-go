@@ -7,28 +7,32 @@ import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { useToast } from '../hooks/use-toast';
 import { Toaster } from './ui/toaster';
-import { Plus, X } from 'lucide-react';
+import { Plus, X, Settings } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { CustomTFunction } from '../i18n/config';
 import type { TFunction } from 'i18next';
+import { SafeTranslationFunction } from '../i18n/config';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "./ui/select"
+} from "./ui/select";
+import { SettingsModal } from './SettingsModal';
 
 interface GroupForm {
+  id: string;
   name: string;
   players: Player[];
+  badges: string[];
 }
 
 export const StartScreen: React.FC = () => {
   const { startGame } = useGame();
   const { toast } = useToast();
-  const { t: translate, i18n } = useTranslation();
-  const t = translate as CustomTFunction;
+  const { t, i18n } = useTranslation();
+  const safeT = t as SafeTranslationFunction;
+
   const handleLanguageChange = (lang: string) => {
     i18n.changeLanguage(lang);
     localStorage.setItem('selectedLanguage', lang);
@@ -38,16 +42,25 @@ export const StartScreen: React.FC = () => {
   const [groups, setGroups] = useState<GroupForm[]>(() => {
     const savedGroups = localStorage.getItem('groups');
     if (savedGroups) {
-      return JSON.parse(savedGroups);
+      const parsedGroups = JSON.parse(savedGroups);
+      // Grup ID'lerinin varlığını kontrol et
+      return parsedGroups.map((group: GroupForm, index: number) => ({
+        ...group,
+        id: group.id || `group-${Date.now()}-${index}`
+      }));
     }
     return [
       {
+        id: `group-${Date.now()}-0`,
         name: '',
         players: [{ id: '1', name: '', score: 0, badges: [] }],
+        badges: []
       },
       {
+        id: `group-${Date.now()}-1`,
         name: '',
         players: [{ id: '2', name: '', score: 0, badges: [] }],
+        badges: []
       },
     ];
   });
@@ -60,6 +73,8 @@ export const StartScreen: React.FC = () => {
     return navigator.language.startsWith('tr') ? Language.TR : Language.EN;
   });
 
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+
   // Grup değişikliklerini localStorage'a kaydet
   useEffect(() => {
     localStorage.setItem('groups', JSON.stringify(groups));
@@ -69,18 +84,20 @@ export const StartScreen: React.FC = () => {
     if (groups.length >= 3) {
       toast({
         variant: "warning",
-        title: t('startScreen.errors.maxGroup'),
-        description: t('startScreen.errors.maxGroup')
+        title: safeT('startScreen.errors.maxGroup', 'Maximum Group Limit'),
+        description: safeT('startScreen.errors.maxGroupDesc', 'You can only add up to 3 groups')
       });
       return;
     }
     setGroups([
       ...groups,
       {
+        id: `group-${Date.now()}-${groups.length}`,
         name: '',
         players: [{
           id: Date.now().toString(), name: ''
         }],
+        badges: []
       },
     ]);
   };
@@ -99,11 +116,15 @@ export const StartScreen: React.FC = () => {
     if (updatedGroups[groupIndex].players.length > 1) {
       updatedGroups[groupIndex].players.splice(playerIndex, 1);
       setGroups(updatedGroups);
+    } else if (groupIndex === 2) {
+      // 3. grup ise ve son oyuncu siliniyorsa, grubu tamamen sil
+      updatedGroups.splice(groupIndex, 1);
+      setGroups(updatedGroups);
     } else {
       toast({
         variant: "warning",
-        title: t("startScreen.errors.minPlayer"),
-        description: t("startScreen.errors.minPlayer"),
+        title: safeT('startScreen.errors.minPlayer', "Minimum Player Limit"),
+        description: safeT('startScreen.errors.minPlayerDesc', "You must have at least one player in each group"),
       });
     }
   };
@@ -125,34 +146,57 @@ export const StartScreen: React.FC = () => {
   };
 
   const handleStartGame = () => {
-    const isValid = groups.every(
-      (group) =>
-        group.name.trim() !== '' &&
-        group.players.every((player) => player.name.trim() !== '')
-    );
-
-    if (!isValid) {
+    if (groups.length === 0) {
       toast({
-        variant: "warning",
-        title: t('startScreen.errors.missingInfo'),
-        description: t('startScreen.errors.missingInfo'),
+        title: safeT('startScreen.noGroups', "No Groups"),
+        variant: "destructive",
       });
       return;
     }
 
-    startGame(groups, selectedLanguage);
+    // Grupları hazırla
+    const preparedGroups = groups.map((group, index) => {
+      // Eğer id boşsa yeni bir id oluştur
+      const groupId = group.id || `group-${Date.now()}-${index}`;
+      console.log("Group ID:", groupId);
+      
+      return {
+        id: groupId,
+        name: group.name || `Grup ${index + 1}`,
+        score: 0,
+        jokers: 3,
+        players: group.players,
+        badges: [],
+        correctAnswers: 0,
+        wrongAnswers: 0,
+        position: index + 1
+      };
+    });
+
+    console.log("Prepared Groups:", preparedGroups);
+    startGame(preparedGroups, selectedLanguage);
   };
 
   return (
     <div className="min-h-screen px-8 flex flex-col items-center relative">
-      <div className="absolute top-8 right-8">
-        <Select defaultValue={localStorage.getItem('selectedLanguage') || (navigator.language.startsWith('tr') ? 'tr' : 'en')} onValueChange={handleLanguageChange}>
+      <div className="flex items-center space-x-4 absolute top-4 right-4">
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={() => setIsSettingsOpen(true)}
+        >
+          <Settings className="h-5 w-5" />
+        </Button>
+        <Select
+          value={i18n.language}
+          onValueChange={handleLanguageChange}
+        >
           <SelectTrigger className="w-[140px]">
             <SelectValue placeholder="Select Language" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="tr">{t('language.tr')}</SelectItem>
-            <SelectItem value="en">{t('language.en')}</SelectItem>
+            <SelectItem value="tr">{safeT('language.tr', 'Turkish')}</SelectItem>
+            <SelectItem value="en">{safeT('language.en', 'English')}</SelectItem>
           </SelectContent>
         </Select>
       </div>
@@ -161,20 +205,20 @@ export const StartScreen: React.FC = () => {
       
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8">
         {groups.map((group, groupIndex) => (
-          <Card key={groupIndex} className="border-none shadow-lg">
+          <Card key={group.id} className="border-none shadow-lg">
             <CardHeader>
               <CardTitle className="text-white text-2xl">
-                {groupIndex + 1}. {i18n.exists('startScreen.group') ? t('startScreen.group') : 'Grup'}
+                {groupIndex + 1}. {safeT('startScreen.group', 'Group')}
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4 pt-0">
               <div className="space-y-2">
                 <Label htmlFor={`group-${groupIndex}`}>
-                  {t('startScreen.groupName')}
+                  {safeT('startScreen.groupName', 'Group Name')}
                 </Label>
                 <Input
                   id={`group-${groupIndex}`}
-                  placeholder={t('startScreen.groupName')}
+                  placeholder={safeT('startScreen.groupName', 'Group Name')}
                   value={group.name}
                   onChange={(e) => handleGroupNameChange(groupIndex, e.target.value)}
                 />
@@ -184,7 +228,7 @@ export const StartScreen: React.FC = () => {
                 <div key={player.id} className="flex gap-2">
                   <Input
                     id={`player-${groupIndex}-${playerIndex}`}
-                    placeholder={t('startScreen.playerName')}
+                    placeholder={safeT('startScreen.playerName', 'Player Name')}
                     value={player.name}
                     onChange={(e) =>
                       handlePlayerNameChange(groupIndex, playerIndex, e.target.value)
@@ -206,7 +250,7 @@ export const StartScreen: React.FC = () => {
                 variant="outline"
                 className="w-full"
               >
-                {t('startScreen.addPlayer')}
+                {safeT('startScreen.addPlayer', 'Add Player')}
               </Button>
             </CardContent>
           </Card>
@@ -221,7 +265,7 @@ export const StartScreen: React.FC = () => {
             >
               <Plus className="w-12 h-12 group-hover:scale-110 transition-transform" />
               <span className="text-xl font-medium">
-                {t('startScreen.addGroup')}
+                {safeT('startScreen.addGroup', 'Add Group')}
               </span>
             </Button>
           </Card>
@@ -232,10 +276,11 @@ export const StartScreen: React.FC = () => {
         onClick={handleStartGame}
         className="mt-12 bg-gradient-to-r from-[#4633EA] via-[#E633D4] to-[#00D1FF] hover:opacity-90 text-white px-16 py-8 rounded-xl text-xl font-medium w-full max-w-xl shadow-lg"
       >
-        {t('startScreen.startGame')}
+        {safeT('startScreen.startGame', 'Start Game')}
       </Button>
 
       <Toaster />
+      <SettingsModal open={isSettingsOpen} onOpenChange={setIsSettingsOpen} />
     </div>
   );
 };
