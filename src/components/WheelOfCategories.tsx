@@ -3,6 +3,8 @@ import { Category } from '../types';
 import { Scroll, Globe2, FlaskConical, Dumbbell, Paintbrush2, Popcorn } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getGameSettings } from './SettingsModal';
+import { motion, AnimatePresence } from 'framer-motion';
+import { SafeTranslationFunction } from '@/i18n/config';
 
 interface WheelOfCategoriesProps {
   onSelectCategory: (category: Category) => void;
@@ -12,11 +14,19 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isSpinning, setIsSpinning] = useState(false);
   const { t } = useTranslation();
+  const safeT = t as SafeTranslationFunction;
   const categoryImagesRef = useRef<{ [key: string]: HTMLImageElement }>({});
   const [imagesLoaded, setImagesLoaded] = useState(0);
   const drawWheelRef = useRef<(currentAngle?: number) => void>();
   const wheelSoundRef = useRef<HTMLAudioElement | null>(null);
   const [soundEnabled, setSoundEnabled] = useState(getGameSettings().soundEnabled);
+  const [selectedCategoryInfo, setSelectedCategoryInfo] = useState<{
+    name: Category;
+    color: string;
+    icon: React.ElementType;
+    image: string;
+  } | null>(null);
+  const [showCategoryAnimation, setShowCategoryAnimation] = useState(false);
 
   // Ses dosyasını yükle
   useEffect(() => {
@@ -177,15 +187,23 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
           const finalAngle = (angle + Math.PI / 2) % (2 * Math.PI);
           const section = Math.floor((finalAngle / (2 * Math.PI)) * categories.length) % categories.length;
           drawWheel(angle);
+          
+          // Kategori bilgilerini ayarla ve animasyonu göster
+          const selectedCategory = categories[categories.length - 1 - section];
+          setSelectedCategoryInfo(selectedCategory);
+          setShowCategoryAnimation(true);
+          
+          // Ses dosyasını durdur
+          if (wheelSoundRef.current && soundEnabled) {
+            wheelSoundRef.current.pause();
+          }
+          
+          // Animasyon tamamlandıktan sonra kategoriyi seç
           setTimeout(() => {
             setIsSpinning(false);
-            onSelectCategory(categories[categories.length - 1 - section].name);
-            
-            // Ses dosyasını durdur
-            if (wheelSoundRef.current && soundEnabled) {
-              wheelSoundRef.current.pause();
-            }
-          }, 500);
+            setShowCategoryAnimation(false);
+            onSelectCategory(selectedCategory.name);
+          }, 2000); // Animasyon için 2 saniye bekle
         }
       }
 
@@ -201,23 +219,83 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
 
   return (
     <div className="relative flex items-center justify-center w-full h-full p-8">
-      <div className="relative w-[500px] h-[500px]">
+      <div 
+        className="relative w-[500px] h-[500px]"
+        style={{
+          transition: 'background-color 0.5s ease-in-out',
+          backgroundColor: showCategoryAnimation && selectedCategoryInfo ? selectedCategoryInfo.color : 'transparent',
+          borderRadius: '50%'
+        }}
+      >
         {/* Pointer */}
-        <div className="absolute -top-[0] left-1/2 -translate-x-1/2 z-10 w-0 h-0 border-l-[15px] border-r-[15px] border-t-[30px] border-l-transparent border-r-transparent border-t-[#ffff]" />
+        {!showCategoryAnimation && (
+          <div className="absolute -top-[0] left-1/2 -translate-x-1/2 z-10 w-0 h-0 border-l-[15px] border-r-[15px] border-t-[30px] border-l-transparent border-r-transparent border-t-[#ffff]" />
+        )}
         
         {/* Canvas */}
         <canvas
           ref={canvasRef}
           className="rounded-full shadow-lg cursor-pointer"
-          style={{ touchAction: 'none' }}
+          style={{ 
+            touchAction: 'none',
+            opacity: showCategoryAnimation ? 0 : 1,
+            transition: 'opacity 0.5s ease-in-out'
+          }}
         />
 
         {/* Center Logo */}
         <img 
           src="/logo.png" 
           alt="Trivia Night" 
-          className="absolute pointer-events-none cursor-pointer top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40  z-20" 
+          className="absolute pointer-events-none cursor-pointer top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 z-20" 
+          style={{
+            opacity: showCategoryAnimation ? 0 : 1,
+            transition: 'opacity 0.5s ease-in-out'
+          }}
         />
+        
+        {/* Kategori Animasyonu */}
+        <AnimatePresence>
+          {showCategoryAnimation && selectedCategoryInfo && (
+            <>
+              {/* Kategori Karakteri */}
+              <motion.div
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+                style={{ 
+                  position: 'absolute',
+                  top: '50%', 
+                  width: '100%', 
+                  textAlign: 'center', 
+                  marginTop: '-25%', /* Resmin yüksekliğinin yarısı kadar yukarı çek */
+                  zIndex: 30
+                }}
+              >
+                <img 
+                  src={selectedCategoryInfo.image} 
+                  alt={selectedCategoryInfo.name} 
+                  className="w-64 h-64 object-contain mx-auto"
+                />
+              </motion.div>
+              
+              {/* Kategori Adı */}
+              <motion.div
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: 50, opacity: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="absolute bottom-20 left-0 right-0 mx-auto z-30 text-center"
+                style={{ width: '100%' }}
+              >
+                <h2 className="text-5xl font-bold text-white drop-shadow-lg">
+                  {safeT(`categories.${selectedCategoryInfo.name.toLowerCase()}`, selectedCategoryInfo.name)}
+                </h2>
+              </motion.div>
+            </>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
