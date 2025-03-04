@@ -97,7 +97,7 @@ export const StartScreen: React.FC = () => {
         players: [{
           id: Date.now().toString(), name: ''
         }],
-        badges: []
+        badges: ['entertainment','science']
       },
     ]);
   };
@@ -158,8 +158,7 @@ export const StartScreen: React.FC = () => {
     const preparedGroups = groups.map((group, index) => {
       // Eğer id boşsa yeni bir id oluştur
       const groupId = group.id || `group-${Date.now()}-${index}`;
-      console.log("Group ID:", groupId);
-      
+
       return {
         id: groupId,
         name: group.name || `Grup ${index + 1}`,
@@ -173,7 +172,6 @@ export const StartScreen: React.FC = () => {
       };
     });
 
-    console.log("Prepared Groups:", preparedGroups);
     startGame(preparedGroups, selectedLanguage);
   };
 

@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useGame } from "../contexts/GameContext";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import {
-  History,
+  Scroll,
   Globe2,
-  Microscope,
+  FlaskConical,
   Dumbbell,
-  Palette,
-  Tv2,
+  Paintbrush2,
+  Popcorn as PopcornIcon,
   Check,
   X as XIcon,
 } from "lucide-react";
@@ -26,18 +26,28 @@ import { WheelOfCategories } from "./WheelOfCategories";
 interface Settings {
   answerTime: string;
   showOptions: boolean;
+  soundEnabled: boolean;
 }
 
 const defaultSettings: Settings = {
   answerTime: "30",
-  showOptions: false
+  showOptions: false,
+  soundEnabled: true
 };
 
 const getSettings = (): Settings => {
-  const settingsStr = localStorage.getItem("gameSettings");
-  if (!settingsStr) return defaultSettings;
+  const settingsStr = localStorage.getItem('gameSettings');
+  if (!settingsStr) {
+    localStorage.setItem('gameSettings', JSON.stringify(defaultSettings));
+    return defaultSettings;
+  }
   try {
-    return JSON.parse(settingsStr);
+    const settings = JSON.parse(settingsStr);
+    return {
+      answerTime: settings.answerTime || '30',
+      showOptions: settings.showOptions ?? false,
+      soundEnabled: settings.soundEnabled ?? true,
+    };
   } catch {
     return defaultSettings;
   }
@@ -47,7 +57,7 @@ const categories = [
   {
     name: Category.HISTORY,
     color: "bg-yellow-600",
-    icon: History,
+    icon: Scroll,
     file: "history",
   },
   {
@@ -59,7 +69,7 @@ const categories = [
   {
     name: Category.SCIENCE,
     color: "bg-green-600",
-    icon: Microscope,
+    icon: FlaskConical,
     file: "science",
   },
   {
@@ -68,11 +78,11 @@ const categories = [
     icon: Dumbbell,
     file: "sports",
   },
-  { name: Category.ART, color: "bg-red-600", icon: Palette, file: "art" },
+  { name: Category.ART, color: "bg-red-600", icon: Paintbrush2, file: "art" },
   {
     name: Category.ENTERTAINMENT,
     color: "bg-pink-600",
-    icon: Tv2,
+    icon: PopcornIcon,
     file: "entertainment",
   },
 ];
@@ -119,8 +129,20 @@ export const GameBoard: React.FC = () => {
   const { t } = useTranslation();
   const safeT = t as SafeTranslationFunction;
   const [settings, setSettings] = useState<Settings>(getSettings());
+  const correctSoundRef = useRef<HTMLAudioElement | null>(null);
+  const wrongSoundRef = useRef<HTMLAudioElement | null>(null);
+  const jokerSoundRef = useRef<HTMLAudioElement | null>(null);
+  const winnerSoundRef = useRef<HTMLAudioElement | null>(null);
 
-  // Settings değiştiğinde state'i güncelle
+  // Ses dosyalarını yükle
+  useEffect(() => {
+    correctSoundRef.current = new Audio('/correct.mp3');
+    wrongSoundRef.current = new Audio('/wrong.mp3');
+    jokerSoundRef.current = new Audio('/joker.mp3');
+    winnerSoundRef.current = new Audio('/winner.mp3');
+  }, []);
+
+  // Ayarlar değiştiğinde state'i güncelle
   useEffect(() => {
     const handleStorageChange = () => {
       setSettings(getSettings());
@@ -172,7 +194,6 @@ export const GameBoard: React.FC = () => {
         answer: q.answer,
       }));
 
-      console.log("Typed questions:", typedQuestions);
 
       setQuestions(typedQuestions);
       const newQuestion = selectRandomQuestion(
@@ -181,8 +202,6 @@ export const GameBoard: React.FC = () => {
       );
 
       if (newQuestion) {
-        console.log("Selected question:", newQuestion);
-        console.log("Options:", newQuestion.options);
 
         dispatch({
           type: "SET_QUESTION",
@@ -392,8 +411,6 @@ export const GameBoard: React.FC = () => {
 
     // Doğrudan state'ten güncel groups ve currentGroupIndex değerlerini kullan
     const currentGroup = state.groups[state.currentGroupIndex];
-    console.log("Current Group:", currentGroup);
-    console.log("Group ID:", currentGroup?.id);
 
     if (currentGroup.jokers > 0) {
       // Joker kullanımını dispatch et
@@ -401,6 +418,13 @@ export const GameBoard: React.FC = () => {
         type: "USE_JOKER",
         payload: currentGroup.id,
       });
+
+      // Joker kullanıldığında ses çal
+      if (settings.soundEnabled && jokerSoundRef.current) {
+        jokerSoundRef.current.currentTime = 0;
+        jokerSoundRef.current.play().catch(err => console.error("Joker sesi çalınamadı:", err));
+      }
+
       toast({
         title: safeT("gameBoard.questionChanged", "Question Changed"),
         description: safeT(
@@ -422,6 +446,32 @@ export const GameBoard: React.FC = () => {
     }
   };
 
+  useEffect(() => {
+    const winnerListener = (event: CustomEvent) => {
+      // Kazananı ayarla
+      dispatch({
+        type: "SET_WINNER",
+        payload: event.detail
+      });
+      
+      // Kazanan modalını göster
+      setShowWinnerModal(true);
+
+      // Kazanan sesi çal
+      if (settings.soundEnabled && winnerSoundRef.current) {
+        winnerSoundRef.current.currentTime = 0;
+        winnerSoundRef.current.play().catch(err => console.error("Kazanan sesi çalınamadı:", err));
+      }
+    };
+
+    // Kazanan olayını dinle
+    window.addEventListener('gameWinner', winnerListener as EventListener);
+    
+    return () => {
+      window.removeEventListener('gameWinner', winnerListener as EventListener);
+    };
+  }, [dispatch, settings.soundEnabled]);
+
   // Oyun başlamadıysa gösterme
   if (!state.isGameStarted) {
     return null;
@@ -429,7 +479,7 @@ export const GameBoard: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 p-8 relative overflow-x-hidden">
-      {showWinnerModal && state.winner && (
+        {showWinnerModal && state.winner && (
         <WinnerModal
           winner={state.winner}
           onClose={handleCloseWinnerModal}
@@ -441,7 +491,7 @@ export const GameBoard: React.FC = () => {
 
       <div className="space-y-6">
         {/* Soru ve Cevap Alanı */}
-        <code>{JSON.stringify(state)}</code>
+        {/* <code>{JSON.stringify(state)}</code> */}
         {!state.currentQuestion && (
           <WheelOfCategories onSelectCategory={handleCategorySelect} />
         )}
@@ -458,15 +508,15 @@ export const GameBoard: React.FC = () => {
                         className={cn(
                           "px-3 py-1 text-md",
                           selectedCategory === Category.HISTORY
-                            ? "bg-amber-500/20 text-amber-500 border-amber-500/30"
+                            ? "bg-yellow-500/20 text-yellow-500 border-yellow-500/30"
                             : selectedCategory === Category.GEOGRAPHY
-                            ? "bg-emerald-500/20 text-emerald-500 border-emerald-500/30"
+                            ? "bg-blue-500/20 text-blue-500 border-blue-500/30"
                             : selectedCategory === Category.SCIENCE
-                            ? "bg-sky-500/20 text-sky-500 border-sky-500/30"
+                            ? "bg-green-500/20 text-green-500 border-green-500/30"
                             : selectedCategory === Category.SPORTS
-                            ? "bg-red-500/20 text-red-500 border-red-500/30"
+                            ? "bg-orange-500/20 text-orange-500 border-orange-500/30"
                             : selectedCategory === Category.ART
-                            ? "bg-purple-500/20 text-purple-500 border-purple-500/30"
+                            ? "bg-red-500/20 text-red-500 border-red-500/30"
                             : selectedCategory === Category.ENTERTAINMENT
                             ? "bg-pink-500/20 text-pink-500 border-pink-500/30"
                             : "bg-gray-500/20 text-gray-500 border-gray-500/30"
@@ -527,6 +577,14 @@ export const GameBoard: React.FC = () => {
                                   const isCorrect =
                                     key === state.currentQuestion.answer;
 
+                                  if (isCorrect && settings.soundEnabled && correctSoundRef.current) {
+                                    correctSoundRef.current.currentTime = 0;
+                                    correctSoundRef.current.play().catch(err => console.error("Ses çalınamadı:", err));
+                                  } else if (!isCorrect && settings.soundEnabled && wrongSoundRef.current) {
+                                    wrongSoundRef.current.currentTime = 0;
+                                    wrongSoundRef.current.play().catch(err => console.error("Ses çalınamadı:", err));
+                                  }
+
                                   // Değişkeni şimdi sakla, setTimeout içinde kullanmak için
                                   const questionCategory = state.currentQuestion.category;
 
@@ -547,6 +605,10 @@ export const GameBoard: React.FC = () => {
                                     // Çarka dönüş için mevcut soruyu kaldır
                                     dispatch({
                                       type: "RESET_QUESTION",
+                                    });
+                                    dispatch({
+                                      type: "SET_SELECTED_CATEGORY",
+                                      payload: null
                                     });
                                   }, 3000);
                                 }
@@ -605,7 +667,10 @@ export const GameBoard: React.FC = () => {
                                 if (state.currentQuestion !== null) {
                                   // Değişkeni şimdi sakla, setTimeout içinde kullanmak için
                                   const questionCategory = state.currentQuestion.category;
-                                  
+                                  if (settings.soundEnabled && correctSoundRef.current) {
+                                    correctSoundRef.current.currentTime = 0;
+                                    correctSoundRef.current.play().catch(err => console.error("Ses çalınamadı:", err));
+                                  }
                                   dispatch({
                                     type: "ANSWER_QUESTION",
                                     payload: {
@@ -613,12 +678,16 @@ export const GameBoard: React.FC = () => {
                                       category: questionCategory,
                                     },
                                   });
-
+                                 
                                   // 3 saniye sonra çarka dön
                                   setTimeout(() => {
                                     setShowClassicAnswer(false);
                                     dispatch({
                                       type: "RESET_QUESTION",
+                                    });
+                                    dispatch({
+                                      type: "SET_SELECTED_CATEGORY",
+                                      payload: null
                                     });
                                   }, 2000);
                                 }
@@ -630,7 +699,7 @@ export const GameBoard: React.FC = () => {
                             <Button
                               variant="default"
                               onClick={() => {
-                                if (state.currentQuestion !== null) {
+                                if (state.currentQuestion) {
                                   // Değişkeni şimdi sakla, setTimeout içinde kullanmak için
                                   const questionCategory = state.currentQuestion.category;
                                   
@@ -642,11 +711,20 @@ export const GameBoard: React.FC = () => {
                                     },
                                   });
 
+                                  if (settings.soundEnabled && wrongSoundRef.current) {
+                                    wrongSoundRef.current.currentTime = 0;
+                                    wrongSoundRef.current.play().catch(err => console.error("Ses çalınamadı:", err));
+                                  }
+
                                   // 3 saniye sonra çarka dön
                                   setTimeout(() => {
                                     setShowClassicAnswer(false);
                                     dispatch({
                                       type: "RESET_QUESTION",
+                                    });
+                                    dispatch({
+                                      type: "SET_SELECTED_CATEGORY",
+                                      payload: null
                                     });
                                   }, 2000);
                                 }

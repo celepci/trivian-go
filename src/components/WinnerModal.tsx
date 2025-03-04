@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ReactConfetti from "react-confetti";
 import { Card, CardContent, CardHeader } from "./ui/card";
 import { Trophy, Crown, Star, Users } from "lucide-react";
@@ -8,6 +8,7 @@ import { cn } from "../lib/utils";
 import { useTranslation } from "react-i18next";
 import { SafeTranslationFunction } from "../i18n/config";
 import { useGame } from "../contexts/GameContext";
+import { getGameSettings } from "./SettingsModal";
 
 interface WinnerModalProps {
   winner: Group;
@@ -19,10 +20,22 @@ export const WinnerModal: React.FC<WinnerModalProps> = ({ winner, onClose, langu
   const { t } = useTranslation();
   const safeT = t as SafeTranslationFunction;
   const { endGame } = useGame();
+  const winnerSoundRef = useRef<HTMLAudioElement | null>(null);
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
   });
+
+  // Ses dosyasını yükle
+  useEffect(() => {
+    winnerSoundRef.current = new Audio('/winner.mp3');
+    
+    // Ses ayarları açıksa ve ses dosyası yüklendiyse çal
+    const settings = getGameSettings();
+    if (settings.soundEnabled && winnerSoundRef.current) {
+      winnerSoundRef.current.play().catch(err => console.error("Kazanma sesi çalınamadı:", err));
+    }
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {

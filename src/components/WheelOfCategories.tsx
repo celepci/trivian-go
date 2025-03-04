@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Category } from '../types';
-import { History, Globe2, Microscope, Dumbbell, Palette, Tv2 } from 'lucide-react';
+import { Scroll, Globe2, FlaskConical, Dumbbell, Paintbrush2, Popcorn } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getGameSettings } from './SettingsModal';
 
@@ -36,12 +36,12 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
   }, []);
 
   const categories = [
-    { name: Category.HISTORY, color: '#eab308', icon: History, image: '/history.png' },     // bg-yellow-500
+    { name: Category.HISTORY, color: '#eab308', icon: Scroll, image: '/history.png' },     // bg-yellow-500
     { name: Category.GEOGRAPHY, color: '#3b82f6', icon: Globe2, image: '/geography.png' },   // bg-blue-500
-    { name: Category.SCIENCE, color: '#22c55e', icon: Microscope, image: '/science.png' },   // bg-green-500
+    { name: Category.SCIENCE, color: '#22c55e', icon: FlaskConical, image: '/science.png' },   // bg-green-500
     { name: Category.SPORTS, color: '#f97316', icon: Dumbbell, image: '/sport.png' },       // bg-orange-500
-    { name: Category.ART, color: '#ef4444', icon: Palette, image: '/art.png' },             // bg-red-500
-    { name: Category.ENTERTAINMENT, color: '#ec4899', icon: Tv2, image: '/entertainment.png' }, // bg-pink-500
+    { name: Category.ART, color: '#ef4444', icon: Paintbrush2, image: '/art.png' },             // bg-red-500
+    { name: Category.ENTERTAINMENT, color: '#ec4899', icon: Popcorn, image: '/entertainment.png' }, // bg-pink-500
   ];
 
   // Görselleri önceden yükle

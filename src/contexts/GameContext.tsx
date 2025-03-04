@@ -57,8 +57,6 @@ const gameReducer = (state: GameState, action: GameAction): GameState => {
       };
 
     case "SET_QUESTION":
-      console.log("SET_QUESTION action, payload:", action.payload);
-      console.log("SET_QUESTION payload options:", action.payload.options);
       return {
         ...state,
         currentQuestion: action.payload,
@@ -67,14 +65,23 @@ const gameReducer = (state: GameState, action: GameAction): GameState => {
     case "ANSWER_QUESTION":
       const updatedGroups = state.groups.map((group, index) => {
         if (index === state.currentGroupIndex) {
+          // Grubu güncelle
+          const updatedBadges = action.payload.correct 
+            ? [...new Set([...group.badges, action.payload.category])]
+            : group.badges;
+
+          // Eğer grup tüm 6 rozeti topladıysa kazanan olarak ayarla
+          if (updatedBadges.length >= 6) {
+            dispatchEvent(new CustomEvent('gameWinner', { detail: group }));
+
+          }
+
           return {
             ...group,
             score: action.payload.correct ? group.score + 1 : group.score,
             correctAnswers: action.payload.correct ? group.correctAnswers + 1 : group.correctAnswers,
             wrongAnswers: !action.payload.correct ? group.wrongAnswers + 1 : group.wrongAnswers,
-            badges: action.payload.correct 
-              ? [...group.badges, action.payload.category]
-              : group.badges,
+            badges: updatedBadges,
             answeredQuestions: state.currentQuestion 
               ? [...(group.answeredQuestions || []), state.currentQuestion] 
               : (group.answeredQuestions || [])
@@ -107,7 +114,7 @@ const gameReducer = (state: GameState, action: GameAction): GameState => {
       return {
         ...state,
         winner: action.payload,
-        isGameStarted: false
+        isGameStarted: true // Oyun durumunu açık tutalım, böylece modal gösterilebilir
       };
 
     case "SET_LANGUAGE":
