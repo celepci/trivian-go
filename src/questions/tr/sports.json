@@ -1,252 +1,202 @@
 [
-  {
-    "id": 1,
-    "question": "Olimpiyat Oyunları'nda altın madalya kazanan ilk Türk sporcu kimdir?",
-    "answer": "Yaşar Erkan"
-  },
-  {
-    "id": 2,
-    "question": "FIFA Dünya Kupası tarihinde en fazla gol atan oyuncu kimdir?",
-    "answer": "Miroslav Klose"
-  },
-  {
-    "id": 3,
-    "question": "FIFA Dünya Kupası'nı en fazla kazanan ülke hangisidir?",
-    "answer": "Brezilya"
-  },
-  {
-    "id": 4,
-    "question": "2022 FIFA Dünya Kupası'nı kazanan ülke hangisidir?",
-    "answer": "Arjantin"
-  },
-  {
-    "id": 5,
-    "question": "2020 Yaz Olimpiyatları hangi şehirde yapılmıştır?",
-    "answer": "Tokyo"
-  },
-  {
-    "id": 6,
-    "question": "2018 FIFA Dünya Kupası'nı kazanan ülke hangisidir?",
-    "answer": "Fransa"
-  },
-  {
-    "id": 7,
-    "question": "NBA tarihinde en fazla şampiyonluk yaşamış takım hangisidir?",
-    "answer": "Boston Celtics"
-  },
-  {
-    "id": 8,
-    "question": "Tenis tarihinde en fazla Grand Slam kazanan erkek oyuncu kimdir?",
-    "answer": "Novak Djokovic"
-  },
-  {
-    "id": 9,
-    "question": "Türkiye'nin ilk olimpiyat madalyasını kazanan sporcu kimdir?",
-    "answer": "Yaşar Erkan"
-  },
-  {
-    "id": 10,
-    "question": "Hangi Türk futbol takımı UEFA Kupası'nı kazanmıştır?",
-    "answer": "Galatasaray"
-  },
-  {
-    "id": 11,
-    "question": "NBA'de bir maçta en fazla sayı atan oyuncu kimdir?",
-    "answer": "Wilt Chamberlain"
-  },
-  {
-    "id": 12,
-    "question": "Formula 1 tarihinde en fazla şampiyonluk kazanan pilot kimdir?",
-    "answer": "Michael Schumacher ve Lewis Hamilton"
-  },
-  {
-    "id": 13,
-    "question": "Türkiye Süper Ligi'nde en fazla şampiyonluk yaşayan takım hangisidir?",
-    "answer": "Galatasaray"
-  },
-  {
-    "id": 14,
-    "question": "Olimpiyat tarihinde en fazla madalya kazanan sporcu kimdir?",
-    "answer": "Michael Phelps"
-  },
-  {
-    "id": 15,
-    "question": "UEFA Şampiyonlar Ligi'ni en fazla kazanan takım hangisidir?",
-    "answer": "Real Madrid"
-  },
-  {
-    "id": 16,
-    "question": "Türk güreşinde 'Minderin Sultanı' olarak anılan sporcu kimdir?",
-    "answer": "Hamza Yerlikaya"
-  },
-  {
-    "id": 17,
-    "question": "NBA'de en fazla MVP ödülü alan oyuncu kimdir?",
-    "answer": "Kareem Abdul-Jabbar"
-  },
-  {
-    "id": 18,
-    "question": "Wimbledon'ı en fazla kazanan erkek tenisçi kimdir?",
-    "answer": "Roger Federer"
-  },
-  {
-    "id": 19,
-    "question": "Türkiye'nin ilk profesyonel kadın futbol ligi hangi yılda kurulmuştur?",
-    "answer": "2021"
-  },
-  {
-    "id": 20,
-    "question": "Hangi futbolcu 'Altın Top' (Ballon d'Or) ödülünü en fazla kazanmıştır?",
-    "answer": "Lionel Messi"
-  },
-  {
-    "id": 21,
-    "question": "NBA tarihinin en skorer oyuncusu kimdir?",
-    "answer": "LeBron James"
-  },
-  {
-    "id": 22,
-    "question": "Türkiye'nin olimpiyatlarda en başarılı olduğu spor dalı hangisidir?",
-    "answer": "Güreş"
-  },
-  {
-    "id": 23,
-    "question": "Formula 1'de en fazla yarış kazanan pilot kimdir?",
-    "answer": "Lewis Hamilton"
-  },
-  {
-    "id": 24,
-    "question": "Hangi Türk futbolcu 'Avrupa'da Yılın Futbolcusu' ödülünü kazanmıştır?",
-    "answer": "Hakan Şükür"
-  },
-  {
-    "id": 25,
-    "question": "NBA'de bir sezonda en fazla galibiyet alan takım hangisidir?",
-    "answer": "Golden State Warriors"
-  },
-  {
-    "id": 26,
-    "question": "Türkiye'nin ilk FIFA kokartlı kadın hakemi kimdir?",
-    "answer": "Lale Orta"
-  },
-  {
-    "id": 27,
-    "question": "Hangi boksör 'The Greatest' (En Büyük) lakabıyla anılır?",
-    "answer": "Muhammad Ali"
-  },
-  {
-    "id": 28,
-    "question": "Türkiye'nin ilk olimpiyat altın madalyalı kadın sporcusu kimdir?",
-    "answer": "Nurcan Taylan"
-  },
-  {
-    "id": 29,
-    "question": "NBA'de en fazla sayı ortalamasına sahip oyuncu kimdir?",
-    "answer": "Michael Jordan"
-  },
-  {
-    "id": 30,
-    "question": "Hangi futbolcu Dünya Kupası'nda en fazla gol atmıştır?",
-    "answer": "Miroslav Klose"
-  },
-  {
-    "id": 31,
-    "question": "Türkiye'nin ilk profesyonel futbol ligi hangi yılda kurulmuştur?",
-    "answer": "1959"
-  },
-  {
-    "id": 32,
-    "question": "NBA'de en fazla şampiyonluk kazanan koç kimdir?",
-    "answer": "Phil Jackson"
-  },
-  {
-    "id": 33,
-    "question": "Hangi Türk sporcu halter dalında dünya rekoru kırmıştır?",
-    "answer": "Naim Süleymanoğlu"
-  },
-  {
-    "id": 34,
-    "question": "Formula 1'de en fazla pole position alan pilot kimdir?",
-    "answer": "Lewis Hamilton"
-  },
-  {
-    "id": 35,
-    "question": "Türkiye'nin ilk kadın voleybol ligi hangi yılda kurulmuştur?",
-    "answer": "1956"
-  },
-  {
-    "id": 36,
-    "question": "NBA'de bir maçta en fazla ribaund alan oyuncu kimdir?",
-    "answer": "Wilt Chamberlain"
-  },
-  {
-    "id": 37,
-    "question": "Hangi Türk futbol takımı UEFA Süper Kupa'yı kazanmıştır?",
-    "answer": "Galatasaray"
-  },
-  {
-    "id": 38,
-    "question": "Olimpiyat tarihinde en fazla altın madalya kazanan sporcu kimdir?",
-    "answer": "Michael Phelps"
-  },
-  {
-    "id": 39,
-    "question": "Türkiye'nin ilk profesyonel basketbol ligi hangi yılda kurulmuştur?",
-    "answer": "1966"
-  },
-  {
-    "id": 40,
-    "question": "NBA'de en fazla üçlük isabeti olan oyuncu kimdir?",
-    "answer": "Stephen Curry"
-  },
-  {
-    "id": 41,
-    "question": "Hangi Türk sporcu 'Asrın Güreşçisi' unvanını almıştır?",
-    "answer": "Yaşar Doğu"
-  },
-  {
-    "id": 42,
-    "question": "Formula 1'de en fazla şampiyonluk kazanan takım hangisidir?",
-    "answer": "Ferrari"
-  },
-  {
-    "id": 43,
-    "question": "Türkiye'nin ilk kadın basketbol ligi hangi yılda kurulmuştur?",
-    "answer": "1980"
-  },
-  {
-    "id": 44,
-    "question": "NBA'de bir sezonda en fazla sayı ortalamasına ulaşan oyuncu kimdir?",
-    "answer": "Wilt Chamberlain"
-  },
-  {
-    "id": 45,
-    "question": "Hangi Türk futbolcu Premier Lig'de şampiyonluk yaşamıştır?",
-    "answer": "Ozan Kabak"
-  },
-  {
-    "id": 46,
-    "question": "Olimpiyat tarihinde en fazla madalya kazanan Türk sporcu kimdir?",
-    "answer": "Rıza Kayaalp"
-  },
-  {
-    "id": 47,
-    "question": "NBA'de en fazla asist yapan oyuncu kimdir?",
-    "answer": "John Stockton"
-  },
-  {
-    "id": 48,
-    "question": "Hangi Türk sporcu boks dalında dünya şampiyonu olmuştur?",
-    "answer": "Sinan Şamil Sam"
-  },
-  {
-    "id": 49,
-    "question": "Formula 1'de en genç dünya şampiyonu olan pilot kimdir?",
-    "answer": "Sebastian Vettel"
-  },
-  {
-    "id": 50,
-    "question": "Türkiye'nin ilk olimpiyat madalyalı takım sporu hangisidir?",
-    "answer": "Voleybol"
-  }
+  {"id": 1, "question": "Olimpiyat Oyunları'nda altın madalya kazanan ilk Türk sporcu kimdir?", "options": {"a": "Yaşar Erkan", "b": "Naim Süleymanoğlu", "c": "Hamza Yerlikaya", "d": "Ahmet Bilek"}, "answer": "a"},
+  {"id": 2, "question": "FIFA Dünya Kupası tarihinde en fazla gol atan oyuncu kimdir?", "options": {"a": "Ronaldo", "b": "Pelé", "c": "Miroslav Klose", "d": "Gerd Müller"}, "answer": "c"},
+  {"id": 3, "question": "FIFA Dünya Kupası'nı en fazla kazanan ülke hangisidir?", "options": {"a": "Almanya", "b": "Brezilya", "c": "İtalya", "d": "Arjantin"}, "answer": "b"},
+  {"id": 4, "question": "2022 FIFA Dünya Kupası'nı kazanan ülke hangisidir?", "options": {"a": "Fransa", "b": "Brezilya", "c": "Arjantin", "d": "Hırvatistan"}, "answer": "c"},
+  {"id": 5, "question": "2020 Yaz Olimpiyatları hangi şehirde yapılmıştır?", "options": {"a": "Paris", "b": "Tokyo", "c": "Londra", "d": "Rio de Janeiro"}, "answer": "b"},
+  {"id": 6, "question": "2018 FIFA Dünya Kupası'nı kazanan ülke hangisidir?", "options": {"a": "Fransa", "b": "Almanya", "c": "İspanya", "d": "Hırvatistan"}, "answer": "a"},
+  {"id": 7, "question": "NBA tarihinde en fazla şampiyonluk yaşamış takım hangisidir?", "options": {"a": "Los Angeles Lakers", "b": "Boston Celtics", "c": "Chicago Bulls", "d": "Golden State Warriors"}, "answer": "b"},
+  {"id": 8, "question": "Tenis tarihinde en fazla Grand Slam kazanan erkek oyuncu kimdir?", "options": {"a": "Roger Federer", "b": "Rafael Nadal", "c": "Novak Djokovic", "d": "Pete Sampras"}, "answer": "c"},
+  {"id": 9, "question": "Türkiye'nin ilk kadın olimpiyat madalyasını kazanan sporcu kimdir?", "options": {"a": "Hülya Şenyurt", "b": "Nurcan Taylan", "c": "Yasemin Adar", "d": "Merve Tuncel"}, "answer": "a"},
+  {"id": 10, "question": "Hangi Türk futbol takımı UEFA Kupası'nı kazanmıştır?", "options": {"a": "Fenerbahçe", "b": "Galatasaray", "c": "Beşiktaş", "d": "Trabzonspor"}, "answer": "b"},
+  {"id": 11, "question": "NBA'de bir maçta en fazla sayı atan oyuncu kimdir?", "options": {"a": "Michael Jordan", "b": "Kobe Bryant", "c": "Wilt Chamberlain", "d": "LeBron James"}, "answer": "c"},
+  {"id": 12, "question": "Formula 1 tarihinde şu an itibarıyla en fazla şampiyonluk kazanan pilot kimdir?", "options": {"a": "Michael Schumacher", "b": "Lewis Hamilton", "c": "Ayrton Senna", "d": "Alain Prost"}, "answer": "b"},
+  {"id": 13, "question": "Türkiye Süper Ligi'nde en fazla şampiyonluk yaşayan takım hangisidir?", "options": {"a": "Fenerbahçe", "b": "Galatasaray", "c": "Beşiktaş", "d": "Trabzonspor"}, "answer": "b"},
+  {"id": 14, "question": "Olimpiyat tarihinde en fazla madalya kazanan sporcu kimdir?", "options": {"a": "Usain Bolt", "b": "Michael Phelps", "c": "Carl Lewis", "d": "Larisa Latynina"}, "answer": "b"},
+  {"id": 15, "question": "UEFA Şampiyonlar Ligi'ni en fazla kazanan takım hangisidir?", "options": {"a": "Barcelona", "b": "Real Madrid", "c": "Bayern Münih", "d": "AC Milan"}, "answer": "b"},
+  {"id": 16, "question": "Türk güreşinde 'Minderin Sultanı' olarak anılan sporcu kimdir?", "options": {"a": "Yaşar Doğu", "b": "Hamza Yerlikaya", "c": "Rıza Kayaalp", "d": "Naim Süleymanoğlu"}, "answer": "b"},
+  {"id": 17, "question": "NBA'de en fazla MVP ödülü alan oyuncu kimdir?", "options": {"a": "Michael Jordan", "b": "LeBron James", "c": "Kareem Abdul-Jabbar", "d": "Bill Russell"}, "answer": "c"},
+  {"id": 18, "question": "Wimbledon'ı en fazla kazanan erkek tenisçi kimdir?", "options": {"a": "Novak Djokovic", "b": "Roger Federer", "c": "Pete Sampras", "d": "Björn Borg"}, "answer": "b"},
+  {"id": 19, "question": "Türkiye'nin ilk profesyonel kadın futbol ligi hangi yılda kurulmuştur?", "options": {"a": "2015", "b": "2018", "c": "2021", "d": "2023"}, "answer": "c"},
+  {"id": 20, "question": "Hangi futbolcu 'Altın Top' (Ballon d'Or) ödülünü en fazla kazanmıştır?", "options": {"a": "Cristiano Ronaldo", "b": "Lionel Messi", "c": "Johan Cruyff", "d": "Marco van Basten"}, "answer": "b"},
+  {"id": 21, "question": "NBA tarihinin en skorer oyuncusu kimdir?", "options": {"a": "Michael Jordan", "b": "Kobe Bryant", "c": "LeBron James", "d": "Kareem Abdul-Jabbar"}, "answer": "c"},
+  {"id": 22, "question": "Türkiye'nin olimpiyatlarda en başarılı olduğu spor dalı hangisidir?", "options": {"a": "Atletizm", "b": "Güreş", "c": "Halter", "d": "Boks"}, "answer": "b"},
+  {"id": 23, "question": "Formula 1'de en fazla yarış kazanan pilot kimdir?", "options": {"a": "Michael Schumacher", "b": "Lewis Hamilton", "c": "Ayrton Senna", "d": "Sebastian Vettel"}, "answer": "b"},
+  {"id": 24, "question": "Hangi Türk futbolcu Dünya Kupası'nda gol kralı olmuştur?", "options": {"a": "Hakan Şükür", "b": "Tanju Çolak", "c": "Metin Oktay", "d": "Burak Yılmaz"}, "answer": "a"},
+  {"id": 25, "question": "NBA'de bir sezonda en fazla galibiyet alan takım hangisidir?", "options": {"a": "Chicago Bulls", "b": "Golden State Warriors", "c": "Boston Celtics", "d": "Los Angeles Lakers"}, "answer": "b"},
+  {"id": 26, "question": "Türkiye'nin ilk FIFA kokartlı kadın hakemi kimdir?", "options": {"a": "Lale Orta", "b": "Sevim Gözay", "c": "Fatma Özlem Tursun", "d": "Neslihan Muratdağı"}, "answer": "a"},
+  {"id": 27, "question": "Hangi boksör 'The Greatest' (En Büyük) lakabıyla anılır?", "options": {"a": "Mike Tyson", "b": "Muhammad Ali", "c": "Floyd Mayweather", "d": "Joe Frazier"}, "answer": "b"},
+  {"id": 28, "question": "Hangi Türk kadın sporcu halterde ilk olimpiyat altını kazanmıştır?", "options": {"a": "Nurcan Taylan", "b": "Hülya Şenyurt", "c": "Yasemin Adar", "d": "Derya Can"}, "answer": "a"},
+  {"id": 29, "question": "NBA'de en fazla sayı ortalamasına sahip oyuncu kimdir?", "options": {"a": "Michael Jordan", "b": "LeBron James", "c": "Wilt Chamberlain", "d": "Kevin Durant"}, "answer": "a"},
+  {"id": 30, "question": "Hangi futbolcu Dünya Kupası'nda en fazla gol atmıştır?", "options": {"a": "Pelé", "b": "Miroslav Klose", "c": "Ronaldo", "d": "Gerd Müller"}, "answer": "b"},
+  {"id": 31, "question": "Türkiye'nin ilk profesyonel futbol ligi hangi yılda kurulmuştur?", "options": {"a": "1950", "b": "1959", "c": "1965", "d": "1970"}, "answer": "b"},
+  {"id": 32, "question": "NBA'de en fazla şampiyonluk kazanan koç kimdir?", "options": {"a": "Gregg Popovich", "b": "Phil Jackson", "c": "Red Auerbach", "d": "Pat Riley"}, "answer": "b"},
+  {"id": 33, "question": "Hangi Türk sporcu halter dalında dünya rekoru kırmıştır?", "options": {"a": "Naim Süleymanoğlu", "b": "Halil Mutlu", "c": "Taner Sağır", "d": "Nurcan Taylan"}, "answer": "a"},
+  {"id": 34, "question": "Formula 1'de en fazla pole position alan pilot kimdir?", "options": {"a": "Michael Schumacher", "b": "Lewis Hamilton", "c": "Ayrton Senna", "d": "Sebastian Vettel"}, "answer": "b"},
+  {"id": 35, "question": "Türkiye'nin ilk kadın voleybol ligi hangi yılda kurulmuştur?", "options": {"a": "1950", "b": "1956", "c": "1960", "d": "1970"}, "answer": "b"},
+  {"id": 36, "question": "NBA'de bir maçta en fazla ribaund alan oyuncu kimdir?", "options": {"a": "Bill Russell", "b": "Wilt Chamberlain", "c": "Dennis Rodman", "d": "Shaquille O'Neal"}, "answer": "b"},
+  {"id": 37, "question": "Hangi Türk futbol takımı UEFA Süper Kupa'yı kazanmıştır?", "options": {"a": "Fenerbahçe", "b": "Galatasaray", "c": "Beşiktaş", "d": "Başakşehir"}, "answer": "b"},
+  {"id": 38, "question": "Olimpiyat tarihinde en fazla altın madalya kazanan sporcu kimdir?", "options": {"a": "Michael Phelps", "b": "Usain Bolt", "c": "Mark Spitz", "d": "Simone Biles"}, "answer": "a"},
+  {"id": 39, "question": "Türkiye'nin ilk profesyonel basketbol ligi hangi yılda kurulmuştur?", "options": {"a": "1960", "b": "1966", "c": "1970", "d": "1980"}, "answer": "b"},
+  {"id": 40, "question": "NBA'de en fazla üçlük isabeti olan oyuncu kimdir?", "options": {"a": "Ray Allen", "b": "Stephen Curry", "c": "Reggie Miller", "d": "Klay Thompson"}, "answer": "b"},
+  {"id": 41, "question": "Hangi Türk sporcu 'Asrın Güreşçisi' unvanını almıştır?", "options": {"a": "Hamza Yerlikaya", "b": "Yaşar Doğu", "c": "Rıza Kayaalp", "d": "Mustafa Dağıstanlı"}, "answer": "b"},
+  {"id": 42, "question": "Formula 1'de en fazla şampiyonluk kazanan takım hangisidir?", "options": {"a": "McLaren", "b": "Ferrari", "c": "Mercedes", "d": "Williams"}, "answer": "b"},
+  {"id": 43, "question": "Türkiye'nin ilk kadın basketbol ligi hangi yılda kurulmuştur?", "options": {"a": "1975", "b": "1980", "c": "1985", "d": "1990"}, "answer": "b"},
+  {"id": 44, "question": "NBA'de bir sezonda en fazla sayı ortalamasına ulaşan oyuncu kimdir?", "options": {"a": "Michael Jordan", "b": "Wilt Chamberlain", "c": "LeBron James", "d": "Kobe Bryant"}, "answer": "b"},
+  {"id": 45, "question": "Hangi Türk futbolcu Premier Lig'de oynamış ilk isimdir?", "options": {"a": "Tugay Kerimoğlu", "b": "Hakan Şükür", "c": "Alpay Özalan", "d": "Emre Belözoğlu"}, "answer": "a"},
+  {"id": 46, "question": "Olimpiyat tarihinde en fazla altın madalya kazanan Türk sporcu kimdir?", "options": {"a": "Naim Süleymanoğlu", "b": "Rıza Kayaalp", "c": "Hamza Yerlikaya", "d": "Yaşar Erkan"}, "answer": "a"},
+  {"id": 47, "question": "NBA'de en fazla asist yapan oyuncu kimdir?", "options": {"a": "Magic Johnson", "b": "John Stockton", "c": "Chris Paul", "d": "Steve Nash"}, "answer": "b"},
+  {"id": 48, "question": "Hangi Türk sporcu boks dalında dünya şampiyonu olmuştur?", "options": {"a": "Sinan Şamil Sam", "b": "Fırat Arslan", "c": "Avni Yıldırım", "d": "Selçuk Aydın"}, "answer": "a"},
+  {"id": 49, "question": "Formula 1'de en genç dünya şampiyonu olan pilot kimdir?", "options": {"a": "Lewis Hamilton", "b": "Sebastian Vettel", "c": "Max Verstappen", "d": "Fernando Alonso"}, "answer": "b"},
+  {"id": 50, "question": "Türkiye'nin ilk olimpiyat madalyasını kazanan takım sporu hangisidir?", "options": {"a": "Futbol", "b": "Voleybol", "c": "Basketbol", "d": "Hentbol"}, "answer": "a"},
+  {"id": 51, "question": "Hangi ülke Olimpiyat Oyunları'nı ilk kez düzenleyen ülkedir?", "options": {"a": "Fransa", "b": "Yunanistan", "c": "İngiltere", "d": "ABD"}, "answer": "b"},
+  {"id": 52, "question": "Türkiye'nin ilk Avrupa Futbol Şampiyonası'na katıldığı yıl hangisidir?", "options": {"a": "1992", "b": "1996", "c": "2000", "d": "2004"}, "answer": "b"},
+  {"id": 53, "question": "Hangi voleybol takımı Türkiye'yi Olimpiyatlar'da ilk kez temsil etmiştir?", "options": {"a": "Eczacıbaşı", "b": "VakıfBank", "c": "Fenerbahçe", "d": "Milli Takım"}, "answer": "d"},
+  {"id": 54, "question": "Dünya Atletizm Şampiyonası'nda 100 metre rekorunu elinde tutan sporcu kimdir?", "options": {"a": "Usain Bolt", "b": "Tyson Gay", "c": "Justin Gatlin", "d": "Yohan Blake"}, "answer": "a"},
+  {"id": 55, "question": "Hangi Türk basketbolcu NBA'de şampiyonluk yaşayan ilk isimdir?", "options": {"a": "Hedo Türkoğlu", "b": "Mehmet Okur", "c": "Ersan İlyasova", "d": "Cedi Osman"}, "answer": "b"},
+  {"id": 56, "question": "Teniste 'Kariyer Grand Slam' yapan ilk kadın oyuncu kimdir?", "options": {"a": "Serena Williams", "b": "Steffi Graf", "c": "Margaret Court", "d": "Martina Navratilova"}, "answer": "c"},
+  {"id": 57, "question": "Formula 1'de bir sezonda en fazla yarış kazanan pilot kimdir?", "options": {"a": "Michael Schumacher", "b": "Sebastian Vettel", "c": "Lewis Hamilton", "d": "Max Verstappen"}, "answer": "d"},
+  {"id": 58, "question": "Hangi Türk atlet Olimpiyatlar'da madalya kazanan ilk isimdir?", "options": {"a": "Ruhi Sarıalp", "b": "Ramil Guliyev", "c": "Yasmani Copello", "d": "Ercüment Olgundeniz"}, "answer": "a"},
+  {"id": 59, "question": "Hangi futbolcu bir maçta en fazla gol atan oyuncudur (13 gol)?", "options": {"a": "Pelé", "b": "Just Fontaine", "c": "Archie Thompson", "d": "Gerd Müller"}, "answer": "c"},
+  {"id": 60, "question": "Hangi futbolcu bir maçta en hızlı hat-trick yapan oyuncudur (2 dakika 1 saniye)?", "options": {"a": "Lionel Messi", "b": "Cristiano Ronaldo", "c": "Alex de Souza", "d": "Tommy Ross"}, "answer": "d"},
+  {"id": 61, "question": "NBA'de bir maçta en fazla blok yapan oyuncu kimdir?", "options": {"a": "Hakeem Olajuwon", "b": "Dikembe Mutombo", "c": "Shaquille O'Neal", "d": "Elmore Smith"}, "answer": "d"},
+  {"id": 62, "question": "Hangi Türk voleybol takımı Avrupa Şampiyonu olan ilk ekiptir?", "options": {"a": "Eczacıbaşı", "b": "VakıfBank", "c": "Fenerbahçe", "d": "Galatasaray"}, "answer": "a"},
+  {"id": 63, "question": "Olimpiyatlar'da 100 metrede en hızlı koşan kadın atlet kimdir?", "options": {"a": "Florence Griffith-Joyner", "b": "Elaine Thompson", "c": "Shelly-Ann Fraser-Pryce", "d": "Marion Jones"}, "answer": "a"},
+  {"id": 64, "question": "Hangi Formula 1 takımı arka arkaya en fazla şampiyonluk kazanmıştır?", "options": {"a": "Ferrari", "b": "Mercedes", "c": "McLaren", "d": "Red Bull"}, "answer": "b"},
+  {"id": 65, "question": "Türkiye'nin ilk Formula 1 yarışına ev sahipliği yapan pist hangisidir?", "options": {"a": "İzmir Pisti", "b": "İstanbul Park", "c": "Ankara Circuit", "d": "Antalya Ring"}, "answer": "b"},
+  {"id": 66, "question": "Hangi tenisçi Roland Garros'u en fazla kazanan erkektir?", "options": {"a": "Rafael Nadal", "b": "Novak Djokovic", "c": "Roger Federer", "d": "Björn Borg"}, "answer": "a"},
+  {"id": 67, "question": "Hangi basketbolcu NBA'de bir maçta en fazla smaç yapmıştır (21 smaç)?", "options": {"a": "Shaquille O'Neal", "b": "LeBron James", "c": "Vince Carter", "d": "Blake Griffin"}, "answer": "a"},
+  {"id": 68, "question": "Hangi Türk sporcu Olimpiyatlar'da okçulukta madalya kazanan ilk isimdir?", "options": {"a": "Mete Gazoz", "b": "Yasemin Ecem Anagöz", "c": "Taner Sağır", "d": "Erdinç Kebapçı"}, "answer": "a"},
+  {"id": 69, "question": "Futbolda 'Maradona'nın Eli' olarak bilinen olay hangi maçta gerçekleşmiştir?", "options": {"a": "1986 Dünya Kupası", "b": "1990 Dünya Kupası", "c": "1982 Dünya Kupası", "d": "1994 Dünya Kupası"}, "answer": "a"},
+  {"id": 70, "question": "NBA'de bir maçta en fazla top çalma rekoru kime aittir?", "options": {"a": "Allen Iverson", "b": "Chris Paul", "c": "Kendall Gill", "d": "Larry Kenon"}, "answer": "c"},
+  {"id": 71, "question": "Hangi Türk kadın voleybolcu 'Smaç Kraliçesi' olarak bilinir?", "options": {"a": "Eda Erdem", "b": "Neslihan Demir", "c": "Gözde Kırdar", "d": "Zehra Güneş"}, "answer": "b"},
+  {"id": 72, "question": "Formula 1'de bir yarışta en fazla tur liderliği yapan pilot kimdir?", "options": {"a": "Lewis Hamilton", "b": "Michael Schumacher", "c": "Ayrton Senna", "d": "Sebastian Vettel"}, "answer": "a"},
+  {"id": 73, "question": "Hangi ülke voleybolda Olimpiyatlar'da en fazla altın madalya kazanmıştır?", "options": {"a": "Brezilya", "b": "ABD", "c": "Sovyetler Birliği", "d": "Çin"}, "answer": "c"},
+  {"id": 74, "question": "Türkiye'nin ilk Avrupa Basketbol Şampiyonası'na katıldığı yıl hangisidir?", "options": {"a": "1935", "b": "1949", "c": "1955", "d": "1960"}, "answer": "b"},
+  {"id": 75, "question": "Hangi tenisçi Avustralya Açık'ı en fazla kazanan kadındır?", "options": {"a": "Serena Williams", "b": "Margaret Court", "c": "Steffi Graf", "d": "Monica Seles"}, "answer": "b"},
+  {"id": 76, "question": "Hangi atlet Olimpiyatlar'da 200 metrede dünya rekoru kırmıştır?", "options": {"a": "Usain Bolt", "b": "Michael Johnson", "c": "Carl Lewis", "d": "Tyson Gay"}, "answer": "a"},
+  {"id": 77, "question": "Hangi Türk futbolcu Avrupa'da 'Yılın Futbolcusu' ödülünü kazanmıştır?", "options": {"a": "Hakan Şükür", "b": "Tanju Çolak", "c": "Metin Oktay", "d": "Arda Turan"}, "answer": "b"},
+  {"id": 78, "question": "NBA'de bir maçta en fazla serbest atış isabeti bulan oyuncu kimdir?", "options": {"a": "Wilt Chamberlain", "b": "Michael Jordan", "c": "Dwight Howard", "d": "Shaquille O'Neal"}, "answer": "a"},
+  {"id": 79, "question": "Hangi ülke Olimpiyatlar'da atletizmde en fazla madalya kazanmıştır?", "options": {"a": "ABD", "b": "Sovyetler Birliği", "c": "İngiltere", "d": "Jamaika"}, "answer": "a"},
+  {"id": 80, "question": "Türkiye'nin ilk dünya şampiyonu kadın güreşçisi kimdir?", "options": {"a": "Yasemin Adar", "b": "Evrim Aydın", "c": "Buse Tosun", "d": "Elif Jale Yeşilırmak"}, "answer": "a"},
+  {"id": 81, "question": "Hangi futbolcu Dünya Kupası finalinde en genç yaşta gol atmıştır?", "options": {"a": "Pelé", "b": "Kylian Mbappé", "c": "Ronaldo", "d": "Lionel Messi"}, "answer": "a"},
+  {"id": 82, "question": "NBA'de bir sezonda en fazla triple-double yapan oyuncu kimdir?", "options": {"a": "Russell Westbrook", "b": "Oscar Robertson", "c": "Magic Johnson", "d": "LeBron James"}, "answer": "a"},
+  {"id": 83, "question": "Hangi Türk sporcu Olimpiyatlar'da yüzmede madalya kazanan ilk isimdir?", "options": {"a": "Derya Büyükuncu", "b": "Emre Sakçı", "c": "Merve Tuncel", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 84, "question": "Formula 1'de en fazla podyum elde eden pilot kimdir?", "options": {"a": "Lewis Hamilton", "b": "Michael Schumacher", "c": "Sebastian Vettel", "d": "Alain Prost"}, "answer": "a"},
+  {"id": 85, "question": "Hangi voleybolcu Türkiye Milli Takımı'nda en fazla sayı rekorunu elinde tutar?", "options": {"a": "Eda Erdem", "b": "Neslihan Demir", "c": "Gözde Kırdar", "d": "Zehra Güneş"}, "answer": "b"},
+  {"id": 86, "question": "Teniste en uzun maç kaç saat sürmüştür?", "options": {"a": "6 saat", "b": "8 saat", "c": "11 saat", "d": "14 saat"}, "answer": "c"},
+  {"id": 87, "question": "Hangi futbolcu Dünya Kupası'nda en fazla maçta penaltı kurtarmıştır?", "options": {"a": "Gianluigi Buffon", "b": "Iker Casillas", "c": "Sergio Goycochea", "d": "Cláudio Taffarel"}, "answer": "c"},
+  {"id": 88, "question": "Hangi futbolcu bir Dünya Kupası maçında 5 gol atmıştır?", "options": {"a": "Pelé", "b": "Oleg Salenko", "c": "Miroslav Klose", "d": "Gerd Müller"}, "answer": "b"},
+  {"id": 89, "question": "NBA'de en uzun süre oynayan oyuncu kimdir?", "options": {"a": "Vince Carter", "b": "Kevin Garnett", "c": "Kobe Bryant", "d": "Dirk Nowitzki"}, "answer": "a"},
+  {"id": 90, "question": "Hangi Türk futbol takımı Avrupa'da yarı final oynayan ilk ekiptir?", "options": {"a": "Galatasaray", "b": "Fenerbahçe", "c": "Beşiktaş", "d": "Adana Demirspor"}, "answer": "a"},
+  {"id": 91, "question": "Olimpiyatlar'da maraton rekorunu elinde tutan erkek atlet kimdir?", "options": {"a": "Eliud Kipchoge", "b": "Kenenisa Bekele", "c": "Haile Gebrselassie", "d": "Dennis Kimetto"}, "answer": "a"},
+  {"id": 92, "question": "Hangi Formula 1 pilotu kariyerinde en fazla yarışa katılmıştır?", "options": {"a": "Kimi Räikkönen", "b": "Fernando Alonso", "c": "Rubens Barrichello", "d": "Michael Schumacher"}, "answer": "c"},
+  {"id": 93, "question": "Türkiye'nin ilk kadın tenisçisi Wimbledon'da maç kazanan kimdir?", "options": {"a": "Çağla Büyükakçay", "b": "İpek Soylu", "c": "Pemra Özgen", "d": "Başak Eraydın"}, "answer": "a"},
+  {"id": 94, "question": "Hangi voleybolcu Olimpiyatlar'da en fazla sayı atan kadın sporcudur?", "options": {"a": "Zhu Ting", "b": "Tijana Bošković", "c": "Ekaterina Gamova", "d": "Ksenia Parubets"}, "answer": "a"},
+  {"id": 95, "question": "Hangi futbolcu bir sezonda en fazla gol atan oyuncudur (La Liga)?", "options": {"a": "Lionel Messi", "b": "Cristiano Ronaldo", "c": "Telmo Zarra", "d": "Hugo Sánchez"}, "answer": "a"},
+  {"id": 96, "question": "NBA'de en fazla maçta forma giyen oyuncu kimdir?", "options": {"a": "Robert Parish", "b": "Kareem Abdul-Jabbar", "c": "Vince Carter", "d": "LeBron James"}, "answer": "a"},
+  {"id": 97, "question": "Hangi Türk sporcu Dünya Atletizm Şampiyonası'nda madalya kazanan ilk isimdir?", "options": {"a": "Ramil Guliyev", "b": "Ruhi Sarıalp", "c": "Ercüment Olgundeniz", "d": "Yasmani Copello"}, "answer": "a"},
+  {"id": 98, "question": "Formula 1'de en hızlı tur rekorunu elinde tutan pist hangisidir?", "options": {"a": "Monza", "b": "Silverstone", "c": "Spa", "d": "Monaco"}, "answer": "a"},
+  {"id": 99, "question": "Hangi voleybol takımı Dünya Kulüpler Şampiyonası'nı en fazla kazanmıştır?", "options": {"a": "VakıfBank", "b": "Eczacıbaşı", "c": "Trentino", "d": "Zenit Kazan"}, "answer": "a"},
+  {"id": 100, "question": "Hangi futbolcu Dünya Kupası'nda en fazla maçta kaptanlık yapmıştır?", "options": {"a": "Diego Maradona", "b": "Franz Beckenbauer", "c": "Rafa Márquez", "d": "Lothar Matthäus"}, "answer": "c"},
+  {"id": 101, "question": "NBA'de bir maçta en fazla top kaybı yapan oyuncu kimdir?", "options": {"a": "James Harden", "b": "Russell Westbrook", "c": "Jason Kidd", "d": "John Wall"}, "answer": "a"},
+  {"id": 102, "question": "Hangi Türk basketbol takımı Avrupa'da şampiyonluk kazanan ilk ekiptir?", "options": {"a": "Efes Pilsen", "b": "Fenerbahçe", "c": "Galatasaray", "d": "Beşiktaş"}, "answer": "a"},
+  {"id": 103, "question": "Olimpiyatlar'da en fazla altın madalya kazanan kadın sporcu kimdir?", "options": {"a": "Larisa Latynina", "b": "Simone Biles", "c": "Katie Ledecky", "d": "Allyson Felix"}, "answer": "a"},
+  {"id": 104, "question": "Hangi Formula 1 pilotu tek bir sezonda en fazla pole pozisyonu almıştır?", "options": {"a": "Nigel Mansell", "b": "Sebastian Vettel", "c": "Lewis Hamilton", "d": "Ayrton Senna"}, "answer": "b"},
+  {"id": 105, "question": "Türkiye'nin ilk Avrupa Voleybol Şampiyonası'nda madalya kazandığı yıl hangisidir?", "options": {"a": "2003", "b": "2011", "c": "2017", "d": "2019"}, "answer": "a"},
+  {"id": 106, "question": "Teniste 'Altın Slam' (4 Grand Slam + Olimpiyat altını) yapan ilk oyuncu kimdir?", "options": {"a": "Steffi Graf", "b": "Serena Williams", "c": "Andre Agassi", "d": "Rafael Nadal"}, "answer": "a"},
+  {"id": 107, "question": "Hangi atlet Olimpiyatlar'da 400 metrede dünya rekoru kırmıştır?", "options": {"a": "Michael Johnson", "b": "Wayde van Niekerk", "c": "Jeremy Wariner", "d": "Lee Evans"}, "answer": "b"},
+  {"id": 108, "question": "Hangi futbolcu bir maçta en fazla penaltı kaçırmıştır (3 kez)?", "options": {"a": "Roberto Baggio", "b": "Lionel Messi", "c": "Martin Palermo", "d": "Cristiano Ronaldo"}, "answer": "c"},
+  {"id": 109, "question": "NBA'de bir maçta en fazla dakika oynayan oyuncu kimdir (69 dakika)?", "options": {"a": "Wilt Chamberlain", "b": "Bill Russell", "c": "Dale Ellis", "d": "Allen Iverson"}, "answer": "c"},
+  {"id": 110, "question": "Hangi Türk sporcu Dünya Güreş Şampiyonası'nda en fazla altın madalya kazanmıştır?", "options": {"a": "Rıza Kayaalp", "b": "Hamza Yerlikaya", "c": "Yaşar Doğu", "d": "Mustafa Dağıstanlı"}, "answer": "c"},
+  {"id": 111, "question": "Formula 1'de en uzun yarış hangi Grand Prix'dir?", "options": {"a": "Monaco GP", "b": "Singapur GP", "c": "Kanada GP", "d": "Avustralya GP"}, "answer": "b"},
+  {"id": 112, "question": "Hangi voleybolcu Olimpiyatlar'da en fazla maçta forma giymiştir?", "options": {"a": "Karch Kiraly", "b": "Sergio Santos", "c": "Giba", "d": "Dante Amaral"}, "answer": "b"},
+  {"id": 113, "question": "Türkiye'nin ilk Dünya Basketbol Şampiyonası'na katıldığı yıl hangisidir?", "options": {"a": "2002", "b": "2006", "c": "2010", "d": "2014"}, "answer": "c"},
+  {"id": 114, "question": "Teniste en fazla hafta dünya 1 numarası kalan kadın oyuncu kimdir?", "options": {"a": "Steffi Graf", "b": "Serena Williams", "c": "Martina Navratilova", "d": "Chris Evert"}, "answer": "a"},
+  {"id": 115, "question": "Hangi basketbolcu NBA'de bir maçta en fazla üçlük isabeti bulmuştur (14)?", "options": {"a": "Stephen Curry", "b": "Klay Thompson", "c": "Damian Lillard", "d": "Ray Allen"}, "answer": "b"},
+  {"id": 116, "question": "Hangi futbolcu Dünya Kupası'nda en fazla asist yapmıştır?", "options": {"a": "Pelé", "b": "Diego Maradona", "c": "Thomas Müller", "d": "Lionel Messi"}, "answer": "c"},
+  {"id": 117, "question": "NBA'de en fazla maçta triple-double yapan oyuncu kimdir?", "options": {"a": "Oscar Robertson", "b": "Russell Westbrook", "c": "LeBron James", "d": "Magic Johnson"}, "answer": "b"},
+  {"id": 118, "question": "Hangi Türk sporcu Olimpiyatlar'da jimnastikte madalya kazanan ilk isimdir?", "options": {"a": "Ferhat Arıcan", "b": "İbrahim Çolak", "c": "Ahmet Önder", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 119, "question": "Formula 1'de en fazla kazanan Türk kökenli pilot kimdir?", "options": {"a": "Cem Bölükbaşı", "b": "Jason Tahincioğlu", "c": "Can Artam", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 120, "question": "Hangi voleybol takımı Türkiye'yi Dünya Şampiyonası'nda ilk kez temsil etmiştir?", "options": {"a": "Eczacıbaşı", "b": "VakıfBank", "c": "Milli Takım", "d": "Fenerbahçe"}, "answer": "c"},
+  {"id": 121, "question": "Olimpiyatlar'da en fazla madalya kazanan ülke hangisidir?", "options": {"a": "ABD", "b": "Sovyetler Birliği", "c": "Çin", "d": "İngiltere"}, "answer": "a"},
+  {"id": 122, "question": "Hangi tenisçi Wimbledon'da en uzun maç rekorunu elinde tutar?", "options": {"a": "John Isner", "b": "Nicolas Mahut", "c": "Roger Federer", "d": "Rafael Nadal"}, "answer": "a"},
+  {"id": 123, "question": "Hangi futbolcu bir maçta en fazla asist yapmıştır (7 asist)?", "options": {"a": "Lionel Messi", "b": "Neymar", "c": "Kevin De Bruyne", "d": "Dusan Tadic"}, "answer": "d"},
+  {"id": 124, "question": "Hangi futbolcu bir maçta en fazla frikik golü atmıştır (3 gol)?", "options": {"a": "Lionel Messi", "b": "Cristiano Ronaldo", "c": "Juninho Pernambucano", "d": "David Beckham"}, "answer": "c"},
+  {"id": 125, "question": "NBA'de en fazla maç koçluğu yapan isim kimdir?", "options": {"a": "Gregg Popovich", "b": "Lenny Wilkens", "c": "Don Nelson", "d": "Phil Jackson"}, "answer": "b"},
+  {"id": 126, "question": "Hangi Türk sporcu Dünya Halter Şampiyonası'nda en fazla madalya kazanmıştır?", "options": {"a": "Naim Süleymanoğlu", "b": "Halil Mutlu", "c": "Taner Sağır", "d": "Nurcan Taylan"}, "answer": "b"},
+  {"id": 127, "question": "Formula 1'de en kısa sürede biten yarış hangi Grand Prix'dir?", "options": {"a": "İtalya GP 2005", "b": "Avustralya GP 1991", "c": "Monaco GP 1996", "d": "Brezilya GP 2003"}, "answer": "b"},
+  {"id": 128, "question": "Hangi voleybolcu Dünya Şampiyonası'nda en fazla blok rekorunu elinde tutar?", "options": {"a": "Karch Kiraly", "b": "Ekaterina Gamova", "c": "Regla Torres", "d": "Fabiana Claudino"}, "answer": "c"},
+  {"id": 129, "question": "Türkiye'nin ilk Dünya Atletizm Şampiyonası'nda madalya kazanan kadın sporcusu kimdir?", "options": {"a": "Elvan Abeylegesse", "b": "Ebru Çalışkan", "c": "Yasemin Can", "d": "Henüz yok"}, "answer": "a"},
+  {"id": 130, "question": "Teniste en fazla çiftler Grand Slam kazanan oyuncu kimdir?", "options": {"a": "Martina Navratilova", "b": "Serena Williams", "c": "Venus Williams", "d": "Billie Jean King"}, "answer": "a"},
+  {"id": 131, "question": "Hangi basketbolcu NBA'de bir sezonda en fazla blok yapmıştır?", "options": {"a": "Hakeem Olajuwon", "b": "Mark Eaton", "c": "Dikembe Mutombo", "d": "Bill Russell"}, "answer": "b"},
+  {"id": 132, "question": "Hangi futbolcu bir sezonda en fazla asist yapmıştır (Premier Lig)?", "options": {"a": "Thierry Henry", "b": "Kevin De Bruyne", "c": "Mesut Özil", "d": "Cesc Fàbregas"}, "answer": "b"},
+  {"id": 133, "question": "NBA'de en fazla şut bloklayan oyuncu kimdir?", "options": {"a": "Hakeem Olajuwon", "b": "Dikembe Mutombo", "c": "Tim Duncan", "d": "Bill Russell"}, "answer": "a"},
+  {"id": 134, "question": "Hangi Türk sporcu Olimpiyatlar'da eskrimde madalya kazanan ilk isimdir?", "options": {"a": "İrem Karamete", "b": "Deniz Selin Ünlüdağ", "c": "Ece Öztürk", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 135, "question": "Formula 1'de en fazla yarışa liderlik eden pilot kimdir?", "options": {"a": "Lewis Hamilton", "b": "Michael Schumacher", "c": "Ayrton Senna", "d": "Sebastian Vettel"}, "answer": "a"},
+  {"id": 136, "question": "Hangi voleybol takımı Avrupa Şampiyonlar Ligi'ni en fazla kazanan Türk takımıdır?", "options": {"a": "VakıfBank", "b": "Eczacıbaşı", "c": "Fenerbahçe", "d": "Galatasaray"}, "answer": "a"},
+  {"id": 137, "question": "Olimpiyatlar'da en fazla altın madalya kazanan yüzücü kimdir?", "options": {"a": "Michael Phelps", "b": "Mark Spitz", "c": "Katie Ledecky", "d": "Ian Thorpe"}, "answer": "a"},
+  {"id": 138, "question": "Hangi tenisçi ABD Açık'ı en fazla kazanan erkektir?", "options": {"a": "Pete Sampras", "b": "Roger Federer", "c": "Jimmy Connors", "d": "Novak Djokovic"}, "answer": "b"},
+  {"id": 139, "question": "Hangi futbolcu bir maçta en fazla kafa golü atmıştır (5 gol)?", "options": {"a": "Cristiano Ronaldo", "b": "Fernando Torres", "c": "Youssouf Mukoko", "d": "Stan Mortensen"}, "answer": "c"},
+  {"id": 140, "question": "Hangi futbolcu Dünya Kupası'nda en fazla maçta forma giymiştir?", "options": {"a": "Lothar Matthäus", "b": "Miroslav Klose", "c": "Paolo Maldini", "d": "Ronaldo"}, "answer": "a"},
+  {"id": 141, "question": "NBA'de en fazla maçta double-double yapan oyuncu kimdir?", "options": {"a": "Tim Duncan", "b": "Karl Malone", "c": "Wilt Chamberlain", "d": "Bill Russell"}, "answer": "a"},
+  {"id": 142, "question": "Hangi Türk sporcu Dünya Boks Şampiyonası'nda en fazla madalya kazanmıştır?", "options": {"a": "Sinan Şamil Sam", "b": "Adem Kılıççı", "c": "Buse Naz Çakıroğlu", "d": "Fırat Arslan"}, "answer": "c"},
+  {"id": 143, "question": "Formula 1'de en fazla pit stop yapılan yarış hangisidir?", "options": {"a": "Macaristan GP 2011", "b": "Brezilya GP 2012", "c": "Monaco GP 1996", "d": "Avustralya GP 1995"}, "answer": "a"},
+  {"id": 144, "question": "Hangi voleybolcu Olimpiyatlar'da en fazla ace (servis sayısı) rekorunu elinde tutar?", "options": {"a": "Karch Kiraly", "b": "Wilfredo León", "c": "Earvin Ngapeth", "d": "Matey Kaziyski"}, "answer": "b"},
+  {"id": 145, "question": "Türkiye'nin ilk Dünya Yüzme Şampiyonası'nda madalya kazanan sporcusu kimdir?", "options": {"a": "Viktoria Zeynep Güneş", "b": "Emre Sakçı", "c": "Derya Büyükuncu", "d": "Henüz yok"}, "answer": "a"},
+  {"id": 146, "question": "Teniste en fazla maç kazanan erkek oyuncu kimdir?", "options": {"a": "Jimmy Connors", "b": "Roger Federer", "c": "Novak Djokovic", "d": "Rafael Nadal"}, "answer": "a"},
+  {"id": 147, "question": "Hangi atlet Olimpiyatlar'da uzun atlamada dünya rekoru kırmıştır?", "options": {"a": "Carl Lewis", "b": "Mike Powell", "c": "Bob Beamon", "d": "Jesse Owens"}, "answer": "c"},
+  {"id": 148, "question": "Hangi futbolcu bir maçta en fazla kafa golü atmıştır (5 gol)?", "options": {"a": "Cristiano Ronaldo", "b": "Fernando Torres", "c": "Youssouf Mukoko", "d": "Stan Mortensen"}, "answer": "c"},
+  {"id": 149, "question": "NBA'de en fazla maçta 50+ sayı atan oyuncu kimdir?", "options": {"a": "Wilt Chamberlain", "b": "Michael Jordan", "c": "Kobe Bryant", "d": "James Harden"}, "answer": "a"},
+  {"id": 150, "question": "Hangi Türk sporcu Olimpiyatlar'da bisiklette madalya kazanan ilk isimdir?", "options": {"a": "Ahmet Örken", "b": "Onur Balkan", "c": "Erol Berk", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 151, "question": "Formula 1'de en fazla yarış kazanan kadın pilot kimdir?", "options": {"a": "Maria Teresa de Filippis", "b": "Lella Lombardi", "c": "Divina Galica", "d": "Henüz yok"}, "answer": "b"},
+  {"id": 152, "question": "Hangi voleybol takımı Dünya Şampiyonası'nda en fazla madalya kazanmıştır?", "options": {"a": "Sovyetler Birliği", "b": "Brezilya", "c": "İtalya", "d": "ABD"}, "answer": "a"},
+  {"id": 153, "question": "Olimpiyatlar'da en fazla madalya kazanan Türk takım sporu hangisidir?", "options": {"a": "Voleybol", "b": "Basketbol", "c": "Futbol", "d": "Hentbol"}, "answer": "c"},
+  {"id": 154, "question": "Hangi tenisçi bir sezonda en fazla Grand Slam turnuvası kazanmıştır?", "options": {"a": "Rod Laver", "b": "Novak Djokovic", "c": "Roger Federer", "d": "Rafael Nadal"}, "answer": "a"},
+  {"id": 155, "question": "Hangi futbolcu bir maçta en fazla şut çeken oyuncudur (23 şut)?", "options": {"a": "Cristiano Ronaldo", "b": "Lionel Messi", "c": "Pelé", "d": "Marco van Basten"}, "answer": "a"},
+  {"id": 156, "question": "Hangi futbolcu Dünya Kupası'nda en fazla penaltı kurtaran kalecidir?", "options": {"a": "Gianluigi Buffon", "b": "Iker Casillas", "c": "Sergio Goycochea", "d": "Cláudio Taffarel"}, "answer": "c"},
+  {"id": 157, "question": "NBA'de en fazla maçta 40+ sayı atan oyuncu kimdir?", "options": {"a": "Wilt Chamberlain", "b": "Michael Jordan", "c": "Kobe Bryant", "d": "LeBron James"}, "answer": "a"},
+  {"id": 158, "question": "Hangi Türk sporcu Dünya Okçuluk Şampiyonası'nda madalya kazanan ilk isimdir?", "options": {"a": "Mete Gazoz", "b": "Yeşim Bostan", "c": "Yasemin Ecem Anagöz", "d": "Erdinç Pektaş"}, "answer": "a"},
+  {"id": 159, "question": "Formula 1'de en fazla yarışta puan alan pilot kimdir?", "options": {"a": "Lewis Hamilton", "b": "Michael Schumacher", "c": "Sebastian Vettel", "d": "Kimi Räikkönen"}, "answer": "a"},
+  {"id": 160, "question": "Hangi voleybolcu Türkiye Milli Takımı'nda en fazla maçta forma giymiştir?", "options": {"a": "Eda Erdem", "b": "Neslihan Demir", "c": "Gözde Kırdar", "d": "Esra Gümüş"}, "answer": "a"},
+  {"id": 161, "question": "Olimpiyatlar'da en fazla altın madalya kazanan Türk kadın sporcu kimdir?", "options": {"a": "Nurcan Taylan", "b": "Hülya Şenyurt", "c": "Yasemin Adar", "d": "Busenaz Sürmeneli"}, "answer": "a"},
+  {"id": 162, "question": "Hangi tenisçi bir maçta en fazla ace (servis sayısı) rekorunu elinde tutar?", "options": {"a": "John Isner", "b": "Ivo Karlović", "c": "Roger Federer", "d": "Pete Sampras"}, "answer": "b"},
+  {"id": 163, "question": "Hangi basketbolcu NBA'de bir maçta en fazla ribaund alan kadındır (WNBA)?", "options": {"a": "Lisa Leslie", "b": "Tina Charles", "c": "Candace Parker", "d": "Sylvia Fowles"}, "answer": "b"},
+  {"id": 164, "question": "Hangi futbolcu Dünya Kupası'nda en fazla maçta gol atmıştır?", "options": {"a": "Miroslav Klose", "b": "Ronaldo", "c": "Pelé", "d": "Gerd Müller"}, "answer": "a"},
+  {"id": 165, "question": "NBA'de en fazla maçta koçluk yapan Türk asıllı isim kimdir?", "options": {"a": "Ersan İlyasova", "b": "Hedo Türkoğlu", "c": "Henüz yok", "d": "Cedi Osman"}, "answer": "c"},
+  {"id": 166, "question": "Hangi Türk sporcu Dünya Eskrim Şampiyonası'nda madalya kazanan ilk isimdir?", "options": {"a": "İrem Karamete", "b": "Deniz Selin Ünlüdağ", "c": "Ece Öztürk", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 167, "question": "Formula 1'de en fazla yarışta galibiyet alan takım hangisidir?", "options": {"a": "Ferrari", "b": "McLaren", "c": "Mercedes", "d": "Red Bull"}, "answer": "a"},
+  {"id": 168, "question": "Hangi voleybolcu Dünya Kulüpler Şampiyonası'nda en fazla MVP ödülü almıştır?", "options": {"a": "Zhu Ting", "b": "Tijana Bošković", "c": "Eda Erdem", "d": "Kim Yeon-koung"}, "answer": "a"},
+  {"id": 169, "question": "Türkiye'nin ilk Dünya Bisiklet Şampiyonası'nda madalya kazanan sporcusu kimdir?", "options": {"a": "Ahmet Örken", "b": "Onur Balkan", "c": "Erol Berk", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 170, "question": "Teniste en fazla maç kazanan kadın oyuncu kimdir?", "options": {"a": "Martina Navratilova", "b": "Chris Evert", "c": "Serena Williams", "d": "Steffi Graf"}, "answer": "a"},
+  {"id": 171, "question": "Hangi atlet Olimpiyatlar'da yüksek atlamada dünya rekoru kırmıştır?", "options": {"a": "Javier Sotomayor", "b": "Dick Fosbury", "c": "Charles Austin", "d": "Hiçbiri"}, "answer": "d"},
+  {"id": 172, "question": "Hangi futbolcu bir maçta en fazla dribling yapmıştır (44 kez)?", "options": {"a": "Lionel Messi", "b": "Neymar", "c": "Jay-Jay Okocha", "d": "Ronaldinho"}, "answer": "c"},
+  {"id": 173, "question": "NBA'de en fazla maçta 20+ ribaund alan oyuncu kimdir?", "options": {"a": "Wilt Chamberlain", "b": "Bill Russell", "c": "Dennis Rodman", "d": "Moses Malone"}, "answer": "a"},
+  {"id": 174, "question": "Hangi Türk sporcu Dünya Tekvando Şampiyonası'nda en fazla madalya kazanmıştır?", "options": {"a": "Servet Tazegül", "b": "Nur Tatar", "c": "Rukiye Yıldırım", "d": "Bahri Tanrıkulu"}, "answer": "a"},
+  {"id": 175, "question": "Formula 1'de en fazla yarışta pole pozisyonu alan takım hangisidir?", "options": {"a": "Ferrari", "b": "McLaren", "c": "Mercedes", "d": "Williams"}, "answer": "a"},
+  {"id": 176, "question": "Hangi voleybolcu Olimpiyatlar'da en fazla maçta forma giymiştir?", "options": {"a": "Karch Kiraly", "b": "Sergio Santos", "c": "Giba", "d": "Dante Amaral"}, "answer": "b"},
+  {"id": 177, "question": "Olimpiyatlar'da en fazla madalya kazanan Türk boksör kimdir?", "options": {"a": "Busenaz Sürmeneli", "b": "Adem Kılıççı", "c": "Buse Naz Çakıroğlu", "d": "Atagün Yalçınkaya"}, "answer": "a"},
+  {"id": 178, "question": "Hangi tenisçi bir sezonda en fazla maç kazanmıştır?", "options": {"a": "Jimmy Connors", "b": "Roger Federer", "c": "Novak Djokovic", "d": "Guillermo Vilas"}, "answer": "d"},
+  {"id": 179, "question": "Hangi basketbolcu NBA'de bir maçta en fazla asist yapmıştır (30 asist)?", "options": {"a": "Magic Johnson", "b": "John Stockton", "c": "Scott Skiles", "d": "Rajon Rondo"}, "answer": "c"},
+  {"id": 180, "question": "Hangi futbolcu Dünya Kupası'nda en fazla maçta gol atmıştır?", "options": {"a": "Miroslav Klose", "b": "Ronaldo", "c": "Pelé", "d": "Gerd Müller"}, "answer": "a"},
+  {"id": 181, "question": "NBA'de en fazla maçta 10+ asist yapan oyuncu kimdir?", "options": {"a": "John Stockton", "b": "Magic Johnson", "c": "Chris Paul", "d": "Jason Kidd"}, "answer": "a"},
+  {"id": 182, "question": "Hangi Türk sporcu Dünya Judo Şampiyonası'nda madalya kazanan ilk isimdir?", "options": {"a": "Kayhan Özcicek", "b": "Hülya Şenyurt", "c": "Dilara Lokmanhekim", "d": "Bekir Özlü"}, "answer": "b"},
+  {"id": 183, "question": "Formula 1'de en fazla yarışta ilk tur liderliği yapan pilot kimdir?", "options": {"a": "Lewis Hamilton", "b": "Michael Schumacher", "c": "Ayrton Senna", "d": "Sebastian Vettel"}, "answer": "a"},
+  {"id": 184, "question": "Hangi voleybolcu Dünya Şampiyonası'nda en fazla sayı rekorunu elinde tutar?", "options": {"a": "Karch Kiraly", "b": "Zhu Ting", "c": "Giba", "d": "Tijana Bošković"}, "answer": "a"},
+  {"id": 185, "question": "Türkiye'nin ilk Dünya Tekvando Şampiyonası'nda altın madalya kazanan sporcusu kimdir?", "options": {"a": "Servet Tazegül", "b": "Bahri Tanrıkulu", "c": "Nur Tatar", "d": "Rukiye Yıldırım"}, "answer": "a"},
+  {"id": 186, "question": "Teniste en fazla tie-break kazanan oyuncu kimdir?", "options": {"a": "John Isner", "b": "Roger Federer", "c": "Novak Djokovic", "d": "Pete Sampras"}, "answer": "a"},
+  {"id": 187, "question": "Hangi futbolcu bir maçta en fazla kaleci geçmiştir (11 kez)?", "options": {"a": "Diego Maradona", "b": "Lionel Messi", "c": "George Best", "d": "Pelé"}, "answer": "a"},
+  {"id": 188, "question": "Hangi futbolcu bir maçta en fazla dribling yapmıştır (44 kez)?", "options": {"a": "Lionel Messi", "b": "Neymar", "c": "Jay-Jay Okocha", "d": "Ronaldinho"}, "answer": "c"},
+  {"id": 189, "question": "NBA'de en fazla maçta 30+ sayı atan oyuncu kimdir?", "options": {"a": "Michael Jordan", "b": "Wilt Chamberlain", "c": "LeBron James", "d": "Kobe Bryant"}, "answer": "c"},
+  {"id": 190, "question": "Hangi Türk sporcu Dünya Satranç Olimpiyatı'nda madalya kazanan ilk isimdir?", "options": {"a": "Kıvanç Haznedaroğlu", "b": "Betül Cemre Yıldız", "c": "Ekaterina Atalık", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 191, "question": "Formula 1'de en fazla yarışta en hızlı tur rekorunu elinde tutan pilot kimdir?", "options": {"a": "Michael Schumacher", "b": "Lewis Hamilton", "c": "Ayrton Senna", "d": "Kimi Räikkönen"}, "answer": "b"},
+  {"id": 192, "question": "Hangi voleybolcu Olimpiyatlar'da en fazla blok yapmıştır?", "options": {"a": "Regla Torres", "b": "Karch Kiraly", "c": "Fabiana Claudino", "d": "Ekaterina Gamova"}, "answer": "a"},
+  {"id": 193, "question": "Türkiye'nin ilk Dünya Satranç Şampiyonası'nda unvan maçına çıkan sporcusu kimdir?", "options": {"a": "Suat Atalık", "b": "Dragan Solak", "c": "Alexander Ipatov", "d": "Henüz yok"}, "answer": "d"},
+  {"id": 194, "question": "Teniste en fazla maçta set kaybetmeden kazanan oyuncu kimdir?", "options": {"a": "Novak Djokovic", "b": "Roger Federer", "c": "Rafael Nadal", "d": "Björn Borg"}, "answer": "a"},
+  {"id": 195, "question": "Hangi futbolcu bir sezonda en fazla kupa kazanmıştır (6 kupa)?", "options": {"a": "Lionel Messi", "b": "Cristiano Ronaldo", "c": "Xavi Hernández", "d": "Andrés Iniesta"}, "answer": "a"},
+  {"id": 196, "question": "Hangi futbolcu bir sezonda en fazla kupa kazanmıştır (6 kupa)?", "options": {"a": "Lionel Messi", "b": "Cristiano Ronaldo", "c": "Xavi Hernández", "d": "Andrés Iniesta"}, "answer": "a"},
+  {"id": 197, "question": "NBA'de en fazla maçta 15+ asist yapan oyuncu kimdir?", "options": {"a": "John Stockton", "b": "Magic Johnson", "c": "Chris Paul", "d": "Russell Westbrook"}, "answer": "a"},
+  {"id": 198, "question": "Hangi Türk sporcu Dünya Karate Şampiyonası'nda en fazla madalya kazanmıştır?", "options": {"a": "Serap Özçelik", "b": "Uğur Aktaş", "c": "Enes Erkan", "d": "Meltem Hocaoğlu"}, "answer": "a"},
+  {"id": 199, "question": "Formula 1'de en fazla yarışta mekanik arıza nedeniyle yarış dışı kalan pilot kimdir?", "options": {"a": "Rubens Barrichello", "b": "Fernando Alonso", "c": "Kimi Räikkönen", "d": "Jean Alesi"}, "answer": "d"},
+  {"id": 200, "question": "Hangi voleybolcu Dünya Şampiyonası'nda en fazla maçta forma giymiştir?", "options": {"a": "Karch Kiraly", "b": "Giba", "c": "Sergey Tetyukhin", "d": "Bernardo Rezende"}, "answer": "c"}
 ]

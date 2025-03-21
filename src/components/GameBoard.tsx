@@ -1,7 +1,17 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useReducer } from "react";
 import { useGame } from "../contexts/GameContext";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogClose
+} from "./ui/dialog";
+import { Textarea } from "./ui/textarea";
 import {
   Scroll,
   Globe2,
@@ -11,6 +21,7 @@ import {
   Popcorn as PopcornIcon,
   Check,
   X as XIcon,
+  AlertTriangle,
 } from "lucide-react";
 import { Badge } from "./ui/badge";
 import { useToast } from "../hooks/use-toast";
@@ -18,9 +29,9 @@ import { Toaster } from "./ui/toaster";
 import { Category, Language, Question } from "../types";
 import { cn } from "../lib/utils";
 import { WinnerModal } from "./WinnerModal";
-import { useTranslation } from "react-i18next";
-import type { TFunction } from "i18next";
-import { SafeTranslationFunction } from "../i18n/config";
+import { useTranslation, SafeTranslationFunction } from "../hooks/use-translation";
+import { reportQuestionError } from "../services/errorReportService";
+import { sanitizeInput } from "../utils/security";
 import { WheelOfCategories } from "./WheelOfCategories";
 
 interface Settings {
@@ -90,11 +101,13 @@ const categories = [
 interface HandleChangeQuestionButtonProps {
   onQuestionChange: () => void;
   hasJoker: boolean;
+  selectedAnswer: string | null;
 }
 
 const HandleChangeQuestionButton: React.FC<HandleChangeQuestionButtonProps> = ({
   onQuestionChange,
   hasJoker,
+  selectedAnswer,
 }) => {
   const { toast } = useToast();
   const { t } = useTranslation();
@@ -115,7 +128,7 @@ const HandleChangeQuestionButton: React.FC<HandleChangeQuestionButtonProps> = ({
     <Button
       variant="outline"
       onClick={handleChangeQuestion}
-      disabled={!hasJoker}
+      disabled={!hasJoker || selectedAnswer !== null}
       className="w-32"
     >
       {safeT("gameBoard.changeQuestion", "Change Question")}
@@ -159,9 +172,13 @@ export const GameBoard: React.FC = () => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [showQuestion, setShowQuestion] = useState(false);
-  const [showWinnerModal, setShowWinnerModal] = useState(true);
+  const [showWinnerModal, setShowWinnerModal] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showClassicAnswer, setShowClassicAnswer] = useState(false);
+  const [newBadge, setNewBadge] = useState<Category | null>(null);
+  const [isErrorDialogOpen, setIsErrorDialogOpen] = useState(false);
+  const [errorDescription, setErrorDescription] = useState("");
+  const [isEndGameDialogOpen, setIsEndGameDialogOpen] = useState(false);
 
   useEffect(() => {
     // Eğer state'de selectedCategory varsa ve currentQuestion yoksa, o kategoriyi seç
@@ -193,7 +210,6 @@ export const GameBoard: React.FC = () => {
         options: q.options || null, // options varsa kullan, yoksa null olarak ayarla
         answer: q.answer,
       }));
-
 
       setQuestions(typedQuestions);
       const newQuestion = selectRandomQuestion(
@@ -294,6 +310,9 @@ export const GameBoard: React.FC = () => {
   const loadNewQuestion = async () => {
     if (selectedCategory) {
       try {
+        // Mevcut kategoriyi loglayalım
+        console.log("Soru seçerken kullanılan kategori:", selectedCategory);
+        
         const questionsModule = await import(
           `../questions/${state.language.toLowerCase()}/${selectedCategory.toLowerCase()}.json`
         );
@@ -327,8 +346,15 @@ export const GameBoard: React.FC = () => {
         );
         const newQuestion = availableQuestions[randomIndex];
 
-        // Soruyu ayarla
-        dispatch({ type: "SET_QUESTION", payload: newQuestion });
+        // Soruyu ayarla ve kategoriyi mutlaka belirt
+        dispatch({ 
+          type: "SET_QUESTION", 
+          payload: {
+            ...newQuestion,
+            category: selectedCategory,
+            language: state.language
+          }
+        });
 
         // Zamanlayıcıyı sıfırla
         dispatch({
@@ -361,6 +387,53 @@ export const GameBoard: React.FC = () => {
     window.location.reload();
   };
 
+  // Hata bildirim fonksiyonu
+  const handleErrorReport = async () => {
+    if (state.currentQuestion) {
+      try {
+        // Hata bildirimini Firebase'e kaydet
+        const reportId = await reportQuestionError(
+          state.currentQuestion, 
+          errorDescription
+        );
+        
+        if (reportId) {
+          toast({
+            title: safeT("gameBoard.reportError", "Hata Bildirildi"),
+            description: safeT(
+              "gameBoard.reportErrorDescription",
+              "Bu soru için hata bildiriminiz alındı. Teşekkür ederiz!"
+            ),
+            className: "bg-green-500 border-green-500 text-white",
+          });
+        } else {
+          toast({
+            title: safeT("gameBoard.error", "Hata"),
+            description: safeT(
+              "gameBoard.errorReportFailed",
+              "Hata bildirimi kaydedilemedi. Lütfen daha sonra tekrar deneyin."
+            ),
+            className: "bg-red-500 border-red-500 text-white",
+          });
+        }
+        
+        // Dialog'u kapat ve açıklamayı temizle
+        setIsErrorDialogOpen(false);
+        setErrorDescription("");
+      } catch (error) {
+        console.error("Hata bildirimi gönderilirken bir hata oluştu:", error);
+        toast({
+          title: safeT("gameBoard.error", "Hata"),
+          description: safeT(
+            "gameBoard.errorReportFailed",
+            "Hata bildirimi kaydedilemedi. Lütfen daha sonra tekrar deneyin."
+          ),
+          className: "bg-red-500 border-red-500 text-white",
+        });
+      }
+    }
+  };
+
   useEffect(() => {
     if (state.currentQuestion) {
       setIsTimeUp(false);
@@ -391,18 +464,14 @@ export const GameBoard: React.FC = () => {
     return () => clearInterval(timer);
   }, [state.currentQuestion, state.timeRemaining, showAnswer]);
 
-  const handleQuestionChange = () => {
-    if (
-      !state.groups ||
-      state.groups.length === 0 ||
-      state.currentGroupIndex < 0 ||
-      state.currentGroupIndex >= state.groups.length
-    ) {
+  const useJoker = () => {
+    // Eğer mevcut soru yoksa veya kullanıcı zaten cevaplamışsa işlem yapma
+    if (!state.currentQuestion || selectedAnswer) {
       toast({
         title: safeT("gameBoard.error", "Error"),
         description: safeT(
-          "gameBoard.noGroupsError",
-          "No active groups found."
+          "gameBoard.invalidJokerUse",
+          "You cannot use joker now."
         ),
         className: "bg-red-500 border-red-500 text-white",
       });
@@ -413,6 +482,10 @@ export const GameBoard: React.FC = () => {
     const currentGroup = state.groups[state.currentGroupIndex];
 
     if (currentGroup.jokers > 0) {
+      // Kategoriyi joker kullanımıyla kaybetmemek için current question'dan alalım
+      const currentCategory = state.currentQuestion.category;
+      console.log("Joker kullanılıyor. Mevcut kategori:", currentCategory);
+      
       // Joker kullanımını dispatch et
       dispatch({
         type: "USE_JOKER",
@@ -433,6 +506,17 @@ export const GameBoard: React.FC = () => {
         ),
         className: "bg-blue-500 border-blue-500 text-white",
       });
+      
+      // Eğer şu an bir kategori seçilmemişse state'ten kategoriyi ayarlayalım
+      if (!selectedCategory && currentCategory) {
+        console.log("Kategori state'e eklenecek:", currentCategory);
+        setSelectedCategory(currentCategory);
+        
+        // Diğer state değişkenlerini sıfırla
+        setSelectedAnswer(null);
+        setShowAnswer(false);
+      }
+      
       loadNewQuestion();
     } else {
       toast({
@@ -471,6 +555,17 @@ export const GameBoard: React.FC = () => {
       window.removeEventListener('gameWinner', winnerListener as EventListener);
     };
   }, [dispatch, settings.soundEnabled]);
+
+  // Oyunu bitir butonu için onay ekranı
+  const confirmEndGame = () => {
+    setIsEndGameDialogOpen(true);
+  };
+
+  // Oyunu gerçekten sonlandır
+  const handleEndGame = () => {
+    dispatch({ type: "END_GAME" });
+    setIsEndGameDialogOpen(false);
+  };
 
   // Oyun başlamadıysa gösterme
   if (!state.isGameStarted) {
@@ -543,14 +638,38 @@ export const GameBoard: React.FC = () => {
                           {state.timeRemaining}
                         </Badge>
                       )}
+                      <Button 
+                        variant="ghost" 
+                        size="sm"
+                        className="text-red-400 hover:text-red-300 hover:bg-red-500/10"
+                        onClick={() => {
+                          if (state.currentQuestion) {
+                            // Hata bildirimini aç
+                            setIsErrorDialogOpen(true);
+                          } else {
+                            toast({
+                              title: safeT("gameBoard.error", "Hata"),
+                              description: safeT(
+                                "gameBoard.noQuestionSelected",
+                                "Bildirilecek bir soru bulunamadı."
+                              ),
+                              className: "bg-red-500 border-red-500 text-white",
+                            });
+                          }
+                        }}
+                      >
+                        <AlertTriangle className="w-4 h-4 mr-1" />
+                        {safeT("gameBoard.reportError", "Hata Bildir")}
+                      </Button>
                     </div>
                     <HandleChangeQuestionButton
-                      onQuestionChange={handleQuestionChange}
+                      onQuestionChange={useJoker}
                       hasJoker={
                         state.currentGroupIndex >= 0 &&
                         state.groups.length > 0 &&
                         state.groups[state.currentGroupIndex]?.jokers > 0
                       }
+                      selectedAnswer={selectedAnswer}
                     />
                   </div>
                   <h2 className="text-2xl font-bold text-white">
@@ -572,46 +691,71 @@ export const GameBoard: React.FC = () => {
                             <button
                               key={key}
                               onClick={() => {
-                                handleAnswerSelect(key);
-                                if (state.currentQuestion) {
-                                  const isCorrect =
-                                    key === state.currentQuestion.answer;
+                                if (selectedAnswer !== null) return;
 
-                                  if (isCorrect && settings.soundEnabled && correctSoundRef.current) {
+                                // Cevabı seç
+                                const isCorrect = key === state.currentQuestion?.answer;
+                                const questionCategory = state.currentQuestion?.category || Category.HISTORY;
+                                
+                                setSelectedAnswer(key);
+                                setShowAnswer(true);
+
+                                // Doğru/yanlış ses çal
+                                if (settings.soundEnabled) {
+                                  if (isCorrect && correctSoundRef.current) {
                                     correctSoundRef.current.currentTime = 0;
-                                    correctSoundRef.current.play().catch(err => console.error("Ses çalınamadı:", err));
-                                  } else if (!isCorrect && settings.soundEnabled && wrongSoundRef.current) {
+                                    correctSoundRef.current.play().catch(err => console.error("Doğru cevap sesi çalınamadı:", err));
+                                  } else if (!isCorrect && wrongSoundRef.current) {
                                     wrongSoundRef.current.currentTime = 0;
-                                    wrongSoundRef.current.play().catch(err => console.error("Ses çalınamadı:", err));
+                                    wrongSoundRef.current.play().catch(err => console.error("Yanlış cevap sesi çalınamadı:", err));
                                   }
-
-                                  // Değişkeni şimdi sakla, setTimeout içinde kullanmak için
-                                  const questionCategory = state.currentQuestion.category;
-
-                                  // 3 saniye sonra çarka dön
-                                  setTimeout(() => {
-                                    // ANSWER_QUESTION dispatch et (klasik sorudaki gibi)
-                                    dispatch({
-                                      type: "ANSWER_QUESTION",
-                                      payload: {
-                                        correct: isCorrect,
-                                        category: questionCategory,
-                                      },
-                                    });
-                                    setShowAnswer(false);
-                                    setSelectedAnswer(null);
-                                    setSelectedCategory(null);
-
-                                    // Çarka dönüş için mevcut soruyu kaldır
-                                    dispatch({
-                                      type: "RESET_QUESTION",
-                                    });
-                                    dispatch({
-                                      type: "SET_SELECTED_CATEGORY",
-                                      payload: null
-                                    });
-                                  }, 3000);
                                 }
+
+                                // Doğru cevap verildiyse ve kategori rozeti kazanıldıysa, yeni rozeti ayarla
+                                if (isCorrect) {
+                                  const currentGroup = state.groups[state.currentGroupIndex];
+
+                                  // Eğer bu rozet daha önce kazanılmadıysa
+                                  if (!currentGroup.badges.includes(questionCategory)) {
+                                    setNewBadge(questionCategory);
+                                    // 2 saniye sonra animasyonu kaldır
+                                    setTimeout(() => {
+                                      setNewBadge(null);
+                                    }, 2000);
+                                  }
+                                }
+                                
+                                dispatch({
+                                  type: "UPDATE_BADGES",
+                                  payload: {
+                                    correct: isCorrect,
+                                    category: questionCategory,
+                                  },
+                                });
+                                // 3 saniye sonra çarka dön
+                                setTimeout(() => {
+                                  // ANSWER_QUESTION dispatch et (klasik sorudaki gibi)
+                                  dispatch({
+                                    type: "ANSWER_QUESTION",
+                                    payload: {
+                                      correct: isCorrect,
+                                      category: questionCategory,
+                                    },
+                                  });
+
+                                  setShowAnswer(false);
+                                  setSelectedAnswer(null);
+                                  setSelectedCategory(null);
+
+                                  // Çarka dönüş için mevcut soruyu kaldır
+                                  dispatch({
+                                    type: "RESET_QUESTION",
+                                  });
+                                  dispatch({
+                                    type: "SET_SELECTED_CATEGORY",
+                                    payload: null
+                                  });
+                                }, 3000);
                               }}
                               disabled={selectedAnswer !== null}
                               className={cn(
@@ -620,11 +764,11 @@ export const GameBoard: React.FC = () => {
                                   ? "bg-gray-700/50 hover:bg-gray-700/70"
                                   : selectedAnswer === key &&
                                     key === state.currentQuestion?.answer
-                                  ? "bg-green-500/20 text-green-500"
+                                  ? "bg-green-700 text-white"
                                   : selectedAnswer === key
-                                  ? "bg-red-500/20 text-red-500"
+                                  ? "bg-red-700 text-white"
                                   : key === state.currentQuestion?.answer
-                                  ? "bg-green-500/20 text-green-500"
+                                  ? "bg-green-700 text-white"
                                   : "bg-gray-700/50",
                                 "disabled:cursor-not-allowed"
                               )}
@@ -632,7 +776,8 @@ export const GameBoard: React.FC = () => {
                               <span className="font-semibold">
                                 {key.toUpperCase()})
                               </span>{" "}
-                              {value}
+                              {/* Kullanıcı girdisini temizle */}
+                              <span dangerouslySetInnerHTML={{ __html: sanitizeInput(value) }} />
                             </button>
                           )
                         )}
@@ -657,7 +802,9 @@ export const GameBoard: React.FC = () => {
                               {safeT("gameBoard.answer", "Cevap")}:
                             </h3>
                             <p className="text-2xl text-white font-bold">
-                              {state.currentQuestion?.answer}
+                              {state.currentQuestion?.options 
+                                ? state.currentQuestion.options[state.currentQuestion.answer as keyof typeof state.currentQuestion.options]
+                                : state.currentQuestion?.answer}
                             </p>
                           </div>
                           <div className="flex items-center justify-center space-x-4 w-full">
@@ -822,9 +969,10 @@ export const GameBoard: React.FC = () => {
                         <div
                           key={category.name}
                           className={cn(
-                            "w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-200",
+                            "w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-700",
                             isEarned ? category.color : "bg-gray-600/50",
-                            "group hover:scale-110"
+                            "group hover:scale-110",
+                            newBadge === category.name && isEarned ? "animate-pulse scale-125" : ""
                           )}
                           title={category.name}
                         >
@@ -848,7 +996,7 @@ export const GameBoard: React.FC = () => {
         {/* Alt Butonlar */}
         <div className="fixed bottom-8 right-8">
           <Button
-            onClick={() => dispatch({ type: "END_GAME" })}
+            onClick={confirmEndGame}
             className="bg-red-500 hover:bg-red-600 px-6 py-2 text-sm font-medium"
           >
             {safeT("gameBoard.endGame")}
@@ -856,6 +1004,89 @@ export const GameBoard: React.FC = () => {
         </div>
 
         <Toaster />
+        
+        {/* Hata Bildirim Dialog'u */}
+        <Dialog open={isErrorDialogOpen} onOpenChange={setIsErrorDialogOpen}>
+          <DialogContent className="bg-gray-800 text-white border-gray-700 max-w-md">
+            <DialogHeader>
+              <DialogTitle>{safeT("gameBoard.reportError", "Hata Bildir")}</DialogTitle>
+              <DialogDescription className="text-gray-400">
+                {state.currentQuestion && (
+                  <>
+                    {safeT(
+                      "gameBoard.reportErrorDialogDescription",
+                      "Şu numaralı soru için hata bildiriyorsunuz: {0}",
+                      { 0: `${state.currentQuestion.question}` }
+                    )}
+                  </>
+                )}
+              </DialogDescription>
+            </DialogHeader>
+            
+            <div className="py-4">
+              <Textarea
+                placeholder={safeT(
+                  "gameBoard.errorDescriptionPlaceholder",
+                  "Lütfen hatayı açıklayın..."
+                )}
+                className="min-h-[120px]"
+                value={errorDescription}
+                onChange={(e) => setErrorDescription(e.target.value)}
+              />
+            </div>
+            
+            <DialogFooter className="sm:justify-end">
+              <DialogClose asChild>
+                <Button
+                  variant="ghost"
+                  className="text-gray-400 hover:text-gray-300 bg-gray-700 hover:bg-gray-600"
+                >
+                  {safeT("gameBoard.cancel", "İptal")}
+                </Button>
+              </DialogClose>
+              <Button
+                type="submit"
+                className="bg-red-500 hover:bg-red-600 text-white"
+                onClick={handleErrorReport}
+                disabled={!errorDescription.trim()}
+              >
+                {safeT("gameBoard.send", "Gönder")}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Oyunu Bitir Onay Dialog'u */}
+        <Dialog open={isEndGameDialogOpen} onOpenChange={setIsEndGameDialogOpen}>
+          <DialogContent className="bg-gray-800 text-white border-gray-700 max-w-md">
+            <DialogHeader>
+              <DialogTitle>{safeT("gameBoard.confirmEndGame", "Oyunu Bitir")}</DialogTitle>
+              <DialogDescription className="text-gray-400">
+                {safeT(
+                  "gameBoard.confirmEndGameDescription",
+                  "Oyunu bitirmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+                )}
+              </DialogDescription>
+            </DialogHeader>
+            
+            <DialogFooter className="sm:justify-end mt-4">
+              <DialogClose asChild>
+                <Button
+                  variant="ghost"
+                  className="text-gray-400 hover:text-gray-300 bg-gray-700 hover:bg-gray-600"
+                >
+                  {safeT("gameBoard.cancel", "İptal")}
+                </Button>
+              </DialogClose>
+              <Button
+                className="bg-red-500 hover:bg-red-600 text-white"
+                onClick={handleEndGame}
+              >
+                {safeT("gameBoard.confirmEnd", "Evet, Oyunu Bitir")}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </div>
     </div>
   );

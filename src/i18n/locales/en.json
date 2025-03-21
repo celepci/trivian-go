@@ -72,7 +72,15 @@
     "groups": "Groups",
     "joker": "Joker",
     "endGame": "End Game",
-    "questionLoadError": "An error occurred while loading the question."
+    "questionLoadError": "An error occurred while loading the question.",
+    "reportError": "Report Error",
+    "reportErrorDescription": "Your error report for this question has been received. Thank you!",
+    "errorReportFailed": "Failed to save error report. Please try again later.",
+    "noQuestionSelected": "No question found to report.",
+    "reportErrorDialogDescription": "You are reporting an error for question: {0}",
+    "errorDescriptionPlaceholder": "Please describe the error...",
+    "cancel": "Cancel",
+    "send": "Send"
   },
   "settingsModal": {
     "title": "Settings",

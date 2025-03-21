@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    
+    <!-- Animasyonlar -->
+    <animate id="pulseAnim" attributeName="r" values="140;145;140" dur="3s" repeatCount="indefinite" />
+    <animate id="glowAnim" attributeName="stdDeviation" values="5;8;5" dur="3s" repeatCount="indefinite" />
+    <animate id="circleAnim1" attributeName="r" values="20;22;20" dur="2s" repeatCount="indefinite" />
+    <animate id="circleAnim2" attributeName="r" values="20;23;20" dur="2.5s" repeatCount="indefinite" />
+    <animate id="circleAnim3" attributeName="r" values="20;24;20" dur="3s" repeatCount="indefinite" />
+    <animate id="circleAnim4" attributeName="r" values="20;22;20" dur="2.2s" repeatCount="indefinite" />
+    <animate id="circleAnim5" attributeName="r" values="20;23;20" dur="2.7s" repeatCount="indefinite" />
+    <animate id="circleAnim6" attributeName="r" values="20;24;20" dur="3.2s" repeatCount="indefinite" />
+  </defs>
+  
+  <!-- Arka plan daire -->
+  <circle cx="150" cy="150" r="140" fill="#1e293b">
+    <animate xlink:href="#pulseAnim" />
+  </circle>
+  
+  <!-- Kategori renkleri temsil eden daireler -->
+  <circle cx="80" cy="100" r="20" fill="#ef4444" filter="url(#neonGlow)">
+    <animate xlink:href="#circleAnim1" />
+  </circle>
+  <circle cx="220" cy="100" r="20" fill="#22c55e" filter="url(#neonGlow)">
+    <animate xlink:href="#circleAnim2" />
+  </circle>
+  <circle cx="80" cy="200" r="20" fill="#eab308" filter="url(#neonGlow)">
+    <animate xlink:href="#circleAnim3" />
+  </circle>
+  <circle cx="220" cy="200" r="20" fill="#3b82f6" filter="url(#neonGlow)">
+    <animate xlink:href="#circleAnim4" />
+  </circle>
+  <circle cx="150" cy="75" r="20" fill="#ec4899" filter="url(#neonGlow)">
+    <animate xlink:href="#circleAnim5" />
+  </circle>
+  <circle cx="150" cy="225" r="20" fill="#a855f7" filter="url(#neonGlow)">
+    <animate xlink:href="#circleAnim6" />
+  </circle>
+  
+  <!-- Logo metni -->
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="url(#textGradient)" filter="url(#neonGlow)">TRIVIAN</text>
+  <text x="150" y="190" font-family="Arial, sans-serif" font-size="20" font-weight="normal" text-anchor="middle" fill="white" filter="url(#neonGlow)">NIGHT</text>
+</svg>

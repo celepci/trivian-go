@@ -72,7 +72,15 @@
     "endGame": "Oyunu Bitir",
     "questionLoadError": "Soru yüklenirken bir hata oluştu: {0}",
     "selectOption": "Bir şık seçin",
-    "errorLoadingQuestion": "Hata!!!!"
+    "errorLoadingQuestion": "Hata!!!!",
+    "reportError": "Hata Bildir",
+    "reportErrorDescription": "Bu soru için hata bildiriminiz alındı. Teşekkür ederiz!",
+    "errorReportFailed": "Hata bildirimi kaydedilemedi. Lütfen daha sonra tekrar deneyin.",
+    "noQuestionSelected": "Bildirilecek bir soru bulunamadı.",
+    "reportErrorDialogDescription": "Şu numaralı soru için hata bildiriyorsunuz: {0}",
+    "errorDescriptionPlaceholder": "Lütfen hatayı açıklayın...",
+    "cancel": "İptal",
+    "send": "Gönder"
   },
   "settingsModal": {
     "title": "Ayarlar",

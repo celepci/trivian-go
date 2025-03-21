@@ -1,252 +1,202 @@
 [
-  {
-    "id": 1,
-    "question": "Dünya üzerinde en fazla zaman dilimine sahip ülke hangisidir?",
-    "answer": "Fransa"
-  },
-  {
-    "id": 2,
-    "question": "Türkiye'nin en yüksek dağı hangisidir?",
-    "answer": "Ağrı Dağı"
-  },
-  {
-    "id": 3,
-    "question": "Dünyanın en büyük okyanusu hangisidir?",
-    "answer": "Pasifik Okyanusu"
-  },
-  {
-    "id": 4,
-    "question": "Türkiye'nin en uzun nehri hangisidir?",
-    "answer": "Kızılırmak"
-  },
-  {
-    "id": 5,
-    "question": "Dünyanın en büyük çölü hangisidir?",
-    "answer": "Sahra Çölü"
-  },
-  {
-    "id": 6,
-    "question": "Türkiye'nin en büyük gölü hangisidir?",
-    "answer": "Van Gölü"
-  },
-  {
-    "id": 7,
-    "question": "Dünyanın en derin noktası hangisidir?",
-    "answer": "Mariana Çukuru"
-  },
-  {
-    "id": 8,
-    "question": "Türkiye'nin en batı noktası neresidir?",
-    "answer": "Gökçeada"
-  },
-  {
-    "id": 9,
-    "question": "Dünyanın en yüksek şelalesi hangisidir?",
-    "answer": "Angel Şelalesi"
-  },
-  {
-    "id": 10,
-    "question": "Türkiye'nin en büyük adası hangisidir?",
-    "answer": "Gökçeada"
-  },
-  {
-    "id": 11,
-    "question": "Dünyanın en büyük adası hangisidir?",
-    "answer": "Grönland"
-  },
-  {
-    "id": 12,
-    "question": "Türkiye'nin en doğu noktası neresidir?",
-    "answer": "Iğdır"
-  },
-  {
-    "id": 13,
-    "question": "Dünyanın en derin gölü hangisidir?",
-    "answer": "Baykal Gölü"
-  },
-  {
-    "id": 14,
-    "question": "Türkiye'nin en kalabalık şehri hangisidir?",
-    "answer": "İstanbul"
-  },
-  {
-    "id": 15,
-    "question": "Dünyanın en uzun nehri hangisidir?",
-    "answer": "Nil Nehri"
-  },
-  {
-    "id": 16,
-    "question": "Türkiye'nin en büyük ovası hangisidir?",
-    "answer": "Konya Ovası"
-  },
-  {
-    "id": 17,
-    "question": "Dünyanın en soğuk kıtası hangisidir?",
-    "answer": "Antarktika"
-  },
-  {
-    "id": 18,
-    "question": "Türkiye'nin en yağış alan bölgesi neresidir?",
-    "answer": "Doğu Karadeniz"
-  },
-  {
-    "id": 19,
-    "question": "Dünyanın en büyük körfezi hangisidir?",
-    "answer": "Bengal Körfezi"
-  },
-  {
-    "id": 20,
-    "question": "Türkiye'nin en az yağış alan bölgesi neresidir?",
-    "answer": "Konya Ovası"
-  },
-  {
-    "id": 21,
-    "question": "Dünyanın en büyük gölü hangisidir?",
-    "answer": "Hazar Denizi"
-  },
-  {
-    "id": 22,
-    "question": "Türkiye'nin en büyük yarımadası hangisidir?",
-    "answer": "Trakya Yarımadası"
-  },
-  {
-    "id": 23,
-    "question": "Dünyanın en büyük takımadaları hangisidir?",
-    "answer": "Endonezya Takımadaları"
-  },
-  {
-    "id": 24,
-    "question": "Türkiye'nin en uzun kıyı şeridine sahip bölgesi hangisidir?",
-    "answer": "Akdeniz Bölgesi"
-  },
-  {
-    "id": 25,
-    "question": "Dünyanın en büyük deltası hangisidir?",
-    "answer": "Ganj-Brahmaputra Deltası"
-  },
-  {
-    "id": 26,
-    "question": "Türkiye'nin en büyük milli parkı hangisidir?",
-    "answer": "Beyşehir Gölü Milli Parkı"
-  },
-  {
-    "id": 27,
-    "question": "Dünyanın en büyük yarımadası hangisidir?",
-    "answer": "Arap Yarımadası"
-  },
-  {
-    "id": 28,
-    "question": "Türkiye'nin en soğuk ili hangisidir?",
-    "answer": "Ardahan"
-  },
-  {
-    "id": 29,
-    "question": "Dünyanın en büyük kanyonu hangisidir?",
-    "answer": "Büyük Kanyon"
-  },
-  {
-    "id": 30,
-    "question": "Türkiye'nin en sıcak ili hangisidir?",
-    "answer": "Şanlıurfa"
-  },
-  {
-    "id": 31,
-    "question": "Dünyanın en büyük platosu hangisidir?",
-    "answer": "Tibet Platosu"
-  },
-  {
-    "id": 32,
-    "question": "Türkiye'nin en büyük platosu hangisidir?",
-    "answer": "Erzurum-Kars Platosu"
-  },
-  {
-    "id": 33,
-    "question": "Dünyanın en büyük volkanik gölü hangisidir?",
-    "answer": "Toba Gölü"
-  },
-  {
-    "id": 34,
-    "question": "Türkiye'nin en büyük volkanik gölü hangisidir?",
-    "answer": "Nemrut Gölü"
-  },
-  {
-    "id": 35,
-    "question": "Dünyanın en büyük şelalesi hangisidir?",
-    "answer": "Victoria Şelalesi"
-  },
-  {
-    "id": 36,
-    "question": "Türkiye'nin en büyük şelalesi hangisidir?",
-    "answer": "Tortum Şelalesi"
-  },
-  {
-    "id": 37,
-    "question": "Dünyanın en büyük adalar devleti hangisidir?",
-    "answer": "Endonezya"
-  },
-  {
-    "id": 38,
-    "question": "Türkiye'nin en büyük körfezi hangisidir?",
-    "answer": "İskenderun Körfezi"
-  },
-  {
-    "id": 39,
-    "question": "Dünyanın en büyük bataklığı hangisidir?",
-    "answer": "Pantanal Bataklığı"
-  },
-  {
-    "id": 40,
-    "question": "Türkiye'nin en büyük bataklığı hangisidir?",
-    "answer": "Sultan Sazlığı"
-  },
-  {
-    "id": 41,
-    "question": "Dünyanın en büyük mercan resifi hangisidir?",
-    "answer": "Büyük Bariyer Resifi"
-  },
-  {
-    "id": 42,
-    "question": "Türkiye'nin en büyük boğazı hangisidir?",
-    "answer": "İstanbul Boğazı"
-  },
-  {
-    "id": 43,
-    "question": "Dünyanın en büyük tuz gölü hangisidir?",
-    "answer": "Büyük Tuz Gölü"
-  },
-  {
-    "id": 44,
-    "question": "Türkiye'nin en büyük tuz gölü hangisidir?",
-    "answer": "Tuz Gölü"
-  },
-  {
-    "id": 45,
-    "question": "Dünyanın en büyük aktif volkanı hangisidir?",
-    "answer": "Mauna Loa"
-  },
-  {
-    "id": 46,
-    "question": "Türkiye'nin en büyük aktif volkanı hangisidir?",
-    "answer": "Erciyes Dağı"
-  },
-  {
-    "id": 47,
-    "question": "Dünyanın en büyük mağarası hangisidir?",
-    "answer": "Son Doong Mağarası"
-  },
-  {
-    "id": 48,
-    "question": "Türkiye'nin en büyük mağarası hangisidir?",
-    "answer": "Pınargözü Mağarası"
-  },
-  {
-    "id": 49,
-    "question": "Dünyanın en büyük denizi hangisidir?",
-    "answer": "Güney Çin Denizi"
-  },
-  {
-    "id": 50,
-    "question": "Türkiye'nin en büyük denizi hangisidir?",
-    "answer": "Akdeniz"
-  }
+  {"id": 1, "question": "Brezilya'nın başkenti neresidir?", "options": {"a": "Rio de Janeiro", "b": "São Paulo", "c": "Brasília", "d": "Salvador"}, "answer": "c"},
+  {"id": 2, "question": "Türkiye'nin en yüksek dağı hangisidir?", "options": {"a": "Ağrı Dağı", "b": "Erciyes Dağı", "c": "Cilo Dağı", "d": "Süphan Dağı"}, "answer": "a"},
+  {"id": 3, "question": "Dünyanın en büyük okyanusu hangisidir?", "options": {"a": "Atlantik Okyanusu", "b": "Hint Okyanusu", "c": "Pasifik Okyanusu", "d": "Arktik Okyanusu"}, "answer": "c"},
+  {"id": 4, "question": "Türkiye'nin en uzun nehri hangisidir?", "options": {"a": "Fırat", "b": "Kızılırmak", "c": "Sakarya", "d": "Yeşilırmak"}, "answer": "b"},
+  {"id": 5, "question": "Dünyanın en büyük çölü hangisidir?", "options": {"a": "Sahra Çölü", "b": "Gobi Çölü", "c": "Atacama Çölü", "d": "Kalahari Çölü"}, "answer": "a"},
+  {"id": 6, "question": "Türkiye'nin en büyük gölü hangisidir?", "options": {"a": "Tuz Gölü", "b": "Van Gölü", "c": "Beyşehir Gölü", "d": "Eğirdir Gölü"}, "answer": "b"},
+  {"id": 7, "question": "Dünyanın en derin noktası hangisidir?", "options": {"a": "Mariana Çukuru", "b": "Tonga Çukuru", "c": "Filipin Çukuru", "d": "Kermadec Çukuru"}, "answer": "a"},
+  {"id": 8, "question": "Türkiye'nin en batı noktası neresidir?", "options": {"a": "Bozcaada", "b": "Gökçeada", "c": "Çanakkale", "d": "İzmir"}, "answer": "b"},
+  {"id": 9, "question": "Dünyanın en yüksek şelalesi hangisidir?", "options": {"a": "Niagara Şelalesi", "b": "Victoria Şelalesi", "c": "Angel Şelalesi", "d": "Iguazu Şelalesi"}, "answer": "c"},
+  {"id": 10, "question": "Türkiye'nin en büyük adası hangisidir?", "options": {"a": "Bozcaada", "b": "Gökçeada", "c": "Marmara Adası", "d": "İmroz"}, "answer": "b"},
+  {"id": 11, "question": "Dünyanın en büyük adası hangisidir?", "options": {"a": "Avustralya", "b": "Grönland", "c": "Borneo", "d": "Madagaskar"}, "answer": "b"},
+  {"id": 12, "question": "Türkiye'nin en doğu noktası neresidir?", "options": {"a": "Hakkari", "b": "Van", "c": "Iğdır", "d": "Ağrı"}, "answer": "c"},
+  {"id": 13, "question": "Dünyanın en derin gölü hangisidir?", "options": {"a": "Baykal Gölü", "b": "Tanganyika Gölü", "c": "Hazar Denizi", "d": "Superior Gölü"}, "answer": "a"},
+  {"id": 14, "question": "Türkiye'nin en kalabalık şehri hangisidir?", "options": {"a": "Ankara", "b": "İzmir", "c": "İstanbul", "d": "Adana"}, "answer": "c"},
+  {"id": 15, "question": "Hangi nehir Güney Amerika'nın en uzun ikinci nehridir?", "options": {"a": "Amazon Nehri", "b": "Parana Nehri", "c": "Orinoco Nehri", "d": "Magdalena Nehri"}, "answer": "b"},
+  {"id": 16, "question": "Türkiye'nin en büyük ovası hangisidir?", "options": {"a": "Çukurova", "b": "Konya Ovası", "c": "Harran Ovası", "d": "Bafra Ovası"}, "answer": "b"},
+  {"id": 17, "question": "Dünyanın en soğuk kıtası hangisidir?", "options": {"a": "Asya", "b": "Antarktika", "c": "Avustralya", "d": "Kuzey Amerika"}, "answer": "b"},
+  {"id": 18, "question": "Türkiye'nin en yağış alan bölgesi neresidir?", "options": {"a": "Doğu Karadeniz", "b": "Marmara", "c": "Ege", "d": "İç Anadolu"}, "answer": "a"},
+  {"id": 19, "question": "Finlandiya'nın başkenti neresidir?", "options": {"a": "Turku", "b": "Helsinki", "c": "Tampere", "d": "Oulu"}, "answer": "b"},
+  {"id": 20, "question": "Meksika'nın başkenti neresidir?", "options": {"a": "Guadalajara", "b": "Monterrey", "c": "Mexico City", "d": "Cancún"}, "answer": "c"},
+  {"id": 21, "question": "Dünyanın en büyük gölü hangisidir?", "options": {"a": "Hazar Denizi", "b": "Superior Gölü", "c": "Victoria Gölü", "d": "Baykal Gölü"}, "answer": "a"},
+  {"id": 22, "question": "Türkiye'nin en büyük yarımadası hangisidir?", "options": {"a": "Çanakkale Yarımadası", "b": "Trakya Yarımadası", "c": "Sinop Yarımadası", "d": "Datça Yarımadası"}, "answer": "b"},
+  {"id": 23, "question": "Dünyanın en büyük takımadaları hangisidir?", "options": {"a": "Malay Takımadaları", "b": "Endonezya Takımadaları", "c": "Filipinler Takımadaları", "d": "Karayip Takımadaları"}, "answer": "b"},
+  {"id": 24, "question": "Türkiye'de hangi bölge en fazla kıyı uzunluğuna sahiptir?", "options": {"a": "Karadeniz Bölgesi", "b": "Akdeniz Bölgesi", "c": "Ege Bölgesi", "d": "Marmara Bölgesi"}, "answer": "c"},
+  {"id": 25, "question": "Dünyanın en büyük deltası hangisidir?", "options": {"a": "Mississippi Deltası", "b": "Ganj-Brahmaputra Deltası", "c": "Amazon Deltası", "d": "Nil Deltası"}, "answer": "b"},
+  {"id": 26, "question": "Türkiye'de hangi dağ en fazla volkanik özelliğe sahiptir?", "options": {"a": "Ağrı Dağı", "b": "Nemrut Dağı", "c": "Erciyes Dağı", "d": "Süphan Dağı"}, "answer": "b"},
+  {"id": 27, "question": "Dünyanın en büyük yarımadası hangisidir?", "options": {"a": "Arap Yarımadası", "b": "Hindistan Yarımadası", "c": "İskandinav Yarımadası", "d": "Kamçatka Yarımadası"}, "answer": "a"},
+  {"id": 28, "question": "Türkiye'nin en soğuk ili hangisidir?", "options": {"a": "Erzurum", "b": "Kars", "c": "Ardahan", "d": "Sivas"}, "answer": "c"},
+  {"id": 29, "question": "Dünyanın en büyük kanyonu hangisidir?", "options": {"a": "Büyük Kanyon", "b": "Colca Kanyonu", "c": "Tara Kanyonu", "d": "Yarlung Tsangpo Kanyonu"}, "answer": "a"},
+  {"id": 30, "question": "Türkiye'de yazın en yüksek sıcaklık hangi ilde ölçülmüştür?", "options": {"a": "Şanlıurfa", "b": "Diyarbakır", "c": "Batman", "d": "Adıyaman"}, "answer": "a"},
+  {"id": 31, "question": "Dünyanın en büyük platosu hangisidir?", "options": {"a": "Tibet Platosu", "b": "Colorado Platosu", "c": "Dekkan Platosu", "d": "And Platosu"}, "answer": "a"},
+  {"id": 32, "question": "Türkiye'nin en büyük platosu hangisidir?", "options": {"a": "Erzurum-Kars Platosu", "b": "Taşeli Platosu", "c": "Çatalca Platosu", "d": "Yozgat Platosu"}, "answer": "a"},
+  {"id": 33, "question": "Dünyanın en büyük volkanik gölü hangisidir?", "options": {"a": "Crater Gölü", "b": "Toba Gölü", "c": "Taupo Gölü", "d": "Yellowstone Gölü"}, "answer": "b"},
+  {"id": 34, "question": "Türkiye'nin en büyük volkanik gölü hangisidir?", "options": {"a": "Van Gölü", "b": "Nemrut Gölü", "c": "Aygır Gölü", "d": "Çıldır Gölü"}, "answer": "b"},
+  {"id": 35, "question": "Güney Afrika'nın başkenti neresidir?", "options": {"a": "Johannesburg", "b": "Cape Town", "c": "Pretoria", "d": "Durban"}, "answer": "c"},
+  {"id": 36, "question": "Türkiye'nin en büyük şelalesi hangisidir?", "options": {"a": "Manavgat Şelalesi", "b": "Tortum Şelalesi", "c": "Düden Şelalesi", "d": "Muradiye Şelalesi"}, "answer": "b"},
+  {"id": 37, "question": "Dünyanın en büyük adalar devleti hangisidir?", "options": {"a": "Japonya", "b": "Endonezya", "c": "Filipinler", "d": "Maldivler"}, "answer": "b"},
+  {"id": 38, "question": "Türkiye'nin en büyük körfezi hangisidir?", "options": {"a": "İzmir Körfezi", "b": "İskenderun Körfezi", "c": "Edremit Körfezi", "d": "Gemlik Körfezi"}, "answer": "b"},
+  {"id": 39, "question": "Dünyanın en büyük bataklığı hangisidir?", "options": {"a": "Okavango Bataklığı", "b": "Pantanal Bataklığı", "c": "Sud Bataklığı", "d": "Everglades Bataklığı"}, "answer": "b"},
+  {"id": 40, "question": "Türkiye'nin en büyük bataklığı hangisidir?", "options": {"a": "Sultan Sazlığı", "b": "Kızören Obruğu", "c": "Eber Gölü", "d": "Manyas Gölü"}, "answer": "a"},
+  {"id": 41, "question": "Dünyanın en büyük mercan resifi hangisidir?", "options": {"a": "Büyük Bariyer Resifi", "b": "Kızıldeniz Resifi", "c": "Mesoamerican Resifi", "d": "Yeni Kaledonya Resifi"}, "answer": "a"},
+  {"id": 42, "question": "Türkiye'nin en büyük boğazı hangisidir?", "options": {"a": "Çanakkale Boğazı", "b": "İstanbul Boğazı", "c": "İzmit Boğazı", "d": "Kuşadası Boğazı"}, "answer": "b"},
+  {"id": 43, "question": "Dünyanın en büyük tuz gölü hangisidir?", "options": {"a": "Büyük Tuz Gölü", "b": "Ölü Deniz", "c": "Aral Gölü", "d": "Eyre Gölü"}, "answer": "a"},
+  {"id": 44, "question": "Türkiye'nin en büyük tuz gölü hangisidir?", "options": {"a": "Tuz Gölü", "b": "Aci Göl", "c": "Bur dur Gölü", "d": "Yarışlı Gölü"}, "answer": "a"},
+  {"id": 45, "question": "Dünyanın en büyük aktif volkanı hangisidir?", "options": {"a": "Etna", "b": "Mauna Loa", "c": "Kilimanjaro", "d": "Vezüv"}, "answer": "b"},
+  {"id": 46, "question": "Avustralya'nın başkenti neresidir?", "options": {"a": "Sydney", "b": "Melbourne", "c": "Canberra", "d": "Perth"}, "answer": "c"},
+  {"id": 47, "question": "Dünyanın en büyük mağarası hangisidir?", "options": {"a": "Mammoth Mağarası", "b": "Son Doong Mağarası", "c": "Lechuguilla Mağarası", "d": "Carlsbad Mağarası"}, "answer": "b"},
+  {"id": 48, "question": "Türkiye'nin en büyük mağarası hangisidir?", "options": {"a": "Altınbeşik Mağarası", "b": "Pınargözü Mağarası", "c": "Karain Mağarası", "d": "Damlataş Mağarası"}, "answer": "b"},
+  {"id": 49, "question": "Dünyanın en büyük denizi hangisidir?", "options": {"a": "Karayip Denizi", "b": "Güney Çin Denizi", "c": "Akdeniz", "d": "Bering Denizi"}, "answer": "b"},
+  {"id": 50, "question": "Türkiye'nin en büyük denizi hangisidir?", "options": {"a": "Karadeniz", "b": "Akdeniz", "c": "Ege Denizi", "d": "Marmara Denizi"}, "answer": "b"},
+  {"id": 51, "question": "Japonya'nın başkenti neresidir?", "options": {"a": "Osaka", "b": "Tokyo", "c": "Kyoto", "d": "Hiroshima"}, "answer": "b"},
+  {"id": 52, "question": "Hangi ülke Güney Amerika kıtasında yer almaz?", "options": {"a": "Brezilya", "b": "Meksika", "c": "Arjantin", "d": "Peru"}, "answer": "b"},
+  {"id": 53, "question": "Dünyanın en kalabalık ülkesi hangisidir?", "options": {"a": "Çin", "b": "Hindistan", "c": "ABD", "d": "Endonezya"}, "answer": "b"},
+  {"id": 54, "question": "Türkiye ile en uzun kara sınırına sahip ülke hangisidir?", "options": {"a": "Suriye", "b": "Irak", "c": "İran", "d": "Gürcistan"}, "answer": "a"},
+  {"id": 55, "question": "Hangi kıta tamamen güney yarımkürede yer alır?", "options": {"a": "Afrika", "b": "Asya", "c": "Avustralya", "d": "Antarktika"}, "answer": "c"},
+  {"id": 56, "question": "Dünyanın en küçük ülkesi hangisidir?", "options": {"a": "Monako", "b": "Vatikan", "c": "Nauru", "d": "San Marino"}, "answer": "b"},
+  {"id": 57, "question": "Hangi nehir Avrupa'nın en uzun nehridir?", "options": {"a": "Tuna Nehri", "b": "Volga Nehri", "c": "Ren Nehri", "d": "Dinyester Nehri"}, "answer": "b"},
+  {"id": 58, "question": "Türkiye'nin en kuzey noktası neresidir?", "options": {"a": "Sinop", "b": "Trabzon", "c": "Rize", "d": "Artvin"}, "answer": "a"},
+  {"id": 59, "question": "Hangi ülke Afrika'nın en kalabalık ülkesidir?", "options": {"a": "Güney Afrika", "b": "Nijerya", "c": "Kenya", "d": "Mısır"}, "answer": "b"},
+  {"id": 60, "question": "Dünyanın en yüksek dağı hangisidir?", "options": {"a": "Everest", "b": "K2", "c": "Kangchenjunga", "d": "Lhotse"}, "answer": "a"},
+  {"id": 61, "question": "Türkiye'de hangi il en fazla liman sayısına sahiptir?", "options": {"a": "İstanbul", "b": "İzmir", "c": "Mersin", "d": "Antalya"}, "answer": "a"},
+  {"id": 62, "question": "Türkiye'nin en küçük ili hangisidir?", "options": {"a": "Yalova", "b": "Bartın", "c": "Bayburt", "d": "Kilis"}, "answer": "c"},
+  {"id": 63, "question": "Hangi okyanus Afrika ile Avustralya arasında yer alır?", "options": {"a": "Pasifik Okyanusu", "b": "Hint Okyanusu", "c": "Atlantik Okyanusu", "d": "Arktik Okyanusu"}, "answer": "b"},
+  {"id": 64, "question": "Dünyanın en büyük ekonomisine sahip ülke hangisidir?", "options": {"a": "ABD", "b": "Çin", "c": "Japonya", "d": "Almanya"}, "answer": "a"},
+  {"id": 65, "question": "Kanada'nın başkenti neresidir?", "options": {"a": "Toronto", "b": "Vancouver", "c": "Ottawa", "d": "Montreal"}, "answer": "c"},
+  {"id": 66, "question": "Hangi ülke Güney Kutbu'nu kapsar?", "options": {"a": "Hiçbiri", "b": "Arjantin", "c": "Avustralya", "d": "Şili"}, "answer": "a"},
+  {"id": 67, "question": "Dünyanın en kurak yeri neresidir?", "options": {"a": "Sahra Çölü", "b": "Atacama Çölü", "c": "Antarktika", "d": "Gobi Çölü"}, "answer": "b"},
+  {"id": 68, "question": "Hangi nehir Güney Amerika'nın en uzun nehridir?", "options": {"a": "Amazon Nehri", "b": "Parana Nehri", "c": "Orinoco Nehri", "d": "Magdalena Nehri"}, "answer": "a"},
+  {"id": 69, "question": "Türkiye'nin en büyük barajı hangisidir?", "options": {"a": "Keban Barajı", "b": "Atatürk Barajı", "c": "Karakaya Barajı", "d": "Ilısu Barajı"}, "answer": "b"},
+  {"id": 70, "question": "Hangi ülke en fazla ada sayısına sahiptir?", "options": {"a": "Endonezya", "b": "İsveç", "c": "Filipinler", "d": "Japonya"}, "answer": "a"},
+  {"id": 71, "question": "Dünyanın en büyük ikinci kıtası hangisidir?", "options": {"a": "Asya", "b": "Afrika", "c": "Kuzey Amerika", "d": "Güney Amerika"}, "answer": "b"},
+  {"id": 72, "question": "Türkiye'nin en uzun karayolu tüneli hangisidir?", "options": {"a": "Ovit Tüneli", "b": "Zigana Tüneli", "c": "Bolu Tüneli", "d": "Kop Tüneli"}, "answer": "a"},
+  {"id": 73, "question": "Hangi ülke Avrupa Birliği'nde yer almaz?", "options": {"a": "İsviçre", "b": "Fransa", "c": "İtalya", "d": "İspanya"}, "answer": "a"},
+  {"id": 74, "question": "Dünyanın en büyük petrol üreticisi ülke hangisidir?", "options": {"a": "Suudi Arabistan", "b": "ABD", "c": "Rusya", "d": "İran"}, "answer": "b"},
+  {"id": 75, "question": "Türkiye'nin en büyük havalimanı neresidir?", "options": {"a": "İstanbul Havalimanı", "b": "Sabiha Gökçen", "c": "Esenboğa", "d": "Adnan Menderes"}, "answer": "a"},
+  {"id": 76, "question": "Hangi kıta en fazla ülkeye ev sahipliği yapar?", "options": {"a": "Asya", "b": "Afrika", "c": "Avrupa", "d": "Güney Amerika"}, "answer": "b"},
+  {"id": 77, "question": "Dünyanın en uzun köprüsü hangisidir?", "options": {"a": "Golden Gate Köprüsü", "b": "Danyang-Kunshan Büyük Köprüsü", "c": "Akashi Kaikyo Köprüsü", "d": "Humber Köprüsü"}, "answer": "b"},
+  {"id": 78, "question": "Türkiye'nin en uzun köprüsü hangisidir?", "options": {"a": "15 Temmuz Şehitler Köprüsü", "b": "Yavuz Sultan Selim Köprüsü", "c": "Osman Gazi Köprüsü", "d": "Çanakkale 1915 Köprüsü"}, "answer": "d"},
+  {"id": 79, "question": "Hangi ülke en fazla volkanik bölgeye sahiptir?", "options": {"a": "Japonya", "b": "Endonezya", "c": "İzlanda", "d": "İtalya"}, "answer": "b"},
+  {"id": 80, "question": "Dünyanın en büyük ikinci okyanusu hangisidir?", "options": {"a": "Atlantik Okyanusu", "b": "Hint Okyanusu", "c": "Pasifik Okyanusu", "d": "Arktik Okyanusu"}, "answer": "a"},
+  {"id": 81, "question": "Türkiye'nin en büyük enerji kaynağı hangisidir?", "options": {"a": "Hidroelektrik", "b": "Doğalgaz", "c": "Kömür", "d": "Rüzgar"}, "answer": "c"},
+  {"id": 82, "question": "Hangi ülke Antarktika'da araştırma üssü bulunmayan tek kıtada yer alır?", "options": {"a": "Avustralya", "b": "Afrika", "c": "Asya", "d": "Güney Amerika"}, "answer": "b"},
+  {"id": 83, "question": "Dünyanın en uzun demiryolu ağına sahip ülke hangisidir?", "options": {"a": "ABD", "b": "Rusya", "c": "Çin", "d": "Hindistan"}, "answer": "a"},
+  {"id": 84, "question": "Kolombiya'nın başkenti neresidir?", "options": {"a": "Medellín", "b": "Bogotá", "c": "Cali", "d": "Cartagena"}, "answer": "b"},
+  {"id": 85, "question": "İtalya'nın başkenti neresidir?", "options": {"a": "Milano", "b": "Venedik", "c": "Roma", "d": "Floransa"}, "answer": "c"},
+  {"id": 86, "question": "Dünyanın en büyük kahve üreticisi ülke hangisidir?", "options": {"a": "Kolombiya", "b": "Brezilya", "c": "Vietnam", "d": "Etiyopya"}, "answer": "b"},
+  {"id": 87, "question": "İngiltere'nin başkenti neresidir?", "options": {"a": "Manchester", "b": "Liverpool", "c": "Londra", "d": "Birmingham"}, "answer": "c"},
+  {"id": 88, "question": "Hangi nehir Asya'nın en uzun nehridir?", "options": {"a": "Ganj Nehri", "b": "Yangtze Nehri", "c": "Mekong Nehri", "d": "Sarı Nehir"}, "answer": "b"},
+  {"id": 89, "question": "Dünyanın en büyük altın üreticisi ülke hangisidir?", "options": {"a": "Çin", "b": "Avustralya", "c": "Rusya", "d": "Güney Afrika"}, "answer": "a"},
+  {"id": 90, "question": "İrlanda'nın başkenti neresidir?", "options": {"a": "Cork", "b": "Dublin", "c": "Galway", "d": "Limerick"}, "answer": "b"},
+  {"id": 91, "question": "Hangi ülke Kuzey Kutbu'nda toprak sahibi değildir?", "options": {"a": "Rusya", "b": "Kanada", "c": "Norveç", "d": "Brezilya"}, "answer": "d"},
+  {"id": 92, "question": "Dünyanın en büyük buğday üreticisi ülke hangisidir?", "options": {"a": "Çin", "b": "Hindistan", "c": "Rusya", "d": "ABD"}, "answer": "a"},
+  {"id": 93, "question": "Polonya'nın başkenti neresidir?", "options": {"a": "Kraków", "b": "Varşova", "c": "Gdansk", "d": "Wrocław"}, "answer": "b"},
+  {"id": 94, "question": "Çin'in başkenti neresidir?", "options": {"a": "Şanghay", "b": "Pekin", "c": "Guangzhou", "d": "Hong Kong"}, "answer": "b"},
+  {"id": 95, "question": "Dünyanın en büyük piramitleri hangi ülkededir?", "options": {"a": "Mısır", "b": "Meksika", "c": "Sudan", "d": "Peru"}, "answer": "a"},
+  {"id": 96, "question": "Macaristan'ın başkenti neresidir?", "options": {"a": "Debrecen", "b": "Budapeşte", "c": "Szeged", "d": "Pécs"}, "answer": "b"},
+  {"id": 97, "question": "Hangi ülke en fazla tropikal ormana sahiptir?", "options": {"a": "Brezilya", "b": "Endonezya", "c": "Kongo", "d": "Hindistan"}, "answer": "a"},
+  {"id": 98, "question": "Dünyanın en büyük doğal gaz rezervine sahip ülke hangisidir?", "options": {"a": "Rusya", "b": "İran", "c": "Katar", "d": "ABD"}, "answer": "a"},
+  {"id": 99, "question": "Bulgaristan'ın başkenti neresidir?", "options": {"a": "Plovdiv", "b": "Sofya", "c": "Varna", "d": "Burgas"}, "answer": "b"},
+  {"id": 100, "question": "Hangi ülke en fazla rüzgar enerjisi üretir?", "options": {"a": "Çin", "b": "ABD", "c": "Almanya", "d": "Hindistan"}, "answer": "a"},
+  {"id": 101, "question": "Danimarka'nın başkenti neresidir?", "options": {"a": "Aarhus", "b": "Kopenhag", "c": "Odense", "d": "Aalborg"}, "answer": "b"},
+  {"id": 102, "question": "Hangi ülke en fazla nükleer santrale sahiptir?", "options": {"a": "ABD", "b": "Fransa", "c": "Çin", "d": "Rusya"}, "answer": "a"},
+  {"id": 103, "question": "Dünyanın en büyük şeker kamışı üreticisi ülke hangisidir?", "options": {"a": "Brezilya", "b": "Hindistan", "c": "Çin", "d": "Tayland"}, "answer": "a"},
+  {"id": 104, "question": "Belçika'nın başkenti neresidir?", "options": {"a": "Antwerp", "b": "Brüksel", "c": "Gent", "d": "Liège"}, "answer": "b"},
+  {"id": 105, "question": "Hangi ülke en fazla balıkçlık üretimi yapar?", "options": {"a": "Çin", "b": "Japonya", "c": "Norveç", "d": "Peru"}, "answer": "a"},
+  {"id": 106, "question": "Avusturya'nın başkenti neresidir?", "options": {"a": "Salzburg", "b": "Viyana", "c": "Innsbruck", "d": "Graz"}, "answer": "b"},
+  {"id": 107, "question": "Hangi ülke en fazla çay üretir?", "options": {"a": "Hindistan", "b": "Çin", "c": "Sri Lanka", "d": "Kenya"}, "answer": "b"},
+  {"id": 108, "question": "Hollanda'nın başkenti neresidir?", "options": {"a": "Rotterdam", "b": "Amsterdam", "c": "Lahey", "d": "Utrecht"}, "answer": "b"},
+  {"id": 109, "question": "Dünyanın en büyük elmas madeni hangi ülkededir?", "options": {"a": "Güney Afrika", "b": "Rusya", "c": "Avustralya", "d": "Botswana"}, "answer": "d"},
+  {"id": 110, "question": "Hangi ülke en fazla güneş enerjisi üretir?", "options": {"a": "Çin", "b": "ABD", "c": "Almanya", "d": "Japonya"}, "answer": "a"},
+  {"id": 111, "question": "Çekya'nın başkenti neresidir?", "options": {"a": "Brno", "b": "Prag", "c": "Ostrava", "d": "Plzen"}, "answer": "b"},
+  {"id": 112, "question": "Hangi ülke en fazla ormanlık alana sahiptir?", "options": {"a": "Rusya", "b": "Brezilya", "c": "Kanada", "d": "ABD"}, "answer": "a"},
+  {"id": 113, "question": "Romanya'nın başkenti neresidir?", "options": {"a": "Cluj-Napoca", "b": "Bükreş", "c": "Timișoara", "d": "Iași"}, "answer": "b"},
+  {"id": 114, "question": "Hangi ülke en fazla pamuk üretir?", "options": {"a": "Çin", "b": "Hindistan", "c": "ABD", "d": "Pakistan"}, "answer": "b"},
+  {"id": 115, "question": "Dünyanın en büyük bakır madeni hangi ülkededir?", "options": {"a": "Şili", "b": "Peru", "c": "Avustralya", "d": "Kongo"}, "answer": "a"},
+  {"id": 116, "question": "Slovakya'nın başkenti neresidir?", "options": {"a": "Košice", "b": "Bratislava", "c": "Žilina", "d": "Nitra"}, "answer": "b"},
+  {"id": 117, "question": "Hangi ülke en fazla uranyum rezervine sahiptir?", "options": {"a": "Avustralya", "b": "Kazakistan", "c": "Kanada", "d": "Rusya"}, "answer": "a"},
+  {"id": 118, "question": "Dünyanın en büyük fiyordları hangi ülkededir?", "options": {"a": "Norveç", "b": "Kanada", "c": "Yeni Zelanda", "d": "Şili"}, "answer": "a"},
+  {"id": 119, "question": "Yunanistan'ın başkenti neresidir?", "options": {"a": "Selanik", "b": "Atina", "c": "Patras", "d": "Heraklion"}, "answer": "b"},
+  {"id": 120, "question": "Hangi ülke en fazla zeytinyağı üretir?", "options": {"a": "İspanya", "b": "İtalya", "c": "Yunanistan", "d": "Türkiye"}, "answer": "a"},
+  {"id": 121, "question": "Hırvatistan'ın başkenti neresidir?", "options": {"a": "Split", "b": "Zagreb", "c": "Dubrovnik", "d": "Rijeka"}, "answer": "b"},
+  {"id": 122, "question": "Hangi ülke en fazla kakao üretir?", "options": {"a": "Fildişi Sahili", "b": "Gana", "c": "Endonezya", "d": "Brezilya"}, "answer": "a"},
+  {"id": 123, "question": "Dünyanın en büyük jeotermal enerji üreticisi ülke hangisidir?", "options": {"a": "ABD", "b": "İzlanda", "c": "Yeni Zelanda", "d": "İtalya"}, "answer": "a"},
+  {"id": 124, "question": "Sırbistan'ın başkenti neresidir?", "options": {"a": "Novi Sad", "b": "Belgrad", "c": "Kragujevac", "d": "Niš"}, "answer": "b"},
+  {"id": 125, "question": "Hangi ülke en fazla mercimek üretir?", "options": {"a": "Kanada", "b": "Hindistan", "c": "Türkiye", "d": "Avustralya"}, "answer": "a"},
+  {"id": 126, "question": "Bosna-Hersek'in başkenti neresidir?", "options": {"a": "Mostar", "b": "Saraybosna", "c": "Banja Luka", "d": "Tuzla"}, "answer": "b"},
+  {"id": 127, "question": "Hangi ülke en fazla ipek üretir?", "options": {"a": "Çin", "b": "Hindistan", "c": "Tayland", "d": "Japonya"}, "answer": "a"},
+  {"id": 128, "question": "Dünyanın en büyük gökdeleni hangi ülkededir?", "options": {"a": "BAE", "b": "ABD", "c": "Çin", "d": "Suudi Arabistan"}, "answer": "a"},
+  {"id": 129, "question": "Hindistan'ın başkenti neresidir?", "options": {"a": "Mumbai", "b": "Kolkata", "c": "Yeni Delhi", "d": "Bangalore"}, "answer": "c"},
+  {"id": 130, "question": "Hangi ülke en fazla muz üretir?", "options": {"a": "Hindistan", "b": "Ekvador", "c": "Filipinler", "d": "Brezilya"}, "answer": "a"},
+  {"id": 131, "question": "Ukrayna'nın başkenti neresidir?", "options": {"a": "Lviv", "b": "Kiev", "c": "Odessa", "d": "Kharkiv"}, "answer": "b"},
+  {"id": 132, "question": "Hangi ülke en fazla demir cevheri üretir?", "options": {"a": "Avustralya", "b": "Brezilya", "c": "Çin", "d": "Hindistan"}, "answer": "a"},
+  {"id": 133, "question": "Litvanya'nın başkenti neresidir?", "options": {"a": "Kaunas", "b": "Vilnius", "c": "Klaipėda", "d": "Šiauliai"}, "answer": "b"},
+  {"id": 134, "question": "Hangi ülke en fazla üzüm üretir?", "options": {"a": "İtalya", "b": "Çin", "c": "İspanya", "d": "Fransa"}, "answer": "b"},
+  {"id": 135, "question": "Letonya'nın başkenti neresidir?", "options": {"a": "Jūrmala", "b": "Riga", "c": "Liepāja", "d": "Daugavpils"}, "answer": "b"},
+  {"id": 136, "question": "Japonya'nın başkenti neresidir?", "options": {"a": "Osaka", "b": "Tokyo", "c": "Kyoto", "d": "Hiroshima"}, "answer": "b"},
+  {"id": 137, "question": "Dünyanın en büyük kömür rezervine sahip ülke hangisidir?", "options": {"a": "ABD", "b": "Rusya", "c": "Çin", "d": "Avustralya"}, "answer": "a"},
+  {"id": 138, "question": "Estonya'nın başkenti neresidir?", "options": {"a": "Tartu", "b": "Tallinn", "c": "Narva", "d": "Pärnu"}, "answer": "b"},
+  {"id": 139, "question": "Hangi ülke en fazla pirinç üretir?", "options": {"a": "Çin", "b": "Hindistan", "c": "Endonezya", "d": "Vietnam"}, "answer": "a"},
+  {"id": 140, "question": "Beyaz Rusya'nın başkenti neresidir?", "options": {"a": "Gomel", "b": "Minsk", "c": "Brest", "d": "Vitebsk"}, "answer": "b"},
+  {"id": 141, "question": "Hangi ülke en fazla portakal üretir?", "options": {"a": "Brezilya", "b": "ABD", "c": "Çin", "d": "İspanya"}, "answer": "a"},
+  {"id": 142, "question": "Moldova'nın başkenti neresidir?", "options": {"a": "Tiraspol", "b": "Kişinev", "c": "Bălți", "d": "Bender"}, "answer": "b"},
+  {"id": 143, "question": "Hangi ülke en fazla tütün üretir?", "options": {"a": "Çin", "b": "Hindistan", "c": "Brezilya", "d": "Türkiye"}, "answer": "a"},
+  {"id": 144, "question": "Slovenya'nın başkenti neresidir?", "options": {"a": "Maribor", "b": "Ljubljana", "c": "Koper", "d": "Celje"}, "answer": "b"},
+  {"id": 145, "question": "Hangi ülke en fazla soya fasulyesi üretir?", "options": {"a": "Brezilya", "b": "ABD", "c": "Arjantin", "d": "Çin"}, "answer": "b"},
+  {"id": 146, "question": "Dünyanın en büyük nikel rezervine sahip ülke hangisidir?", "options": {"a": "Avustralya", "b": "Rusya", "c": "Kanada", "d": "Endonezya"}, "answer": "d"},
+  {"id": 147, "question": "Rusya'nın başkenti neresidir?", "options": {"a": "St. Petersburg", "b": "Moskova", "c": "Kazan", "d": "Novosibirsk"}, "answer": "b"},
+  {"id": 148, "question": "Hangi ülke en fazla kükürt üretir?", "options": {"a": "ABD", "b": "Çin", "c": "Rusya", "d": "Kanada"}, "answer": "a"},
+  {"id": 149, "question": "Hangi ülke en fazla mısır üretir?", "options": {"a": "ABD", "b": "Çin", "c": "Brezilya", "d": "Hindistan"}, "answer": "a"},
+  {"id": 150, "question": "Karadağ'ın başkenti neresidir?", "options": {"a": "Budva", "b": "Podgorica", "c": "Kotor", "d": "Bar"}, "answer": "b"},
+  {"id": 151, "question": "Hangi ülke en fazla koyun sayısına sahiptir?", "options": {"a": "Çin", "b": "Avustralya", "c": "Yeni Zelanda", "d": "Hindistan"}, "answer": "a"},
+  {"id": 152, "question": "Kuzey Makedonya'nın başkenti neresidir?", "options": {"a": "Bitola", "b": "Üsküp", "c": "Ohrid", "d": "Prilep"}, "answer": "b"},
+  {"id": 153, "question": "Hangi ülke en fazla keçi sayısına sahiptir?", "options": {"a": "Çin", "b": "Hindistan", "c": "Pakistan", "d": "Nijerya"}, "answer": "a"},
+  {"id": 154, "question": "Arnavutluk'un başkenti neresidir?", "options": {"a": "Dıraç", "b": "Tiran", "c": "Vlorë", "d": "Shkodër"}, "answer": "b"},
+  {"id": 155, "question": "Hangi ülke en fazla sığır sayısına sahiptir?", "options": {"a": "Hindistan", "b": "Brezilya", "c": "Çin", "d": "ABD"}, "answer": "a"},
+  {"id": 156, "question": "İzlanda'nın başkenti neresidir?", "options": {"a": "Akureyri", "b": "Reykjavik", "c": "Keflavik", "d": "Hafnarfjörður"}, "answer": "b"},
+  {"id": 157, "question": "Hangi ülke en fazla deve sayısına sahiptir?", "options": {"a": "Somali", "b": "Sudan", "c": "Hindistan", "d": "Suudi Arabistan"}, "answer": "a"},
+  {"id": 158, "question": "Dünyanın en büyük üzüm bağları hangi ülkededir?", "options": {"a": "Fransa", "b": "İtalya", "c": "İspanya", "d": "ABD"}, "answer": "c"},
+  {"id": 159, "question": "Lüksemburg'un başkenti neresidir?", "options": {"a": "Esch-sur-Alzette", "b": "Lüksemburg", "c": "Differdange", "d": "Dudelange"}, "answer": "b"},
+  {"id": 160, "question": "Hangi ülke en fazla palmiye yağı üretir?", "options": {"a": "Endonezya", "b": "Malezya", "c": "Tayland", "d": "Nijerya"}, "answer": "a"},
+  {"id": 161, "question": "Dünyanın en büyük susam üreticisi ülke hangisidir?", "options": {"a": "Hindistan", "b": "Sudan", "c": "Myanmar", "d": "Çin"}, "answer": "a"},
+  {"id": 162, "question": "Türkiye'nin en büyük susam üretim bölgesi neresidir?", "options": {"a": "Güneydoğu Anadolu", "b": "Ege", "c": "Akdeniz", "d": "Marmara"}, "answer": "c"},
+  {"id": 163, "question": "Hangi ülke en fazla keten üretir?", "options": {"a": "Kanada", "b": "Çin", "c": "Rusya", "d": "Hindistan"}, "answer": "a"},
+  {"id": 164, "question": "İspanya'nın başkenti neresidir?", "options": {"a": "Barselona", "b": "Madrid", "c": "Valencia", "d": "Sevilla"}, "answer": "b"},
+  {"id": 165, "question": "Malta'nın başkenti neresidir?", "options": {"a": "Mdina", "b": "Valletta", "c": "Sliema", "d": "St. Julian's"}, "answer": "b"},
+  {"id": 166, "question": "Hangi ülke en fazla safran üretir?", "options": {"a": "İran", "b": "Hindistan", "c": "İspanya", "d": "Türkiye"}, "answer": "a"},
+  {"id": 167, "question": "Portekiz'in başkenti neresidir?", "options": {"a": "Porto", "b": "Lizbon", "c": "Faro", "d": "Coimbra"}, "answer": "b"},
+  {"id": 168, "question": "Fransa'nın başkenti neresidir?", "options": {"a": "Lyon", "b": "Marsilya", "c": "Paris", "d": "Nice"}, "answer": "c"},
+  {"id": 169, "question": "İsviçre'nin başkenti neresidir?", "options": {"a": "Zürih", "b": "Cenevre", "c": "Bern", "d": "Lozan"}, "answer": "c"},
+  {"id": 170, "question": "Almanya'nın başkenti neresidir?", "options": {"a": "Münih", "b": "Berlin", "c": "Hamburg", "d": "Köln"}, "answer": "b"},
+  {"id": 171, "question": "Norveç'in başkenti neresidir?", "options": {"a": "Bergen", "b": "Oslo", "c": "Trondheim", "d": "Stavanger"}, "answer": "b"},
+  {"id": 172, "question": "Arjantin'in başkenti neresidir?", "options": {"a": "Córdoba", "b": "Buenos Aires", "c": "Rosario", "d": "Mendoza"}, "answer": "b"},
+  {"id": 173, "question": "İsveç'in başkenti neresidir?", "options": {"a": "Göteborg", "b": "Stockholm", "c": "Malmö", "d": "Uppsala"}, "answer": "b"},
+  {"id": 174, "question": "Endonezya'nın başkenti neresidir?", "options": {"a": "Jakarta", "b": "Bali", "c": "Surabaya", "d": "Medan"}, "answer": "a"},
+  {"id": 175, "question": "Dünyanın en büyük kauçuk üreticisi ülke hangisidir?", "options": {"a": "Tayland", "b": "Endonezya", "c": "Malezya", "d": "Vietnam"}, "answer": "a"},
+  {"id": 176, "question": "Bangladeş'in başkanı neresidir?", "options": {"a": "Chittagong", "b": "Dhaka", "c": "Khulna", "d": "Sylhet"}, "answer": "b"},
+  {"id": 177, "question": "Küba'nın başkenti neresidir?", "options": {"a": "Santiago de Cuba", "b": "Havana", "c": "Varadero", "d": "Camagüey"}, "answer": "b"},
+  {"id": 178, "question": "Maldivler'in başkenti neresidir?", "options": {"a": "Malé", "b": "Addu", "c": "Fuvahmulah", "d": "Hulhumalé"}, "answer": "a"},
+  {"id": 179, "question": "Yeni Zelanda'nın başkenti neresidir?", "options": {"a": "Auckland", "b": "Wellington", "c": "Christchurch", "d": "Hamilton"}, "answer": "b"},
+  {"id": 180, "question": "Vietnam'ın başkenti neresidir?", "options": {"a": "Ho Chi Minh City", "b": "Hanoi", "c": "Da Nang", "d": "Hue"}, "answer": "b"},
+  {"id": 181, "question": "Güney Kore'nin başkenti neresidir?", "options": {"a": "Busan", "b": "Seul", "c": "Incheon", "d": "Daegu"}, "answer": "b"},
+  {"id": 182, "question": "Kenya'nın başkenti neresidir?", "options": {"a": "Mombasa", "b": "Nairobi", "c": "Kisumu", "d": "Eldoret"}, "answer": "b"},
+  {"id": 183, "question": "Nijerya'nın başkenti neresidir?", "options": {"a": "Lagos", "b": "Abuja", "c": "Kano", "d": "Ibadan"}, "answer": "b"},
+  {"id": 184, "question": "Mısır'ın başkenti neresidir?", "options": {"a": "İskenderiye", "b": "Kahire", "c": "Gize", "d": "Luksor"}, "answer": "b"},
+  {"id": 185, "question": "Sudan'ın başkenti neresidir?", "options": {"a": "Omdurman", "b": "Hartum", "c": "Port Sudan", "d": "Nyala"}, "answer": "b"},
+  {"id": 186, "question": "Gana'nın başkenti neresidir?", "options": {"a": "Kumasi", "b": "Accra", "c": "Tamale", "d": "Sekondi-Takoradi"}, "answer": "b"},
+  {"id": 187, "question": "Etiyopya'nın başkenti neresidir?", "options": {"a": "Dire Dawa", "b": "Addis Ababa", "c": "Bahir Dar", "d": "Gondar"}, "answer": "b"},
+  {"id": 188, "question": "Fas'ın başkenti neresidir?", "options": {"a": "Kazablanka", "b": "Rabat", "c": "Marakeş", "d": "Fes"}, "answer": "b"},
+  {"id": 189, "question": "Cezayir'in başkenti neresidir?", "options": {"a": "Oran", "b": "Cezayir", "c": "Annaba", "d": "Konstantin"}, "answer": "b"},
+  {"id": 190, "question": "Tunus'un başkenti neresidir?", "options": {"a": "Sfax", "b": "Tunus", "c": "Sousse", "d": "Bizerte"}, "answer": "b"},
+  {"id": 191, "question": "Libya'nın başkenti neresidir?", "options": {"a": "Bingazi", "b": "Trablus", "c": "Misrata", "d": "Sebha"}, "answer": "b"},
+  {"id": 192, "question": "Uganda'nın başkenti neresidir?", "options": {"a": "Gulu", "b": "Kampala", "c": "Jinja", "d": "Mbale"}, "answer": "b"},
+  {"id": 193, "question": "Zimbabve'nin başkenti neresidir?", "options": {"a": "Bulawayo", "b": "Harare", "c": "Mutare", "d": "Gweru"}, "answer": "b"},
+  {"id": 194, "question": "Kongo Demokratik Cumhuriyeti'nin başkenti neresidir?", "options": {"a": "Lubumbashi", "b": "Kinşasa", "c": "Kisangani", "d": "Mbuji-Mayi"}, "answer": "b"},
+  {"id": 195, "question": "Angola'nın başkenti neresidir?", "options": {"a": "Huambo", "b": "Luanda", "c": "Lobito", "d": "Benguela"}, "answer": "b"},
+  {"id": 196, "question": "Kamerun'un başkenti neresidir?", "options": {"a": "Douala", "b": "Yaoundé", "c": "Bamenda", "d": "Garoua"}, "answer": "b"},
+  {"id": 197, "question": "Madagaskar'ın başkenti neresidir?", "options": {"a": "Toamasina", "b": "Antananarivo", "c": "Fianarantsoa", "d": "Mahajanga"}, "answer": "b"},
+  {"id": 198, "question": "Mozambik'in başkenti neresidir?", "options": {"a": "Beira", "b": "Maputo", "c": "Nampula", "d": "Quelimane"}, "answer": "b"},
+  {"id": 199, "question": "Namibya'nın başkenti neresidir?", "options": {"a": "Walvis Bay", "b": "Windhoek", "c": "Swakopmund", "d": "Rundu"}, "answer": "b"},
+  {"id": 200, "question": "Botswana'nın başkenti neresidir?", "options": {"a": "Francistown", "b": "Gaborone", "c": "Maun", "d": "Kasane"}, "answer": "b"}
 ]

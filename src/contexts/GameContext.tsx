@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import { Category, GameState, Language, Question, Group, Player } from '../types';
+import { secureLocalStorage } from '../utils/security';
 
 interface GameContextType {
   state: GameState;
@@ -12,29 +13,48 @@ interface GameContextType {
 }
 
 const getInitialState = (): GameState => {
-  const savedState = localStorage.getItem('gameState');
-  if (savedState) {
-    return JSON.parse(savedState);
+  try {
+    // LocalStorage'dan güvenli bir şekilde veriyi al
+    const savedState = secureLocalStorage.getItem<GameState | null>('gameState', null);
+    if (savedState) {
+      return savedState;
+    }
+    
+    // Get language from localStorage or use TR as fallback
+    const savedLanguage = secureLocalStorage.getItem<string | null>('selectedLanguage', null);
+    const initialLanguage = savedLanguage === 'en' ? Language.EN : Language.TR;
+    
+    return {
+      isGameStarted: false,
+      currentQuestion: null,
+      currentGroupIndex: 0,
+      winner: null,
+      language: initialLanguage,
+      groups: [],
+      timeRemaining: 30,
+      selectedCategory: null
+    };
+  } catch (error) {
+    console.error('Oyun durumu yüklenirken hata oluştu:', error);
+    // Hata durumunda varsayılan değerleri döndür
+    return {
+      isGameStarted: false,
+      currentQuestion: null,
+      currentGroupIndex: 0,
+      winner: null,
+      language: Language.TR,
+      groups: [],
+      timeRemaining: 30,
+      selectedCategory: null
+    };
   }
-  // Get language from localStorage or use TR as fallback
-  const savedLanguage = localStorage.getItem('selectedLanguage');
-  const initialLanguage = savedLanguage === 'en' ? Language.EN : Language.TR;
-  return {
-    isGameStarted: false,
-    currentQuestion: null,
-    currentGroupIndex: 0,
-    winner: null,
-    language: initialLanguage,
-    groups: [],
-    timeRemaining: 30,
-    selectedCategory: null
-  };
 };
 
 type GameAction =
   | { type: 'START_GAME'; payload: Group[] }
   | { type: 'SET_QUESTION'; payload: Question }
   | { type: 'ANSWER_QUESTION'; payload: { correct: boolean; category: Category } }
+  | { type: 'UPDATE_BADGES'; payload: { correct: boolean; category: Category } }
   | { type: 'USE_JOKER'; payload: string }
   | { type: 'NEXT_GROUP' }
   | { type: 'SET_WINNER'; payload: Group }
@@ -61,8 +81,8 @@ const gameReducer = (state: GameState, action: GameAction): GameState => {
         ...state,
         currentQuestion: action.payload,
       };
-
-    case "ANSWER_QUESTION":
+      
+    case "UPDATE_BADGES":
       const updatedGroups = state.groups.map((group, index) => {
         if (index === state.currentGroupIndex) {
           // Grubu güncelle
@@ -92,7 +112,12 @@ const gameReducer = (state: GameState, action: GameAction): GameState => {
 
       return {
         ...state,
-        groups: updatedGroups,
+        groups: updatedGroups
+      };
+
+    case "ANSWER_QUESTION":
+      return {
+        ...state,
         // Sadece yanlış cevap verildiğinde diğer gruba geç
         currentGroupIndex: !action.payload.correct 
           ? (state.currentGroupIndex + 1) % state.groups.length
@@ -170,12 +195,16 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({
 
   // Oyun durumunu localStorage'a kaydet
   useEffect(() => {
-    localStorage.setItem('gameState', JSON.stringify(state));
+    try {
+      secureLocalStorage.setItem('gameState', state);
+    } catch (error) {
+      console.error('Oyun durumu kaydedilirken hata oluştu:', error);
+    }
   }, [state]);
 
   const endGame = () => {
     dispatch({ type: 'END_GAME' });
-    localStorage.removeItem('gameState'); // Oyun durumunu temizle
+    secureLocalStorage.removeItem('gameState'); // Oyun durumunu temizle
   };
 
   const startGame = (

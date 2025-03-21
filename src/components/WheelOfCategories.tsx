@@ -28,6 +28,24 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
   } | null>(null);
   const [showCategoryAnimation, setShowCategoryAnimation] = useState(false);
 
+  // Bir rengin %10 daha koyu versiyonunu oluşturan yardımcı fonksiyon
+  const darkenColor = (color: string, percent: number = 10): string => {
+    // Renk hex formatında ise (#RRGGBB)
+    if (color.startsWith('#')) {
+      let r = parseInt(color.slice(1, 3), 16);
+      let g = parseInt(color.slice(3, 5), 16);
+      let b = parseInt(color.slice(5, 7), 16);
+      
+      r = Math.max(0, Math.floor(r * (1 - percent / 100)));
+      g = Math.max(0, Math.floor(g * (1 - percent / 100)));
+      b = Math.max(0, Math.floor(b * (1 - percent / 100)));
+      
+      return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    }
+    
+    return color; // Hex formatında değilse orijinal rengi döndür
+  };
+
   // Ses dosyasını yükle
   useEffect(() => {
     wheelSoundRef.current = new Audio('/wheel.mp3');
@@ -171,7 +189,7 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
       }
 
       const spinTime = 5000; // 5-7 seconds
-      const spinAngle = Math.random() * 10 + 30; // 15-25 radians
+      const spinAngle = Math.random() * 15 + 25; // 15-25 radians
       let startTime: number | null = null;
 
       function animate(timestamp: number) {
@@ -203,7 +221,7 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
             setIsSpinning(false);
             setShowCategoryAnimation(false);
             onSelectCategory(selectedCategory.name);
-          }, 2000); // Animasyon için 2 saniye bekle
+          }, 3000); // Animasyon için 2 saniye bekle
         }
       }
 
@@ -222,8 +240,10 @@ export const WheelOfCategories: React.FC<WheelOfCategoriesProps> = ({ onSelectCa
       <div 
         className="relative w-[500px] h-[500px]"
         style={{
-          transition: 'background-color 0.5s ease-in-out',
-          backgroundColor: showCategoryAnimation && selectedCategoryInfo ? selectedCategoryInfo.color : 'transparent',
+          transition: 'background-color 0.5s ease-in-out, background 0.5s ease-in-out',
+          background: showCategoryAnimation && selectedCategoryInfo 
+            ? `radial-gradient(circle, ${darkenColor(selectedCategoryInfo.color, 40)} 0%, ${selectedCategoryInfo.color}  100%)`
+            : 'transparent',
           borderRadius: '50%'
         }}
       >

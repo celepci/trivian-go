@@ -1,252 +1,201 @@
 [
-  {
-    "id": 1,
-    "question": "Ünlü ressam Vincent van Gogh'un 'Yıldızlı Gece' tablosu hangi şehirde yapılmıştır?",
-    "answer": "Saint-Rémy-de-Provence"
-  },
-  {
-    "id": 2,
-    "question": "Leonardo da Vinci'nin 'Mona Lisa' tablosu hangi müzede sergilenmektedir?",
-    "answer": "Louvre Müzesi"
-  },
-  {
-    "id": 3,
-    "question": "Türk resim sanatının öncülerinden olan ve 'Kaplumbağa Terbiyecisi' tablosunu yapan sanatçı kimdir?",
-    "answer": "Osman Hamdi Bey"
-  },
-  {
-    "id": 4,
-    "question": "Pablo Picasso'nun en ünlü eserlerinden biri olan 'Guernica' hangi olayı anlatmaktadır?",
-    "answer": "İspanya İç Savaşı"
-  },
-  {
-    "id": 5,
-    "question": "Michelangelo'nun 'David' heykeli hangi şehirde bulunmaktadır?",
-    "answer": "Floransa"
-  },
-  {
-    "id": 6,
-    "question": "Türk edebiyatının ilk Nobel Edebiyat Ödülü'nü alan yazarı kimdir?",
-    "answer": "Orhan Pamuk"
-  },
-  {
-    "id": 7,
-    "question": "Salvador Dali'nin en ünlü eserlerinden biri olan 'Belleğin Azmi' tablosunda eriyen nesneler nelerdir?",
-    "answer": "Saatler"
-  },
-  {
-    "id": 8,
-    "question": "Türk sinema tarihinin ilk uzun metrajlı filmi hangisidir?",
-    "answer": "Ayastefanos'taki Rus Abidesi'nin Yıkılışı"
-  },
-  {
-    "id": 9,
-    "question": "Claude Monet'nin 'Nilüferler' serisi hangi bahçeden ilham alınarak yapılmıştır?",
-    "answer": "Giverny Bahçesi"
-  },
-  {
-    "id": 10,
-    "question": "Türk tiyatrosunun kurucusu olarak kabul edilen sanatçı kimdir?",
-    "answer": "Muhsin Ertuğrul"
-  },
-  {
-    "id": 11,
-    "question": "Andy Warhol'un en ünlü eserlerinden biri olan 'Campbell's Soup Cans' kaç adet konserve kutusundan oluşmaktadır?",
-    "answer": "32"
-  },
-  {
-    "id": 12,
-    "question": "Türk hat sanatının en önemli temsilcilerinden biri olan ve 'Hafız Osman' olarak bilinen sanatçının asıl adı nedir?",
-    "answer": "Osman bin Ali"
-  },
-  {
-    "id": 13,
-    "question": "Frida Kahlo'nun en çok resmettiği konu nedir?",
-    "answer": "Otoportre"
-  },
-  {
-    "id": 14,
-    "question": "Türk müziğinin en önemli bestecilerinden biri olan ve 'Türk Beşleri' olarak bilinen grubun üyelerinden biri kimdir?",
-    "answer": "Cemal Reşit Rey"
-  },
-  {
-    "id": 15,
-    "question": "Gustav Klimt'in en ünlü eseri hangisidir?",
-    "answer": "Öpücük"
-  },
-  {
-    "id": 16,
-    "question": "Türk heykel sanatının öncülerinden olan ve ilk Türk kadın heykeltıraş unvanını alan sanatçı kimdir?",
-    "answer": "Sabiha Ziya Bengütaş"
-  },
-  {
-    "id": 17,
-    "question": "Edvard Munch'un 'Çığlık' tablosu hangi müzede sergilenmektedir?",
-    "answer": "Oslo Ulusal Galerisi"
-  },
-  {
-    "id": 18,
-    "question": "Türk sinemasının 'Sultan'ı olarak bilinen aktris kimdir?",
-    "answer": "Türkan Şoray"
-  },
-  {
-    "id": 19,
-    "question": "Johannes Vermeer'in 'İnci Küpeli Kız' tablosu hangi müzede sergilenmektedir?",
-    "answer": "Mauritshuis Müzesi"
-  },
-  {
-    "id": 20,
-    "question": "Türk müziğinin 'Paşa' lakaplı bestecisi kimdir?",
-    "answer": "Dede Efendi"
-  },
-  {
-    "id": 21,
-    "question": "René Magritte'in 'Bu Bir Pipo Değildir' tablosunun orijinal adı nedir?",
-    "answer": "La Trahison des Images"
-  },
-  {
-    "id": 22,
-    "question": "Türk edebiyatının 'Şair-i Azam'ı olarak bilinen şair kimdir?",
-    "answer": "Abdülhak Hamit Tarhan"
-  },
-  {
-    "id": 23,
-    "question": "Henri Matisse'in 'Dans' tablosu kaç figürden oluşmaktadır?",
-    "answer": "5"
-  },
-  {
-    "id": 24,
-    "question": "Türk sinemasının ilk kadın yönetmeni kimdir?",
-    "answer": "Cahide Sonku"
-  },
-  {
-    "id": 25,
-    "question": "Auguste Rodin'in en ünlü heykeli hangisidir?",
-    "answer": "Düşünen Adam"
-  },
-  {
-    "id": 26,
-    "question": "Türk resim sanatının 'Paris Okulu' temsilcilerinden biri olan sanatçı kimdir?",
-    "answer": "Fikret Mualla"
-  },
-  {
-    "id": 27,
-    "question": "Jackson Pollock hangi sanat akımının öncüsüdür?",
-    "answer": "Soyut Dışavurumculuk"
-  },
-  {
-    "id": 28,
-    "question": "Türk edebiyatının ilk köy romanı hangisidir?",
-    "answer": "Karabibik"
-  },
-  {
-    "id": 29,
-    "question": "Georgia O'Keeffe'nin en çok resmettiği çiçek türü hangisidir?",
-    "answer": "Kalla"
-  },
-  {
-    "id": 30,
-    "question": "Türk tiyatrosunun ilk kadın oyuncusu kimdir?",
-    "answer": "Afife Jale"
-  },
-  {
-    "id": 31,
-    "question": "Marcel Duchamp'ın 'Çeşme' adlı eseri hangi nesnenin sanat eseri olarak sunulmasıdır?",
-    "answer": "Pisuvar"
-  },
-  {
-    "id": 32,
-    "question": "Türk müziğinin 'Tamburi' lakaplı bestecisi kimdir?",
-    "answer": "Cemil Bey"
-  },
-  {
-    "id": 33,
-    "question": "Wassily Kandinsky hangi sanat akımının öncüsüdür?",
-    "answer": "Soyut Sanat"
-  },
-  {
-    "id": 34,
-    "question": "Türk sinemasının 'Çirkin Kral'ı olarak bilinen aktör kimdir?",
-    "answer": "Yılmaz Güney"
-  },
-  {
-    "id": 35,
-    "question": "Paul Gauguin'in en ünlü tabloları hangi adada yapılmıştır?",
-    "answer": "Tahiti"
-  },
-  {
-    "id": 36,
-    "question": "Türk edebiyatının 'Hece'nin Beş Şairi' olarak bilinen grubun üyelerinden biri kimdir?",
-    "answer": "Faruk Nafiz Çamlıbel"
-  },
-  {
-    "id": 37,
-    "question": "Marc Chagall'ın eserlerinde en sık kullandığı renk hangisidir?",
-    "answer": "Mavi"
-  },
-  {
-    "id": 38,
-    "question": "Türk resim sanatının 'D Grubu' kurucularından biri olan sanatçı kimdir?",
-    "answer": "Zeki Faik İzer"
-  },
-  {
-    "id": 39,
-    "question": "Piet Mondrian'ın en ünlü kompozisyonlarında kullandığı üç ana renk hangileridir?",
-    "answer": "Kırmızı, Sarı, Mavi"
-  },
-  {
-    "id": 40,
-    "question": "Türk müziğinin 'Hacı' lakaplı bestecisi kimdir?",
-    "answer": "Hacı Arif Bey"
-  },
-  {
-    "id": 41,
-    "question": "Edgar Degas'nın en çok resmettiği dans türü hangisidir?",
-    "answer": "Bale"
-  },
-  {
-    "id": 42,
-    "question": "Türk sinemasının 'Yeşilçam' döneminin başlangıç yılı hangisidir?",
-    "answer": "1950"
-  },
-  {
-    "id": 43,
-    "question": "Henri de Toulouse-Lautrec'in afişlerini en çok yaptığı mekan hangisidir?",
-    "answer": "Moulin Rouge"
-  },
-  {
-    "id": 44,
-    "question": "Türk edebiyatının ilk psikolojik romanı hangisidir?",
-    "answer": "Eylül"
-  },
-  {
-    "id": 45,
-    "question": "Amedeo Modigliani'nin portrelerinde en belirgin özellik nedir?",
-    "answer": "Uzun Boyunlar"
-  },
-  {
-    "id": 46,
-    "question": "Türk resim sanatının 'Müstakil Ressamlar ve Heykeltıraşlar Birliği' kurucularından biri olan sanatçı kimdir?",
-    "answer": "Refik Epikman"
-  },
-  {
-    "id": 47,
-    "question": "Roy Lichtenstein hangi sanat akımının öncülerindendir?",
-    "answer": "Pop Art"
-  },
-  {
-    "id": 48,
-    "question": "Türk tiyatrosunun ilk özel tiyatro topluluğu hangisidir?",
-    "answer": "Darülbedayi"
-  },
-  {
-    "id": 49,
-    "question": "Mark Rothko'nun en karakteristik eser tarzı nedir?",
-    "answer": "Renk Alanları"
-  },
-  {
-    "id": 50,
-    "question": "Türk müziğinin 'Itri' olarak bilinen bestecisinin asıl adı nedir?",
-    "answer": "Buhurizade Mustafa Efendi"
-  }
+  {"id": 1, "question": "Ünlü ressam Vincent van Gogh'un 'Yıldızlı Gece' tablosu hangi şehirde yapılmıştır?", "options": {"a": "Amsterdam", "b": "Paris", "c": "Saint-Rémy-de-Provence", "d": "Arles"}, "answer": "c"},
+  {"id": 2, "question": "Leonardo da Vinci'nin 'Mona Lisa' tablosu hangi müzede sergilenmektedir?", "options": {"a": "Uffizi Galerisi", "b": "Louvre Müzesi", "c": "Prado Müzesi", "d": "Metropolitan Sanat Müzesi"}, "answer": "b"},
+  {"id": 3, "question": "Türk resim sanatının öncülerinden olan ve 'Kaplumbağa Terbiyecisi' tablosunu yapan sanatçı kimdir?", "options": {"a": "Osman Hamdi Bey", "b": "İbrahim Çallı", "c": "Fikret Mualla", "d": "Abidin Dino"}, "answer": "a"},
+  {"id": 4, "question": "Pablo Picasso'nun en ünlü eserlerinden biri olan 'Guernica' hangi olayı anlatmaktadır?", "options": {"a": "Birinci Dünya Savaşı", "b": "İspanya İç Savaşı", "c": "Fransız Devrimi", "d": "İkinci Dünya Savaşı"}, "answer": "b"},
+  {"id": 5, "question": "Michelangelo'nun 'David' heykeli hangi şehirde bulunmaktadır?", "options": {"a": "Roma", "b": "Venedik", "c": "Floransa", "d": "Milano"}, "answer": "c"},
+  {"id": 6, "question": "Türk edebiyatının ilk Nobel Edebiyat Ödülü'nü alan yazarı kimdir?", "options": {"a": "Yaşar Kemal", "b": "Orhan Pamuk", "c": "Nazım Hikmet", "d": "Ahmet Hamdi Tanpınar"}, "answer": "b"},
+  {"id": 7, "question": "Salvador Dali'nin en ünlü eserlerinden biri olan 'Belleğin Azmi' tablosunda eriyen nesneler nelerdir?", "options": {"a": "Kalemler", "b": "Saatler", "c": "Tabaklar", "d": "Aynalar"}, "answer": "b"},
+  {"id": 8, "question": "Türk sinema tarihinin ilk uzun metrajlı filmi hangisidir?", "options": {"a": "Aşk-ı Memnu", "b": "Ayastefanos'taki Rus Abidesi'nin Yıkılışı", "c": "Vurun Kahpeye", "d": "Hacı Ağa"}, "answer": "b"},
+  {"id": 9, "question": "Claude Monet'nin 'Nilüferler' serisi hangi bahçeden ilham alınarak yapılmıştır?", "options": {"a": "Versay Bahçesi", "b": "Giverny Bahçesi", "c": "Tuileries Bahçesi", "d": "Luxembourg Bahçesi"}, "answer": "b"},
+  {"id": 10, "question": "Türk tiyatrosunun kurucusu olarak kabul edilen sanatçı kimdir?", "options": {"a": "Muhsin Ertuğrul", "b": "Haldun Dormen", "c": "Ferhan Şensoy", "d": "Genco Erkal"}, "answer": "a"},
+  {"id": 11, "question": "Andy Warhol'un en ünlü eserlerinden biri olan 'Campbell's Soup Cans' kaç adet konserve kutusundan oluşmaktadır?", "options": {"a": "24", "b": "28", "c": "32", "d": "36"}, "answer": "c"},
+  {"id": 12, "question": "Türk hat sanatının en önemli temsilcilerinden biri olan ve 'Hafız Osman' olarak bilinen sanatçının asıl adı nedir?", "options": {"a": "Osman bin Ali", "b": "Ahmet bin Hüseyin", "c": "Mehmet bin İsmail", "d": "Ali bin Veli"}, "answer": "a"},
+  {"id": 13, "question": "Frida Kahlo'nun en çok resmettiği konu nedir?", "options": {"a": "Peyzaj", "b": "Otoportre", "c": "Natürmort", "d": "Hayvanlar"}, "answer": "b"},
+  {"id": 14, "question": "Türk müziğinin en önemli bestecilerinden biri olan ve 'Türk Beşleri' olarak bilinen grubun üyelerinden biri kimdir?", "options": {"a": "Cemal Reşit Rey", "b": "Dede Efendi", "c": "Hacı Arif Bey", "d": "Itri"}, "answer": "a"},
+  {"id": 15, "question": "Gustav Klimt'in en ünlü eseri hangisidir?", "options": {"a": "Portre", "b": "Öpücük", "c": "Ağaçlar", "d": "Kadınlar"}, "answer": "b"},
+  {"id": 16, "question": "Türk heykel sanatının öncülerinden olan ve ilk Türk kadın heykeltıraş unvanını alan sanatçı kimdir?", "options": {"a": "Sabiha Ziya Bengütaş", "b": "Zerrin Bölükbaşı", "c": "İlhan Koman", "d": "Güzin Duran"}, "answer": "a"},
+  {"id": 17, "question": "Edvard Munch'un 'Çığlık' tablosu hangi müzede sergilenmektedir?", "options": {"a": "Oslo Ulusal Galerisi", "b": "Stockholm Moderna Museet", "c": "Kopenhag Ny Carlsberg Glyptotek", "d": "Helsinki Ateneum"}, "answer": "a"},
+  {"id": 18, "question": "Türk sinemasının 'Sultan'ı olarak bilinen aktris kimdir?", "options": {"a": "Hülya Koçyiğit", "b": "Filiz Akın", "c": "Türkan Şoray", "d": "Fatma Girik"}, "answer": "c"},
+  {"id": 19, "question": "Johannes Vermeer'in 'İnci Küpeli Kız' tablosu hangi müzede sergilenmektedir?", "options": {"a": "Rijksmuseum", "b": "Mauritshuis Müzesi", "c": "Van Gogh Müzesi", "d": "Hermitage Müzesi"}, "answer": "b"},
+  {"id": 20, "question": "Türk müziğinin 'Paşa' lakaplı bestecisi kimdir?", "options": {"a": "Hacı Arif Bey", "b": "Dede Efendi", "c": "Cemil Bey", "d": "Itri"}, "answer": "b"},
+  {"id": 21, "question": "René Magritte'in 'Bu Bir Pipo Değildir' tablosunun orijinal adı nedir?", "options": {"a": "Le Rêve", "b": "La Trahison des Images", "c": "L'Homme au Chapeau", "d": "La Condition Humaine"}, "answer": "b"},
+  {"id": 22, "question": "Türk edebiyatının 'Şair-i Azam'ı olarak bilinen şair kimdir?", "options": {"a": "Namık Kemal", "b": "Abdülhak Hamit Tarhan", "c": "Tevfik Fikret", "d": "Mehmet Akif Ersoy"}, "answer": "b"},
+  {"id": 23, "question": "Henri Matisse'in 'Dans' tablosu kaç figürden oluşmaktadır?", "options": {"a": "3", "b": "4", "c": "5", "d": "6"}, "answer": "c"},
+  {"id": 24, "question": "Türk sinemasının ilk kadın yönetmeni kimdir?", "options": {"a": "Cahide Sonku", "b": "Türkan Şoray", "c": "Bilge Olgaç", "d": "Füruzan"}, "answer": "a"},
+  {"id": 25, "question": "Auguste Rodin'in en ünlü heykeli hangisidir?", "options": {"a": "Düşünen Adam", "b": "Öpücük", "c": "Bronz Çağı", "d": "Cehennem Kapıları"}, "answer": "a"},
+  {"id": 26, "question": "Türk resim sanatının 'Paris Okulu' temsilcilerinden biri olan sanatçı kimdir?", "options": {"a": "Fikret Mualla", "b": "Osman Hamdi Bey", "c": "İbrahim Çallı", "d": "Bedri Rahmi Eyüboğlu"}, "answer": "a"},
+  {"id": 27, "question": "Jackson Pollock hangi sanat akımının öncüsüdür?", "options": {"a": "Kübizm", "b": "Sürrealizm", "c": "Soyut Dışavurumculuk", "d": "Pop Art"}, "answer": "c"},
+  {"id": 28, "question": "Türk edebiyatının ilk köy romanı hangisidir?", "options": {"a": "Yaban", "b": "Karabibik", "c": "Kuyucaklı Yusuf", "d": "Aşk-ı Memnu"}, "answer": "b"},
+  {"id": 29, "question": "Georgia O'Keeffe'nin en çok resmettiği çiçek türü hangisidir?", "options": {"a": "Gül", "b": "Lale", "c": "Kalla", "d": "Orkide"}, "answer": "c"},
+  {"id": 30, "question": "Türk tiyatrosunun ilk kadın oyuncusu kimdir?", "options": {"a": "Afife Jale", "b": "Bedia Muvahhit", "c": "Neyyire Neyir", "d": "Cahide Sonku"}, "answer": "a"},
+  {"id": 31, "question": "Marcel Duchamp'ın 'Çeşme' adlı eseri hangi nesnenin sanat eseri olarak sunulmasıdır?", "options": {"a": "Sandalye", "b": "Pisuvar", "c": "Bicycle Wheel", "d": "Şişe Rafı"}, "answer": "b"},
+  {"id": 32, "question": "Türk müziğinin 'Tamburi' lakaplı bestecisi kimdir?", "options": {"a": "Dede Efendi", "b": "Hacı Arif Bey", "c": "Cemil Bey", "d": "Itri"}, "answer": "c"},
+  {"id": 33, "question": "Wassily Kandinsky hangi sanat akımının öncüsüdür?", "options": {"a": "Soyut Sanat", "b": "Fovizm", "c": "Kübizm", "d": "Dadaizm"}, "answer": "a"},
+  {"id": 34, "question": "Türk sinemasının 'Çirkin Kral'ı olarak bilinen aktör kimdir?", "options": {"a": "Ayhan Işık", "b": "Yılmaz Güney", "c": "Cüneyt Arkın", "d": "Tarık Akan"}, "answer": "b"},
+  {"id": 35, "question": "Paul Gauguin'in en ünlü tabloları hangi adada yapılmıştır?", "options": {"a": "Hawaii", "b": "Tahiti", "c": "Bali", "d": "Madagaskar"}, "answer": "b"},
+  {"id": 36, "question": "Türk edebiyatının 'Hece'nin Beş Şairi' olarak bilinen grubun üyelerinden biri kimdir?", "options": {"a": "Faruk Nafiz Çamlıbel", "b": "Yahya Kemal Beyatlı", "c": "Ahmet Hamdi Tanpınar", "d": "Necip Fazıl Kısakürek"}, "answer": "a"},
+  {"id": 37, "question": "Marc Chagall'ın eserlerinde en sık kullandığı renk hangisidir?", "options": {"a": "Kırmızı", "b": "Mavi", "c": "Yeşil", "d": "Sarı"}, "answer": "b"},
+  {"id": 38, "question": "Türk resim sanatının 'D Grubu' kurucularından biri olan sanatçı kimdir?", "options": {"a": "Zeki Faik İzer", "b": "Fikret Mualla", "c": "Osman Hamdi Bey", "d": "İbrahim Çallı"}, "answer": "a"},
+  {"id": 39, "question": "Piet Mondrian'ın en ünlü kompozisyonlarında kullandığı üç ana renk hangileridir?", "options": {"a": "Yeşil, Turuncu, Mor", "b": "Kırmızı, Sarı, Mavi", "c": "Siyah, Beyaz, Gri", "d": "Pembe, Mavi, Sarı"}, "answer": "b"},
+  {"id": 40, "question": "Türk müziğinin 'Hacı' lakaplı bestecisi kimdir?", "options": {"a": "Dede Efendi", "b": "Hacı Arif Bey", "c": "Cemil Bey", "d": "Itri"}, "answer": "b"},
+  {"id": 41, "question": "Edgar Degas'nın en çok resmettiği dans türü hangisidir?", "options": {"a": "Flamenko", "b": "Bale", "c": "Tango", "d": "Samba"}, "answer": "b"},
+  {"id": 42, "question": "Türk sinemasının 'Yeşilçam' döneminin başlangıç yılı hangisidir?", "options": {"a": "1940", "b": "1950", "c": "1960", "d": "1970"}, "answer": "b"},
+  {"id": 43, "question": "Henri de Toulouse-Lautrec'in afişlerini en çok yaptığı mekan hangisidir?", "options": {"a": "Folies Bergère", "b": "Moulin Rouge", "c": "Le Chat Noir", "d": "Café de la Paix"}, "answer": "b"},
+  {"id": 44, "question": "Türk edebiyatının ilk psikolojik romanı hangisidir?", "options": {"a": "Mai ve Siyah", "b": "Eylül", "c": "Aşk-ı Memnu", "d": "Çalıkuşu"}, "answer": "b"},
+  {"id": 45, "question": "Amedeo Modigliani'nin portrelerinde en belirgin özellik nedir?", "options": {"a": "Küçük Eller", "b": "Uzun Boyunlar", "c": "Büyük Gözler", "d": "Kısa Bacaklar"}, "answer": "b"},
+  {"id": 46, "question": "Türk resim sanatının 'Müstakil Ressamlar ve Heykeltıraşlar Birliği' kurucularından biri olan sanatçı kimdir?", "options": {"a": "Refik Epikman", "b": "Osman Hamdi Bey", "c": "Fikret Mualla", "d": "Bedri Rahmi Eyüboğlu"}, "answer": "a"},
+  {"id": 47, "question": "Roy Lichtenstein hangi sanat akımının öncülerindendir?", "options": {"a": "Sürrealizm", "b": "Pop Art", "c": "Kübizm", "d": "Fütürizm"}, "answer": "b"},
+  {"id": 48, "question": "Türk tiyatrosunun ilk özel tiyatro topluluğu hangisidir?", "options": {"a": "Darülbedayi", "b": "Şehir Tiyatroları", "c": "Devlet Tiyatroları", "d": "Sadri Alışık Tiyatrosu"}, "answer": "a"},
+  {"id": 49, "question": "Mark Rothko'nun en karakteristik eser tarzı nedir?", "options": {"a": "Geometrik Şekiller", "b": "Renk Alanları", "c": "Figüratif Resimler", "d": "Küçük Çizimler"}, "answer": "b"},
+  {"id": 50, "question": "Türk müziğinin 'Itri' olarak bilinen bestecisinin asıl adı nedir?", "options": {"a": "Buhurizade Mustafa Efendi", "b": "Osman bin Ali", "c": "Cemil Bey", "d": "Hacı Arif Bey"}, "answer": "a"},
+  {"id": 51, "question": "Hangi sanat akımı, Rönesans döneminde sanatın yeniden doğuşunu temsil eder?", "options": {"a": "Barok", "b": "Rönesans", "c": "Gotik", "d": "Modernizm"}, "answer": "b"},
+  {"id": 52, "question": "Türk edebiyatında 'Garip' hareketinin öncülerinden biri kimdir?", "options": {"a": "Orhan Veli Kanık", "b": "Nazım Hikmet", "c": "Ahmet Hamdi Tanpınar", "d": "Yahya Kemal Beyatlı"}, "answer": "a"},
+  {"id": 53, "question": "Hangi Türk filmi 1982 Cannes Film Festivali'nde Altın Palmiye ödülünü kazanmıştır?", "options": {"a": "Sürü", "b": "Yol", "c": "Selvi Boylum Al Yazmalım", "d": "Umut"}, "answer": "b"},
+  {"id": 54, "question": "Rembrandt'ın en ünlü eserlerinden biri olan 'Gece Devriyesi' hangi müzede sergilenmektedir?", "options": {"a": "Louvre Müzesi", "b": "Rijksmuseum", "c": "Prado Müzesi", "d": "Uffizi Galerisi"}, "answer": "b"},
+  {"id": 55, "question": "Hangi Türk yazar 'İnce Memed' romanını kaleme almıştır?", "options": {"a": "Yaşar Kemal", "b": "Sabahattin Ali", "c": "Reşat Nuri Güntekin", "d": "Orhan Pamuk"}, "answer": "a"},
+  {"id": 56, "question": "Hangi sanatçı, 'Son Akşam Yemeği' tablosunu yapmıştır?", "options": {"a": "Michelangelo", "b": "Leonardo da Vinci", "c": "Raphael", "d": "Titian"}, "answer": "b"},
+  {"id": 57, "question": "Türk sinemasında 'Hababam Sınıfı' serisinin yönetmeni kimdir?", "options": {"a": "Ertem Eğilmez", "b": "Metin Erksan", "c": "Yılmaz Güney", "d": "Zeki Ökten"}, "answer": "a"},
+  {"id": 58, "question": "Hangi sanat akımı, Orta Çağ'da kilise mimarisiyle özdeşleşmiştir?", "options": {"a": "Gotik", "b": "Rönesans", "c": "Barok", "d": "Empresyonizm"}, "answer": "a"},
+  {"id": 59, "question": "Türk edebiyatında 'Kiralık Konak' romanının yazarı kimdir?", "options": {"a": "Halit Ziya Uşaklıgil", "b": "Reşat Nuri Güntekin", "c": "Ahmet Hamdi Tanpınar", "d": "Yakup Kadri Karaosmanoğlu"}, "answer": "d"},
+  {"id": 60, "question": "Hangi ressam, 'Avignonlu Kızlar' tablosuyla Kübizm akımını başlatmıştır?", "options": {"a": "Pablo Picasso", "b": "Georges Braque", "c": "Juan Gris", "d": "Fernand Léger"}, "answer": "a"},
+  {"id": 61, "question": "Türk tiyatrosunda 'Keşanlı Ali Destanı' oyununun yazarı kimdir?", "options": {"a": "Haldun Taner", "b": "Güngör Dilmen", "c": "Turhan Selçuk", "d": "Aziz Nesin"}, "answer": "a"},
+  {"id": 62, "question": "Hangi sanatçı, 'Sistine Şapeli' tavan fresklerini yapmıştır?", "options": {"a": "Michelangelo", "b": "Raphael", "c": "Leonardo da Vinci", "d": "Donatello"}, "answer": "a"},
+  {"id": 63, "question": "Türk sinemasında 'Vesikalı Yarim' filminin başrol oyuncusu kimdir?", "options": {"a": "Türkan Şoray", "b": "Filiz Akın", "c": "Hülya Koçyiğit", "d": "Fatma Girik"}, "answer": "a"},
+  {"id": 64, "question": "Hangi sanat akımı, 20. yüzyılda gerçeküstü imgelerle tanınmıştır?", "options": {"a": "Sürrealizm", "b": "Fütürizm", "c": "Dadaizm", "d": "Ekspresyonizm"}, "answer": "a"},
+  {"id": 65, "question": "Türk edebiyatında 'Kürk Mantolu Madonna' romanının yazarı kimdir?", "options": {"a": "Sabahattin Ali", "b": "Peyami Safa", "c": "Ahmet Hamdi Tanpınar", "d": "Reşat Nuri Güntekin"}, "answer": "a"},
+  {"id": 66, "question": "Hangi ressam, 'Ayçiçekleri' serisiyle tanınır?", "options": {"a": "Claude Monet", "b": "Vincent van Gogh", "c": "Pierre-Auguste Renoir", "d": "Mary Cassatt"}, "answer": "b"},
+  {"id": 67, "question": "Türk sinemasında 'Süt Kardeşler' filminin yönetmeni kimdir?", "options": {"a": "Ertem Eğilmez", "b": "Kartal Tibet", "c": "Memduh Ün", "d": "Atıf Yılmaz"}, "answer": "a"},
+  {"id": 68, "question": "Hangi sanat akımı, 17. yüzyılda dramatik ışık ve gölge kullanımıyla bilinir?", "options": {"a": "Rönesans", "b": "Barok", "c": "Gotik", "d": "Empresyonizm"}, "answer": "b"},
+  {"id": 69, "question": "Türk edebiyatında 'Çalıkuşu' romanının yazarı kimdir?", "options": {"a": "Reşat Nuri Güntekin", "b": "Halide Edip Adıvar", "c": "Yakup Kadri Karaosmanoğlu", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 70, "question": "Hangi ressam, 'Bal Du Moulin de la Galette' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Pierre-Auguste Renoir", "c": "Mary Cassatt", "d": "Edgar Degas"}, "answer": "b"},
+  {"id": 71, "question": "Türk tiyatrosunda 'Lüküs Hayat' operetinin bestecisi kimdir?", "options": {"a": "Cemal Reşit Rey", "b": "Adnan Saygun", "c": "Ulvi Cemal Erkin", "d": "Necil Kazım Akses"}, "answer": "a"},
+  {"id": 72, "question": "Hangi sanatçı, 'Venüs'ün Doğuşu' tablosunu yapmıştır?", "options": {"a": "Sandro Botticelli", "b": "Titian", "c": "Raphael", "d": "Caravaggio"}, "answer": "a"},
+  {"id": 73, "question": "Türk sinemasında 'Selvi Boylum Al Yazmalım' filminin yönetmeni kimdir?", "options": {"a": "Atıf Yılmaz", "b": "Metin Erksan", "c": "Yılmaz Güney", "d": "Ömer Lütfi Akad"}, "answer": "a"},
+  {"id": 74, "question": "Hangi sanat akımı, 19. yüzyılda açık havada resim yapmayı tercih etmiştir?", "options": {"a": "Empresyonizm", "b": "Realizm", "c": "Romantizm", "d": "Sembolizm"}, "answer": "a"},
+  {"id": 75, "question": "Türk edebiyatında 'Mai ve Siyah' romanının yazarı kimdir?", "options": {"a": "Halit Ziya Uşaklıgil", "b": "Namık Kemal", "c": "Ahmet Mithat Efendi", "d": "Recaizade Mahmut Ekrem"}, "answer": "a"},
+  {"id": 76, "question": "Hangi ressam, 'Kafe Terasta Gece' tablosunu yapmıştır?", "options": {"a": "Vincent van Gogh", "b": "Claude Monet", "c": "Paul Cézanne", "d": "Henri Matisse"}, "answer": "a"},
+  {"id": 77, "question": "Türk sinemasında 'Uçurtmayı Vurmasınlar' filminin yönetmeni kimdir?", "options": {"a": "Tunç Başaran", "b": "Zeki Ökten", "c": "Yavuz Turgul", "d": "Şerif Gören"}, "answer": "a"},
+  {"id": 78, "question": "Hangi sanat akımı, 20. yüzyılda makine ve hız tutkusunu yüceltmiştir?", "options": {"a": "Fütürizm", "b": "Dadaizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 79, "question": "Türk edebiyatında 'Huzur' romanının yazarı kimdir?", "options": {"a": "Ahmet Hamdi Tanpınar", "b": "Peyami Safa", "c": "Orhan Pamuk", "d": "Sabahattin Ali"}, "answer": "a"},
+  {"id": 80, "question": "Hangi ressam, 'Büyük Banyo' tablosunu yapmıştır?", "options": {"a": "Paul Cézanne", "b": "Claude Monet", "c": "Pierre-Auguste Renoir", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 81, "question": "Türk tiyatrosunda 'Sersem Kocanın Kurnaz Karısı' oyununun yazarı kimdir?", "options": {"a": "Haldun Taner", "b": "Güngör Dilmen", "c": "Aziz Nesin", "d": "Refik Erduran"}, "answer": "a"},
+  {"id": 82, "question": "Hangi sanatçı, 'Adem'in Yaratılışı' freskini yapmıştır?", "options": {"a": "Michelangelo", "b": "Raphael", "c": "Leonardo da Vinci", "d": "Caravaggio"}, "answer": "a"},
+  {"id": 83, "question": "Türk sinemasında 'Sürü' filminin yönetmeni kimdir?", "options": {"a": "Yılmaz Güney", "b": "Zeki Ökten", "c": "Metin Erksan", "d": "Ömer Lütfi Akad"}, "answer": "b"},
+  {"id": 84, "question": "Hangi sanat akımı, 19. yüzyılda toplumsal gerçekleri resmetmeyi amaçlamıştır?", "options": {"a": "Romantizm", "b": "Realizm", "c": "Empresyonizm", "d": "Sembolizm"}, "answer": "b"},
+  {"id": 85, "question": "Türk edebiyatında 'Dokuzuncu Hariciye Koğuşu' romanının yazarı kimdir?", "options": {"a": "Peyami Safa", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Reşat Nuri Güntekin"}, "answer": "a"},
+  {"id": 86, "question": "Hangi ressam, 'Yatak Odası' tablosunu yapmıştır?", "options": {"a": "Vincent van Gogh", "b": "Paul Gauguin", "c": "Henri Matisse", "d": "Claude Monet"}, "answer": "a"},
+  {"id": 87, "question": "Türk sinemasında 'Kabadayı' filminin yönetmeni kimdir?", "options": {"a": "Yavuz Turgul", "b": "Ömer Faruk Sorak", "c": "Çağan Irmak", "d": "Mustafa Altıoklar"}, "answer": "a"},
+  {"id": 88, "question": "Hangi sanat akımı, 20. yüzyılda anlamsızlığı ve kaosu vurgulamıştır?", "options": {"a": "Dadaizm", "b": "Fütürizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 89, "question": "Türk edebiyatında 'Saatleri Ayar Lama Enstitüsü' romanının yazarı kimdir?", "options": {"a": "Ahmet Hamdi Tanpınar", "b": "Orhan Pamuk", "c": "Peyami Safa", "d": "Sabahattin Ali"}, "answer": "a"},
+  {"id": 90, "question": "Hangi ressam, 'Mont Sainte-Victoire' serisini yapmıştır?", "options": {"a": "Paul Cézanne", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 91, "question": "Türk tiyatrosunda 'Paydos' oyununun yazarı kimdir?", "options": {"a": "Cevat Fehmi Başkut", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Refik Erduran"}, "answer": "a"},
+  {"id": 92, "question": "Hangi sanatçı, 'Medici Madonna' heykelini yapmıştır?", "options": {"a": "Donatello", "b": "Michelangelo", "c": "Bernini", "d": "Rodin"}, "answer": "a"},
+  {"id": 93, "question": "Türk sinemasında 'Eşkıya' filminin yönetmeni kimdir?", "options": {"a": "Yavuz Turgul", "b": "Zeki Demirkubuz", "c": "Nuri Bilge Ceylan", "d": "Fatih Akın"}, "answer": "a"},
+  {"id": 94, "question": "Hangi sanat akımı, 19. yüzyılda duygusal ve doğa temalı eserlerle tanınır?", "options": {"a": "Romantizm", "b": "Realizm", "c": "Empresyonizm", "d": "Sembolizm"}, "answer": "a"},
+  {"id": 95, "question": "Türk edebiyatında 'Ateşten Gömlek' romanının yazarı kimdir?", "options": {"a": "Halide Edip Adıvar", "b": "Reşat Nuri Güntekin", "c": "Peyami Safa", "d": "Yakup Kadri Karaosmanoğlu"}, "answer": "a"},
+  {"id": 96, "question": "Hangi ressam, 'Buğday Tarlası ve Kargalar' tablosunu yapmıştır?", "options": {"a": "Vincent van Gogh", "b": "Claude Monet", "c": "Paul Gauguin", "d": "Edvard Munch"}, "answer": "a"},
+  {"id": 97, "question": "Türk sinemasında 'Gelin' filminin yönetmeni kimdir?", "options": {"a": "Ömer Lütfi Akad", "b": "Metin Erksan", "c": "Yılmaz Güney", "d": "Zeki Ökten"}, "answer": "a"},
+  {"id": 98, "question": "Hangi sanat akımı, 20. yüzyılda soyutlamayı ve geometrik şekilleri vurgulamıştır?", "options": {"a": "Kübizm", "b": "Fütürizm", "c": "Sürrealizm", "d": "Dadaizm"}, "answer": "a"},
+  {"id": 99, "question": "Türk edebiyatında 'Yaban' romanının yazarı kimdir?", "options": {"a": "Yakup Kadri Karaosmanoğlu", "b": "Sabahattin Ali", "c": "Reşat Nuri Güntekin", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 100, "question": "Hangi ressam, 'Kadınlar Bahçesi' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Pierre-Auguste Renoir", "c": "Mary Cassatt", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 101, "question": "Türk tiyatrosunda 'Cimri' oyununun çevirmeni kimdir?", "options": {"a": "Sabahattin Eyüboğlu", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Orhan Veli Kanık"}, "answer": "a"},
+  {"id": 102, "question": "Hangi sanatçı, 'Pieta' heykelini yapmıştır?", "options": {"a": "Michelangelo", "b": "Donatello", "c": "Bernini", "d": "Rodin"}, "answer": "a"},
+  {"id": 103, "question": "Türk sinemasında 'Kış Uykusu' filminin yönetmeni kimdir?", "options": {"a": "Nuri Bilge Ceylan", "b": "Zeki Demirkubuz", "c": "Fatih Akın", "d": "Semih Kaplanoğlu"}, "answer": "a"},
+  {"id": 104, "question": "Hangi sanat akımı, 19. yüzyılda semboller ve mitolojiyle ilişkilendirilmiştir?", "options": {"a": "Sembolizm", "b": "Realizm", "c": "Empresyonizm", "d": "Romantizm"}, "answer": "a"},
+  {"id": 105, "question": "Türk edebiyatında 'İntibah' romanının yazarı kimdir?", "options": {"a": "Namık Kemal", "b": "Ahmet Mithat Efendi", "c": "Recaizade Mahmut Ekrem", "d": "Halit Ziya Uşaklıgil"}, "answer": "a"},
+  {"id": 106, "question": "Hangi ressam, 'Zambaklar' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Vincent van Gogh", "c": "Paul Gauguin", "d": "Henri Matisse"}, "answer": "a"},
+  {"id": 107, "question": "Türk sinemasında 'Mustang' filminin yönetmeni kimdir?", "options": {"a": "Deniz Gamze Ergüven", "b": "Nuri Bilge Ceylan", "c": "Zeki Demirkubuz", "d": "Fatih Akın"}, "answer": "a"},
+  {"id": 108, "question": "Hangi sanat akımı, 20. yüzyılda savaş karşıtlığını alaycı bir üslupla ifade etmiştir?", "options": {"a": "Dadaizm", "b": "Fütürizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 109, "question": "Türk edebiyatında 'Kiralık Konak' romanının yazarı kimdir?", "options": {"a": "Yakup Kadri Karaosmanoğlu", "b": "Halide Edip Adıvar", "c": "Reşat Nuri Güntekin", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 110, "question": "Hangi ressam, 'Balkon' tablosunu yapmıştır?", "options": {"a": "Édouard Manet", "b": "Claude Monet", "c": "Pierre-Auguste Renoir", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 111, "question": "Türk tiyatrosunda 'Kanlı Nigar' oyununun yazarı kimdir?", "options": {"a": "Sadık Şendil", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Cevat Fehmi Başkut"}, "answer": "a"},
+  {"id": 112, "question": "Hangi sanatçı, 'Disk Atıcı' heykelini yapmıştır?", "options": {"a": "Myron", "b": "Phidias", "c": "Praxiteles", "d": "Lysippos"}, "answer": "a"},
+  {"id": 113, "question": "Türk sinemasında 'Ahlat Ağacı' filminin yönetmeni kimdir?", "options": {"a": "Nuri Bilge Ceylan", "b": "Zeki Demirkubuz", "c": "Fatih Akın", "d": "Semih Kaplanoğlu"}, "answer": "a"},
+  {"id": 114, "question": "Hangi sanat akımı, 19. yüzyılda günlük yaşamı ve işçi sınıfını resmetmiştir?", "options": {"a": "Realizm", "b": "Romantizm", "c": "Empresyonizm", "d": "Sembolizm"}, "answer": "a"},
+  {"id": 115, "question": "Türk edebiyatında 'Sodom ve Gomore' romanının yazarı kimdir?", "options": {"a": "Yakup Kadri Karaosmanoğlu", "b": "Halide Edip Adıvar", "c": "Reşat Nuri Güntekin", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 116, "question": "Hangi ressam, 'Olympia' tablosunu yapmıştır?", "options": {"a": "Édouard Manet", "b": "Claude Monet", "c": "Pierre-Auguste Renoir", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 117, "question": "Türk sinemasında 'Bal' filminin yönetmeni kimdir?", "options": {"a": "Semih Kaplanoğlu", "b": "Nuri Bilge Ceylan", "c": "Zeki Demirkubuz", "d": "Fatih Akın"}, "answer": "a"},
+  {"id": 118, "question": "Hangi sanat akımı, 20. yüzyılda bilinçaltını ve rüyaları keşfetmiştir?", "options": {"a": "Sürrealizm", "b": "Fütürizm", "c": "Dadaizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 119, "question": "Türk edebiyatında 'Vurun Kahpeye' romanının yazarı kimdir?", "options": {"a": "Halide Edip Adıvar", "b": "Reşat Nuri Güntekin", "c": "Yakup Kadri Karaosmanoğlu", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 120, "question": "Hangi ressam, 'Kahvaltıdaki Kadınlar' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Pierre-Auguste Renoir", "c": "Mary Cassatt", "d": "Edgar Degas"}, "answer": "b"},
+  {"id": 121, "question": "Türk tiyatrosunda 'Hacıyatmaz' oyununun yazarı kimdir?", "options": {"a": "Haldun Taner", "b": "Aziz Nesin", "c": "Cevat Fehmi Başkut", "d": "Refik Erduran"}, "answer": "a"},
+  {"id": 122, "question": "Hangi sanatçı, 'Laocoön ve Oğulları' heykelini yapmıştır?", "options": {"a": "Agesander", "b": "Phidias", "c": "Praxiteles", "d": "Lysippos"}, "answer": "a"},
+  {"id": 123, "question": "Türk sinemasında 'Bir Zamanlar Anadolu'da' filminin yönetmeni kimdir?", "options": {"a": "Nuri Bilge Ceylan", "b": "Zeki Demirkubuz", "c": "Fatih Akın", "d": "Semih Kaplanoğlu"}, "answer": "a"},
+  {"id": 124, "question": "Hangi sanat akımı, 17. yüzyılda abartılı süslemelerle tanınır?", "options": {"a": "Barok", "b": "Rönesans", "c": "Gotik", "d": "Empresyonizm"}, "answer": "a"},
+  {"id": 125, "question": "Türk edebiyatında 'Handan' romanının yazarı kimdir?", "options": {"a": "Halide Edip Adıvar", "b": "Reşat Nuri Güntekin", "c": "Yakup Kadri Karaosmanoğlu", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 126, "question": "Hangi ressam, 'Düğün Dansı' tablosunu yapmıştır?", "options": {"a": "Pieter Bruegel", "b": "Jan van Eyck", "c": "Hieronymus Bosch", "d": "Rogier van der Weyden"}, "answer": "a"},
+  {"id": 127, "question": "Türk sinemasında 'Üç Maymun' filminin yönetmeni kimdir?", "options": {"a": "Nuri Bilge Ceylan", "b": "Zeki Demirkubuz", "c": "Fatih Akın", "d": "Semih Kaplanoğlu"}, "answer": "a"},
+  {"id": 128, "question": "Hangi sanat akımı, 20. yüzyılda teknoloji ve hareketi sanata taşımıştır?", "options": {"a": "Fütürizm", "b": "Dadaizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 129, "question": "Türk edebiyatında 'Bir Günün Sonunda Arzu' romanının yazarı kimdir?", "options": {"a": "Ahmet Hamdi Tanpınar", "b": "Peyami Safa", "c": "Orhan Pamuk", "d": "Sabahattin Ali"}, "answer": "a"},
+  {"id": 130, "question": "Hangi ressam, 'Arnolfini'nin Evlenmesi' tablosunu yapmıştır?", "options": {"a": "Jan van Eyck", "b": "Pieter Bruegel", "c": "Hieronymus Bosch", "d": "Rogier van der Weyden"}, "answer": "a"},
+  {"id": 131, "question": "Türk tiyatrosunda 'Bir Kavuk Devrildi' oyununun yazarı kimdir?", "options": {"a": "Musahipzade Celal", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Cevat Fehmi Başkut"}, "answer": "a"},
+  {"id": 132, "question": "Hangi sanatçı, 'Milo Venüsü' heykelini yapmıştır?", "options": {"a": "Alexandros", "b": "Phidias", "c": "Praxiteles", "d": "Lysippos"}, "answer": "a"},
+  {"id": 133, "question": "Türk sinemasında 'Sivas' filminin yönetmeni kimdir?", "options": {"a": "Kaan Müjdeci", "b": "Nuri Bilge Ceylan", "c": "Zeki Demirkubuz", "d": "Fatih Akın"}, "answer": "a"},
+  {"id": 134, "question": "Hangi sanat akımı, 19. yüzyılda doğanın güzelliklerini vurgulamıştır?", "options": {"a": "Romantizm", "b": "Realizm", "c": "Empresyonizm", "d": "Sembolizm"}, "answer": "a"},
+  {"id": 135, "question": "Türk edebiyatında 'Ankara' romanının yazarı kimdir?", "options": {"a": "Yakup Kadri Karaosmanoğlu", "b": "Halide Edip Adıvar", "c": "Reşat Nuri Güntekin", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 136, "question": "Hangi ressam, 'Bahçedeki Kadınlar' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Pierre-Auguste Renoir", "c": "Mary Cassatt", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 137, "question": "Türk sinemasında 'Ayla' filminin yönetmeni kimdir?", "options": {"a": "Can Ulkay", "b": "Nuri Bilge Ceylan", "c": "Zeki Demirkubuz", "d": "Fatih Akın"}, "answer": "a"},
+  {"id": 138, "question": "Hangi sanat akımı, 20. yüzyılda soyut biçimleri ve renkleri ön plana çıkarmıştır?", "options": {"a": "Soyut Sanat", "b": "Fütürizm", "c": "Sürrealizm", "d": "Dadaizm"}, "answer": "a"},
+  {"id": 139, "question": "Türk edebiyatında 'Sözde Kızlar' romanının yazarı kimdir?", "options": {"a": "Peyami Safa", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Reşat Nuri Güntekin"}, "answer": "a"},
+  {"id": 140, "question": "Hangi ressam, 'Kuzeyin Bahçesi' tablosunu yapmıştır?", "options": {"a": "Isaac Levitan", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 141, "question": "Türk tiyatrosunda 'Ferhat ile Şirin' oyununun yazarı kimdir?", "options": {"a": "Nazım Hikmet", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Cevat Fehmi Başkut"}, "answer": "a"},
+  {"id": 142, "question": "Hangi sanatçı, 'Winged Victory of Samothrace' heykelini yapmıştır?", "options": {"a": "Bilinmeyen Sanatçı", "b": "Phidias", "c": "Praxiteles", "d": "Lysippos"}, "answer": "a"},
+  {"id": 143, "question": "Türk sinemasında 'Babam ve Oğlum' filminin yönetmeni kimdir?", "options": {"a": "Çağan Irmak", "b": "Nuri Bilge Ceylan", "c": "Zeki Demirkubuz", "d": "Fatih Akın"}, "answer": "a"},
+  {"id": 144, "question": "Hangi sanat akımı, 19. yüzyılda anlık izlenimleri yakalamayı amaçlamıştır?", "options": {"a": "Empresyonizm", "b": "Realizm", "c": "Romantizm", "d": "Sembolizm"}, "answer": "a"},
+  {"id": 145, "question": "Türk edebiyatında 'Kuyucaklı Yusuf' romanının yazarı kimdir?", "options": {"a": "Sabahattin Ali", "b": "Peyami Safa", "c": "Ahmet Hamdi Tanpınar", "d": "Reşat Nuri Güntekin"}, "answer": "a"},
+  {"id": 146, "question": "Hangi ressam, 'Baharda Seine Nehri' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Pierre-Auguste Renoir", "c": "Mary Cassatt", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 147, "question": "Türk sinemasında 'G.O.R.A.' filminin yönetmeni kimdir?", "options": {"a": "Ömer Faruk Sorak", "b": "Çağan Irmak", "c": "Yılmaz Erdoğan", "d": "Mustafa Altıoklar"}, "answer": "a"},
+  {"id": 148, "question": "Hangi sanat akımı, 20. yüzyılda irrasyonel ve absürt temaları işlemiştir?", "options": {"a": "Sürrealizm", "b": "Fütürizm", "c": "Dadaizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 149, "question": "Türk edebiyatında 'Fatih-Harbiye' romanının yazarı kimdir?", "options": {"a": "Peyami Safa", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Reşat Nuri Güntekin"}, "answer": "a"},
+  {"id": 150, "question": "Hangi ressam, 'Müzisyenler' tablosunu yapmıştır?", "options": {"a": "Caravaggio", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 151, "question": "Türk tiyatrosunda 'Ayak Bacak Fabrikası' oyununun yazarı kimdir?", "options": {"a": "Sermet Çağan", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Cevat Fehmi Başkut"}, "answer": "a"},
+  {"id": 152, "question": "Hangi sanatçı, 'Perseus ve Medusa' heykelini yapmıştır?", "options": {"a": "Benvenuto Cellini", "b": "Michelangelo", "c": "Donatello", "d": "Bernini"}, "answer": "a"},
+  {"id": 153, "question": "Türk sinemasında 'Vizontele' filminin yönetmeni kimdir?", "options": {"a": "Yılmaz Erdoğan", "b": "Çağan Irmak", "c": "Ömer Faruk Sorak", "d": "Mustafa Altıoklar"}, "answer": "a"},
+  {"id": 154, "question": "Hangi sanat akımı, 17. yüzyılda dramatik kompozisyonlarla öne çıkmıştır?", "options": {"a": "Barok", "b": "Rönesans", "c": "Gotik", "d": "Empresyonizm"}, "answer": "a"},
+  {"id": 155, "question": "Türk edebiyatında 'Mor Salkımlı Ev' romanının yazarı kimdir?", "options": {"a": "Halide Edip Adıvar", "b": "Reşat Nuri Güntekin", "c": "Yakup Kadri Karaosmanoğlu", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 156, "question": "Hangi ressam, 'Cehennem' tablosunu yapmıştır?", "options": {"a": "Hieronymus Bosch", "b": "Pieter Bruegel", "c": "Jan van Eyck", "d": "Rogier van der Weyden"}, "answer": "a"},
+  {"id": 157, "question": "Türk sinemasında 'Organize İşler' filminin yönetmeni kimdir?", "options": {"a": "Yılmaz Erdoğan", "b": "Çağan Irmak", "c": "Ömer Faruk Sorak", "d": "Mustafa Altıoklar"}, "answer": "a"},
+  {"id": 158, "question": "Hangi sanat akımı, 20. yüzyılda dinamizmi ve enerjiyi sanata yansıtmıştır?", "options": {"a": "Fütürizm", "b": "Dadaizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 159, "question": "Türk edebiyatında 'Bir Tereddüdün Romanı' romanının yazarı kimdir?", "options": {"a": "Peyami Safa", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Reşat Nuri Güntekin"}, "answer": "a"},
+  {"id": 160, "question": "Hangi ressam, 'Aziz Jerome'un Çalışma Odası' tablosunu yapmıştır?", "options": {"a": "Antonello da Messina", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 161, "question": "Türk tiyatrosunda 'Düğün ya da Davul' oyununun yazarı kimdir?", "options": {"a": "Haldun Taner", "b": "Aziz Nesin", "c": "Cevat Fehmi Başkut", "d": "Refik Erduran"}, "answer": "a"},
+  {"id": 162, "question": "Hangi sanatçı, 'Ecce Homo' tablosunu yapmıştır?", "options": {"a": "Caravaggio", "b": "Michelangelo", "c": "Raphael", "d": "Titian"}, "answer": "a"},
+  {"id": 163, "question": "Türk sinemasında 'Kelebeğin Rüyası' filminin yönetmeni kimdir?", "options": {"a": "Yılmaz Erdoğan", "b": "Çağan Irmak", "c": "Ömer Faruk Sorak", "d": "Mustafa Altıoklar"}, "answer": "a"},
+  {"id": 164, "question": "Hangi sanat akımı, 19. yüzyılda hayal gücünü ve duyguları ön plana çıkarmıştır?", "options": {"a": "Romantizm", "b": "Realizm", "c": "Empresyonizm", "d": "Sembolizm"}, "answer": "a"},
+  {"id": 165, "question": "Türk edebiyatında 'Acımak' romanının yazarı kimdir?", "options": {"a": "Reşat Nuri Güntekin", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 166, "question": "Hangi ressam, 'Bahçedeki Öğle Yemeği' tablosunu yapmıştır?", "options": {"a": "Claude Monet", "b": "Pierre-Auguste Renoir", "c": "Mary Cassatt", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 167, "question": "Türk sinemasında 'CM101MMXI Fundamentals' filminin yönetmeni kimdir?", "options": {"a": "Cem Yılmaz", "b": "Yılmaz Erdoğan", "c": "Çağan Irmak", "d": "Ömer Faruk Sorak"}, "answer": "a"},
+  {"id": 168, "question": "Hangi sanat akımı, 20. yüzyılda bilinçaltını ve fantastik imgeleri sanata taşımıştır?", "options": {"a": "Sürrealizm", "b": "Fütürizm", "c": "Dadaizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 169, "question": "Türk edebiyatında 'Yaprak Dökümü' romanının yazarı kimdir?", "options": {"a": "Reşat Nuri Güntekin", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 170, "question": "Hangi ressam, 'Aziz Francis'in Vaazı' tablosunu yapmıştır?", "options": {"a": "Giotto", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 171, "question": "Türk tiyatrosunda 'Kafes' oyununun yazarı kimdir?", "options": {"a": "Güngör Dilmen", "b": "Haldun Taner", "c": "Aziz Nesin", "d": "Cevat Fehmi Başkut"}, "answer": "a"},
+  {"id": 172, "question": "Hangi sanatçı, 'Bacchus' tablosunu yapmıştır?", "options": {"a": "Caravaggio", "b": "Michelangelo", "c": "Raphael", "d": "Titian"}, "answer": "a"},
+  {"id": 173, "question": "Türk sinemasında 'Hokkabaz' filminin yönetmeni kimdir?", "options": {"a": "Cem Yılmaz", "b": "Yılmaz Erdoğan", "c": "Çağan Irmak", "d": "Ömer Faruk Sorak"}, "answer": "a"},
+  {"id": 174, "question": "Hangi sanat akımı, 17. yüzyılda teatral ve duygusal eserlerle tanınır?", "options": {"a": "Barok", "b": "Rönesans", "c": "Gotik", "d": "Empresyonizm"}, "answer": "a"},
+  {"id": 175, "question": "Türk edebiyatında 'Sinekli Bakkal' romanının yazarı kimdir?", "options": {"a": "Halide Edip Adıvar", "b": "Reşat Nuri Güntekin", "c": "Yakup Kadri Karaosmanoğlu", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 176, "question": "Hangi ressam, 'Köylü Düğünü' tablosunu yapmıştır?", "options": {"a": "Pieter Bruegel", "b": "Jan van Eyck", "c": "Hieronymus Bosch", "d": "Rogier van der Weyden"}, "answer": "a"},
+  {"id": 177, "question": "Türk sinemasında 'Aile Arasında' filminin yönetmeni kimdir?", "options": {"a": "Gülse Birsel", "b": "Yılmaz Erdoğan", "c": "Çağan Irmak", "d": "Ömer Faruk Sorak"}, "answer": "a"},
+  {"id": 178, "question": "Hangi sanat akımı, 20. yüzyılda geometrik soyutlamayı sanata taşımıştır?", "options": {"a": "Kübizm", "b": "Fütürizm", "c": "Sürrealizm", "d": "Dadaizm"}, "answer": "a"},
+  {"id": 179, "question": "Türk edebiyatında 'Kendi Gök Kubbemiz' şiir kitabının yazarı kimdir?", "options": {"a": "Yahya Kemal Beyatlı", "b": "Nazım Hikmet", "c": "Orhan Veli Kanık", "d": "Ahmet Hamdi Tanpınar"}, "answer": "a"},
+  {"id": 180, "question": "Hangi ressam, 'Meryem Ana ve Çocuk' tablosunu yapmıştır?", "options": {"a": "Raphael", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 181, "question": "Türk tiyatrosunda 'Zübük' oyununun yazarı kimdir?", "options": {"a": "Aziz Nesin", "b": "Haldun Taner", "c": "Cevat Fehmi Başkut", "d": "Refik Erduran"}, "answer": "a"},
+  {"id": 182, "question": "Hangi sanatçı, 'Davut' heykelini yapmıştır?", "options": {"a": "Donatello", "b": "Michelangelo", "c": "Bernini", "d": "Rodin"}, "answer": "a"},
+  {"id": 183, "question": "Türk sinemasında '7. Koğuştaki Mucize' filminin yönetmeni kimdir?", "options": {"a": "Mehmet Ada Öztekin", "b": "Yılmaz Erdoğan", "c": "Çağan Irmak", "d": "Ömer Faruk Sorak"}, "answer": "a"},
+  {"id": 184, "question": "Hangi sanat akımı, 19. yüzyılda mitolojik ve sembolik temaları işlemiştir?", "options": {"a": "Sembolizm", "b": "Realizm", "c": "Empresyonizm", "d": "Romantizm"}, "answer": "a"},
+  {"id": 185, "question": "Türk edebiyatında 'Benim Adım Kırmızı' romanının yazarı kimdir?", "options": {"a": "Orhan Pamuk", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 186, "question": "Hangi ressam, 'Bahçede Öğle Yemeği' tablosunu yapmıştır?", "options": {"a": "Édouard Manet", "b": "Claude Monet", "c": "Pierre-Auguste Renoir", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 187, "question": "Türk sinemasında 'Fetih 1453' filminin yönetmeni kimdir?", "options": {"a": "Faruk Aksoy", "b": "Yılmaz Erdoğan", "c": "Çağan Irmak", "d": "Ömer Faruk Sorak"}, "answer": "a"},
+  {"id": 188, "question": "Hangi sanat akımı, 20. yüzyılda kaotik ve protest bir yaklaşımı benimsemiştir?", "options": {"a": "Dadaizm", "b": "Fütürizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 189, "question": "Türk edebiyatında 'Otuz Beş Yaş' şeiirinin yazarı kimdir?", "options": {"a": "Cahit Sıtkı Tarancı", "b": "Nazım Hikmet", "c": "Orhan Veli Kanık", "d": "Yahya Kemal Beyatlı"}, "answer": "a"},
+  {"id": 190, "question": "Hangi ressam, 'Aziz George ve Ejderha' tablosunu yapmıştır?", "options": {"a": "Raphael", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 191, "question": "Türk tiyatrosunda 'Eşeğin Gölgesi' oyununun yazarı kimdir?", "options": {"a": "Haldun Taner", "b": "Aziz Nesin", "c": "Cevat Fehmi Başkut", "d": "Refik Erduran"}, "answer": "a"},
+  {"id": 192, "question": "Hangi sanat akımı, 19. yüzyılda sanatın genel bakımından kendi kendine bir akım oluşturur?", "options": {"a": "Sembolizm", "b": "Realizm", "c": "Empresyonizm", "d": "Romantizm"}, "answer": "a"},
+  {"id": 193, "question": "Türk edebiyatında 'Bir Yıl Kız' romanının yazarı kimdir?", "options": {"a": "Orhan Pamuk", "b": "Sabahattin Ali", "c": "Ahmet Hamdi Tanpınar", "d": "Peyami Safa"}, "answer": "a"},
+  {"id": 194, "question": "Hangi ressam, 'Süleyman Demireği ve Kızı' tablosunu yapmıştır?", "options": {"a": "Édouard Manet", "b": "Claude Monet", "c": "Pierre-Auguste Renoir", "d": "Edgar Degas"}, "answer": "a"},
+  {"id": 195, "question": "Türk sinemasında 'Kırmızı Kıyı' filminin yönetmeni kimdir?", "options": {"a": "Faruk Aksoy", "b": "Yılmaz Erdoğan", "c": "Çağan Irmak", "d": "Ömer Faruk Sorak"}, "answer": "a"},
+  {"id": 196, "question": "Hangi sanat akımı, 20. yüzyılda kaotik ve protest bir yaklaşımı benimsemiştir?", "options": {"a": "Dadaizm", "b": "Fütürizm", "c": "Sürrealizm", "d": "Kübizm"}, "answer": "a"},
+  {"id": 197, "question": "Türk edebiyatında 'Bir Yıl Kız' şeiirinin yazarı kimdir?", "options": {"a": "Cahit Sıtkı Tarancı", "b": "Nazım Hikmet", "c": "Orhan Veli Kanık", "d": "Yahya Kemal Beyatlı"}, "answer": "a"},
+  {"id": 198, "question": "Hangi ressam, 'İşçı' tablosunu yapmıştır?", "options": {"a": "Raphael", "b": "Claude Monet", "c": "Vincent van Gogh", "d": "Pierre-Auguste Renoir"}, "answer": "a"},
+  {"id": 199, "question": "Türk sinemasında 'Kırmızı Kıyı' filminin özeti ne kadar uzun?", "options": {"a": "1 saat", "b": "2 saat", "c": "3 saat", "d": "4 saat"}, "answer": "a"}
 ]

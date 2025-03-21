@@ -1,303 +1,189 @@
-
 [
-    {
-      "id": "1",
-      "question": "2023 yılında En İyi Film Oscar'ını hangi film kazandı?",
-      "answer": "Everything Everywhere All at Once",
-      "difficulty": "easy"
-    },
-    {
-      "id": "2",
-      "question": "Türk sinemasının ilk renkli filmi hangisidir?",
-      "answer": "Halıcı Kız",
-      "difficulty": "easy"
-    },
-    {
-      "id": "3",
-      "question": "Yeşilçam'ın 'Sultan'ı olarak bilinen oyuncu kimdir?",
-      "answer": "Türkan Şoray",
-      "difficulty": "easy"
-    },
-    {
-      "id": "4",
-      "question": "Hangi Türk filmi ilk kez Oscar'a aday gösterilmiştir?",
-      "answer": "Yol",
-      "difficulty": "easy"
-    },
-    {
-      "id": "5",
-      "question": "Netflix'in en çok izlenen Türk dizisi hangisidir?",
-      "answer": "Kulüp",
-      "difficulty": "easy"
-    },
-    {
-      "id": "6",
-      "question": "Türkiye'nin ilk televizyon kanalı hangisidir?",
-      "answer": "TRT 1",
-      "difficulty": "easy"
-    },
-    {
-      "id": "7",
-      "question": "Hangi Türk şarkıcı Eurovision'da birinci olmuştur?",
-      "answer": "Sertab Erener",
-      "difficulty": "easy"
-    },
-    {
-      "id": "8",
-      "question": "Türkiye'nin en uzun soluklu dizisi hangisidir?",
-      "answer": "Bizimkiler",
-      "difficulty": "easy"
-    },
-    {
-      "id": "9",
-      "question": "Türk sinemasının ilk kadın yönetmeni kimdir?",
-      "answer": "Cahide Sonku",
-      "difficulty": "easy"
-    },
-    {
-      "id": "10",
-      "question": "Hangi Türk filmi 1982 Cannes Film Festivali'nde Altın Palmiye ödülünü kazanmıştır?",
-      "answer": "Yol",
-      "difficulty": "easy"
-    },
-    {
-      "id": "11",
-      "question": "Türkiye'nin ilk özel televizyon kanalı hangisidir?",
-      "answer": "Star TV",
-      "difficulty": "easy"
-    },
-    {
-      "id": "12",
-      "question": "Yeşilçam'ın 'Çirkin Kral'ı olarak bilinen oyuncu kimdir?",
-      "answer": "Yılmaz Güney",
-      "difficulty": "easy"
-    },
-    {
-      "id": "13",
-      "question": "Türkiye'nin en çok satan albümü hangisidir?",
-      "answer": "Tarkan - Karma",
-      "difficulty": "easy"
-    },
-    {
-      "id": "14",
-      "question": "Hangi Türk dizisi Emmy Ödülü'ne aday gösterilmiştir?",
-      "answer": "Şahsiyet",
-      "difficulty": "easy"
-    },
-    {
-      "id": "15",
-      "question": "Türkiye'nin ilk sinema filmi hangisidir?",
-      "answer": "Ayastefanos'taki Rus Abidesi'nin Yıkılışı",
-      "difficulty": "easy"
-    },
-    {
-      "id": "16",
-      "question": "Hangi Türk yönetmen 'Kış Uykusu' filmiyle Cannes'da Altın Palmiye kazanmıştır?",
-      "answer": "Nuri Bilge Ceylan",
-      "difficulty": "easy"
-    },
-    {
-      "id": "17",
-      "question": "Türkiye'nin ilk kadın pop şarkıcısı kimdir?",
-      "answer": "Ajda Pekkan",
-      "difficulty": "easy"
-    },
-    {
-      "id": "18",
-      "question": "Hangi Türk filmi Berlin Film Festivali'nde Altın Ayı ödülünü kazanmıştır?",
-      "answer": "Bal",
-      "difficulty": "easy"
-    },
-    {
-      "id": "19",
-      "question": "Türkiye'nin en çok gişe hasılatı yapan filmi hangisidir?",
-      "answer": "Recep İvedik 7",
-      "difficulty": "easy"
-    },
-    {
-      "id": "20",
-      "question": "Türk televizyon tarihinin ilk dizisi hangisidir?",
-      "answer": "Kaynanalar",
-      "difficulty": "easy"
-    },
-    {
-      "id": "21",
-      "question": "Hangi Türk oyuncu Hollywood'da 'Muhteşem Yüzyıl: Kösem' dizisinde rol almıştır?",
-      "answer": "Beren Saat",
-      "difficulty": "easy"
-    },
-    {
-      "id": "22",
-      "question": "Türkiye'nin ilk rap şarkıcısı kimdir?",
-      "answer": "Bora Öztoprak",
-      "difficulty": "easy"
-    },
-    {
-      "id": "23",
-      "question": "Hangi Türk dizisi en çok ülkeye satılmıştır?",
-      "answer": "Binbir Gece",
-      "difficulty": "easy"
-    },
-    {
-      "id": "24",
-      "question": "Türkiye'nin ilk müzik yarışma programı hangisidir?",
-      "answer": "Ses ve Saz Yarışması",
-      "difficulty": "easy"
-    },
-    {
-      "id": "25",
-      "question": "Hangi Türk film yönetmeni 'Üç Maymun' filmiyle Cannes'da En İyi Yönetmen ödülünü kazanmıştır?",
-      "answer": "Nuri Bilge Ceylan",
-      "difficulty": "easy"
-    },
-    {
-      "id": "26",
-      "question": "Türkiye'nin ilk rock grubu hangisidir?",
-      "answer": "Mavi Işıklar",
-      "difficulty": "easy"
-    },
-    {
-      "id": "27",
-      "question": "Hangi Türk dizisi MIPCOM'da en iyi dizi ödülünü almıştır?",
-      "answer": "Çukur",
-      "difficulty": "easy"
-    },
-    {
-      "id": "28",
-      "question": "Türkiye'nin ilk kadın tiyatro oyuncusu kimdir?",
-      "answer": "Afife Jale",
-      "difficulty": "easy"
-    },
-    {
-      "id": "29",
-      "question": "Hangi Türk filmi Venedik Film Festivali'nde Altın Aslan ödülünü kazanmıştır?",
-      "answer": "Uzak İhtimal",
-      "difficulty": "easy"
-    },
-    {
-      "id": "30",
-      "question": "Türkiye'nin en uzun soluklu talk show programı hangisidir?",
-      "answer": "Beyaz Show",
-      "difficulty": "easy"
-    },
-    {
-      "id": "31",
-      "question": "Hangi Türk oyuncu 'Game of Thrones' dizisinde rol almıştır?",
-      "answer": "Numan Acar",
-      "difficulty": "easy"
-    },
-    {
-      "id": "32",
-      "question": "Türkiye'nin ilk kadın rock şarkıcısı kimdir?",
-      "answer": "Şenay",
-      "difficulty": "easy"
-    },
-    {
-      "id": "33",
-      "question": "Hangi Türk dizisi Güney Kore'de en çok izlenen yabancı dizi olmuştur?",
-      "answer": "Çalıkuşu",
-      "difficulty": "easy"
-    },
-    {
-      "id": "34",
-      "question": "Türkiye'nin ilk özel radyo kanalı hangisidir?",
-      "answer": "Kent FM",
-      "difficulty": "easy"
-    },
-    {
-      "id": "35",
-      "question": "Hangi Türk yönetmen 'Ahlat Ağacı' filmiyle Cannes Film Festivali'nde yarışmıştır?",
-      "answer": "Nuri Bilge Ceylan",
-      "difficulty": "easy"
-    },
-    {
-      "id": "36",
-      "question": "Türkiye'nin ilk müzikal filmi hangisidir?",
-      "answer": "Yalnızlar Rıhtımı",
-      "difficulty": "easy"
-    },
-    {
-      "id": "37",
-      "question": "Hangi Türk dizisi MIPTV'de en iyi dizi ödülünü almıştır?",
-      "answer": "Ezel",
-      "difficulty": "easy"
-    },
-    {
-      "id": "38",
-      "question": "Türkiye'nin ilk kadın film yapımcısı kimdir?",
-      "answer": "Türkan Şoray",
-      "difficulty": "easy"
-    },
-    {
-      "id": "39",
-      "question": "Hangi Türk filmi Oscar'da Yabancı Dilde En İyi Film kategorisinde kısa listeye kalmıştır?",
-      "answer": "Mustang",
-      "difficulty": "easy"
-    },
-    {
-      "id": "40",
-      "question": "Türkiye'nin en uzun soluklu yarışma programı hangisidir?",
-      "answer": "Kim Milyoner Olmak İster",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41",
-      "question": "Hangi Türk oyuncu 'Prison Break' dizisinde rol almıştır?",
-      "answer": "Serinda Swan",
-      "difficulty": "easy"
-    },
-    {
-      "id": "42",
-      "question": "Türkiye'nin ilk caz şarkıcısı kimdir?",
-      "answer": "Sevinç Tevs",
-      "difficulty": "easy"
-    },
-    {
-      "id": "43",
-      "question": "Hangi Türk dizisi Japonya'da en çok izlenen yabancı dizi olmuştur?",
-      "answer": "Anne",
-      "difficulty": "easy"
-    },
-    {
-      "id": "44",
-      "question": "Türkiye'nin ilk renkli televizyon yayını hangi yıl başlamıştır?",
-      "answer": "1984",
-      "difficulty": "easy"
-    },
-    {
-      "id": "45",
-      "question": "Hangi Türk yönetmen 'Bir Zamanlar Anadolu'da' filmiyle Cannes'da Büyük Jüri Ödülü'nü kazanmıştır?",
-      "answer": "Nuri Bilge Ceylan",
-      "difficulty": "easy"
-    },
-    {
-      "id": "46",
-      "question": "Türkiye'nin ilk korku filmi hangisidir?",
-      "answer": "Drakula İstanbul'da",
-      "difficulty": "easy"
-    },
-    {
-      "id": "47",
-      "question": "Hangi Türk dizisi International Emmy Ödülleri'nde En İyi Telenovela ödülünü kazanmıştır?",
-      "answer": "Kara Sevda",
-      "difficulty": "easy"
-    },
-    {
-      "id": "48",
-      "question": "Türkiye'nin ilk kadın haber spikeri kimdir?",
-      "answer": "Jülide Gülizar",
-      "difficulty": "easy"
-    },
-    {
-      "id": "49",
-      "question": "Hangi Türk filmi Sundance Film Festivali'nde Büyük Jüri Ödülü'nü kazanmıştır?",
-      "answer": "Kış Uykusu",
-      "difficulty": "easy"
-    },
-    {
-      "id": "50",
-      "question": "Türkiye'nin en çok izlenen televizyon programı hangisidir?",
-      "answer": "Eurovision Şarkı Yarışması 2003 Finali",
-      "difficulty": "easy"
-    }
-  ]
+  {"id": "1", "question": "2023 yılında En İyi Film Oscar'ını hangi film kazandı?", "options": {"a": "Oppenheimer", "b": "Everything Everywhere All at Once", "c": "The Banshees of Inisherin", "d": "Top Gun: Maverick"}, "answer": "b"},
+  {"id": "2", "question": "Türk sinemasının ilk renkli filmi hangisidir?", "options": {"a": "Halıcı Kız", "b": "Süt Kardeşler", "c": "Vesikalı Yarim", "d": "Selvi Boylum Al Yazmalım"}, "answer": "a"},
+  {"id": "3", "question": "Yeşilçam'ın 'Sultan'ı olarak bilinen oyuncu kimdir?", "options": {"a": "Filiz Akın", "b": "Hülya Koçyiğit", "c": "Türkan Şoray", "d": "Fatma Girik"}, "answer": "c"},
+  {"id": "4", "question": "Hangi Türk filmi ilk kez Oscar'a aday gösterilmiştir?", "options": {"a": "Yol", "b": "Süt Kardeşler", "c": "Susuz Yaz", "d": "Kış Uykusu"}, "answer": "a"},
+  {"id": "5", "question": "Hangi Türk filmi 1964 Berlin Film Festivali'nde Altın Ayı ödülünü kazanmıştır?", "options": {"a": "Susuz Yaz", "b": "Umut", "c": "Sürü", "d": "Yol"}, "answer": "a"},
+  {"id": "6", "question": "Türkiye'nin ilk televizyon kanalı hangisidir?", "options": {"a": "TRT 1", "b": "ATV", "c": "Show TV", "d": "Kanal D"}, "answer": "a"},
+  {"id": "7", "question": "Hangi Türk şarkıcı Eurovision'da birinci olmuştur?", "options": {"a": "Ajda Pekkan", "b": "Sertab Erener", "c": "Tarkan", "d": "Sezen Aksu"}, "answer": "b"},
+  {"id": "8", "question": "Türkiye'nin en uzun soluklu dizisi hangisidir?", "options": {"a": "Bizimkiler", "b": "Kaynanalar", "c": "Çocuklar Duymasın", "d": "Yaprak Dökümü"}, "answer": "a"},
+  {"id": "9", "question": "Türk sinemasının ilk kadın yönetmeni kimdir?", "options": {"a": "Türkan Şoray", "b": "Cahide Sonku", "c": "Bilge Olgaç", "d": "Füruzan"}, "answer": "b"},
+  {"id": "10", "question": "Hangi Türk filmi 1982 Cannes Film Festivali'nde Altın Palmiye ödülünü kazanmıştır?", "options": {"a": "Sürü", "b": "Yol", "c": "Selvi Boylum Al Yazmalım", "d": "Umut"}, "answer": "b"},
+  {"id": "11", "question": "Türkiye'nin ilk özel televizyon kanalı hangisidir?", "options": {"a": "Star TV", "b": "Show TV", "c": "ATV", "d": "Kanal D"}, "answer": "a"},
+  {"id": "12", "question": "Yeşilçam'ın 'Çirkin Kral'ı olarak bilinen oyuncu kimdir?", "options": {"a": "Cüneyt Arkın", "b": "Yılmaz Güney", "c": "Ayhan Işık", "d": "Tarık Akan"}, "answer": "b"},
+  {"id": "13", "question": "Hangi Türk sanatçı Eurovision'da ilk kez sahne almıştır?", "options": {"a": "Semiha Yankı", "b": "Ajda Pekkan", "c": "Sertab Erener", "d": "Modern Folk Üçlüsü"}, "answer": "a"},
+  {"id": "14", "question": "Hangi Türk dizisi Emmy Ödülü'ne aday gösterilmiştir?", "options": {"a": "Şahsiyet", "b": "Ezel", "c": "Kara Sevda", "d": "Muhteşem Yüzyıl"}, "answer": "a"},
+  {"id": "15", "question": "Türkiye'nin ilk sinema filmi hangisidir?", "options": {"a": "Aşk-ı Memnu", "b": "Ayastefanos'taki Rus Abidesi'nin Yıkılışı", "c": "Vurun Kahpeye", "d": "Hacı Ağa"}, "answer": "b"},
+  {"id": "16", "question": "Hangi Türk yönetmen 'Kış Uykusu' filmiyle Cannes'da Altın Palmiye kazanmıştır?", "options": {"a": "Fatih Akın", "b": "Nuri Bilge Ceylan", "c": "Semih Kaplanoğlu", "d": "Yılmaz Güney"}, "answer": "b"},
+  {"id": "17", "question": "Türkiye'nin ilk kadın pop şarkıcısı kimdir?", "options": {"a": "Sezen Aksu", "b": "Ajda Pekkan", "c": "Nilüfer", "d": "Şenay"}, "answer": "b"},
+  {"id": "18", "question": "Hangi Türk filmi Berlin Film Festivali'nde Altın Ayı ödülünü kazanmıştır?", "options": {"a": "Susuz Yaz", "b": "Bal", "c": "Kış Uykusu", "d": "Sivas"}, "answer": "b"},
+  {"id": "19", "question": "Hangi Türk filmi en çok izleyiciyle sinema tarihine geçmiştir?", "options": {"a": "Recep İvedik 5", "b": "7. Koğuştaki Mucize", "c": "Fetih 1453", "d": "Ayla"}, "answer": "a"},
+  {"id": "20", "question": "Türk televizyon tarihinin ilk dizisi hangisidir?", "options": {"a": "Kaynanalar", "b": "Bizimkiler", "c": "Perihan Abla", "d": "Süper Baba"}, "answer": "a"},
+  {"id": "21", "question": "Hangi Türk film 'Ayla' uluslararası festivallerde ödül kazanmıştır?", "options": {"a": "Mustang", "b": "Ayla", "c": "Kış Uykusu", "d": "Sivas"}, "answer": "b"},
+  {"id": "22", "question": "Türkiye'nin ilk rap şarkıcısı kimdir?", "options": {"a": "Ceza", "b": "Bora Öztoprak", "c": "Sagopa Kajmer", "d": "Cartel"}, "answer": "b"},
+  {"id": "23", "question": "Hangi Türk dizisi en çok ülkeye satılmıştır?", "options": {"a": "Muhteşem Yüzyıl", "b": "Binbir Gece", "c": "Ezel", "d": "Kara Sevda"}, "answer": "b"},
+  {"id": "24", "question": "Türkiye'nin ilk müzik yarışma programı hangisidir?", "options": {"a": "O Ses Türkiye", "b": "Ses ve Saz Yarışması", "c": "Popstar", "d": "Yetenek Sizsiniz"}, "answer": "b"},
+  {"id": "25", "question": "Hangi Türk film yönetmeni 'Üç Maymun' filmiyle Cannes'da En İyi Yönetmen ödülünü kazanmıştır?", "options": {"a": "Nuri Bilge Ceylan", "b": "Fatih Akın", "c": "Zeki Demirkubuz", "d": "Semih Kaplanoğlu"}, "answer": "a"},
+  {"id": "26", "question": "Türkiye'nin ilk rock grubu hangisidir?", "options": {"a": "Moğollar", "b": "Mavi Işıklar", "c": "Cem Karaca ve Apaşlar", "d": "Erkin Koray"}, "answer": "b"},
+  {"id": "27", "question": "Hangi Türk dizisi MIPCOM'da en iyi dizi ödülünü almıştır?", "options": {"a": "Çukur", "b": "Diriliş Ertuğrul", "c": "Fi", "d": "İçerde"}, "answer": "a"},
+  {"id": "28", "question": "Türkiye'nin ilk kadın tiyatro oyuncusu kimdir?", "options": {"a": "Afife Jale", "b": "Bedia Muvahhit", "c": "Cahide Sonku", "d": "Neyyire Neyir"}, "answer": "a"},
+  {"id": "29", "question": "Hangi Türk filmi Venedik Film Festivali'nde ödül almıştır?", "options": {"a": "Uzak İhtimal", "b": "Kış Uykusu", "c": "Mustang", "d": "Bal"}, "answer": "a"},
+  {"id": "30", "question": "Türkiye'nin en uzun soluklu talk show programı hangisidir?", "options": {"a": "Beyaz Show", "b": "Saba Tümer ile Bu Gece", "c": "Okan Bayülgen Show", "d": "Kral Çıplak"}, "answer": "a"},
+  {"id": "31", "question": "Hangi Türk oyuncu 'Game of Thrones' dizisinde rol almıştır?", "options": {"a": "Çağatay Ulusoy", "b": "Numan Acar", "c": "Kıvanç Tatlıtuğ", "d": "Halit Ergenç"}, "answer": "b"},
+  {"id": "32", "question": "Türkiye'nin ilk kadın rock şarkıcısı kimdir?", "options": {"a": "Şenay", "b": "Ajda Pekkan", "c": "Sezen Aksu", "d": "Nilüfer"}, "answer": "a"},
+  {"id": "33", "question": "Hangi Türk dizisi Güney Kore'de en çok izlenen yabancı dizi olmuştur?", "options": {"a": "Muhteşem Yüzyıl", "b": "Çalıkuşu", "c": "Kara Sevda", "d": "Ezel"}, "answer": "b"},
+  {"id": "34", "question": "Türkiye'nin ilk özel radyo kanalı hangisidir?", "options": {"a": "Power FM", "b": "Kent FM", "c": "Radyo D", "d": "Kral FM"}, "answer": "b"},
+  {"id": "35", "question": "Hangi Türk yönetmen 'Ahlat Ağacı' filmiyle Cannes Film Festivali'nde yarışmıştır?", "options": {"a": "Fatih Akın", "b": "Nuri Bilge Ceylan", "c": "Zeki Demirkubuz", "d": "Semih Kaplanoğlu"}, "answer": "b"},
+  {"id": "36", "question": "Türkiye'nin ilk müzikal filmi hangisidir?", "options": {"a": "Yalnızlar Rıhtımı", "b": "Sözde Kızlar", "c": "Halıcı Kız", "d": "Gurbet Kuşları"}, "answer": "a"},
+  {"id": "37", "question": "Hangi Türk dizisi MIPTV'de en iyi dizi ödülünü almıştır?", "options": {"a": "Ezel", "b": "Kara Sevda", "c": "Şahsiyet", "d": "Çukur"}, "answer": "a"},
+  {"id": "38", "question": "Türkiye'nin ilk kadın film yapımcısı kimdir?", "options": {"a": "Cahide Sonku", "b": "Türkan Şoray", "c": "Bilge Olgaç", "d": "Hülya Koçyiğit"}, "answer": "b"},
+  {"id": "39", "question": "Hangi Türk filmi Oscar'da Yabancı Dilde En İyi Film kategorisinde kısa listeye kalmıştır?", "options": {"a": "Mustang", "b": "Kış Uykusu", "c": "Ayla", "d": "Bal"}, "answer": "a"},
+  {"id": "40", "question": "Türkiye'nin en uzun soluklu yarışma programı hangisidir?", "options": {"a": "Kim Milyoner Olmak İster", "b": "Kelime Oyunu", "c": "Passaparola", "d": "Bir Kelime Bir İşlem"}, "answer": "a"},
+  {"id": "41", "question": "Hangi Türk kökenli oyuncu 'Homeland' dizisinde rol almıştır?", "options": {"a": "Numan Acar", "b": "Haluk Bilginer", "c": "Çağatay Ulusoy", "d": "Kıvanç Tatlıtuğ"}, "answer": "a"},
+  {"id": "42", "question": "Türkiye'nin ilk caz şarkıcısı kimdir?", "options": {"a": "Sevinç Tevs", "b": "Ayten Alpman", "c": "Şenay", "d": "Nilüfer"}, "answer": "a"},
+  {"id": "43", "question": "Hangi Türk dizisi Japonya'da en çok izlenen yabancı dizi olmuştur?", "options": {"a": "Anne", "b": "Kara Sevda", "c": "Muhteşem Yüzyıl", "d": "Ezel"}, "answer": "a"},
+  {"id": "44", "question": "Türkiye'nin ilk renkli televizyon yayını hangi yıl başlamıştır?", "options": {"a": "1980", "b": "1984", "c": "1990", "d": "1975"}, "answer": "b"},
+  {"id": "45", "question": "Hangi Türk yönetmen 'Bir Zamanlar Anadolu'da' filmiyle Cannes'da Büyük Jüri Ödülü'nü kazanmıştır?", "options": {"a": "Nuri Bilge Ceylan", "b": "Fatih Akın", "c": "Zeki Demirkubuz", "d": "Semih Kaplanoğlu"}, "answer": "a"},
+  {"id": "46", "question": "Türkiye'nin ilk korku filmi hangisidir?", "options": {"a": "Drakula İstanbul'da", "b": "Ölüler Konuşmaz ki", "c": "Seytan", "d": "Büyü"}, "answer": "a"},
+  {"id": "47", "question": "Hangi Türk dizisi International Emmy Ödülleri'nde En İyi Telenovela ödülünü kazanmıştır?", "options": {"a": "Kara Sevda", "b": "Ezel", "c": "Muhteşem Yüzyıl", "d": "Binbir Gece"}, "answer": "a"},
+  {"id": "48", "question": "Türkiye'nin ilk kadın haber spikeri kimdir?", "options": {"a": "Jülide Gülizar", "b": "Ayşe Özgün", "c": "Gülgün Feyman", "d": "Ülkü Giray"}, "answer": "a"},
+  {"id": "49", "question": "Hangi Türk filmi Sundance Film Festivali'nde Büyük Jüri Ödülü'nü kazanmıştır?", "options": {"a": "Kış Uykusu", "b": "Sivas", "c": "Mustang", "d": "Bal"}, "answer": "b"},
+  {"id": "50", "question": "Hangi Türk dizisi Netflix'te uluslararası başarı elde etmiştir?", "options": {"a": "Hakan: Muhafız", "b": "Fi", "c": "Masum", "d": "Atiye"}, "answer": "a"},
+    {"id": "51", "question": "Hangi Türk filmi 1970 Cannes Film Festivali'nde Jüri Özel Ödülü kazanmıştır?", "options": {"a": "Umut", "b": "Sürü", "c": "Yol", "d": "Susuz Yaz"}, "answer": "a"},
+    {"id": "52", "question": "Türkiye'nin ilk sesli filmi hangisidir?", "options": {"a": "İstanbul Sokakları", "b": "Bir Millet Uyanıyor", "c": "Vurun Kahpeye", "d": "Aysel Bataklı Damın Kızı"}, "answer": "b"},
+    {"id": "53", "question": "Hangi Türk sanatçı 'Minik Serçe' lakabıyla bilinir?", "options": {"a": "Sezen Aksu", "b": "Nilüfer", "c": "Ajda Pekkan", "d": "Ebru Gündeş"}, "answer": "a"},
+    {"id": "54", "question": "Hangi Türk dizisi 2020'de Netflix'te en çok izlenen Türk yapımı olmuştur?", "options": {"a": "Atiye", "b": "Hakan: Muhafız", "c": "Aşk 101", "d": "Rise of Empires: Ottoman"}, "answer": "c"},
+    {"id": "55", "question": "Yeşilçam'ın 'Küçük Hanımefendi'si kimdir?", "options": {"a": "Belgin Doruk", "b": "Türkan Şoray", "c": "Filiz Akın", "d": "Hülya Koçyiğit"}, "answer": "a"},
+    {"id": "56", "question": "Hangi Türk filmi Venedik Film Festivali'nde Geleceğin Aslanı Ödülü'nü kazanmıştır?", "options": {"a": "Mustang", "b": "Sivas", "c": "Bal", "d": "Uzak"}, "answer": "b"},
+    {"id": "57", "question": "Türkiye'nin ilk bilim kurgu filmi hangisidir?", "options": {"a": "G.O.R.A.", "b": "Turist Ömer Uzay Yolunda", "c": "Dünyayı Kurtaran Adam", "d": "A.R.O.G"}, "answer": "b"},
+    {"id": "58", "question": "Hangi Türk rock grubu 'Anadolu Rock' türünün öncülerindendir?", "options": {"a": "Moğollar", "b": "MFÖ", "c": "Duman", "d": "Athena"}, "answer": "a"},
+    {"id": "59", "question": "Hangi Türk dizisi Altın Kelebek Ödülleri'nde en çok ödül alan yapımlardan biridir?", "options": {"a": "Çocuklar Duymasın", "b": "Avrupa Yakası", "c": "Ezel", "d": "Muhteşem Yüzyıl"}, "answer": "b"},
+    {"id": "60", "question": "Türk sinemasında 'Hababam Sınıfı' serisinin yönetmeni kimdir?", "options": {"a": "Ertem Eğilmez", "b": "Metin Erksan", "c": "Yılmaz Güney", "d": "Kartal Tibet"}, "answer": "a"},
+    {"id": "61", "question": "Hangi Türk sanatçı 'Süperstar' unvanıyla tanınır?", "options": {"a": "Sezen Aksu", "b": "Ajda Pekkan", "c": "Tarkan", "d": "Nilüfer"}, "answer": "b"},
+    {"id": "62", "question": "Hangi Türk filmi 2018 Locarno Film Festivali'nde ödül kazanmıştır?", "options": {"a": "Ahlat Ağacı", "b": "Kış Uykusu", "c": "Sivas", "d": "Mustang"}, "answer": "a"},
+    {"id": "63", "question": "Türkiye'nin ilk reality show programı hangisidir?", "options": {"a": "Biri Bizi Gözetliyor", "b": "Survivor", "c": "Big Brother", "d": "Fear Factor"}, "answer": "a"},
+    {"id": "64", "question": "Hangi Türk oyuncusu 'Doktor Sadık Ahmet' rolüyle tanınmıştır?", "options": {"a": "Cüneyt Arkın", "b": "Tarık Akan", "c": "Kadir İnanır", "d": "Şener Şen"}, "answer": "a"},
+    {"id": "65", "question": "Hangi Türk filmi 1997 Tokyo Film Festivali'nde ödül almıştır?", "options": {"a": "Eşkıya", "b": "Yol", "c": "Umut", "d": "Selvi Boylum Al Yazmalım"}, "answer": "a"},
+    {"id": "66", "question": "Türkiye'nin ilk arabesk şarkıcısı kimdir?", "options": {"a": "Orhan Gencebay", "b": "Müslüm Gürses", "c": "Ferdi Tayfur", "d": "İbrahim Tatlıses"}, "answer": "a"},
+    {"id": "67", "question": "Hangi Türk dizisi 2017'de Asya Pasifik Yayın Birliği Ödülü kazanmıştır?", "options": {"a": "Diriliş Ertuğrul", "b": "Kara Sevda", "c": "Ezel", "d": "İçerde"}, "answer": "a"},
+    {"id": "68", "question": "Yeşilçam'ın 'Frenk' lakaplı oyuncusu kimdir?", "options": {"a": "Ediz Hun", "b": "Ayhan Işık", "c": "Göksel Arsoy", "d": "Ekrem Bora"}, "answer": "c"},
+    {"id": "69", "question": "Hangi Türk filmi 2008 Moskova Film Festivali'nde ödül kazanmıştır?", "options": {"a": "Üç Maymun", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "70", "question": "Hangi Türk sanatçı 'Megastar' unvanıyla tanınır?", "options": {"a": "Tarkan", "b": "İbrahim Tatlıses", "c": "Orhan Gencebay", "d": "Müslüm Gürses"}, "answer": "a"},
+    {"id": "71", "question": "Hangi Türk dizisi 2019 Seul Drama Ödülleri'nde ödül kazanmıştır?", "options": {"a": "Şahsiyet", "b": "Kara Sevda", "c": "Diriliş Ertuğrul", "d": "Çukur"}, "answer": "a"},
+    {"id": "72", "question": "Türkiye'nin ilk animasyon filmi hangisidir?", "options": {"a": "Keloğlan", "b": "Dede Korkut Hikayeleri", "c": "Kral Şakir", "d": "Rafadan Tayfa"}, "answer": "a"},
+    {"id": "73", "question": "Hangi Türk oyuncusu 'Kibar Feyzo' filminde başrol oynamıştır?", "options": {"a": "Kemal Sunal", "b": "Şener Şen", "c": "İlyas Salman", "d": "Münir Özkul"}, "answer": "a"},
+    {"id": "74", "question": "Hangi Türk filmi 2015 Antalya Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Sivas", "b": "Kış Uykusu", "c": "Mustang", "d": "Abluka"}, "answer": "a"},
+    {"id": "75", "question": "Türkiye'nin ilk halk müziği sanatçılarından biri kimdir?", "options": {"a": "Aşık Veysel", "b": "Neşet Ertaş", "c": "Ruhi Su", "d": "Mahsuni Şerif"}, "answer": "a"},
+    {"id": "76", "question": "Hangi Türk dizisi 2021'de Latin Amerika'da büyük başarı elde etmiştir?", "options": {"a": "Sen Çal Kapımı", "b": "Kara Sevda", "c": "Hercai", "d": "Erkenci Kuş"}, "answer": "c"},
+    {"id": "77", "question": "Yeşilçam'ın 'Gamzeli Güzel'i kimdir?", "options": {"a": "Fatma Girik", "b": "Hülya Koçyiğit", "c": "Filiz Akın", "d": "Türkan Şoray"}, "answer": "c"},
+    {"id": "78", "question": "Hangi Türk filmi 2002 Berlin Film Festivali'nde Panorama Ödülü kazanmıştır?", "options": {"a": "Uzak", "b": "Gemide", "c": "Eşkıya", "d": "Kış Uykusu"}, "answer": "a"},
+    {"id": "79", "question": "Hangi Türk sanatçı 'Popun Kralı' olarak anılır?", "options": {"a": "Tarkan", "b": "Mustafa Sandal", "c": "Kenan Doğulu", "d": "Serdar Ortaç"}, "answer": "a"},
+    {"id": "80", "question": "Hangi Türk dizisi 2018'de İspanya'da en çok izlenen yabancı dizi olmuştur?", "options": {"a": "Fatmagül'ün Suçu Ne?", "b": "Kara Sevda", "c": "Muhteşem Yüzyıl", "d": "Aşk-ı Memnu"}, "answer": "a"},
+    {"id": "81", "question": "Hangi Türk filmi 2013 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Kış Uykusu", "b": "Kelebeğin Rüyası", "c": "Bir Zamanlar Anadolu'da", "d": "Araf"}, "answer": "b"},
+    {"id": "82", "question": "Türkiye'nin ilk kadın senaristi kimdir?", "options": {"a": "Safiye Erol", "b": "Selma Emiroğlu", "c": "Cahide Sonku", "d": "Bedia Muvahhit"}, "answer": "b"},
+    {"id": "83", "question": "Hangi Türk sanatçı 'Arabeskin Babası' olarak bilinir?", "options": {"a": "Müslüm Gürses", "b": "Orhan Gencebay", "c": "Ferdi Tayfur", "d": "İbrahim Tatlıses"}, "answer": "b"},
+    {"id": "84", "question": "Hangi Türk filmi 2006 Venedik Film Festivali'nde Jüri Özel Ödülü kazanmıştır?", "options": {"a": "İklimler", "b": "Uzak", "c": "Kış Uykusu", "d": "Üç Maymun"}, "answer": "a"},
+    {"id": "85", "question": "Hangi Türk dizisi 2020'de Altın Kelebek Ödülü'nde En İyi Dizi seçilmiştir?", "options": {"a": "Çukur", "b": "Sen Çal Kapımı", "c": "Hercai", "d": "Sadakatsiz"}, "answer": "c"},
+    {"id": "86", "question": "Türkiye'nin ilk stand-up komedyeni kimdir?", "options": {"a": "Cem Yılmaz", "b": "Ata Demirer", "c": "Tolga Çevik", "d": "Beyazıt Öztürk"}, "answer": "a"},
+    {"id": "87", "question": "Hangi Türk filmi 2019 Sundance Film Festivali'nde Dünya Sineması Ödülü kazanmıştır?", "options": {"a": "Kız Kardeşler", "b": "Sivas", "c": "Mustang", "d": "Ahlat Ağacı"}, "answer": "a"},
+    {"id": "88", "question": "Hangi Türk sanatçı 'Diva' unvanıyla tanınır?", "options": {"a": "Bülent Ersoy", "b": "Zeki Müren", "c": "Sezen Aksu", "d": "Ajda Pekkan"}, "answer": "a"},
+    {"id": "89", "question": "Hangi Türk dizisi 2016'da Ortadoğu'da en çok izlenen yapım olmuştur?", "options": {"a": "Diriliş Ertuğrul", "b": "Kara Sevda", "c": "Muhteşem Yüzyıl", "d": "Ezel"}, "answer": "a"},
+    {"id": "90", "question": "Yeşilçam'ın 'Altın Çocuk' lakaplı oyuncusu kimdir?", "options": {"a": "Göksel Arsoy", "b": "Ediz Hun", "c": "Ayhan Işık", "d": "Cüneyt Arkın"}, "answer": "a"},
+    {"id": "91", "question": "Hangi Türk filmi 2004 Antalya Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "G.O.R.A.", "b": "Babam ve Oğlum", "c": "Uzak", "d": "Vizontele"}, "answer": "a"},
+    {"id": "92", "question": "Hangi Türk sanatçı 'Sanat Güneşi' unvanıyla bilinir?", "options": {"a": "Zeki Müren", "b": "Müslüm Gürses", "c": "Orhan Gencebay", "d": "Bülent Ersoy"}, "answer": "a"},
+    {"id": "93", "question": "Hangi Türk dizisi 2022'de Netflix'te en çok izlenen Türk yapımı olmuştur?", "options": {"a": "Kulüp", "b": "Sen Çal Kapımı", "c": "Yakamoz S-245", "d": "Uysallar"}, "answer": "a"},
+    {"id": "94", "question": "Hangi Türk filmi 2011 Berlin Film Festivali'nde Jüri Özel Ödülü kazanmıştır?", "options": {"a": "Bir Zamanlar Anadolu'da", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "95", "question": "Türkiye'nin ilk punk rock grubu hangisidir?", "options": {"a": "Rashit", "b": "Duman", "c": "Mor ve Ötesi", "d": "Athena"}, "answer": "a"},
+    {"id": "96", "question": "Hangi Türk oyuncusu 'Süt Kardeşler' filminde 'Şaban' rolünü oynamıştır?", "options": {"a": "Kemal Sunal", "b": "Şener Şen", "c": "İlyas Salman", "d": "Halit Akçatepe"}, "answer": "a"},
+    {"id": "97", "question": "Hangi Türk filmi 2020 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Hayaletler", "b": "Kız Kardeşler", "c": "7. Koğuştaki Mucize", "d": "Aşk Tesadüfleri Sever 2"}, "answer": "a"},
+    {"id": "98", "question": "Hangi Türk sanatçı 'Popun Prensi' olarak bilinir?", "options": {"a": "Mustafa Sandal", "b": "Tarkan", "c": "Serdar Ortaç", "d": "Kenan Doğulu"}, "answer": "a"},
+    {"id": "99", "question": "Hangi Türk dizisi 2015'te Balkanlar'da en çok izlenen yapım olmuştur?", "options": {"a": "Muhteşem Yüzyıl", "b": "Kara Sevda", "c": "Ezel", "d": "Diriliş Ertuğrul"}, "answer": "a"},
+    {"id": "100", "question": "Yeşilçam'ın 'Halk Kahramanı' lakaplı oyuncusu kimdir?", "options": {"a": "Kemal Sunal", "b": "Cüneyt Arkın", "c": "Tarık Akan", "d": "Şener Şen"}, "answer": "a"},
+    {"id": "101", "question": "Hangi Türk filmi 2016 Londra Film Festivali'nde ödül kazanmıştır?", "options": {"a": "Mustang", "b": "Sivas", "c": "Kış Uykusu", "d": "Kelebeğin Rüyası"}, "answer": "a"},
+    {"id": "102", "question": "Hangi Türk sanatçı 'Halk Ozanı' unvanıyla tanınır?", "options": {"a": "Neşet Ertaş", "b": "Aşık Veysel", "c": "Mahsuni Şerif", "d": "Ruhi Su"}, "answer": "a"},
+    {"id": "103", "question": "Hangi Türk dizisi 2019'da Arap dünyasında en çok izlenen yapım olmuştur?", "options": {"a": "Hercai", "b": "Diriliş Ertuğrul", "c": "Kara Sevda", "d": "Sen Anlat Karadeniz"}, "answer": "b"},
+    {"id": "104", "question": "Hangi Türk filmi 2009 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Pandora'nın Kutusu", "b": "Üç Maymun", "c": "Kış Uykusu", "d": "Bal"}, "answer": "a"},
+    {"id": "105", "question": "Türkiye'nin ilk kadın opera sanatçısı kimdir?", "options": {"a": "Semiha Berksoy", "b": "Leyla Gencer", "c": "Suna Korad", "d": "Ayhan Aydan"}, "answer": "a"},
+    {"id": "106", "question": "Hangi Türk oyuncusu 'Züğürt Ağa' filminde başrol oynamıştır?", "options": {"a": "Şener Şen", "b": "Kemal Sunal", "c": "İlyas Salman", "d": "Münir Özkul"}, "answer": "a"},
+    {"id": "107", "question": "Hangi Türk filmi 2017 Venedik Film Festivali'nde Horizon Ödülü kazanmıştır?", "options": {"a": "Koca Dünya", "b": "Mustang", "c": "Sivas", "d": "Bal"}, "answer": "a"},
+    {"id": "108", "question": "Hangi Türk sanatçı 'Arabeskin Kralı' olarak bilinir?", "options": {"a": "İbrahim Tatlıses", "b": "Müslüm Gürses", "c": "Ferdi Tayfur", "d": "Orhan Gencebay"}, "answer": "a"},
+    {"id": "109", "question": "Hangi Türk dizisi 2021 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Sadakatsiz", "b": "Sen Çal Kapımı", "c": "Çukur", "d": "Kırmızı Oda"}, "answer": "a"},
+    {"id": "110", "question": "Yeşilçam'ın 'Prenses'i kimdir?", "options": {"a": "Filiz Akın", "b": "Türkan Şoray", "c": "Hülya Koçyiğit", "d": "Belgin Doruk"}, "answer": "a"},
+    {"id": "111", "question": "Hangi Türk filmi 2014 Toronto Film Festivali'nde ödül kazanmıştır?", "options": {"a": "Kış Uykusu", "b": "Sivas", "c": "Mustang", "d": "Bal"}, "answer": "b"},
+    {"id": "112", "question": "Hangi Türk sanatçı 'Rock'ın Dedesi' olarak bilinir?", "options": {"a": "Erkin Koray", "b": "Cem Karaca", "c": "Barış Manço", "d": "Fikret Kızılok"}, "answer": "a"},
+    {"id": "113", "question": "Hangi Türk dizisi 2018 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Çukur", "b": "Sen Anlat Karadeniz", "c": "İstanbullu Gelin", "d": "Diriliş Ertuğrul"}, "answer": "c"},
+    {"id": "114", "question": "Hangi Türk filmi 2007 Antalya Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Yumurta", "b": "Babam ve Oğlum", "c": "G.O.R.A.", "d": "Uzak"}, "answer": "a"},
+    {"id": "115", "question": "Türkiye'nin ilk kadın sinema eleştirmeni kimdir?", "options": {"a": "Sevin Okyay", "b": "Naber Oğuz", "c": "Agah Özgüç", "d": "Atilla Dorsay"}, "answer": "a"},
+    {"id": "117", "question": "Hangi Türk filmi 2016 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Koca Dünya", "b": "Mustang", "c": "Sivas", "d": "Kelebeğin Rüyası"}, "answer": "a"},
+    {"id": "118", "question": "Hangi Türk sanatçı 'Popun Kraliçesi' olarak bilinir?", "options": {"a": "Sezen Aksu", "b": "Ajda Pekkan", "c": "Nilüfer", "d": "Ebru Gündeş"}, "answer": "a"},
+    {"id": "119", "question": "Hangi Türk dizisi 2017 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "İçerde", "b": "Kara Sevda", "c": "Diriliş Ertuğrul", "d": "Fi"}, "answer": "a"},
+    {"id": "120", "question": "Yeşilçam'ın 'Şoför Nebahat'i kimdir?", "options": {"a": "Fatma Girik", "b": "Türkan Şoray", "c": "Hülya Koçyiğit", "d": "Filiz Akın"}, "answer": "a"},
+    {"id": "121", "question": "Hangi Türk filmi 2012 Venedik Film Festivali'nde Eleştirmenler Ödülü kazanmıştır?", "options": {"a": "Tepenin Ardı", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "122", "question": "Hangi Türk sanatçı 'Anadolu'nun Ozanı' olarak bilinir?", "options": {"a": "Neşet Ertaş", "b": "Aşık Veysel", "c": "Cem Karaca", "d": "Barış Manço"}, "answer": "a"},
+    {"id": "123", "question": "Hangi Türk dizisi 2020'de Orta Asya'da en çok izlenen yapım olmuştur?", "options": {"a": "Diriliş Ertuğrul", "b": "Hercai", "c": "Sen Çal Kapımı", "d": "Sadakatsiz"}, "answer": "a"},
+    {"id": "124", "question": "Hangi Türk filmi 2008 Antalya Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Üç Maymun", "b": "Pandora'nın Kutusu", "c": "G.O.R.A.", "d": "Babam ve Oğlum"}, "answer": "a"},
+    {"id": "125", "question": "Türkiye'nin ilk erkek opera sanatçısı kimdir?", "options": {"a": "Cemal Reşit Rey", "b": "Aydın Gün", "c": "Selim Sesler", "d": "Ruhi Su"}, "answer": "b"},
+    {"id": "126", "question": "Hangi Türk oyuncusu 'Tosun Paşa' filminde 'Tellioğulları'ndan biri olarak rol almıştır?", "options": {"a": "Şener Şen", "b": "Kemal Sunal", "c": "Metin Akpınar", "d": "Zeki Alasya"}, "answer": "a"},
+    {"id": "127", "question": "Hangi Türk filmi 2018 Venedik Film Festivali'nde Eleştirmenler Ödülü kazanmıştır?", "options": {"a": "Ahlat Ağacı", "b": "Kış Uykusu", "c": "Mustang", "d": "Sivas"}, "answer": "a"},
+    {"id": "128", "question": "Hangi Türk sanatçı 'Türk Popunun Babası' olarak bilinir?", "options": {"a": "Erol Evgin", "b": "Orhan Gencebay", "c": "Barış Manço", "d": "MFÖ"}, "answer": "a"},
+    {"id": "129", "question": "Hangi Türk dizisi 2016 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Kara Sevda", "b": "Diriliş Ertuğrul", "c": "Ezel", "d": "İçerde"}, "answer": "a"},
+    {"id": "130", "question": "Yeşilçam'ın 'Kralı' kimdir?", "options": {"a": "Ayhan Işık", "b": "Cüneyt Arkın", "c": "Tarık Akan", "d": "Ediz Hun"}, "answer": "a"},
+    {"id": "131", "question": "Hangi Türk filmi 2010 Venedik Film Festivali'nde Jüri Özel Ödülü kazanmıştır?", "options": {"a": "Bal", "b": "Kış Uykusu", "c": "Uzak", "d": "Üç Maymun"}, "answer": "a"},
+    {"id": "132", "question": "Hangi Türk sanatçı 'Çocuklar ve Hayvanlar' temalı şarkılarıyla tanınır?", "options": {"a": "Barış Manço", "b": "Cem Karaca", "c": "Erkin Koray", "d": "Fikret Kızılok"}, "answer": "a"},
+    {"id": "133", "question": "Hangi Türk dizisi 2023'te Netflix'te en çok izlenen Türk yapımı olmuştur?", "options": {"a": "Şahmaran", "b": "Kulüp", "c": "Aşk 101", "d": "Terzi"}, "answer": "a"},
+    {"id": "134", "question": "Hangi Türk filmi 2005 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Babam ve Oğlum", "b": "G.O.R.A.", "c": "Uzak", "d": "Vizontele Tuuba"}, "answer": "a"},
+    {"id": "135", "question": "Türkiye'nin ilk kadın pop müzik grubu hangisidir?", "options": {"a": "Grup Vitamin", "b": "Grup Hepsi", "c": "Çıtır Kızlar", "d": "Grup 4x4"}, "answer": "b"},
+    {"id": "136", "question": "Hangi Türk oyuncusu 'Süt Kardeşler' filminde 'Hüsamettin' rolünü oynamıştır?", "options": {"a": "Şener Şen", "b": "Kemal Sunal", "c": "Halit Akçatepe", "d": "Metin Akpınar"}, "answer": "a"},
+    {"id": "137", "question": "Hangi Türk filmi 2019 Venedik Film Festivali'nde Geleceğin Aslanı Ödülü kazanmıştır?", "options": {"a": "Bağlılık Aslı", "b": "Kız Kardeşler", "c": "Ahlat Ağacı", "d": "Mustang"}, "answer": "a"},
+    {"id": "138", "question": "Hangi Türk sanatçı 'Halkın Starı' olarak bilinir?", "options": {"a": "İbrahim Tatlıses", "b": "Müslüm Gürses", "c": "Ferdi Tayfur", "d": "Orhan Gencebay"}, "answer": "a"},
+    {"id": "139", "question": "Hangi Türk dizisi 2019 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Çukur", "b": "Hercai", "c": "Sen Anlat Karadeniz", "d": "Yasak Elma"}, "answer": "a"},
+    {"id": "140", "question": "Yeşilçam'ın 'Gönül Hırsızı' lakaplı oyuncusu kimdir?", "options": {"a": "Ediz Hun", "b": "Tarık Akan", "c": "Kadir İnanır", "d": "Cüneyt Arkın"}, "answer": "a"},
+    {"id": "141", "question": "Hangi Türk filmi 2013 Venedik Film Festivali'nde Jüri Özel Ödülü kazanmıştır?", "options": {"a": "Kelebeğin Rüyası", "b": "Sivas", "c": "Mustang", "d": "Tepenin Ardı"}, "answer": "a"},
+    {"id": "142", "question": "Hangi Türk sanatçı 'Anadolu Rock'ın Kralı' olarak bilinir?", "options": {"a": "Cem Karaca", "b": "Barış Manço", "c": "Erkin Koray", "d": "Fikret Kızılok"}, "answer": "a"},
+    {"id": "143", "question": "Hangi Türk dizisi 2022 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Yargı", "b": "Sadakatsiz", "c": "Kırmızı Oda", "d": "Sen Çal Kapımı"}, "answer": "a"},
+    {"id": "144", "question": "Hangi Türk filmi 2011 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Bir Zamanlar Anadolu'da", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "145", "question": "Türkiye'nin ilk çocuk yıldızı kimdir?", "options": {"a": "Ayşecik (Zeynep Değirmencioğlu)", "b": "Ömercik (Ömer Dönmez)", "c": "Sezercik (Sezer İnanoğlu)", "d": "Yumurcak (İlker İnanoğlu)"}, "answer": "a"},
+    {"id": "146", "question": "Hangi Türk oyuncusu 'Kapıcılar Kralı' filminde başrol oynamıştır?", "options": {"a": "Kemal Sunal", "b": "Şener Şen", "c": "İlyas Salman", "d": "Metin Akpınar"}, "answer": "a"},
+    {"id": "147", "question": "Hangi Türk filmi 2015 Venedik Film Festivali'nde Büyük Jüri Ödülü kazanmıştır?", "options": {"a": "Mustang", "b": "Sivas", "c": "Kış Uykusu", "d": "Kelebeğin Rüyası"}, "answer": "a"},
+    {"id": "148", "question": "Hangi Türk sanatçı 'Türk Sanat Müziği'nin Prensi' olarak bilinir?", "options": {"a": "Müzeyyen Senar", "b": "Zeki Müren", "c": "Bülent Ersoy", "d": "Emel Sayın"}, "answer": "b"},
+    {"id": "149", "question": "Hangi Türk dizisi 2014 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Muhteşem Yüzyıl", "b": "Kara Sevda", "c": "Ezel", "d": "Medcezir"}, "answer": "a"},
+    {"id": "150", "question": "Yeşilçam'ın ' jönü' olarak bilinen ilk oyuncusu kimdir?", "options": {"a": "Ayhan Işık", "b": "Cüneyt Arkın", "c": "Tarık Akan", "d": "Ediz Hun"}, "answer": "a"},
+    {"id": "151", "question": "Hangi Türk filmi 2003 Venedik Film Festivali'nde Geleceğin Aslanı Ödülü kazanmıştır?", "options": {"a": "Uzak", "b": "Kış Uykusu", "c": "Bal", "d": "Üç Maymun"}, "answer": "a"},
+    {"id": "152", "question": "Hangi Türk sanatçı 'Türk Popunun Prensesi' olarak bilinir?", "options": {"a": "Nilüfer", "b": "Sezen Aksu", "c": "Ajda Pekkan", "d": "Ebru Gündeş"}, "answer": "a"},
+    {"id": "153", "question": "Hangi Türk dizisi 2021'de Avrupa'da en çok izlenen Türk yapımı olmuştur?", "options": {"a": "Sen Çal Kapımı", "b": "Sadakatsiz", "c": "Hercai", "d": "Yargı"}, "answer": "a"},
+    {"id": "154", "question": "Hangi Türk filmi 2010 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Bal", "b": "Kış Uykusu", "c": "Bir Zamanlar Anadolu'da", "d": "Uzak"}, "answer": "a"},
+    {"id": "155", "question": "Türkiye'nin ilk kadın halk müziği sanatçısı kimdir?", "options": {"a": "Neriman Altındağ Tüfekçi", "b": "Müzeyyen Senar", "c": "Safiye Ayla", "d": "Sabahat Akkiraz"}, "answer": "a"},
+    {"id": "156", "question": "Hangi Türk oyuncusu 'Süt Kardeşler' filminde 'Bihter' rolünü oynamıştır?", "options": {"a": "Hale Soygazi", "b": "Müjde Ar", "c": "Türkan Şoray", "d": "Hülya Koçyiğit"}, "answer": "a"},
+    {"id": "157", "question": "Hangi Türk filmi 2017 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Aile Arasında", "b": "Koca Dünya", "c": "Sivas", "d": "Mustang"}, "answer": "a"},
+    {"id": "158", "question": "Hangi Türk sanatçı 'Türk Halk Müziği'nin Kralı' olarak bilinir?", "options": {"a": "Neşet Ertaş", "b": "Aşık Veysel", "c": "Mahsuni Şerif", "d": "Ruhi Su"}, "answer": "a"},
+    {"id": "159", "question": "Hangi Türk dizisi 2015 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Diriliş Ertuğrul", "b": "Kara Sevda", "c": "Muhteşem Yüzyıl", "d": "Medcezir"}, "answer": "a"},
+    {"id": "160", "question": "Yeşilçam'ın 'Karaoğlan'ı kimdir?", "options": {"a": "Kartal Tibet", "b": "Cüneyt Arkın", "c": "Ediz Hun", "d": "Tarık Akan"}, "answer": "a"},
+    {"id": "161", "question": "Hangi Türk filmi 2006 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Babam ve Oğlum", "b": "G.O.R.A.", "c": "Uzak", "d": "Vizontele"}, "answer": "a"},
+    {"id": "162", "question": "Hangi Türk sanatçı 'Türk Sanat Müziği'nin Kraliçesi' olarak bilinir?", "options": {"a": "Müzeyyen Senar", "b": "Zeki Müren", "c": "Bülent Ersoy", "d": "Emel Sayın"}, "answer": "a"},
+    {"id": "163", "question": "Hangi Türk dizisi 2020'de Afrika'da en çok izlenen Türk yapımı olmuştur?", "options": {"a": "Diriliş Ertuğrul", "b": "Hercai", "c": "Sen Çal Kapımı", "d": "Sadakatsiz"}, "answer": "a"},
+    {"id": "164", "question": "Hangi Türk filmi 2018 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Ahlat Ağacı", "b": "Kız Kardeşler", "c": "Sivas", "d": "Mustang"}, "answer": "a"},
+    {"id": "165", "question": "Türkiye'nin ilk kadın talk show sunucusu kimdir?", "options": {"a": "Saba Tümer", "b": "Gülben Ergen", "c": "Hülya Avşar", "d": "Seda Sayan"}, "answer": "a"},
+    {"id": "166", "question": "Hangi Türk oyuncusu 'Hababam Sınıfı' serisinde 'İnek Şaban' rolünü oynamıştır?", "options": {"a": "Kemal Sunal", "b": "Şener Şen", "c": "Halit Akçatepe", "d": "Münir Özkul"}, "answer": "a"},
+    {"id": "167", "question": "Hangi Türk filmi 2019 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Kız Kardeşler", "b": "7. Koğuştaki Mucize", "c": "Ahlat Ağacı", "d": "Bağlılık Aslı"}, "answer": "a"},
+    {"id": "168", "question": "Hangi Türk sanatçı 'Türk Popunun Prensi' olarak bilinir?", "options": {"a": "Kenan Doğulu", "b": "Tarkan", "c": "Mustafa Sandal", "d": "Serdar Ortaç"}, "answer": "a"},
+    {"id": "169", "question": "Hangi Türk dizisi 2013 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Muhteşem Yüzyıl", "b": "Kara Sevda", "c": "Ezel", "d": "Adını Feriha Koydum"}, "answer": "a"},
+    {"id": "170", "question": "Yeşilçam'ın 'Tonton Dedesi' kimdir?", "options": {"a": "Münir Özkul", "b": "Hulusi Kentmen", "c": "Şener Şen", "d": "Adile Naşit"}, "answer": "a"},
+    {"id": "171", "question": "Hangi Türk filmi 2007 Venedik Film Festivali'nde Geleceğin Aslanı Ödülü kazanmıştır?", "options": {"a": "Yumurta", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "172", "question": "Hangi Türk sanatçı 'Türk Rock'ının Babası' olarak bilinir?", "options": {"a": "Cem Karaca", "b": "Barış Manço", "c": "Erkin Koray", "d": "Fikret Kızılok"}, "answer": "a"},
+    {"id": "173", "question": "Hangi Türk dizisi 2021'de Güney Amerika'da en çok izlenen Türk yapımı olmuştur?", "options": {"a": "Hercai", "b": "Sen Çal Kapımı", "c": "Sadakatsiz", "d": "Yargı"}, "answer": "a"},
+    {"id": "174", "question": "Hangi Türk filmi 2012 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Tepenin Ardı", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "175", "question": "Türkiye'nin ilk kadın komedyeni kimdir?", "options": {"a": "Adile Naşit", "b": "Demet Akbağ", "c": "Yasemin Yalçın", "d": "Gülse Birsel"}, "answer": "a"},
+    {"id": "176", "question": "Hangi Türk oyuncusu 'Davaro' filminde 'Memo' rolünü oynamıştır?", "options": {"a": "Kemal Sunal", "b": "Şener Şen", "c": "İlyas Salman", "d": "Metin Akpınar"}, "answer": "a"},
+    {"id": "177", "question": "Hangi Türk filmi 2016 Venedik Film Festivali'nde Jüri Özel Ödülü kazanmıştır?", "options": {"a": "Koca Dünya", "b": "Mustang", "c": "Sivas", "d": "Kelebeğin Rüyası"}, "answer": "a"},
+    {"id": "178", "question": "Hangi Türk sanatçı 'Türk Popunun Kraliçesi' olarak bilinir?", "options": {"a": "Sezen Aksu", "b": "Ajda Pekkan", "c": "Nilüfer", "d": "Ebru Gündeş"}, "answer": "a"},
+    {"id": "179", "question": "Hangi Türk dizisi 2012 Altın Kelebek Ödülleri'nde En İyi Dizi seçilmiştir?", "options": {"a": "Muhteşem Yüzyıl", "b": "Kara Sevda", "c": "Ezel", "d": "Adını Feriha Koydum"}, "answer": "a"},
+    {"id": "180", "question": "Yeşilçam'ın 'Hacı Baba'sı kimdir?", "options": {"a": "Hulusi Kentmen", "b": "Münir Özkul", "c": "Şener Şen", "d": "Adile Naşit"}, "answer": "a"},
+    {"id": "181", "question": "Hangi Türk filmi 2009 Venedik Film Festivali'nde Geleceğin Aslanı Ödülü kazanmıştır?", "options": {"a": "Pandora'nın Kutusu", "b": "Kış Uykusu", "c": "Bal", "d": "Uzak"}, "answer": "a"},
+    {"id": "182", "question": "Hangi Türk sanatçı 'Türk Rock'ının Prensi' olarak bilinir?", "options": {"a": "Teoman", "b": "Şebnem Ferah", "c": "Mor ve Ötesi", "d": "Duman"}, "answer": "a"},
+    {"id": "183", "question": "Hangi Türk dizisi 2020 Altın Kelebek Ödülleri'nde En İyi Komedi Dizisi seçilmiştir?", "options": {"a": "Jet Sosyete", "b": "Güldür Güldür", "c": "Çok Güzel Hareketler 2", "d": "Yalan Dünya"}, "answer": "a"},
+    {"id": "184", "question": "Hangi Türk filmi 2014 Altın Portakal Film Festivali'nde En İyi Film ödülünü kazanmıştır?", "options": {"a": "Kış Uykusu", "b": "Sivas", "c": "Mustang", "d": "Kelebeğin Rüyası"}, "answer": "a"},
+    {"id": "185", "question": "Türkiye'nin ilk kadın dizi yönetmeni kimdir?", "options": {"a": "Çağan Irmak", "b": "Türkan Derya", "c": "Hilal Saral", "d": "Zeynep Günay Tan"}, "answer": "b"},
+    {"id": "186", "question": "Hangi Türk oyuncusu 'Süt Kardeşler' filminde 'Melek' rolünü oynamıştır?", "options": {"a": "Hale Soygazi", "b": "Müjde Ar", "c": "Türkan Şoray", "d": "Şenay Gürler"}, "answer": "a"},
+    {"id": "187", "question": "Hangi Türk filmi 2015 Altın Portakal Film Festivali'nde En İyi Yönetmen ödülünü kazanmıştır?", "options": {"a": "Sivas", "b": "Kış Uykusu", "c": "Mustang", "d": "Abluka"}, "answer": "a"},
+    {"id": "188", "question": "Hangi Türk sanatçı 'Türk Popunun Divası' olarak bilinir?", "options": {"a": "Ajda Pekkan", "b": "Sezen Aksu", "c": "Nilüfer", "d": "Ebru Gündeş"}, "answer": "a"}
+]

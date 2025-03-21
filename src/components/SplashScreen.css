@@ -1,0 +1,50 @@
+/* Neon efektleri için CSS */
+
+@keyframes neonPulse {
+  0% {
+    filter: drop-shadow(0 0 2px #3b82f6) drop-shadow(0 0 5px #3b82f6);
+  }
+  50% {
+    filter: drop-shadow(0 0 10px #3b82f6) drop-shadow(0 0 20px #3b82f6) drop-shadow(0 0 30px #3b82f6);
+  }
+  100% {
+    filter: drop-shadow(0 0 2px #3b82f6) drop-shadow(0 0 5px #3b82f6);
+  }
+}
+
+
+.neon-logo {
+  animation: neonPulse 2s infinite ease-in-out;
+}
+
+
+/* Kategori renkleri için neon efektleri */
+.neon-logo img circle:nth-child(3) {
+  animation: neonPulse 2.2s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px #ef4444) drop-shadow(0 0 10px #ef4444);
+}
+
+.neon-logo img circle:nth-child(4) {
+  animation: neonPulse 2.4s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px #22c55e) drop-shadow(0 0 10px #22c55e);
+}
+
+.neon-logo img circle:nth-child(5) {
+  animation: neonPulse 2.6s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px #eab308) drop-shadow(0 0 10px #eab308);
+}
+
+.neon-logo img circle:nth-child(6) {
+  animation: neonPulse 2.8s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px #3b82f6) drop-shadow(0 0 10px #3b82f6);
+}
+
+.neon-logo img circle:nth-child(7) {
+  animation: neonPulse 3s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px #ec4899) drop-shadow(0 0 10px #ec4899);
+}
+
+.neon-logo img circle:nth-child(8) {
+  animation: neonPulse 3.2s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px #a855f7) drop-shadow(0 0 10px #a855f7);
+}

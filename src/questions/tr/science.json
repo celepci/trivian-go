@@ -1,252 +1,202 @@
 [
-  {
-    "id": 1,
-    "question": "Kuantum mekaniğinde 'Schrödinger'in Kedisi' deneyi neyi açıklamayı amaçlar?",
-    "answer": "Süperpozisyon"
-  },
-  {
-    "id": 2,
-    "question": "Hangi bilim insanı radyum ve polonyum elementlerini keşfetmiştir?",
-    "answer": "Marie Curie"
-  },
-  {
-    "id": 3,
-    "question": "Hangi element periyodik tabloda 'Fe' sembolü ile gösterilir?",
-    "answer": "Demir"
-  },
-  {
-    "id": 4,
-    "question": "Hangi bilim insanı görelilik teorisini geliştirmiştir?",
-    "answer": "Albert Einstein"
-  },
-  {
-    "id": 5,
-    "question": "Hangi elementin atom numarası 1'dir?",
-    "answer": "Hidrojen"
-  },
-  {
-    "id": 6,
-    "question": "DNA'nın yapısını keşfeden bilim insanları kimlerdir?",
-    "answer": "James Watson ve Francis Crick"
-  },
-  {
-    "id": 7,
-    "question": "Hangi elementin sembolü 'O'dur?",
-    "answer": "Oksijen"
-  },
-  {
-    "id": 8,
-    "question": "Hangi bilim insanı yerçekimi yasasını formüle etmiştir?",
-    "answer": "Isaac Newton"
-  },
-  {
-    "id": 9,
-    "question": "Hangi elementin sembolü 'Au'dur?",
-    "answer": "Altın"
-  },
-  {
-    "id": 10,
-    "question": "İnsan vücudundaki en büyük organ hangisidir?",
-    "answer": "Deri"
-  },
-  {
-    "id": 11,
-    "question": "Periyodik tabloda kaç element vardır?",
-    "answer": "118"
-  },
-  {
-    "id": 12,
-    "question": "Hangi gezegen Güneş Sistemi'nin en büyük gezegenidir?",
-    "answer": "Jüpiter"
-  },
-  {
-    "id": 13,
-    "question": "İnsan vücudundaki en küçük kemik hangisidir?",
-    "answer": "Üzengi Kemiği"
-  },
-  {
-    "id": 14,
-    "question": "Hangi bilim insanı elektromanyetik indüksiyon yasasını keşfetmiştir?",
-    "answer": "Michael Faraday"
-  },
-  {
-    "id": 15,
-    "question": "Suyun kimyasal formülü nedir?",
-    "answer": "H2O"
-  },
-  {
-    "id": 16,
-    "question": "İnsan DNA'sı kaç çift kromozomdan oluşur?",
-    "answer": "23"
-  },
-  {
-    "id": 17,
-    "question": "Hangi bilim insanı radyoaktiviteyi keşfetmiştir?",
-    "answer": "Henri Becquerel"
-  },
-  {
-    "id": 18,
-    "question": "Işık hızı saniyede kaç kilometredir?",
-    "answer": "299.792"
-  },
-  {
-    "id": 19,
-    "question": "İnsan vücudundaki en büyük kemik hangisidir?",
-    "answer": "Uyluk Kemiği"
-  },
-  {
-    "id": 20,
-    "question": "Hangi element periyodik tabloda 'Na' sembolü ile gösterilir?",
-    "answer": "Sodyum"
-  },
-  {
-    "id": 21,
-    "question": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
-    "answer": "Mars"
-  },
-  {
-    "id": 22,
-    "question": "İnsan vücudundaki en büyük arter hangisidir?",
-    "answer": "Aort"
-  },
-  {
-    "id": 23,
-    "question": "Hangi bilim insanı atom modelini geliştirmiştir?",
-    "answer": "Niels Bohr"
-  },
-  {
-    "id": 24,
-    "question": "Karbon elementinin atom numarası kaçtır?",
-    "answer": "6"
-  },
-  {
-    "id": 25,
-    "question": "İnsan vücudunda kaç kemik vardır?",
-    "answer": "206"
-  },
-  {
-    "id": 26,
-    "question": "Hangi bilim insanı periyodik tabloyu geliştirmiştir?",
-    "answer": "Dmitri Mendeleyev"
-  },
-  {
-    "id": 27,
-    "question": "Dünya'nın çekirdeği hangi elementlerden oluşur?",
-    "answer": "Demir ve Nikel"
-  },
-  {
-    "id": 28,
-    "question": "İnsan vücudundaki en uzun sinir hangisidir?",
-    "answer": "Siyatik Sinir"
-  },
-  {
-    "id": 29,
-    "question": "Hangi bilim insanı evrim teorisini ortaya atmıştır?",
-    "answer": "Charles Darwin"
-  },
-  {
-    "id": 30,
-    "question": "Hangi element periyodik tabloda 'K' sembolü ile gösterilir?",
-    "answer": "Potasyum"
-  },
-  {
-    "id": 31,
-    "question": "Güneş Sistemi'ndeki en sıcak gezegen hangisidir?",
-    "answer": "Venüs"
-  },
-  {
-    "id": 32,
-    "question": "İnsan vücudundaki en büyük bez hangisidir?",
-    "answer": "Karaciğer"
-  },
-  {
-    "id": 33,
-    "question": "Hangi bilim insanı penisilin antibiyotiğini keşfetmiştir?",
-    "answer": "Alexander Fleming"
-  },
-  {
-    "id": 34,
-    "question": "Hangi element periyodik tabloda 'Ag' sembolü ile gösterilir?",
-    "answer": "Gümüş"
-  },
-  {
-    "id": 35,
-    "question": "İnsan vücudunda kaç litre kan vardır?",
-    "answer": "5-6"
-  },
-  {
-    "id": 36,
-    "question": "Hangi bilim insanı termodinamik yasalarını formüle etmiştir?",
-    "answer": "Rudolf Clausius"
-  },
-  {
-    "id": 37,
-    "question": "Hangi element periyodik tabloda 'Cu' sembolü ile gösterilir?",
-    "answer": "Bakır"
-  },
-  {
-    "id": 38,
-    "question": "Güneş Sistemi'nin en küçük gezegeni hangisidir?",
-    "answer": "Merkür"
-  },
-  {
-    "id": 39,
-    "question": "İnsan vücudundaki en küçük kas hangisidir?",
-    "answer": "Üzengi Kası"
-  },
-  {
-    "id": 40,
-    "question": "Hangi bilim insanı elektrik akımını keşfetmiştir?",
-    "answer": "Alessandro Volta"
-  },
-  {
-    "id": 41,
-    "question": "Hangi element periyodik tabloda 'Pb' sembolü ile gösterilir?",
-    "answer": "Kurşun"
-  },
-  {
-    "id": 42,
-    "question": "Dünya'nın en büyük uydusu hangisidir?",
-    "answer": "Ay"
-  },
-  {
-    "id": 43,
-    "question": "İnsan vücudundaki en büyük sinir sistemi hangisidir?",
-    "answer": "Merkezi Sinir Sistemi"
-  },
-  {
-    "id": 44,
-    "question": "Hangi bilim insanı antibiyotikleri keşfetmiştir?",
-    "answer": "Alexander Fleming"
-  },
-  {
-    "id": 45,
-    "question": "Hangi element periyodik tabloda 'Hg' sembolü ile gösterilir?",
-    "answer": "Cıva"
-  },
-  {
-    "id": 46,
-    "question": "Güneş Sistemi'nin en soğuk gezegeni hangisidir?",
-    "answer": "Uranüs"
-  },
-  {
-    "id": 47,
-    "question": "İnsan vücudundaki en büyük iç organ hangisidir?",
-    "answer": "Karaciğer"
-  },
-  {
-    "id": 48,
-    "question": "Hangi bilim insanı elektrik ve manyetizma teorisini birleştirmiştir?",
-    "answer": "James Clerk Maxwell"
-  },
-  {
-    "id": 49,
-    "question": "Hangi element periyodik tabloda 'Sn' sembolü ile gösterilir?",
-    "answer": "Kalay"
-  },
-  {
-    "id": 50,
-    "question": "İnsan vücudundaki en büyük endokrin bez hangisidir?",
-    "answer": "Tiroid Bezi"
-  }
+  {"id": 1, "question": "Kuantum mekaniğinde 'Schrödinger'in Kedisi' deneyi neyi açıklamayı amaçlar?", "options": {"a": "Entropi", "b": "Süperpozisyon", "c": "Kuantum Dolanıklığı", "d": "Belirsizlik İlkesi"}, "answer": "b"},
+  {"id": 2, "question": "Hangi bilim insanı radyum ve polonyum elementlerini keşfetmiştir?", "options": {"a": "Marie Curie", "b": "Albert Einstein", "c": "Niels Bohr", "d": "Isaac Newton"}, "answer": "a"},
+  {"id": 3, "question": "Hangi element periyodik tabloda 'Fe' sembolü ile gösterilir?", "options": {"a": "Bakır", "b": "Demir", "c": "Altın", "d": "Gümüş"}, "answer": "b"},
+  {"id": 4, "question": "Hangi bilim insanı görelilik teorisini geliştirmiştir?", "options": {"a": "Isaac Newton", "b": "Albert Einstein", "c": "Galileo Galilei", "d": "Stephen Hawking"}, "answer": "b"},
+  {"id": 5, "question": "Hangi elementin atom numarası 1'dir?", "options": {"a": "Helyum", "b": "Hidrojen", "c": "Lityum", "d": "Oksijen"}, "answer": "b"},
+  {"id": 6, "question": "DNA'nın yapısını keşfeden bilim insanları kimlerdir?", "options": {"a": "Gregor Mendel", "b": "Rosalind Franklin", "c": "James Watson ve Francis Crick", "d": "Charles Darwin"}, "answer": "c"},
+  {"id": 7, "question": "Hangi elementin sembolü 'O'dur?", "options": {"a": "Oksijen", "b": "Osmiyum", "c": "Altın", "d": "Karbon"}, "answer": "a"},
+  {"id": 8, "question": "Hangi bilim insanı yerçekimi yasasını formüle etmiştir?", "options": {"a": "Albert Einstein", "b": "Isaac Newton", "c": "Galileo Galilei", "d": "Johannes Kepler"}, "answer": "b"},
+  {"id": 9, "question": "Hangi elementin sembolü 'Au'dur?", "options": {"a": "Gümüş", "b": "Altın", "c": "Bakır", "d": "Kurşun"}, "answer": "b"},
+  {"id": 10, "question": "İnsan vücudundaki en büyük organ hangisidir?", "options": {"a": "Karaciğer", "b": "Akciğer", "c": "Deri", "d": "Kalp"}, "answer": "c"},
+  {"id": 11, "question": "Periyodik tabloda kaç element vardır?", "options": {"a": "108", "b": "112", "c": "118", "d": "120"}, "answer": "c"},
+  {"id": 12, "question": "Hangi gezegen Güneş Sistemi'nin en büyük gezegenidir?", "options": {"a": "Satürn", "b": "Jüpiter", "c": "Uranüs", "d": "Dünya"}, "answer": "b"},
+  {"id": 13, "question": "İnsan vücudundaki en küçük kemik hangisidir?", "options": {"a": "Uyluk Kemiği", "b": "Üzengi Kemiği", "c": "Kafatası", "d": "Omurga"}, "answer": "b"},
+  {"id": 14, "question": "Hangi bilim insanı elektromanyetik indüksiyon yasasını keşfetmiştir?", "options": {"a": "Michael Faraday", "b": "James Maxwell", "c": "Alessandro Volta", "d": "Nikola Tesla"}, "answer": "a"},
+  {"id": 15, "question": "Suyun kimyasal formülü nedir?", "options": {"a": "CO2", "b": "H2O", "c": "O2", "d": "H2SO4"}, "answer": "b"},
+  {"id": 16, "question": "İnsan DNA'sı kaç çift kromozomdan oluşur?", "options": {"a": "21", "b": "22", "c": "23", "d": "24"}, "answer": "c"},
+  {"id": 17, "question": "Hangi bilim insanı radyoaktiviteyi keşfetmiştir?", "options": {"a": "Henri Becquerel", "b": "Marie Curie", "c": "Ernest Rutherford", "d": "Wilhelm Röntgen"}, "answer": "a"},
+  {"id": 18, "question": "Işık hızı saniyede kaç kilometredir?", "options": {"a": "299.792", "b": "300.000", "c": "280.000", "d": "320.000"}, "answer": "a"},
+  {"id": 19, "question": "İnsan vücudundaki en büyük kemik hangisidir?", "options": {"a": "Kafatası", "b": "Uyluk Kemiği", "c": "Omurga", "d": "Kaburga"}, "answer": "b"},
+  {"id": 20, "question": "Hangi element periyodik tabloda 'Na' sembolü ile gösterilir?", "options": {"a": "Sodyum", "b": "Potasyum", "c": "Kalsiyum", "d": "Magnezyum"}, "answer": "a"},
+  {"id": 21, "question": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?", "options": {"a": "Venüs", "b": "Mars", "c": "Jüpiter", "d": "Merkür"}, "answer": "b"},
+  {"id": 22, "question": "İnsan vücudundaki en büyük arter hangisidir?", "options": {"a": "Aort", "b": "Karotis", "c": "Femoral", "d": "Pulmoner"}, "answer": "a"},
+  {"id": 23, "question": "Hangi bilim insanı atom modelini geliştirmiştir?", "options": {"a": "John Dalton", "b": "Niels Bohr", "c": "Ernest Rutherford", "d": "J.J. Thomson"}, "answer": "b"},
+  {"id": 24, "question": "Karbon elementinin atom numarası kaçtır?", "options": {"a": "6", "b": "8", "c": "12", "d": "14"}, "answer": "a"},
+  {"id": 25, "question": "İnsan vücudunda kaç kemik vardır?", "options": {"a": "200", "b": "206", "c": "210", "d": "220"}, "answer": "b"},
+  {"id": 26, "question": "Hangi bilim insanı periyodik tabloyu geliştirmiştir?", "options": {"a": "Dmitri Mendeleyev", "b": "John Dalton", "c": "Antoine Lavoisier", "d": "Henry Moseley"}, "answer": "a"},
+  {"id": 27, "question": "Dünya'nın çekirdeği hangi elementlerden oluşur?", "options": {"a": "Altın ve Gümüş", "b": "Karbon ve Oksijen", "c": "Demir ve Nikel", "d": "Sodyum ve Potasyum"}, "answer": "c"},
+  {"id": 28, "question": "İnsan vücudundaki en uzun sinir hangisidir?", "options": {"a": "Optik Sinir", "b": "Siyatik Sinir", "c": "Vagus Siniri", "d": "Trigeminal Sinir"}, "answer": "b"},
+  {"id": 29, "question": "Hangi bilim insanı evrim teorisini ortaya atmıştır?", "options": {"a": "Gregor Mendel", "b": "Charles Darwin", "c": "Jean-Baptiste Lamarck", "d": "Alfred Wallace"}, "answer": "b"},
+  {"id": 30, "question": "Hangi element periyodik tabloda 'K' sembolü ile gösterilir?", "options": {"a": "Kalsiyum", "b": "Potasyum", "c": "Karbon", "d": "Kripton"}, "answer": "b"},
+  {"id": 31, "question": "Güneş Sistemi'ndeki en sıcak gezegen hangisidir?", "options": {"a": "Merkür", "b": "Venüs", "c": "Mars", "d": "Jüpiter"}, "answer": "b"},
+  {"id": 32, "question": "İnsan vücudundaki en büyük bez hangisidir?", "options": {"a": "Tiroid Bezi", "b": "Karaciğer", "c": "Pankreas", "d": "Adrenal Bez"}, "answer": "b"},
+  {"id": 33, "question": "Hangi bilim insanı penisilin antibiyotiğini keşfetmiştir?", "options": {"a": "Louis Pasteur", "b": "Alexander Fleming", "c": "Robert Koch", "d": "Jonas Salk"}, "answer": "b"},
+  {"id": 34, "question": "Hangi element periyodik tabloda 'Ag' sembolü ile gösterilir?", "options": {"a": "Altın", "b": "Gümüş", "c": "Bakır", "d": "Alüminyum"}, "answer": "b"},
+  {"id": 35, "question": "İnsan vücudunda kaç litre kan vardır?", "options": {"a": "3-4", "b": "4-5", "c": "5-6", "d": "6-7"}, "answer": "c"},
+  {"id": 36, "question": "Hangi bilim insanı termodinamik yasalarını formüle etmiştir?", "options": {"a": "Sadi Carnot", "b": "Rudolf Clausius", "c": "James Joule", "d": "William Thomson"}, "answer": "b"},
+  {"id": 37, "question": "Hangi element periyodik tabloda 'Cu' sembolü ile gösterilir?", "options": {"a": "Bakır", "b": "Kalay", "c": "Kurşun", "d": "Çinko"}, "answer": "a"},
+  {"id": 38, "question": "Güneş Sistemi'nin en küçük gezegeni hangisidir?", "options": {"a": "Mars", "b": "Venüs", "c": "Merkür", "d": "Plüton"}, "answer": "c"},
+  {"id": 39, "question": "İnsan vücudundaki en küçük kas hangisidir?", "options": {"a": "Üzengi Kası", "b": "Dil Kası", "c": "Göz Kası", "d": "Çene Kası"}, "answer": "a"},
+  {"id": 40, "question": "Hangi bilim insanı elektrik akımını keşfetmiştir?", "options": {"a": "Benjamin Franklin", "b": "Alessandro Volta", "c": "Thomas Edison", "d": "Nikola Tesla"}, "answer": "b"},
+  {"id": 41, "question": "Hangi element periyodik tabloda 'Pb' sembolü ile gösterilir?", "options": {"a": "Kalay", "b": "Kurşun", "c": "Cıva", "d": "Çinko"}, "answer": "b"},
+  {"id": 42, "question": "Dünya'nın en büyük uydusu hangisidir?", "options": {"a": "Ay", "b": "Phobos", "c": "Deimos", "d": "Ganymede"}, "answer": "a"},
+  {"id": 43, "question": "İnsan vücudundaki en büyük sinir sistemi hangisidir?", "options": {"a": "Periferik Sinir Sistemi", "b": "Merkezi Sinir Sistemi", "c": "Otonom Sinir Sistemi", "d": "Somatik Sinir Sistemi"}, "answer": "b"},
+  {"id": 44, "question": "Hangi bilim insanı antibiyotikleri keşfetmiştir?", "options": {"a": "Louis Pasteur", "b": "Alexander Fleming", "c": "Joseph Lister", "d": "Paul Ehrlich"}, "answer": "b"},
+  {"id": 45, "question": "Hangi element periyodik tabloda 'Hg' sembolü ile gösterilir?", "options": {"a": "Cıva", "b": "Kurşun", "c": "Gümüş", "d": "Altın"}, "answer": "a"},
+  {"id": 46, "question": "Güneş Sistemi'nin en soğuk gezegeni hangisidir?", "options": {"a": "Neptün", "b": "Uranüs", "c": "Satürn", "d": "Jüpiter"}, "answer": "b"},
+  {"id": 47, "question": "İnsan vücudundaki en büyük iç organ hangisidir?", "options": {"a": "Akciğer", "b": "Karaciğer", "c": "Mide", "d": "Pankreas"}, "answer": "b"},
+  {"id": 48, "question": "Hangi bilim insanı elektrik ve manyetizma teorisini birleştirmiştir?", "options": {"a": "Michael Faraday", "b": "James Clerk Maxwell", "c": "André-Marie Ampère", "d": "Georg Ohm"}, "answer": "b"},
+  {"id": 49, "question": "Hangi element periyodik tabloda 'Sn' sembolü ile gösterilir?", "options": {"a": "Kalay", "b": "Kurşun", "c": "Çinko", "d": "Bakır"}, "answer": "a"},
+  {"id": 50, "question": "İnsan vücudundaki en büyük endokrin bez hangisidir?", "options": {"a": "Hipofiz Bezi", "b": "Tiroid Bezi", "c": "Adrenal Bez", "d": "Pankreas"}, "answer": "b"},
+  {"id": 51, "question": "Hangi matematikçi sıfır kavramını ilk kez sistematik olarak kullanmıştır?", "options": {"a": "Euclid", "b": "Brahmagupta", "c": "Archimedes", "d": "Pythagoras"}, "answer": "b"},
+  {"id": 52, "question": "Telefonu icat eden bilim insanı kimdir?", "options": {"a": "Thomas Edison", "b": "Alexander Graham Bell", "c": "Nikola Tesla", "d": "Guglielmo Marconi"}, "answer": "b"},
+  {"id": 53, "question": "Hangi gezegenin en fazla uydusu vardır?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "b"},
+  {"id": 54, "question": "Fizikte 'E=mc²' formülü hangi teoriye aittir?", "options": {"a": "Kuantum Mekaniği", "b": "Özel Görelilik", "c": "Genel Görelilik", "d": "Termodinamik"}, "answer": "b"},
+  {"id": 55, "question": "Hangi element en yüksek erime noktasına sahiptir?", "options": {"a": "Demir", "b": "Tungsten", "c": "Altın", "d": "Platin"}, "answer": "b"},
+  {"id": 56, "question": "İnsan beynindeki nöron sayısı yaklaşık kaçtır?", "options": {"a": "10 milyon", "b": "1 milyar", "c": "86 milyar", "d": "500 milyar"}, "answer": "c"},
+  {"id": 57, "question": "Hangi bilim insanı X-ışınlarını keşfetmiştir?", "options": {"a": "Wilhelm Röntgen", "b": "Marie Curie", "c": "Henri Becquerel", "d": "Ernest Rutherford"}, "answer": "a"},
+  {"id": 58, "question": "Bir dairenin çevresini bulmak için hangi sabit kullanılır?", "options": {"a": "e", "b": "π (pi)", "c": "√2", "d": "φ (fi)"}, "answer": "b"},
+  {"id": 59, "question": "Hangi mühendislik dalı köprü ve bina tasarımıyla ilgilenir?", "options": {"a": "Makine Mühendisliği", "b": "Elektrik Mühendisliği", "c": "İnşaat Mühendisliği", "d": "Kimya Mühendisliği"}, "answer": "c"},
+  {"id": 60, "question": "Hangi Nobel Ödülü sahibi hem Fizik hem Kimya dalında ödül almıştır?", "options": {"a": "Albert Einstein", "b": "Marie Curie", "c": "Linus Pauling", "d": "Richard Feynman"}, "answer": "b"},
+  {"id": 61, "question": "Güneş'in yüzey sıcaklığı yaklaşık kaç derecedir?", "options": {"a": "2.000°C", "b": "5.500°C", "c": "10.000°C", "d": "15.000°C"}, "answer": "b"},
+  {"id": 62, "question": "Hangi icat Wright Kardeşler ile ilişkilendirilir?", "options": {"a": "Telefon", "b": "Uçak", "c": "Elektrik Ampulü", "d": "Radyo"}, "answer": "b"},
+  {"id": 63, "question": "Fibonacci dizisinde her sayı kendinden önceki kaç sayının toplamıdır?", "options": {"a": "1", "b": "2", "c": "3", "d": "4"}, "answer": "b"},
+  {"id": 64, "question": "Hangi element insan vücudunda en fazla bulunur?", "options": {"a": "Oksijen", "b": "Karbon", "c": "Hidrojen", "d": "Azot"}, "answer": "a"},
+  {"id": 65, "question": "Hangi bilim insanı kuantum teorisinin temelini atmıştır?", "options": {"a": "Max Planck", "b": "Werner Heisenberg", "c": "Erwin Schrödinger", "d": "Paul Dirac"}, "answer": "a"},
+  {"id": 66, "question": "Dünya'nın Güneş'ten ortalama uzaklığı kaç kilometredir?", "options": {"a": "93 milyon", "b": "150 milyon", "c": "200 milyon", "d": "250 milyon"}, "answer": "b"},
+  {"id": 67, "question": "Hangi hayvanın kalbi üç odacıklıdır?", "options": {"a": "Kaplumbağa", "b": "Kurbağa", "c": "Yılan", "d": "Kertenkele"}, "answer": "b"},
+  {"id": 68, "question": "İlk bilgisayarın mucidi olarak kim kabul edilir?", "options": {"a": "Alan Turing", "b": "Charles Babbage", "c": "John von Neumann", "d": "Bill Gates"}, "answer": "b"},
+  {"id": 69, "question": "Hangi gezegenin günü yılından uzundur?", "options": {"a": "Venüs", "b": "Mars", "c": "Merkür", "d": "Jüpiter"}, "answer": "a"},
+  {"id": 70, "question": "Hangi matematiksel sabit yaklaşık 2.718'e eşittir?", "options": {"a": "π (pi)", "b": "e", "c": "φ (fi)", "d": "√3"}, "answer": "b"},
+  {"id": 71, "question": "Hangi bilim insanı naber ödüllerini finanse eden dinamiti icat etmiştir?", "options": {"a": "Alfred Nobel", "b": "Thomas Edison", "c": "Nikola Tesla", "d": "Marie Curie"}, "answer": "a"},
+  {"id": 72, "question": "İnsan gözü hangi dalga boyundaki ışığı en iyi algılar?", "options": {"a": "Kırmızı", "b": "Mavi", "c": "Yeşil", "d": "Mor"}, "answer": "c"},
+  {"id": 73, "question": "Hangi element uzayda en bol bulunan ikinci elementtir?", "options": {"a": "Hidrojen", "b": "Helyum", "c": "Oksijen", "d": "Karbon"}, "answer": "b"},
+  {"id": 74, "question": "Hangi teknolojik gelişme internetin temelini oluşturmuştur?", "options": {"a": "ARPANET", "b": "ENIAC", "c": "UNIVAC", "d": "IBM PC"}, "answer": "a"},
+  {"id": 75, "question": "Hangi bilim insanı atomun çekirdeğini keşfetmiştir?", "options": {"a": "J.J. Thomson", "b": "Ernest Rutherford", "c": "Niels Bohr", "d": "John Dalton"}, "answer": "b"},
+  {"id": 76, "question": "Bir yıl kaç saniye sürer (yaklaşık)?", "options": {"a": "31 milyon", "b": "25 milyon", "c": "40 milyon", "d": "15 milyon"}, "answer": "a"},
+  {"id": 77, "question": "Hangi organ kanı filtreler?", "options": {"a": "Karaciğer", "b": "Böbrek", "c": "Dalak", "d": "Pankreas"}, "answer": "b"},
+  {"id": 78, "question": "Hangi buluş matbaanın gelişimini sağlamıştır?", "options": {"a": "Buhar Makinesi", "b": "Hareketli Harfler", "c": "Elektrik", "d": "Telgraf"}, "answer": "b"},
+  {"id": 79, "question": "Hangi elementin atom ağırlığı en düşüktür?", "options": {"a": "Hidrojen", "b": "Helyum", "c": "Lityum", "d": "Berilyum"}, "answer": "a"},
+  {"id": 80, "question": "Hangi bilim insanı ilk teleskopu icat etmiştir?", "options": {"a": "Galileo Galilei", "b": "Johannes Kepler", "c": "Isaac Newton", "d": "Hans Lippershey"}, "answer": "d"},
+  {"id": 81, "question": "Hangi gezegenin yüzeyinde en büyük volkan bulunur?", "options": {"a": "Dünya", "b": "Mars", "c": "Venüs", "d": "Merkür"}, "answer": "b"},
+  {"id": 82, "question": "İnsan vücudunda kaç farklı amino asit türü bulunur?", "options": {"a": "10", "b": "20", "c": "30", "d": "40"}, "answer": "b"},
+  {"id": 83, "question": "Hangi fiziksel büyüklük 'Joule' ile ölçülür?", "options": {"a": "Hız", "b": "Enerji", "c": "Kütle", "d": "Basınç"}, "answer": "b"},
+  {"id": 84, "question": "Hangi elementin adı bir gezegenden gelir?", "options": {"a": "Uranyum", "b": "Plütonyum", "c": "Neptünyum", "d": "Hepsi"}, "answer": "d"},
+  {"id": 85, "question": "Hangi bilim insanı ilk Nobel Fizik Ödülü'nü kazanmıştır?", "options": {"a": "Albert Einstein", "b": "Wilhelm Röntgen", "c": "Max Planck", "d": "Marie Curie"}, "answer": "b"},
+  {"id": 86, "question": "Bir küpün kaç yüzü vardır?", "options": {"a": "4", "b": "6", "c": "8", "d": "12"}, "answer": "b"},
+  {"id": 87, "question": "Hangi icat James Watt ile ilişkilendirilir?", "options": {"a": "Buhar Makinesi", "b": "Elektrik Motoru", "c": "Telgraf", "d": "Radyo"}, "answer": "a"},
+  {"id": 88, "question": "Hangi element sıvı halde bulunabilen tek metaldir?", "options": {"a": "Cıva", "b": "Kurşun", "c": "Kalay", "d": "Gümüş"}, "answer": "a"},
+  {"id": 89, "question": "Hangi organ oksijeni kandan alır?", "options": {"a": "Kalp", "b": "Akciğer", "c": "Beyin", "d": "Karaciğer"}, "answer": "b"},
+  {"id": 90, "question": "Hangi bilim insanı DNA'nın çift sarmal yapısını fotoğraflamaya katkıda bulunmuştur?", "options": {"a": "Rosalind Franklin", "b": "James Watson", "c": "Francis Crick", "d": "Maurice Wilkins"}, "answer": "a"},
+  {"id": 91, "question": "Hangi gezegenin halkaları en belirgindir?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "b"},
+  {"id": 92, "question": "Hangi matematikçi 'Fermat'nın Son Teoremi'ni ortaya atmıştır?", "options": {"a": "Pierre de Fermat", "b": "Leonhard Euler", "c": "Carl Gauss", "d": "Bernhard Riemann"}, "answer": "a"},
+  {"id": 93, "question": "Hangi elementin sembolü 'He'dir?", "options": {"a": "Hidrojen", "b": "Helyum", "c": "Lityum", "d": "Neon"}, "answer": "b"},
+  {"id": 94, "question": "Hangi icat Thomas Edison ile ilişkilendirilir?", "options": {"a": "Telefon", "b": "Ampul", "c": "Radyo", "d": "Televizyon"}, "answer": "b"},
+  {"id": 95, "question": "Hangi bilim insanı kütle çekim dalgalarını öngörmüştür?", "options": {"a": "Isaac Newton", "b": "Albert Einstein", "c": "Stephen Hawking", "d": "Edwin Hubble"}, "answer": "b"},
+  {"id": 96, "question": "İnsan vücudunda en fazla hangi mineral bulunur?", "options": {"a": "Demir", "b": "Kalsiyum", "c": "Magnezyum", "d": "Potasyum"}, "answer": "b"},
+  {"id": 97, "question": "Hangi fiziksel sabit yaklaşık 6.626 x 10⁻³⁴ J·s değerindedir?", "options": {"a": "Işık Hızı", "b": "Planck Sabiti", "c": "Avogadro Sayısı", "d": "Graviton Sabiti"}, "answer": "b"},
+  {"id": 98, "question": "Hangi gezegenin atmosferi çoğunlukla karbondioksitten oluşur?", "options": {"a": "Mars", "b": "Venüs", "c": "Jüpiter", "d": "Satürn"}, "answer": "b"},
+  {"id": 99, "question": "Hangi mühendislik dalı robotlarla ilgilenir?", "options": {"a": "Makine Mühendisliği", "b": "Robotik Mühendisliği", "c": "Kimya Mühendisliği", "d": "Elektrik Mühendisliği"}, "answer": "b"},
+  {"id": 100, "question": "Hangi bilim insanı Hubble Teleskobu'na adını vermiştir?", "options": {"a": "Edwin Hubble", "b": "Carl Sagan", "c": "Galileo Galilei", "d": "Johannes Kepler"}, "answer": "a"},
+  {"id": 101, "question": "Bir üçgenin iç açıları toplamı kaç derecedir?", "options": {"a": "90", "b": "180", "c": "270", "d": "360"}, "answer": "b"},
+  {"id": 102, "question": "Hangi elementin atom numarası 92'dir?", "options": {"a": "Uranyum", "b": "Plütonyum", "c": "Toryum", "d": "Radyum"}, "answer": "a"},
+  {"id": 103, "question": "Hangi icat radyo dalgalarını kullanarak iletişim sağlar?", "options": {"a": "Telefon", "b": "Telgraf", "c": "Radyo", "d": "Televizyon"}, "answer": "c"},
+  {"id": 104, "question": "Hangi organ insülin üretir?", "options": {"a": "Karaciğer", "b": "Pankreas", "c": "Böbrek", "d": "Mide"}, "answer": "b"},
+  {"id": 105, "question": "Hangi bilim insanı Büyük Patlama Teorisi'ni destekleyen kozmik arka plan ışımasını keşfetmiştir?", "options": {"a": "Arno Penzias", "b": "Stephen Hawking", "c": "Edwin Hubble", "d": "George Gamow"}, "answer": "a"},
+  {"id": 106, "question": "Hangi elementin sembolü 'N'dir?", "options": {"a": "Azot", "b": "Neon", "c": "Sodyum", "d": "Nikel"}, "answer": "a"},
+  {"id": 107, "question": "Hangi gezegenin yörüngesi en eliptiktir?", "options": {"a": "Merkür", "b": "Mars", "c": "Jüpiter", "d": "Satürn"}, "answer": "a"},
+  {"id": 108, "question": "Hangi matematikçi 'i' sanal sayısını tanımlamıştır?", "options": {"a": "Leonhard Euler", "b": "Carl Gauss", "c": "René Descartes", "d": "Isaac Newton"}, "answer": "a"},
+  {"id": 109, "question": "Hangi teknolojik gelişme ilk yapay uydunun fırlatılmasını sağlamıştır?", "options": {"a": "Sputnik 1", "b": "Apollo 11", "c": "Vostok 1", "d": "Voyager 1"}, "answer": "a"},
+  {"id": 110, "question": "Hangi bilim insanı ışığın dalga-parçacık ikiliğini kanıtlamıştır?", "options": {"a": "Albert Einstein", "b": "Louis de Broglie", "c": "Max Planck", "d": "Werner Heisenberg"}, "answer": "a"},
+  {"id": 111, "question": "Hangi organ vücudun termoregülasyonunu sağlar?", "options": {"a": "Deri", "b": "Kalp", "c": "Beyin", "d": "Akciğer"}, "answer": "a"},
+  {"id": 112, "question": "Hangi elementin sembolü 'P'dir?", "options": {"a": "Fosfor", "b": "Potasyum", "c": "Platin", "d": "Paladyum"}, "answer": "a"},
+  {"id": 113, "question": "Hangi gezegenin dönüş yönü diğerlerinden terstir?", "options": {"a": "Venüs", "b": "Mars", "c": "Jüpiter", "d": "Satürn"}, "answer": "a"},
+  {"id": 114, "question": "Hangi icat Guglielmo Marconi ile ilişkilendirilir?", "options": {"a": "Telefon", "b": "Radyo", "c": "Televizyon", "d": "Ampul"}, "answer": "b"},
+  {"id": 115, "question": "Hangi bilim insanı genetik bilimin temelini atan bezelye deneylerini yapmıştır?", "options": {"a": "Gregor Mendel", "b": "Charles Darwin", "c": "Thomas Morgan", "d": "Barbara McClintock"}, "answer": "a"},
+  {"id": 116, "question": "Bir dairenin alanı hangi formülle hesaplanır?", "options": {"a": "πr²", "b": "2πr", "c": "r²", "d": "πd"}, "answer": "a"},
+  {"id": 117, "question": "Hangi elementin sembolü 'S'dir?", "options": {"a": "Kükürt", "b": "Sodyum", "c": "Silisyum", "d": "Selenyum"}, "answer": "a"},
+  {"id": 118, "question": "Hangi gezegenin atmosferinde en fazla hidrojen bulunur?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "a"},
+  {"id": 119, "question": "Hangi mühendislik dalı uçak tasarımıyla ilgilenir?", "options": {"a": "Havacılık Mühendisliği", "b": "Makine Mühendisliği", "c": "Elektrik Mühendisliği", "d": "Kimya Mühendisliği"}, "answer": "a"},
+  {"id": 120, "question": "Hangi bilim insanı ilk lazeri geliştirmiştir?", "options": {"a": "Theodore Maiman", "b": "Albert Einstein", "c": "Dennis Gabor", "d": "Charles Townes"}, "answer": "a"},
+  {"id": 121, "question": "Hangi organ sindirime yardımcı olan enzimler üretir?", "options": {"a": "Mide", "b": "Pankreas", "c": "Karaciğer", "d": "Bağırsak"}, "answer": "b"},
+  {"id": 122, "question": "Hangi elementin sembolü 'Cl'dir?", "options": {"a": "Klor", "b": "Kalsiyum", "c": "Krom", "d": "Kobalt"}, "answer": "a"},
+  {"id": 123, "question": "Hangi gezegenin yüzey sıcaklığı en değişkendir?", "options": {"a": "Merkür", "b": "Venüs", "c": "Mars", "d": "Dünya"}, "answer": "a"},
+  {"id": 124, "question": "Hangi matematikçi integral hesabını geliştirmiştir?", "options": {"a": "Isaac Newton", "b": "Gottfried Leibniz", "c": "Hem Newton hem Leibniz", "d": "Leonhard Euler"}, "answer": "c"},
+  {"id": 125, "question": "Hangi icat tıpta iç organların görüntülenmesini sağlamıştır?", "options": {"a": "X-Ray", "b": "MRI", "c": "Ultrason", "d": "CT Tarama"}, "answer": "a"},
+  {"id": 126, "question": "Hangi bilim insanı evrenin genişlediğini keşfetmiştir?", "options": {"a": "Edwin Hubble", "b": "Albert Einstein", "c": "Stephen Hawking", "d": "Georges Lemaître"}, "answer": "a"},
+  {"id": 127, "question": "Hangi elementin sembolü 'Mg'dir?", "options": {"a": "Magnezyum", "b": "Manganez", "c": "Merkür", "d": "Molibden"}, "answer": "a"},
+  {"id": 128, "question": "Hangi gezegenin uydusu Titan'dır?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "b"},
+  {"id": 129, "question": "Hangi organ vücudun en büyük detoksifikasyon merkezidir?", "options": {"a": "Böbrek", "b": "Karaciğer", "c": "Akciğer", "d": "Dalak"}, "answer": "b"},
+  {"id": 130, "question": "Hangi bilim insanı ilk nükleer reaktörü tasarlamıştır?", "options": {"a": "Enrico Fermi", "b": "J. Robert Oppenheimer", "c": "Leo Szilard", "d": "Ernest Rutherford"}, "answer": "a"},
+  {"id": 131, "question": "Bir karenin iç açıları toplamı kaç derecedir?", "options": {"a": "180", "b": "360", "c": "540", "d": "720"}, "answer": "b"},
+  {"id": 132, "question": "Hangi elementin sembolü 'Al'dir?", "options": {"a": "Alüminyum", "b": "Argon", "c": "Astat", "d": "Antimon"}, "answer": "a"},
+  {"id": 133, "question": "Hangi gezegenin yüzeyinde su bulunmuştur?", "options": {"a": "Mars", "b": "Venüs", "c": "Merkür", "d": "Jüpiter"}, "answer": "a"},
+  {"id": 134, "question": "Hangi icat elektrik enerjisini mekanik enerjiye çevirir?", "options": {"a": "Jeneratör", "b": "Motor", "c": "Transformatör", "d": "Pil"}, "answer": "b"},
+  {"id": 135, "question": "Hangi bilim insanı belirsizlik ilkesini formüle etmiştir?", "options": {"a": "Werner Heisenberg", "b": "Erwin Schrödinger", "c": "Max Planck", "d": "Niels Bohr"}, "answer": "a"},
+  {"id": 136, "question": "Hangi elementin sembolü 'Si'dir?", "options": {"a": "Silisyum", "b": "Sodyum", "c": "Kükürt", "d": "Selenyum"}, "answer": "a"},
+  {"id": 137, "question": "Hangi gezegenin atmosferinde metan gazı baskındır?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "c"},
+  {"id": 138, "question": "Hangi matematikçi logaritma kavramını geliştirmiştir?", "options": {"a": "John Napier", "b": "Leonhard Euler", "c": "Isaac Newton", "d": "Carl Gauss"}, "answer": "a"},
+  {"id": 139, "question": "Hangi organ kan basıncını düzenler?", "options": {"a": "Kalp", "b": "Böbrek", "c": "Akciğer", "d": "Beyin"}, "answer": "b"},
+  {"id": 140, "question": "Hangi bilim insanı ilk televizyonu icat etmiştir?", "options": {"a": "John Logie Baird", "b": "Philo Farnsworth", "c": "Vladimir Zworykin", "d": "Hem Baird hem Farnsworth"}, "answer": "d"},
+  {"id": 141, "question": "Hangi elementin sembolü 'Zn'dir?", "options": {"a": "Çinko", "b": "Zirkonyum", "c": "Ksenon", "d": "Kadmiyum"}, "answer": "a"},
+  {"id": 142, "question": "Hangi gezegenin uydusu Europa'dır?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "a"},
+  {"id": 143, "question": "Hangi icat tıpta kalp atışlarını izlemeyi sağlar?", "options": {"a": "Stetoskop", "b": "EKG", "c": "MRI", "d": "Ultrason"}, "answer": "b"},
+  {"id": 144, "question": "Hangi bilim insanı ilk kez antiseptik cerrahiyi uygulamıştır?", "options": {"a": "Joseph Lister", "b": "Louis Pasteur", "c": "Alexander Fleming", "d": "Ignaz Semmelweis"}, "answer": "a"},
+  {"id": 145, "question": "Hangi elementin sembolü 'Br'dir?", "options": {"a": "Brom", "b": "Bor", "c": "Berilyum", "d": "Baryum"}, "answer": "a"},
+  {"id": 146, "question": "Hangi gezegenin yüzeyinde en fazla krater bulunur?", "options": {"a": "Merkür", "b": "Mars", "c": "Venüs", "d": "Ay"}, "answer": "a"},
+  {"id": 147, "question": "Hangi organ vücudun bağışıklık sisteminin merkezidir?", "options": {"a": "Dalak", "b": "Lenf Düğümleri", "c": "Kemik İliği", "d": "Hepsi"}, "answer": "d"},
+  {"id": 148, "question": "Hangi matematikçi Riemann Hipotezi'ni ortaya atmıştır?", "options": {"a": "Bernhard Riemann", "b": "Leonhard Euler", "c": "Carl Gauss", "d": "David Hilbert"}, "answer": "a"},
+  {"id": 149, "question": "Hangi icat ses dalgalarını kullanarak mesafe ölçer?", "options": {"a": "Radar", "b": "Sonar", "c": "Lidar", "d": "GPS"}, "answer": "b"},
+  {"id": 150, "question": "Hangi bilim insanı ilk kez atom bombasının geliştirilmesine öncülük etmiştir?", "options": {"a": "J. Robert Oppenheimer", "b": "Enrico Fermi", "c": "Leo Szilard", "d": "Albert Einstein"}, "answer": "a"},
+  {"id": 151, "question": "Hangi elementin sembolü 'I'dir?", "options": {"a": "İyot", "b": "İridyum", "c": "İndiyum", "d": "İterbiyum"}, "answer": "a"},
+  {"id": 152, "question": "Hangi gezegenin uydusu Callisto'dur?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "a"},
+  {"id": 153, "question": "Hangi organ vücudun su dengesini düzenler?", "options": {"a": "Böbrek", "b": "Karaciğer", "c": "Akciğer", "d": "Kalp"}, "answer": "a"},
+  {"id": 154, "question": "Hangi bilim insanı ilk kez heliyosentrik modeli savunmuştur?", "options": {"a": "Nikola Kopernik", "b": "Galileo Galilei", "c": "Johannes Kepler", "d": "Tycho Brahe"}, "answer": "a"},
+  {"id": 155, "question": "Hangi elementin sembolü 'Ar'dir?", "options": {"a": "Argon", "b": "Alüminyum", "c": "Arsenik", "d": "Astat"}, "answer": "a"},
+  {"id": 156, "question": "Hangi gezegenin atmosferi en incedir?", "options": {"a": "Merkür", "b": "Mars", "c": "Venüs", "d": "Dünya"}, "answer": "a"},
+  {"id": 157, "question": "Hangi icat ilk kez uzaktan iletişimi sağlamıştır?", "options": {"a": "Telgraf", "b": "Telefon", "c": "Radyo", "d": "İnternet"}, "answer": "a"},
+  {"id": 158, "question": "Hangi matematikçi asal sayılar teorisini geliştirmiştir?", "options": {"a": "Euclid", "b": "Eratosthenes", "c": "Carl Gauss", "d": "Hem Euclid hem Gauss"}, "answer": "d"},
+  {"id": 159, "question": "Hangi organ vücudun en fazla enerji tüketen organıdır?", "options": {"a": "Kalp", "b": "Beyin", "c": "Karaciğer", "d": "Akciğer"}, "answer": "b"},
+  {"id": 160, "question": "Hangi bilim insanı ilk kez holografiyi icat etmiştir?", "options": {"a": "Dennis Gabor", "b": "Albert Einstein", "c": "Max Planck", "d": "Charles Townes"}, "answer": "a"},
+  {"id": 161, "question": "Hangi elementin sembolü 'Ti'dir?", "options": {"a": "Titanyum", "b": "Talyum", "c": "Tungsten", "d": "Tennessin"}, "answer": "a"},
+  {"id": 162, "question": "Hangi gezegenin uydusu Io'dur?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "a"},
+  {"id": 163, "question": "Hangi icat ilk kez zamanı hassas bir şekilde ölçmüştür?", "options": {"a": "Kum Saati", "b": "Güneş Saati", "c": "Mekanik Saat", "d": "Kronometre"}, "answer": "c"},
+  {"id": 164, "question": "Hangi bilim insanı ilk kez kütle spektrometresini geliştirmiştir?", "options": {"a": "J.J. Thomson", "b": "Francis Aston", "c": "Ernest Rutherford", "d": "John Dalton"}, "answer": "b"},
+  {"id": 165, "question": "Hangi elementin sembolü 'F'dir?", "options": {"a": "Flor", "b": "Fosfor", "c": "Fransiyum", "d": "Fermiyum"}, "answer": "a"},
+  {"id": 166, "question": "Hangi gezegenin yüzeyinde en büyük kanyon bulunur?", "options": {"a":"Mars", "b": "Venüs", "c": "Merkür", "d": "Dünya"}, "answer": "a"},
+  {"id": 167, "question": "Hangi organ vücudun en büyük kan damarına sahiptir?", "options": {"a": "Kalp", "b": "Akciğer", "c": "Karaciğer", "d": "Böbrek"}, "answer": "a"},
+  {"id": 168, "question": "Hangi matematikçi 'Altın Oran'ı sistematik olarak incelemiştir?", "options": {"a": "Euclid", "b": "Fibonacci", "c": "Pythagoras", "d": "Archimedes"}, "answer": "a"},
+  {"id": 169, "question": "Hangi icat ilk kez ses kaydını mümkün kılmıştır?", "options": {"a": "Gramofon", "b": "Fonograf", "c": "Radyo", "d": "Kaset"}, "answer": "b"},
+  {"id": 170, "question": "Hangi bilim insanı ilk kez karadelikleri teorik olarak tanımlamıştır?", "options": {"a": "Albert Einstein", "b": "Stephen Hawking", "c": "John Michell", "d": "Karl Schwarzschild"}, "answer": "c"},
+  {"id": 171, "question": "Hangi elementin sembolü 'Co'dur?", "options": {"a": "Kobalt", "b": "Krom", "c": "Karbon", "d": "Kalsiyum"}, "answer": "a"},
+  {"id": 172, "question": "Hangi gezegenin atmosferinde en fazla oksijen bulunur?", "options": {"a": "Dünya", "b": "Mars", "c": "Venüs", "d": "Jüpiter"}, "answer": "a"},
+  {"id": 173, "question": "Hangi organ vücudun en büyük salgı bezidir?", "options": {"a": "Karaciğer", "b": "Pankreas", "c": "Tiroid", "d": "Hipofiz"}, "answer": "a"},
+  {"id": 174, "question": "Hangi bilim insanı ilk kez naber barış ödülünü kazanmıştır?", "options": {"a": "Henry Dunant", "b": "Marie Curie", "c": "Albert Einstein", "d": "Linus Pauling"}, "answer": "a"},
+  {"id": 175, "question": "Hangi elementin sembolü 'Ni'dir?", "options": {"a": "Nikel", "b": "Azot", "c": "Neon", "d": "Niyobyum"}, "answer": "a"},
+  {"id": 176, "question": "Hangi gezegenin uydusu Enceladus'tur?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "b"},
+  {"id": 177, "question": "Hangi icat ilk kez elektrik enerjisini depolamıştır?", "options": {"a": "Pil", "b": "Jeneratör", "c": "Kondansatör", "d": "Transformatör"}, "answer": "a"},
+  {"id": 178, "question": "Hangi matematikçi kaos teorisinin temelini atmıştır?", "options": {"a": "Henri Poincaré", "b": "Edward Lorenz", "c": "Benoit Mandelbrot", "d": "Alan Turing"}, "answer": "a"},
+  {"id": 179, "question": "Hangi organ vücudun en büyük lenfatik organıdır?", "options": {"a": "Dalak", "b": "Böbrek", "c": "Karaciğer", "d": "Akciğer"}, "answer": "a"},
+  {"id": 180, "question": "Hangi bilim insanı ilk kez mikroskobu geliştirmiştir?", "options": {"a": "Antonie van Leeuwenhoek", "b": "Robert Hooke", "c": "Galileo Galilei", "d": "Zacharias Janssen"}, "answer": "d"},
+  {"id": 181, "question": "Hangi elementin sembolü 'Cr'dir?", "options": {"a": "Krom", "b": "Kobalt", "c": "Kalsiyum", "d": "Klor"}, "answer": "a"},
+  {"id": 182, "question": "Hangi gezegenin yüzeyinde en fazla fırtına gözlemlenir?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "a"},
+  {"id": 183, "question": "Hangi icat ilk kez uzay araştırmalarını mümkün kılmıştır?", "options": {"a": "Teleskop", "b": "Roket", "c": "Uydu", "d": "Radyo Teleskop"}, "answer": "b"},
+  {"id": 184, "question": "Hangi bilim insanı ilk kez DNA dizilemesini gerçekleştirmiştir?", "options": {"a": "Frederick Sanger", "b": "James Watson", "c": "Francis Crick", "d": "Craig Venter"}, "answer": "a"},
+  {"id": 185, "question": "Hangi elementin sembolü 'Mn'dir?", "options": {"a": "Manganez", "b": "Magnezyum", "c": "Molibden", "d": "Merkür"}, "answer": "a"},
+  {"id": 186, "question": "Hangi gezegenin atmosferinde en fazla azot bulunur?", "options": {"a": "Dünya", "b": "Mars", "c": "Venüs", "d": "Titan"}, "answer": "a"},
+  {"id": 187, "question": "Hangi organ vücudun en büyük kas grubuna sahiptir?", "options": {"a": "Bacaklar", "b": "Sırt", "c": "Kol", "d": "Göğüs"}, "answer": "a"},
+  {"id": 188, "question": "Hangi matematikçi fraktal geometriyi geliştirmiştir?", "options": {"a": "Benoit Mandelbrot", "b": "Henri Poincaré", "c": "David Hilbert", "d": "Georg Cantor"}, "answer": "a"},
+  {"id": 189, "question": "Hangi icat ilk kez görüntü kaydını mümkün kılmıştır?", "options": {"a": "Fotoğraf Makinesi", "b": "Video Kamera", "c": "Televizyon", "d": "Projektör"}, "answer": "a"},
+  {"id": 190, "question": "Hangi bilim insanı ilk kez kuantum teleportasyonunu teorik olarak açıklamıştır?", "options": {"a": "Charles Bennett", "b": "Albert Einstein", "c": "Richard Feynman", "d": "John Bell"}, "answer": "a"},
+  {"id": 191, "question": "Hangi elementin sembolü 'W'dur?", "options": {"a": "Tungsten", "b": "Wolfram", "c": "Hem a hem b", "d": "Vanadyum"}, "answer": "c"},
+  {"id": 192, "question": "Hangi gezegenin yüzeyinde en büyük sıcaklık farkı gözlemlenir?", "options": {"a": "Merkür", "b": "Mars", "c": "Venüs", "d": "Dünya"}, "answer": "a"},
+  {"id": 193, "question": "Hangi organ vücudun en büyük enerji deposudur?", "options": {"a": "Karaciğer", "b": "Kaslar", "c": "Yağ Dokusu", "d": "Beyin"}, "answer": "c"},
+  {"id": 194, "question": "Hangi bilim insanı ilk kez yapay zekayı tanımlamıştır?", "options": {"a": "Alan Turing", "b": "John McCarthy", "c": "Marvin Minsky", "d": "Herbert Simon"}, "answer": "b"},
+  {"id": 195, "question": "Hangi elementin sembolü 'Pt'dir?", "options": {"a": "Platin", "b": "Paladyum", "c": "Plütonyum", "d": "Potasyum"}, "answer": "a"},
+  {"id": 196, "question": "Hangi gezegenin uydusu Triton'dur?", "options": {"a": "Jüpiter", "b": "Satürn", "c": "Uranüs", "d": "Neptün"}, "answer": "d"},
+  {"id": 197, "question": "Hangi icat ilk kez navigasyonu kolaylaştırmıştır?", "options": {"a": "Pusula", "b": "Sextant", "c": "GPS", "d": "Harita"}, "answer": "a"},
+  {"id": 198, "question": "Hangi matematikçi set teorisini geliştirmiştir?", "options": {"a": "Georg Cantor", "b": "David Hilbert", "c": "Kurt Gödel", "d": "Bertrand Russell"}, "answer": "a"},
+  {"id": 199, "question": "Hangi organ vücudun en büyük atardamarıyla bağlantılıdır?", "options": {"a": "Kalp", "b": "Akciğer", "c": "Böbrek", "d": "Karaciğer"}, "answer": "a"},
+  {"id": 200, "question": "Hangi bilim insanı ilk kez CRISPR gen düzenleme teknolojisini geliştirmiştir?", "options": {"a": "Jennifer Doudna", "b": "Emmanuelle Charpentier", "c": "Hem a hem b", "d": "Feng Zhang"}, "answer": "c"}
 ]
